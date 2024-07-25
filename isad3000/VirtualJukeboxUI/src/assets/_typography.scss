@@ -1,0 +1,48 @@
+@mixin text-title{
+  font-family: 'Manrope', Arial, Helvetica, Tahoma, Verdana, sans-serif;
+  font-size: calc(24px + 6vh);
+}
+
+@mixin text-subtitle{
+  font-family: 'Manrope', Arial, Helvetica, Tahoma, Verdana, sans-serif;
+  font-size: calc(12px + 2vh);
+}
+
+@mixin text-content{
+  font-family: 'Manrope', Arial, Helvetica, Tahoma, Verdana, sans-serif;
+  font-size: 1.5vw;
+}
+
+@mixin text-content-bold{
+  font-family: 'Manrope', Arial, Helvetica, Tahoma, Verdana, sans-serif;
+  font-size: 1.5vw;
+  font-weight: 600;
+}
+
+@mixin text-small{
+  font-family: 'Manrope', Arial, Helvetica, Tahoma, Verdana, sans-serif;
+  font-size: 1vw;
+  font-weight: 400;
+}
+
+@mixin text-small-bold{
+  font-family: 'Manrope', Arial, Helvetica, Tahoma, Verdana, sans-serif;
+  font-size: 1vw;
+  font-weight: 600;
+}
+
+@mixin text-mobile-large{
+  font-family: 'Manrope';
+  font-size: calc(2vw + 1.5vh) !important;
+}
+
+@mixin text-mobile-small{
+  font-family: 'Manrope';
+  font-size: calc(1vw + 1.5vh) !important;
+}
+  
+@mixin text-extra-small-bold{
+  font-family: 'Manrope', Arial, Helvetica, Tahoma, Verdana, sans-serif;
+  font-size: 0.75vw;
+  font-weight: 600;
+}

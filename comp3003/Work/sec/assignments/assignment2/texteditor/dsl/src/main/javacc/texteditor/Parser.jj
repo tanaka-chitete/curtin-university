@@ -1,0 +1,88 @@
+PARSER_BEGIN(Parser)
+
+/** keymap file parser. */
+package texteditor;
+
+import texteditor.KeyMap;
+
+public class Parser {
+  public static void main(String args[]) throws java.io.IOException, ParseException {
+    Parser parser = new Parser(new java.io.FileInputStream("keymap"));
+    parser.parse();  
+  }
+
+}
+
+PARSER_END(Parser)
+
+SKIP :
+{
+  " "
+| "\t"
+| "\n"
+| "\r"
+}
+
+TOKEN :
+{
+  <MODIFIER: ("alt" | "ctrl" | "shift")>
+| <COMBINATION: ("+"(<MODIFIER> | ["a"-"z"]))+>
+| <KEY_BINDING: <MODIFIER><COMBINATION>>
+
+| <EQUALS: "=" > 
+
+| <OPERATION: ("insert" | "delete")>
+
+/** Obtained from T. Norvell,
+JavaCC quote with escape character,
+https://stackoverflow.com/questions/24156948/javacc-quote-with-escape-character/24163497
+(Accessed 28/10/2021)*/
+| <OPERAND: 
+    "\"" 
+    (
+      "\\" ~[]
+    |
+      ~["\"", "\\"]
+    )+ 
+    "\"">
+/** End of code obtained from above source */
+
+| <POSITION: ("at start of line" | "at caret")>
+}
+
+/** Root production. */
+java.util.List parse() :
+{
+    java.util.List keyMaps = new java.util.ArrayList();
+}
+{
+  (parseKeyMap(keyMaps))+ <EOF>
+  {
+    System.out.println(keyMaps.size() + " Key Maps parsed");
+    return keyMaps;
+  }
+}
+
+/** Keymap production. */
+void parseKeyMap(java.util.List keyMaps) :
+{
+  Token keyBinding;
+  Token operation;
+  Token operand;
+  Token position;
+}
+{
+  keyBinding = <KEY_BINDING>
+  <EQUALS>
+  operation = <OPERATION>
+  operand = <OPERAND>
+  position = <POSITION>
+  {
+    KeyMap keyMap = new KeyMap(keyBinding.image,
+                               operation.image,
+                               operand.image.replace("\"", ""),
+                               position.image);
+    System.out.println(keyMap);
+    keyMaps.add(keyMap);
+  }
+}

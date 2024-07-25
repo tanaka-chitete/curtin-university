@@ -1,0 +1,1080 @@
+Buildfile: /Users/tanakachitete/Google Drive/University/Units/Current/COMP2003/Assessments/Current/Assignment 2/assignment2/build.xml
+
+run:
+     [java] COMMAND: S
+     [java] COMMAND: C
+     [java] MESSAGE: ! C
+     [java] COMMAND: T 75.5
+     [java] DANGER: visibility: 3.860251789529638km
+     [java] MESSAGE: E -124.840329 4.961455 20873.583442
+     [java] DANGER: visibility: 5.18299780411057km
+     [java] MESSAGE: E -60.326346 4.652574 23352.505758
+     [java] DANGER: visibility: 3.803634077646205km
+     [java] MESSAGE: E -144.796452 4.412898 20498.775144
+     [java] DANGER: visibility: 5.099365114904068km
+     [java] MESSAGE: E -33.939750 5.183379 26569.858789
+     [java] DANGER: visibility: 3.863568689737194km
+     [java] MESSAGE: E 3.855868 5.056741 17602.427937
+     [java] DANGER: visibility: 3.8955657066540375km
+     [java] MESSAGE: E -105.108825 4.532461 22676.027543
+     [java] DANGER: visibility: 5.03250488658143km
+     [java] MESSAGE: E -30.006847 3.882451 27291.993292
+     [java] DANGER: visibility: 3.8407017298435093km
+     [java] MESSAGE: E -101.915030 4.312479 24234.415578
+     [java] DANGER: visibility: 3.829876239272604km
+     [java] MESSAGE: E -120.741257 4.336111 13279.279279
+     [java] DANGER: visibility: 5.096843861442295km
+     [java] MESSAGE: E -0.968306 4.238778 20336.875699
+     [java] DANGER: visibility: 5.116321185055164km
+     [java] MESSAGE: E -137.696307 4.116756 19769.826221
+     [java] DANGER: visibility: 5.195488915069616km
+     [java] MESSAGE: E -122.119040 4.483714 25312.715215
+     [java] DANGER: visibility: 5.092383238275391km
+     [java] MESSAGE: E -134.362566 3.889652 21642.850839
+     [java] DANGER: visibility: 5.114494657058021km
+     [java] MESSAGE: E -6.776493 4.080434 25608.700880
+     [java] MESSAGE: S AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+     [java] COMMAND: B
+     [java] MESSAGE: ! B
+     [java] MESSAGE: T
+     [java] DANGER: visibility: 3.857259292174859km
+     [java] COMMAND: D -23.1
+     [java] MESSAGE: ! D -23.1
+     [java] MESSAGE: E -130.406672 4.384218 17629.515831
+     [java] COMMAND: T 180.1
+     [java] COMMAND: T A
+     [java] MESSAGE: ! T A
+     [java] MESSAGE: ! T 180.1
+     [java] DANGER: visibility: 3.8815789189213707km
+     [java] COMMAND: P
+     [java] MESSAGE: P AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+     [java] MESSAGE: E -103.975269 4.676371 23944.273884
+     [java] COMMAND: A
+     [java] COMMAND: S
+     [java] MESSAGE: ! A
+     [java] COMMAND: D 23.1
+     [java] MESSAGE: S AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+     [java] COMMAND: E
+     [java] MESSAGE: E -34.099035 4.442317 22430.293322
+     [java] COMMAND: D A
+     [java] MESSAGE: ! D A
+     [java] COMMAND: S
+     [java] DANGER: visibility: 3.8055299604713526km
+     [java] MESSAGE: E -21.982076 4.176939 24721.145744
+     [java] DANGER: visibility: 3.8284785622745883km
+     [java] MESSAGE: E -78.279613 5.106763 24910.120660
+     [java] DANGER: visibility: 5.1402366800431425km
+     [java] MESSAGE: E -94.787792 4.554194 14967.894301
+     [java] DANGER: visibility: 5.065243118417829km
+     [java] MESSAGE: E -40.926275 5.081068 25889.016752
+     [java] DANGER: visibility: 3.9131679888768702km
+     [java] DANGER: visibility: 3.82645606007977km
+     [java] MESSAGE: E -117.710530 4.203061 16986.182642
+     [java] MESSAGE: E -129.958265 4.478222 19231.240473
+     [java] DANGER: visibility: 3.8034511690002035km
+     [java] MESSAGE: E 13.386560 4.303417 23249.200493
+     [java] COMMAND: D 23.1
+     [java] COMMAND: T 75.5
+     [java] DANGER: visibility: 5.027600119387632km
+     [java] MESSAGE: E -27.642547 5.029306 15858.829687
+     [java] DANGER: visibility: 5.0002841458278855km
+     [java] MESSAGE: E -118.367693 4.489876 25149.580826
+     [java] DANGER: visibility: 5.138287085395549km
+     [java] MESSAGE: E 5.841778 3.845118 16468.246664
+     [java] DANGER: visibility: 5.117384046092115km
+     [java] MESSAGE: E -91.440564 4.395669 25664.493263
+     [java] DANGER: visibility: 3.958206852466039km
+     [java] MESSAGE: E -107.701268 3.949241 17970.529171
+     [java] DANGER: visibility: 5.027042638935239km
+     [java] MESSAGE: E -116.241915 4.665978 18321.781928
+     [java] DANGER: visibility: 3.848299003792559km
+     [java] MESSAGE: E -49.388127 4.605040 15159.700626
+     [java] DANGER: visibility: 5.037903365809591km
+     [java] MESSAGE: E -152.591180 5.190043 24274.407714
+     [java] DANGER: visibility: 3.9142184725137947km
+     [java] MESSAGE: E -95.131755 4.997812 23566.040836
+     [java] DANGER: visibility: 5.1082461853089915km
+     [java] MESSAGE: E -28.619291 4.003854 17963.483069
+     [java] DANGER: visibility: 3.868501758092126km
+     [java] MESSAGE: E -69.956678 4.456253 26429.488355
+     [java] DANGER: visibility: 5.099331825960876km
+     [java] MESSAGE: E 8.754464 5.167915 25239.349628
+     [java] DANGER: visibility: 5.005503481949092km
+     [java] MESSAGE: E -8.313405 4.501292 18732.871034
+     [java] DANGER: visibility: 3.902101572452669km
+     [java] MESSAGE: E -18.250576 3.863529 18048.754931
+     [java] DANGER: visibility: 3.9257546712235505km
+     [java] MESSAGE: E 15.640471 5.005874 21506.495165
+     [java] DANGER: visibility: 3.8752930339355207km
+     [java] MESSAGE: E -130.669003 4.606628 26545.554663
+     [java] DANGER: visibility: 5.181109403539707km
+     [java] MESSAGE: E -104.021508 3.810036 14785.384507
+     [java] DANGER: visibility: 3.825341262470545km
+     [java] MESSAGE: E -135.122055 4.605645 14968.592533
+     [java] DANGER: visibility: 5.128415593405911km
+     [java] MESSAGE: E -121.134410 4.054240 22383.029602
+     [java] DANGER: visibility: 5.187419488921863km
+     [java] MESSAGE: E -47.610917 4.570759 13908.827344
+     [java] DANGER: visibility: 3.9802754936384024km
+     [java] MESSAGE: E 9.767244 4.644046 22664.513246
+     [java] DANGER: visibility: 5.068821523748025km
+     [java] MESSAGE: E -142.864333 4.862125 21216.358838
+     [java] DANGER: visibility: 3.95011303180564km
+     [java] MESSAGE: E -98.084029 4.705107 22855.812746
+     [java] DANGER: visibility: 3.930269469101878km
+     [java] MESSAGE: E -53.704167 4.869498 26141.354881
+     [java] DANGER: visibility: 3.807387971927774km
+     [java] MESSAGE: E -28.127914 3.999925 17017.873257
+     [java] DANGER: visibility: 3.897362287059512km
+     [java] MESSAGE: E -101.889420 5.139534 13452.810499
+     [java] DANGER: visibility: 5.195711671265163km
+     [java] MESSAGE: E 6.207171 4.628688 27440.112488
+     [java] DANGER: visibility: 3.8415528504860714km
+     [java] MESSAGE: E -87.543131 4.048150 21453.744135
+     [java] DANGER: visibility: 5.080005072213028km
+     [java] MESSAGE: E -68.786139 5.067576 14280.320599
+     [java] DANGER: visibility: 3.995560307299695km
+     [java] MESSAGE: E -105.800362 4.769448 22716.204251
+     [java] DANGER: visibility: 5.068532755154549km
+     [java] MESSAGE: E -73.136843 3.910708 16249.603273
+     [java] DANGER: visibility: 3.946409611137295km
+     [java] MESSAGE: E -147.223624 4.303569 25033.289081
+     [java] DANGER: visibility: 5.015805326408841km
+     [java] MESSAGE: E -98.819720 4.647222 16882.493607
+     [java] DANGER: visibility: 5.165957581478885km
+     [java] MESSAGE: E -32.032446 5.038673 18737.856019
+     [java] DANGER: visibility: 5.184041575982702km
+     [java] MESSAGE: E -51.357740 4.897511 19747.998046
+     [java] DANGER: visibility: 3.818315772223801km
+     [java] MESSAGE: E -2.594783 4.718391 15918.363956
+     [java] DANGER: visibility: 5.048924170927474km
+     [java] MESSAGE: E -42.674390 4.622616 25925.198401
+     [java] DANGER: visibility: 5.01256754970711km
+     [java] MESSAGE: E 8.692800 4.261077 18902.707910
+     [java] DANGER: visibility: 5.000332180395649km
+     [java] MESSAGE: E -151.275903 4.017534 25655.681971
+     [java] DANGER: visibility: 3.8850210636318345km
+     [java] MESSAGE: E -2.026483 4.923262 12694.938242
+     [java] DANGER: visibility: 3.898665260133782km
+     [java] MESSAGE: E -97.777559 5.073075 13608.721718
+     [java] DANGER: visibility: 3.8608325140034263km
+     [java] MESSAGE: E -46.664228 4.375185 16601.714146
+     [java] DANGER: visibility: 5.124009499931562km
+     [java] MESSAGE: E -138.292340 5.047413 15148.521457
+     [java] DANGER: visibility: 5.087961683881245km
+     [java] MESSAGE: E -141.242540 4.057406 23731.789826
+     [java] DANGER: visibility: 5.166376087253045km
+     [java] MESSAGE: E -97.543775 3.936141 23411.246464
+     [java] DANGER: visibility: 5.082961335029444km
+     [java] DANGER: visibility: 3.9427972464102266km
+     [java] MESSAGE: E 13.640782 4.219316 19919.001752
+     [java] MESSAGE: E -123.813583 4.116561 17057.678720
+     [java] DANGER: visibility: 5.1383276581612245km
+     [java] MESSAGE: E -137.852249 5.028554 20207.271832
+     [java] COMMAND: B
+     [java] MESSAGE: ! B
+     [java] COMMAND: D A
+     [java] MESSAGE: ! D A
+     [java] COMMAND: T 75.5
+     [java] DANGER: visibility: 3.8724303823860637km
+     [java] MESSAGE: E -13.050335 4.564360 22808.726095
+     [java] DANGER: visibility: 5.006866293511949km
+     [java] MESSAGE: E -44.398585 4.064419 17210.741773
+     [java] DANGER: visibility: 5.025361913293328km
+     [java] MESSAGE: E -40.152186 4.691077 20739.057267
+     [java] DANGER: visibility: 3.9290397747683863km
+     [java] MESSAGE: E -27.501865 4.257487 16574.932976
+     [java] DANGER: visibility: 3.8395840831080466km
+     [java] MESSAGE: E -65.690919 4.881983 21274.449870
+     [java] DANGER: visibility: 3.995672154510494km
+     [java] MESSAGE: E -137.400103 3.849052 20003.650041
+     [java] DANGER: visibility: 3.9399729210780032km
+     [java] MESSAGE: E -47.088922 4.432502 15661.710122
+     [java] DANGER: visibility: 3.9283282647190565km
+     [java] MESSAGE: E -35.043275 5.032493 20662.558523
+     [java] DANGER: visibility: 3.828421611167556km
+     [java] MESSAGE: E -50.334084 4.491732 27451.450589
+     [java] DANGER: visibility: 3.903849772128739km
+     [java] MESSAGE: E -123.480780 4.817424 12740.539522
+     [java] DANGER: visibility: 5.170482503255532km
+     [java] MESSAGE: E -117.200750 5.164179 13683.541283
+     [java] DANGER: visibility: 5.015508996401553km
+     [java] MESSAGE: E -142.884202 4.651279 15720.941461
+     [java] DANGER: visibility: 5.13766451014166km
+     [java] MESSAGE: E -115.670047 4.824644 17144.657189
+     [java] DANGER: visibility: 5.147486325841996km
+     [java] MESSAGE: E -53.601494 5.067506 22184.077829
+     [java] DANGER: visibility: 3.915471362869817km
+     [java] MESSAGE: E -102.385258 3.926680 12736.281430
+     [java] DANGER: visibility: 5.046319349568903km
+     [java] MESSAGE: E -128.835395 4.177759 13890.126925
+     [java] MESSAGE: D
+     [java] DANGER: visibility: 3.8660628905390615km
+     [java] MESSAGE: E 4.708786 5.110845 19318.314723
+     [java] COMMAND: B
+     [java] MESSAGE: ! B
+     [java] MESSAGE: T
+     [java] COMMAND: T 75.5
+     [java] COMMAND: D 23.1
+     [java] MESSAGE: T
+     [java] DANGER: visibility: 3.800243262425293km
+     [java] MESSAGE: E -33.395504 4.369442 16375.897227
+     [java] COMMAND: T -180.1
+     [java] MESSAGE: ! T -180.1
+     [java] DANGER: visibility: 5.045439058079776km
+     [java] MESSAGE: E -128.271708 4.997209 14674.114418
+     [java] COMMAND: A
+     [java] MESSAGE: ! A
+     [java] COMMAND: D A
+     [java] MESSAGE: ! D A
+     [java] COMMAND: T 180.1
+     [java] MESSAGE: ! T 180.1
+     [java] COMMAND: P
+     [java] MESSAGE: P AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+     [java] COMMAND: S
+     [java] DANGER: visibility: 3.997394329563276km
+     [java] MESSAGE: E 16.679303 4.653583 18482.282311
+     [java] DANGER: visibility: 3.999244852344621km
+     [java] MESSAGE: E -131.805699 4.538450 14997.155172
+     [java] DANGER: visibility: 5.08803318360744km
+     [java] MESSAGE: E -8.137383 3.885871 18483.446294
+     [java] DANGER: visibility: 5.148824223642039km
+     [java] MESSAGE: E 9.447590 4.388255 23050.466778
+     [java] DANGER: visibility: 3.8564636304367625km
+     [java] MESSAGE: E -143.078782 4.325793 21634.114661
+     [java] DANGER: visibility: 5.0933327021768875km
+     [java] MESSAGE: E 8.183646 4.980368 18538.182593
+     [java] DANGER: visibility: 3.9778367510263752km
+     [java] MESSAGE: E -103.263969 4.327144 12715.645072
+     [java] DANGER: visibility: 3.8695832233396494km
+     [java] MESSAGE: E -74.778584 4.130999 16576.953139
+     [java] DANGER: visibility: 5.030307305899212km
+     [java] MESSAGE: E -131.966645 4.413586 15891.278175
+     [java] DANGER: visibility: 5.082137916061217km
+     [java] MESSAGE: E -131.955603 4.438040 16116.884700
+     [java] DANGER: visibility: 5.1204099934763105km
+     [java] MESSAGE: E 1.185579 4.642464 24173.122234
+     [java] DANGER: visibility: 5.1483055912247km
+     [java] MESSAGE: E -20.449055 4.197101 26630.484987
+     [java] DANGER: visibility: 5.1412740630626885km
+     [java] MESSAGE: E 2.555079 4.145774 18943.790616
+     [java] DANGER: visibility: 5.169242531011438km
+     [java] MESSAGE: E -104.379537 4.171044 16254.963777
+     [java] DANGER: visibility: 5.138607165456504km
+     [java] MESSAGE: E -138.390090 4.180345 13219.733627
+     [java] DANGER: visibility: 5.136972884692321km
+     [java] MESSAGE: E -43.480468 4.887624 18644.184820
+     [java] DANGER: visibility: 5.163690913542516km
+     [java] MESSAGE: E -125.274422 4.288271 19802.027272
+     [java] DANGER: visibility: 5.169409400593444km
+     [java] MESSAGE: E -122.774268 4.637616 12688.420297
+     [java] DANGER: visibility: 5.04825437761337km
+     [java] MESSAGE: E -47.973785 4.979093 24029.704192
+     [java] DANGER: visibility: 3.970219726728162km
+     [java] DANGER: visibility: 5.1454692100931805km
+     [java] MESSAGE: E 9.926594 4.521353 19216.375196
+     [java] DANGER: visibility: 5.126626278142471km
+     [java] MESSAGE: E -56.603890 4.428492 19552.417112
+     [java] MESSAGE: E 4.568523 4.390083 20366.657620
+     [java] COMMAND: D -23.1
+     [java] MESSAGE: ! D -23.1
+     [java] DANGER: visibility: 3.880579479146341km
+     [java] MESSAGE: E -76.550046 5.151437 19943.288666
+     [java] DANGER: visibility: 5.020235227841175km
+     [java] MESSAGE: E -49.932563 4.039559 17579.814095
+     [java] COMMAND: T -180.1
+     [java] MESSAGE: ! T -180.1
+     [java] COMMAND: T 75.5
+     [java] DANGER: visibility: 3.913991708411458km
+     [java] MESSAGE: E -62.064990 4.140207 14026.255012
+     [java] DANGER: visibility: 5.009280966407255km
+     [java] MESSAGE: E -24.132667 4.136819 19381.751415
+     [java] DANGER: visibility: 3.955582795851607km
+     [java] MESSAGE: E -61.849497 4.625507 20927.957374
+     [java] DANGER: visibility: 5.127452915947629km
+     [java] MESSAGE: E 9.167259 4.504728 27209.500153
+     [java] DANGER: visibility: 3.891267697711702km
+     [java] MESSAGE: E -29.913998 4.742149 20498.156788
+     [java] DANGER: visibility: 3.9869028099785706km
+     [java] MESSAGE: E -101.094574 3.984292 25563.588189
+     [java] DANGER: visibility: 3.9420459304249067km
+     [java] MESSAGE: E -101.408540 4.559856 27377.000388
+     [java] DANGER: visibility: 3.8461699226022907km
+     [java] MESSAGE: E -33.192090 4.463532 13702.818217
+     [java] DANGER: visibility: 3.8398397482688176km
+     [java] MESSAGE: E -107.567785 4.860719 25296.678722
+     [java] DANGER: visibility: 3.8111077381465517km
+     [java] MESSAGE: E -144.737846 4.977437 16718.099670
+     [java] DANGER: visibility: 5.164678377205931km
+     [java] MESSAGE: E -49.743988 4.903998 17060.578732
+     [java] DANGER: visibility: 3.926638808119642km
+     [java] MESSAGE: E -147.435659 5.130805 23934.477371
+     [java] DANGER: visibility: 3.9652448617239773km
+     [java] MESSAGE: E -130.471333 4.530026 23093.347687
+     [java] DANGER: visibility: 3.979086084902706km
+     [java] MESSAGE: E -38.126662 4.216444 26438.551387
+     [java] DANGER: visibility: 3.9586316830416948km
+     [java] MESSAGE: E -111.306606 4.387879 22270.715595
+     [java] MESSAGE: D
+     [java] DANGER: visibility: 3.854112915239572km
+     [java] MESSAGE: E -50.107893 3.984050 24433.061577
+     [java] COMMAND: T -180.1
+     [java] MESSAGE: ! T -180.1
+     [java] MESSAGE: T
+     [java] COMMAND: D -23.1
+     [java] COMMAND: A
+     [java] MESSAGE: ! A
+     [java] MESSAGE: ! D -23.1
+     [java] COMMAND: T A
+     [java] COMMAND: B
+     [java] MESSAGE: ! B
+     [java] MESSAGE: ! T A
+     [java] COMMAND: T A
+     [java] COMMAND: T 75.5
+     [java] MESSAGE: ! T A
+     [java] DANGER: visibility: 5.118529175090103km
+     [java] MESSAGE: E -12.589163 3.897848 15815.071125
+     [java] COMMAND: T 180.1
+     [java] MESSAGE: ! T 180.1
+     [java] MESSAGE: T
+     [java] DANGER: visibility: 3.906330415710866km
+     [java] COMMAND: P
+     [java] MESSAGE: P AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+     [java] MESSAGE: E -64.107935 3.814562 19940.389707
+     [java] COMMAND: T -180.1
+     [java] COMMAND: D A
+     [java] MESSAGE: ! D A
+     [java] MESSAGE: ! T -180.1
+     [java] COMMAND: D -23.1
+     [java] COMMAND: B
+     [java] MESSAGE: ! B
+     [java] MESSAGE: ! D -23.1
+     [java] DANGER: visibility: 5.161756222740923km
+     [java] COMMAND: D A
+     [java] MESSAGE: ! D A
+     [java] MESSAGE: E -43.973450 3.810145 26299.444840
+     [java] DANGER: visibility: 3.809125215843464km
+     [java] COMMAND: T A
+     [java] MESSAGE: ! T A
+     [java] MESSAGE: E -43.913274 4.140661 26658.305204
+     [java] COMMAND: T A
+     [java] COMMAND: A
+     [java] MESSAGE: ! A
+     [java] MESSAGE: ! T A
+     [java] DANGER: visibility: 5.184045747703222km
+     [java] COMMAND: D 23.1
+     [java] MESSAGE: E -33.272509 4.748042 24569.584001
+     [java] COMMAND: P
+     [java] MESSAGE: P AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+     [java] DANGER: visibility: 5.1698098042052285km
+     [java] MESSAGE: E -41.854595 5.032803 23129.536041
+     [java] COMMAND: C
+     [java] MESSAGE: ! C
+     [java] COMMAND: B
+     [java] MESSAGE: ! B
+     [java] DANGER: visibility: 3.8280782233246913km
+     [java] MESSAGE: E -73.158477 4.955992 16926.206436
+     [java] COMMAND: D A
+     [java] MESSAGE: ! D A
+     [java] COMMAND: P
+     [java] MESSAGE: P AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+     [java] COMMAND: A
+     [java] MESSAGE: ! A
+     [java] COMMAND: B
+     [java] MESSAGE: ! B
+     [java] COMMAND: T -180.1
+     [java] MESSAGE: ! T -180.1
+     [java] COMMAND: A
+     [java] MESSAGE: ! A
+     [java] COMMAND: T -180.1
+     [java] MESSAGE: ! T -180.1
+     [java] COMMAND: T 75.5
+     [java] DANGER: visibility: 3.868888162652352km
+     [java] MESSAGE: E -34.920345 4.855795 18240.345189
+     [java] DANGER: visibility: 3.9709618529164414km
+     [java] MESSAGE: E -37.410445 4.969338 18361.867417
+     [java] DANGER: visibility: 5.142817667878385km
+     [java] MESSAGE: E -121.039860 4.070243 16900.464807
+     [java] DANGER: visibility: 3.945356133551495km
+     [java] MESSAGE: E 2.855482 3.970376 21798.101454
+     [java] DANGER: visibility: 3.937543623558106km
+     [java] MESSAGE: E -78.159407 4.058833 15011.860770
+     [java] DANGER: visibility: 3.9278140036534013km
+     [java] MESSAGE: E 12.314170 5.103924 13988.131742
+     [java] DANGER: visibility: 3.8492273032628965km
+     [java] MESSAGE: E -100.254231 4.271227 20261.008865
+     [java] DANGER: visibility: 3.9817916651158978km
+     [java] MESSAGE: E -1.576401 4.185924 26824.829037
+     [java] DANGER: visibility: 3.995681659733443km
+     [java] MESSAGE: E -35.218454 4.720161 21893.452529
+     [java] DANGER: visibility: 5.011081269379539km
+     [java] MESSAGE: E -123.984842 4.823105 12511.368973
+     [java] DANGER: visibility: 5.094896020504059km
+     [java] MESSAGE: E 16.710699 4.955808 22872.938943
+     [java] DANGER: visibility: 3.833393160308621km
+     [java] MESSAGE: E 3.966523 5.060346 23011.461244
+     [java] DANGER: visibility: 3.863955023843059km
+     [java] MESSAGE: E -31.494980 4.437857 22233.488857
+     [java] DANGER: visibility: 5.18022776074298km
+     [java] MESSAGE: E -89.351612 5.060103 24725.308371
+     [java] DANGER: visibility: 3.9473358440653743km
+     [java] MESSAGE: E -19.804428 4.672760 14336.781998
+     [java] DANGER: visibility: 3.946482312936003km
+     [java] MESSAGE: E 17.184600 4.352989 15743.723158
+     [java] DANGER: visibility: 3.8625636976225968km
+     [java] MESSAGE: E -28.324299 3.969129 20635.425056
+     [java] DANGER: visibility: 3.93457570016606km
+     [java] MESSAGE: E 10.201156 5.174529 17990.126581
+     [java] DANGER: visibility: 3.8355712195073006km
+     [java] MESSAGE: E -32.008251 4.639166 17545.662034
+     [java] DANGER: visibility: 5.033638454238153km
+     [java] MESSAGE: E -89.982698 4.814503 23221.146225
+     [java] DANGER: visibility: 5.000212560006072km
+     [java] MESSAGE: E -23.799490 5.183247 16397.492679
+     [java] DANGER: visibility: 3.879175963594009km
+     [java] MESSAGE: E -145.386518 4.030321 16345.763456
+     [java] MESSAGE: D
+     [java] DANGER: visibility: 5.195004287832939km
+     [java] MESSAGE: E -16.663682 5.121745 26044.904049
+     [java] COMMAND: D 23.1
+     [java] MESSAGE: T
+     [java] COMMAND: C
+     [java] MESSAGE: ! C
+     [java] COMMAND: D A
+     [java] MESSAGE: ! D A
+     [java] DANGER: visibility: 3.990219974231854km
+     [java] MESSAGE: E -36.706828 4.776091 18150.017585
+     [java] COMMAND: T 180.1
+     [java] MESSAGE: ! T 180.1
+     [java] COMMAND: T 75.5
+     [java] DANGER: visibility: 5.170008347373482km
+     [java] MESSAGE: E -22.646947 4.593298 19388.783839
+     [java] DANGER: visibility: 3.9023689011577702km
+     [java] MESSAGE: E -137.468358 5.069878 25252.969043
+     [java] DANGER: visibility: 5.005191500058032km
+     [java] MESSAGE: E -121.481630 4.974512 22407.793504
+     [java] DANGER: visibility: 5.119846386135599km
+     [java] MESSAGE: E -128.108568 4.664739 22576.528698
+     [java] DANGER: visibility: 5.132575183413164km
+     [java] MESSAGE: E -9.938440 4.212599 27492.985272
+     [java] DANGER: visibility: 5.05174793259056km
+     [java] MESSAGE: E -52.366330 4.242018 22203.568471
+     [java] DANGER: visibility: 3.8514487965749935km
+     [java] MESSAGE: E -37.051083 3.923547 22119.370892
+     [java] DANGER: visibility: 5.055557621412252km
+     [java] MESSAGE: E -141.644104 5.095907 16167.650995
+     [java] DANGER: visibility: 5.105188196769758km
+     [java] MESSAGE: E -96.788205 4.971741 18745.535124
+     [java] DANGER: visibility: 5.0234787393834335km
+     [java] MESSAGE: E -57.091914 4.606119 26676.507958
+     [java] DANGER: visibility: 5.185560348438992km
+     [java] MESSAGE: E 11.201019 5.128454 16681.385709
+     [java] DANGER: visibility: 3.9002925483287054km
+     [java] MESSAGE: E -97.554371 3.828284 25165.623346
+     [java] DANGER: visibility: 5.061202351803477km
+     [java] MESSAGE: E -93.538330 4.961220 20099.086688
+     [java] DANGER: visibility: 5.010733720131384km
+     [java] MESSAGE: E -124.702497 4.084897 14282.363107
+     [java] MESSAGE: D
+     [java] COMMAND: T A
+     [java] MESSAGE: ! T A
+     [java] MESSAGE: T
+     [java] COMMAND: P
+     [java] COMMAND: T A
+     [java] MESSAGE: ! T A
+     [java] MESSAGE: P AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+     [java] COMMAND: E
+     [java] COMMAND: T -180.1
+     [java] MESSAGE: ! T -180.1
+     [java] MESSAGE: E -129.527894 4.330838 17247.800741
+     [java] DANGER: visibility: 3.9512933450773997km
+     [java] COMMAND: T 75.5
+     [java] MESSAGE: E -100.999061 4.994739 22000.305853
+     [java] COMMAND: E
+     [java] MESSAGE: E -78.538685 4.604263 12577.904632
+     [java] MESSAGE: T
+     [java] COMMAND: E
+     [java] COMMAND: T A
+     [java] MESSAGE: ! T A
+     [java] MESSAGE: E 8.139389 3.881270 21002.997118
+     [java] COMMAND: C
+     [java] COMMAND: A
+     [java] MESSAGE: ! A
+     [java] MESSAGE: ! C
+     [java] COMMAND: T A
+     [java] COMMAND: D 23.1
+     [java] MESSAGE: ! T A
+     [java] DANGER: visibility: 5.022160658602634km
+     [java] MESSAGE: E -131.430849 4.647126 14521.556882
+     [java] COMMAND: T -180.1
+     [java] MESSAGE: ! T -180.1
+     [java] COMMAND: D A
+     [java] MESSAGE: ! D A
+     [java] COMMAND: T A
+     [java] MESSAGE: ! T A
+     [java] DANGER: visibility: 5.159301028914333km
+     [java] MESSAGE: E -25.399947 5.077557 24030.195115
+     [java] COMMAND: T A
+     [java] MESSAGE: ! T A
+     [java] COMMAND: B
+     [java] MESSAGE: ! B
+     [java] COMMAND: T A
+     [java] MESSAGE: ! T A
+     [java] DANGER: visibility: 5.000551710119803km
+     [java] MESSAGE: E -124.354483 4.808260 14588.560063
+     [java] COMMAND: E
+     [java] MESSAGE: E -130.645771 4.903421 26775.634985
+     [java] COMMAND: T 180.1
+     [java] MESSAGE: ! T 180.1
+     [java] DANGER: visibility: 5.0932174779961725km
+     [java] MESSAGE: E -121.229141 3.852709 13443.569338
+     [java] COMMAND: D 23.1
+     [java] COMMAND: T 180.1
+     [java] MESSAGE: ! T 180.1
+     [java] COMMAND: T 75.5
+     [java] DANGER: visibility: 3.9432443593399853km
+     [java] MESSAGE: E 2.645094 3.905480 21365.401516
+     [java] DANGER: visibility: 5.05331527138765km
+     [java] MESSAGE: E -85.220314 4.586087 24029.477881
+     [java] DANGER: visibility: 5.00444829612226km
+     [java] MESSAGE: E -80.126602 4.008618 18438.887875
+     [java] DANGER: visibility: 3.931308437196105km
+     [java] MESSAGE: E -130.496900 4.862473 12621.798577
+     [java] DANGER: visibility: 3.8960810816093607km
+     [java] MESSAGE: E -76.923927 4.545742 14098.164569
+     [java] DANGER: visibility: 5.180312432711018km
+     [java] MESSAGE: E -44.734260 5.032922 16979.501428
+     [java] DANGER: visibility: 5.1218998455251405km
+     [java] MESSAGE: E -29.060718 3.941295 27164.713945
+     [java] DANGER: visibility: 5.188102272870964km
+     [java] MESSAGE: E -33.381306 4.263652 19748.078026
+     [java] DANGER: visibility: 3.9588625548956338km
+     [java] MESSAGE: E -45.108647 4.222606 13508.470295
+     [java] MESSAGE: D
+     [java] COMMAND: P
+     [java] MESSAGE: P AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+     [java] MESSAGE: T
+     [java] DANGER: visibility: 5.096720750257717km
+     [java] COMMAND: T A
+     [java] MESSAGE: ! T A
+     [java] MESSAGE: E -42.002589 4.895884 23560.314052
+     [java] COMMAND: S
+     [java] COMMAND: D A
+     [java] MESSAGE: ! D A
+     [java] MESSAGE: S AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+     [java] COMMAND: C
+     [java] COMMAND: E
+     [java] MESSAGE: E -106.337874 4.748652 21745.862111
+     [java] MESSAGE: ! C
+     [java] COMMAND: D A
+     [java] COMMAND: T 75.5
+     [java] MESSAGE: ! D A
+     [java] COMMAND: C
+     [java] MESSAGE: ! C
+     [java] MESSAGE: T
+     [java] COMMAND: D 23.1
+     [java] COMMAND: A
+     [java] MESSAGE: ! A
+     [java] COMMAND: D -23.1
+     [java] MESSAGE: ! D -23.1
+     [java] COMMAND: D 23.1
+     [java] COMMAND: T A
+     [java] MESSAGE: ! T A
+     [java] COMMAND: B
+     [java] MESSAGE: ! B
+     [java] COMMAND: C
+     [java] MESSAGE: ! C
+     [java] DANGER: visibility: 3.853751913140588km
+     [java] MESSAGE: E -82.945282 4.843612 24844.197046
+     [java] DANGER: visibility: 5.19536744283014km
+     [java] MESSAGE: E -42.917646 4.549286 26392.361143
+     [java] COMMAND: A
+     [java] MESSAGE: ! A
+     [java] COMMAND: E
+     [java] MESSAGE: E -20.090659 4.713940 18338.084623
+     [java] COMMAND: T 180.1
+     [java] DANGER: visibility: 5.1653040947861975km
+     [java] MESSAGE: ! T 180.1
+     [java] MESSAGE: E -39.378137 4.742792 24654.780197
+     [java] COMMAND: T 180.1
+     [java] MESSAGE: ! T 180.1
+     [java] COMMAND: T 75.5
+     [java] DANGER: visibility: 3.916359338001594km
+     [java] MESSAGE: E -62.704982 4.179104 13022.485922
+     [java] DANGER: visibility: 5.154847812068302km
+     [java] MESSAGE: E -116.518463 4.049973 26803.898995
+     [java] DANGER: visibility: 5.197006003171426km
+     [java] MESSAGE: E -93.710583 4.854938 17621.998411
+     [java] DANGER: visibility: 3.8052157030909712km
+     [java] MESSAGE: E -34.327257 5.060324 21768.998680
+     [java] DANGER: visibility: 3.863079558958836km
+     [java] MESSAGE: E -126.935900 5.115194 19282.902466
+     [java] DANGER: visibility: 3.901294111109201km
+     [java] MESSAGE: E -149.408644 4.596423 17939.364246
+     [java] DANGER: visibility: 5.196257605971949km
+     [java] MESSAGE: E 16.268536 4.086088 23055.772685
+     [java] DANGER: visibility: 3.9370301555612888km
+     [java] MESSAGE: E -57.474403 4.284755 19387.049619
+     [java] DANGER: visibility: 3.8335167010557707km
+     [java] MESSAGE: E -64.510267 4.247089 23567.547722
+     [java] DANGER: visibility: 5.176294338301244km
+     [java] MESSAGE: E -125.397425 3.997406 15820.071817
+     [java] MESSAGE: D
+     [java] COMMAND: T -180.1
+     [java] MESSAGE: ! T -180.1
+     [java] MESSAGE: T
+     [java] COMMAND: D A
+     [java] COMMAND: D A
+     [java] MESSAGE: ! D A
+     [java] MESSAGE: ! D A
+     [java] DANGER: visibility: 5.146270377679947km
+     [java] COMMAND: T 180.1
+     [java] MESSAGE: ! T 180.1
+     [java] MESSAGE: E -140.313856 4.522813 16239.386669
+     [java] DANGER: visibility: 3.918620402098016km
+     [java] COMMAND: T A
+     [java] MESSAGE: ! T A
+     [java] MESSAGE: E -6.141441 4.665104 18748.430545
+     [java] COMMAND: S
+     [java] COMMAND: T 75.5
+     [java] MESSAGE: S AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+     [java] DANGER: visibility: 5.084518902950533km
+     [java] MESSAGE: E -9.795160 4.829932 14452.703799
+     [java] DANGER: visibility: 3.855250169447617km
+     [java] MESSAGE: E -33.734243 4.504025 19217.928244
+     [java] DANGER: visibility: 5.062969597948858km
+     [java] MESSAGE: E -102.956713 4.831624 15069.554907
+     [java] COMMAND: E
+     [java] MESSAGE: E -33.303569 3.861629 17991.044891
+     [java] MESSAGE: T
+     [java] COMMAND: B
+     [java] COMMAND: C
+     [java] MESSAGE: ! C
+     [java] MESSAGE: ! B
+     [java] COMMAND: D A
+     [java] COMMAND: T 75.5
+     [java] MESSAGE: ! D A
+     [java] COMMAND: A
+     [java] MESSAGE: ! A
+     [java] MESSAGE: T
+     [java] COMMAND: A
+     [java] COMMAND: T 180.1
+     [java] MESSAGE: ! T 180.1
+     [java] MESSAGE: ! A
+     [java] DANGER: visibility: 5.066682750806853km
+     [java] COMMAND: S
+     [java] MESSAGE: E -15.624944 4.913900 19380.774587
+     [java] DANGER: visibility: 3.995578209053328km
+     [java] MESSAGE: E -106.365525 4.835525 21041.332815
+     [java] COMMAND: D 23.1
+     [java] MESSAGE: S AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+     [java] COMMAND: C
+     [java] MESSAGE: ! C
+     [java] COMMAND: D A
+     [java] MESSAGE: ! D A
+     [java] COMMAND: T A
+     [java] MESSAGE: ! T A
+     [java] COMMAND: A
+     [java] MESSAGE: ! A
+     [java] COMMAND: D 23.1
+     [java] COMMAND: T -180.1
+     [java] MESSAGE: ! T -180.1
+     [java] COMMAND: P
+     [java] MESSAGE: P AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+     [java] DANGER: visibility: 3.842735549563199km
+     [java] MESSAGE: E -71.376573 4.185602 23558.444390
+     [java] COMMAND: C
+     [java] MESSAGE: ! C
+     [java] COMMAND: C
+     [java] MESSAGE: ! C
+     [java] DANGER: visibility: 5.087543908268116km
+     [java] MESSAGE: E -15.424945 4.193372 23630.573954
+     [java] COMMAND: T A
+     [java] MESSAGE: ! T A
+     [java] COMMAND: S
+     [java] DANGER: visibility: 3.827479028207986km
+     [java] MESSAGE: E -25.875648 4.387239 24864.716793
+     [java] DANGER: visibility: 3.939525722824281km
+     [java] MESSAGE: E -29.379785 4.955917 12976.240847
+     [java] DANGER: visibility: 3.848215038942151km
+     [java] MESSAGE: E -92.432901 4.345851 15033.097878
+     [java] DANGER: visibility: 3.8324765674964687km
+     [java] MESSAGE: E -104.468639 5.123892 27237.339024
+     [java] DANGER: visibility: 5.1484885428297495km
+     [java] MESSAGE: E 15.887574 5.095758 26341.961541
+     [java] DANGER: visibility: 5.030126669344316km
+     [java] MESSAGE: E -53.167019 4.922481 23021.092480
+     [java] MESSAGE: D
+     [java] COMMAND: D A
+     [java] MESSAGE: ! D A
+     [java] MESSAGE: S AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+     [java] COMMAND: P
+     [java] COMMAND: D -23.1
+     [java] MESSAGE: ! D -23.1
+     [java] MESSAGE: P AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+     [java] DANGER: visibility: 3.9681346218422773km
+     [java] COMMAND: D 23.1
+     [java] MESSAGE: E -47.164817 4.264335 19958.990491
+     [java] COMMAND: C
+     [java] MESSAGE: ! C
+     [java] DANGER: visibility: 3.825275996819072km
+     [java] MESSAGE: E -132.932992 4.521733 21062.574921
+     [java] COMMAND: C
+     [java] MESSAGE: ! C
+     [java] COMMAND: P
+     [java] MESSAGE: P AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+     [java] COMMAND: D -23.1
+     [java] MESSAGE: ! D -23.1
+     [java] DANGER: visibility: 5.12639069593222km
+     [java] MESSAGE: E -129.251414 4.995399 23136.939553
+     [java] COMMAND: D 23.1
+     [java] COMMAND: B
+     [java] MESSAGE: ! B
+     [java] COMMAND: T -180.1
+     [java] MESSAGE: ! T -180.1
+     [java] COMMAND: D 23.1
+     [java] DANGER: visibility: 5.133425394252988km
+     [java] MESSAGE: E -20.460465 4.921124 14556.454368
+     [java] COMMAND: A
+     [java] MESSAGE: ! A
+     [java] COMMAND: E
+     [java] MESSAGE: E -2.615442 4.067743 16264.038844
+     [java] COMMAND: P
+     [java] MESSAGE: P AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+     [java] COMMAND: S
+     [java] DANGER: visibility: 3.8857080174779006km
+     [java] MESSAGE: E -144.261670 4.379904 27315.702880
+     [java] DANGER: visibility: 5.02726759665492km
+     [java] MESSAGE: E -107.518576 3.860943 15923.780644
+     [java] DANGER: visibility: 5.034211431671073km
+     [java] MESSAGE: E -152.834622 4.361974 13524.528208
+     [java] DANGER: visibility: 3.9329886864320835km
+     [java] MESSAGE: E -9.823474 4.121299 15236.421560
+     [java] DANGER: visibility: 5.132982958076768km
+     [java] MESSAGE: E -35.163193 4.175865 23984.522378
+     [java] DANGER: visibility: 3.9538107864956546km
+     [java] MESSAGE: E -124.879389 5.050959 25633.231292
+     [java] DANGER: visibility: 5.132715474001113km
+     [java] MESSAGE: E -33.391177 4.295844 21368.560887
+     [java] DANGER: visibility: 3.872124678358257km
+     [java] MESSAGE: E -27.603193 4.376958 21436.258054
+     [java] DANGER: visibility: 3.9872478474045625km
+     [java] MESSAGE: E -3.868594 4.829350 26518.927887
+     [java] DANGER: visibility: 3.842004295398006km
+     [java] MESSAGE: E 1.176140 3.843508 24180.090923
+     [java] MESSAGE: D
+     [java] COMMAND: T A
+     [java] MESSAGE: ! T A
+     [java] MESSAGE: S AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+     [java] COMMAND: P
+     [java] COMMAND: T 75.5
+     [java] MESSAGE: P AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+     [java] COMMAND: S
+     [java] MESSAGE: T
+     [java] DANGER: visibility: 5.0888569915068835km
+     [java] MESSAGE: E -101.470727 4.367962 24641.739381
+     [java] COMMAND: T 75.5
+     [java] MESSAGE: S AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+     [java] COMMAND: B
+     [java] MESSAGE: ! B
+     [java] MESSAGE: T
+     [java] COMMAND: D -23.1
+     [java] COMMAND: E
+     [java] MESSAGE: E 8.197432 4.390936 13496.063620
+     [java] MESSAGE: ! D -23.1
+     [java] COMMAND: T A
+     [java] COMMAND: T 75.5
+     [java] MESSAGE: ! T A
+     [java] DANGER: visibility: 5.1033944255276324km
+     [java] MESSAGE: E -101.963038 5.124648 24184.634585
+     [java] DANGER: visibility: 5.0022736394696805km
+     [java] MESSAGE: E -121.363917 4.996877 14336.978455
+     [java] DANGER: visibility: 3.936271732007719km
+     [java] MESSAGE: E -64.398143 4.887458 16936.833311
+     [java] COMMAND: T A
+     [java] MESSAGE: ! T A
+     [java] MESSAGE: T
+     [java] COMMAND: T -180.1
+     [java] COMMAND: D A
+     [java] MESSAGE: ! D A
+     [java] MESSAGE: ! T -180.1
+     [java] COMMAND: E
+     [java] COMMAND: T 180.1
+     [java] MESSAGE: ! T 180.1
+     [java] MESSAGE: E 11.254957 4.987580 27015.545221
+     [java] COMMAND: P
+     [java] COMMAND: D A
+     [java] MESSAGE: ! D A
+     [java] MESSAGE: P AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+     [java] DANGER: visibility: 5.007591917705355km
+     [java] COMMAND: T 180.1
+     [java] MESSAGE: ! T 180.1
+     [java] MESSAGE: E -144.144716 4.012834 25427.958131
+     [java] DANGER: visibility: 3.948362038725386km
+     [java] COMMAND: D 23.1
+     [java] MESSAGE: E -122.388201 4.823953 24916.848681
+     [java] COMMAND: S
+     [java] DANGER: visibility: 3.967052666333367km
+     [java] MESSAGE: E -26.136669 3.913969 14479.103825
+     [java] DANGER: visibility: 5.091108914690258km
+     [java] MESSAGE: E -102.604097 4.832914 26587.200827
+     [java] DANGER: visibility: 3.818258266164226km
+     [java] DANGER: visibility: 3.9968865932206668km
+     [java] MESSAGE: E -137.384590 4.309993 13985.186935
+     [java] MESSAGE: E -77.966007 4.392879 25506.887303
+     [java] COMMAND: C
+     [java] MESSAGE: ! C
+     [java] COMMAND: T A
+     [java] MESSAGE: ! T A
+     [java] DANGER: visibility: 5.077428652191923km
+     [java] MESSAGE: E -137.726521 4.451168 15736.178520
+     [java] COMMAND: S
+     [java] DANGER: visibility: 3.928084225830691km
+     [java] MESSAGE: E -40.472805 4.929181 18657.419049
+     [java] DANGER: visibility: 5.117811975723171km
+     [java] MESSAGE: E 5.565434 4.046645 18979.039287
+     [java] DANGER: visibility: 3.865201368179553km
+     [java] MESSAGE: E -122.260913 3.806529 13010.924348
+     [java] DANGER: visibility: 5.0317439890120745km
+     [java] MESSAGE: E -135.969119 4.676700 19740.129015
+     [java] MESSAGE: D
+     [java] COMMAND: T -180.1
+     [java] MESSAGE: ! T -180.1
+     [java] MESSAGE: S AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+     [java] COMMAND: D 23.1
+     [java] COMMAND: T 75.5
+     [java] DANGER: visibility: 3.848794716121014km
+     [java] DANGER: visibility: 5.028083709098771km
+     [java] MESSAGE: E -54.960590 4.827935 18143.634449
+     [java] MESSAGE: E -26.496829 4.597893 13521.938179
+     [java] COMMAND: B
+     [java] MESSAGE: ! B
+     [java] COMMAND: T 180.1
+     [java] MESSAGE: ! T 180.1
+     [java] COMMAND: T 75.5
+     [java] DANGER: visibility: 5.197228474550425km
+     [java] MESSAGE: E -43.045008 4.910260 12553.814511
+     [java] DANGER: visibility: 3.8532339756311993km
+     [java] MESSAGE: E -137.785774 4.877568 12793.114198
+     [java] DANGER: visibility: 3.8714825547871974km
+     [java] MESSAGE: E -134.825470 5.038164 21729.548633
+     [java] DANGER: visibility: 5.155653921081683km
+     [java] MESSAGE: E 2.125717 3.966663 14560.339360
+     [java] MESSAGE: D
+     [java] DANGER: visibility: 5.115389475350555km
+     [java] MESSAGE: E -95.527153 3.898378 22487.806266
+     [java] COMMAND: D -23.1
+     [java] MESSAGE: ! D -23.1
+     [java] MESSAGE: T
+     [java] COMMAND: A
+     [java] COMMAND: T 180.1
+     [java] MESSAGE: ! T 180.1
+     [java] MESSAGE: ! A
+     [java] COMMAND: C
+     [java] COMMAND: B
+     [java] MESSAGE: ! B
+     [java] MESSAGE: ! C
+     [java] DANGER: visibility: 5.1122730975208235km
+     [java] COMMAND: D 23.1
+     [java] MESSAGE: E 16.296830 4.208859 26213.410673
+     [java] COMMAND: A
+     [java] MESSAGE: ! A
+     [java] COMMAND: T -180.1
+     [java] MESSAGE: ! T -180.1
+     [java] DANGER: visibility: 5.0836117658536955km
+     [java] MESSAGE: E -71.686089 4.791027 23636.292060
+     [java] COMMAND: D A
+     [java] MESSAGE: ! D A
+     [java] DANGER: visibility: 5.068135547199388km
+     [java] MESSAGE: E -17.039582 4.806234 19891.820275
+     [java] COMMAND: A
+     [java] MESSAGE: ! A
+     [java] DANGER: visibility: 3.9078333626528057km
+     [java] MESSAGE: E -124.737943 5.083394 14243.588113
+     [java] COMMAND: D 23.1
+     [java] DANGER: visibility: 5.065393255976057km
+     [java] MESSAGE: E -149.481846 4.256452 15927.316373
+     [java] DANGER: visibility: 3.8186049079106326km
+     [java] MESSAGE: E -84.821399 3.978570 16026.301135
+     [java] DANGER: visibility: 5.103139774513682km
+     [java] MESSAGE: E -84.287639 4.352161 12622.337419
+     [java] DANGER: visibility: 5.017920461406262km
+     [java] MESSAGE: E -61.003674 5.160966 16589.728475
+     [java] COMMAND: T A
+     [java] MESSAGE: ! T A
+     [java] COMMAND: C
+     [java] MESSAGE: ! C
+     [java] COMMAND: T A
+     [java] MESSAGE: ! T A
+     [java] DANGER: visibility: 5.135582470334537km
+     [java] MESSAGE: E -139.076683 4.476023 18075.094160
+     [java] COMMAND: E
+     [java] MESSAGE: E -23.921851 4.536998 13383.565757
+     [java] COMMAND: T 180.1
+     [java] MESSAGE: ! T 180.1
+     [java] DANGER: visibility: 5.051061737285614km
+     [java] MESSAGE: E -45.630316 4.913001 18130.095660
+     [java] DANGER: visibility: 5.145886817849471km
+     [java] MESSAGE: E -78.345710 4.671894 16992.434291
+     [java] COMMAND: D 23.1
+     [java] COMMAND: T A
+     [java] MESSAGE: ! T A
+     [java] DANGER: visibility: 3.8546368854244824km
+     [java] MESSAGE: E -151.646604 5.139672 21794.419270
+     [java] COMMAND: C
+     [java] MESSAGE: ! C
+     [java] COMMAND: B
+     [java] MESSAGE: ! B
+     [java] COMMAND: D 23.1
+     [java] COMMAND: T 180.1
+     [java] MESSAGE: ! T 180.1
+     [java] COMMAND: T 180.1
+     [java] MESSAGE: ! T 180.1
+     [java] COMMAND: T 75.5
+     [java] DANGER: visibility: 3.9331824785003255km
+     [java] MESSAGE: E -145.363857 4.090014 20274.436656
+     [java] DANGER: visibility: 5.074091733770747km
+     [java] MESSAGE: E -141.984451 4.607232 20292.200214
+     [java] DANGER: visibility: 3.8934805524082963km
+     [java] MESSAGE: E -84.351212 5.179681 19385.295057
+     [java] DANGER: visibility: 5.10754136636961km
+     [java] MESSAGE: E -4.734366 3.952943 20632.820063
+     [java] DANGER: visibility: 3.846829854004929km
+     [java] MESSAGE: E -24.064218 4.700659 21406.977137
+     [java] MESSAGE: D
+     [java] COMMAND: C
+     [java] MESSAGE: ! C
+     [java] MESSAGE: T
+     [java] DANGER: visibility: 3.978398000828385km
+     [java] COMMAND: T 180.1
+     [java] MESSAGE: ! T 180.1
+     [java] MESSAGE: E -35.840759 3.847508 25670.668760
+     [java] COMMAND: T A
+     [java] COMMAND: T 75.5
+     [java] MESSAGE: ! T A
+     [java] COMMAND: B
+     [java] MESSAGE: ! B
+     [java] MESSAGE: T
+     [java] COMMAND: A
+     [java] COMMAND: D -23.1
+     [java] MESSAGE: ! D -23.1
+     [java] MESSAGE: ! A
+     [java] COMMAND: C
+     [java] COMMAND: D -23.1
+     [java] MESSAGE: ! D -23.1
+     [java] MESSAGE: ! C
+     [java] COMMAND: T -180.1
+     [java] COMMAND: T A
+     [java] MESSAGE: ! T A
+     [java] MESSAGE: ! T -180.1
+     [java] COMMAND: D A
+     [java] COMMAND: A
+     [java] MESSAGE: ! A
+     [java] MESSAGE: ! D A
+     [java] COMMAND: A
+     [java] COMMAND: T A
+     [java] MESSAGE: ! T A
+     [java] MESSAGE: ! A
+     [java] DANGER: visibility: 3.8219044557999178km
+     [java] COMMAND: C
+     [java] MESSAGE: ! C
+     [java] MESSAGE: E -148.644363 3.966821 22880.097512
+     [java] COMMAND: D 23.1
+     [java] COMMAND: A
+     [java] MESSAGE: ! A
+     [java] COMMAND: T A
+     [java] MESSAGE: ! T A
+     [java] COMMAND: D -23.1
+     [java] MESSAGE: ! D -23.1
+     [java] COMMAND: A
+     [java] MESSAGE: ! A
+     [java] COMMAND: T A
+     [java] MESSAGE: ! T A
+     [java] COMMAND: S
+     [java] DANGER: visibility: 5.049424596314974km
+     [java] MESSAGE: E -77.773676 4.158099 19991.159592
+     [java] DANGER: visibility: 5.003041547861637km
+     [java] MESSAGE: E -149.722113 5.040937 23036.962252
+     [java] DANGER: visibility: 5.184088795256744km
+     [java] MESSAGE: E -152.956882 4.308381 13173.132615
+     [java] DANGER: visibility: 3.955541626985914km
+     [java] MESSAGE: E -126.259389 4.951894 24449.563750
+     [java] DANGER: visibility: 3.841445213996796km
+     [java] MESSAGE: E -44.987264 5.026061 20681.479997
+     [java] DANGER: visibility: 5.032352788742925km
+     [java] MESSAGE: E -46.760235 5.137604 22677.504685
+     [java] MESSAGE: D
+     [java] COMMAND: C
+     [java] MESSAGE: ! C
+     [java] MESSAGE: S AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+     [java] COMMAND: T 75.5
+     [java] COMMAND: P
+     [java] MESSAGE: P AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+     [java] MESSAGE: T
+     [java] COMMAND: D A
+     [java] COMMAND: C
+     [java] MESSAGE: ! C
+     [java] MESSAGE: ! D A
+     [java] COMMAND: B
+     [java] COMMAND: D 23.1
+     [java] MESSAGE: ! B
+     [java] COMMAND: B
+     [java] MESSAGE: ! B
+     [java] COMMAND: P
+     [java] MESSAGE: P AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+     [java] DANGER: visibility: 3.828478079030815km
+     [java] MESSAGE: E 7.811140 4.075936 26277.013040
+     [java] COMMAND: D A
+     [java] MESSAGE: ! D A
+     [java] COMMAND: E
+     [java] MESSAGE: E -78.023020 4.244195 12642.548033
+     [java] DANGER: visibility: 3.999014634872296km
+     [java] MESSAGE: E -75.817059 4.454977 21878.878823
+     [java] DANGER: visibility: 5.032488601304314km
+     [java] MESSAGE: E 12.207478 4.807196 25764.949557
+     [java] COMMAND: A
+     [java] MESSAGE: ! A
+     [java] COMMAND: D A
+     [java] MESSAGE: ! D A
+     [java] DANGER: visibility: 5.042932602246202km
+     [java] MESSAGE: E -72.707418 4.078827 18016.750638
+     [java] DANGER: visibility: 3.8066592813737716km
+     [java] MESSAGE: E -23.537630 4.910149 14931.129414
+     [java] COMMAND: T 75.5
+     [java] DANGER: visibility: 5.058431707222189km
+     [java] MESSAGE: E -107.621664 4.620402 24589.098171
+     [java] DANGER: visibility: 3.995420058984699km
+     [java] MESSAGE: E -63.391551 5.038598 13953.402596
+     [java] MESSAGE: D
+     [java] COMMAND: D 23.1
+     [java] MESSAGE: T
+     [java] COMMAND: C
+     [java] MESSAGE: ! C
+     [java] COMMAND: S
+     [java] DANGER: visibility: 3.9869629462972274km
+     [java] DANGER: visibility: 3.885876972533613km
+     [java] MESSAGE: E -81.839838 4.535285 19941.033712
+     [java] MESSAGE: E -70.656211 4.987787 20404.434837
+     [java] DANGER: visibility: 3.9446343573687326km
+     [java] MESSAGE: E -76.106797 4.495004 15790.409002
+     [java] COMMAND: T 180.1
+     [java] MESSAGE: ! T 180.1
+     [java] COMMAND: T 75.5
+     [java] DANGER: visibility: 5.191184983952775km
+     [java] MESSAGE: E -44.225529 5.144110 21061.954399
+     [java] DANGER: visibility: 3.949297265073257km
+     [java] MESSAGE: E -70.538076 3.960744 26948.204634
+     [java] DANGER: visibility: 3.9145309788669334km
+     [java] MESSAGE: E -59.858573 3.972019 13442.284535
+     [java] MESSAGE: D
+     [java] COMMAND: A
+     [java] MESSAGE: ! A
+     [java] MESSAGE: T
+     [java] COMMAND: T 75.5
+     [java] COMMAND: S
+     [java] MESSAGE: T
+     [java] COMMAND: T 75.5
+     [java] MESSAGE: S AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+     [java] COMMAND: P
+     [java] MESSAGE: P AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+     [java] MESSAGE: T

@@ -1,0 +1,61 @@
+Reflection
+
+Height
+ Activity 1
+ Tree 1, the RBT created using A = [10, 5, 50, 35, 40, 15, 95, 65, 20] has a 
+ height of 4, whereas the BST created using A has a height of 5.
+
+ Tree 2, the RBT created using A = [5, 10, 20, 30, 40, 50, 60, 70] has a 
+ height of 4, whereas the BST created using A has a height of 7.
+
+ Tree 3, the RBT created using 
+ A = [100, 90, 80, 70, 60, 50, 40, 30, 20, 10, 5] has a height of 5, whereas 
+ the BST created using A has a height of 11.
+
+Time Complexity (Average / Worst Case)
+ BST
+  Insertion: log n / n
+  Search: log n / n
+  Delete: log n / n
+
+ RBT
+  Insertion: log n / log n
+  Search: log n / log n
+  Delete: log n / log n
+
+ 2-3-4 T
+  Insertion: log n / log n
+  Search: log n / log n
+  Delete: log n / log n
+
+ BT
+  Insertion: log n / log n
+  Search: log n / log n
+  Delete: log n / log n
+
+Understandability
+ Seeing as BST is the simplest tree, it would probably be the easiest to
+ implement insertion, search and deletion algorithms for this tree.
+
+In-order Traversal
+ BST
+ Perform given operation on all of a node's left-children, then on the node 
+ itself and finally on all of the node's right children. i.e. the left
+ sub-tree is operated on first, then the node itself and then the node's
+ right sub-tree.
+
+ RBT
+ See BST.
+
+ 2-3-4 T
+ See BST, however, when performing a given operation, apply it to the elements
+ on the LHS (including the key) and then continue traversal.
+
+ BT
+ See BST, however, when performing a given operation, apply it to the elements
+ on the LHS (including the key) and then continue traversal.
+
+
+
+
+

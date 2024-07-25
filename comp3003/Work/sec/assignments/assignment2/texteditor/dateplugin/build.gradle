@@ -1,0 +1,17 @@
+plugins {
+    // Apply the java plugin to add support for Java
+    id 'java'
+}
+
+dependencies {
+    // Indicate that the 'dateplugin' subproject depends on the 'apideclarations' subproject
+    implementation project(':apideclarations')
+}
+
+compileJava.doLast {
+    copy {
+        from "$buildDir/classes/java/main/texteditor"
+        include '**/*.class'
+        into "$rootDir/app/build/classes/java/main/texteditor"
+    }
+}

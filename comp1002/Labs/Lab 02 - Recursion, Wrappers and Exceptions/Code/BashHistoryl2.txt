@@ -1,0 +1,1000 @@
+ 1006  cd PDIAssignment
+ 1007  ls
+ 1008  rm :wq
+ 1009  ls
+ 1010  vim DetectEdges.txt
+ 1011  vim Menu.txt
+ 1012  javac *.java
+ 1013  vim Menu.java
+ 1014  javac *.java
+ 1015  vim Menu.java
+ 1016  vim DetectEdges.java
+ 1017  java DetectEdges
+ 1018  vim DetectEdges.java
+ 1019  javac *.java
+ 1020  vim DetectEdges.java
+ 1021  javac *.java
+ 1022  vim DetectEdges.java
+ 1023  javac *.java
+ 1024  vim DetectEdges.java
+ 1025  javac *.java
+ 1026  vim DetectEdges.java
+ 1027  javac *.java
+ 1028  vim DetectEdges.java
+ 1029  javac *.java
+ 1030  vim DetectEdges.java
+ 1031  javac *.java
+ 1032  vim DetectEdges.java
+ 1033  javac *.java
+ 1034  vim DetectEdges.java
+ 1035  ls
+ 1036  javac *.java
+ 1037  vim DetectEdges.java
+ 1038  javac *.java
+ 1039  vim DetectEdges.java
+ 1040  vim Menu.java
+ 1041  javac *.java
+ 1042  vim Menu.java
+ 1043  javac *.java
+ 1044  vim Menu.java
+ 1045  cd PDIAssignment
+ 1046  ls
+ 1047  vim DetectEdges.java
+ 1048  vim DetectEdges.txt
+ 1049  vim Menu.java
+ 1050  javac *.java
+ 1051  vim Menu.java
+ 1052  vim DetectEdges.java
+ 1053  javac *.java
+ 1054  java DetectEdges
+ 1055  vim Menu.java
+ 1056  vim DetectEdges.java
+ 1057  vim Menu.java
+ 1058  java DetectEdges
+ 1059  vim DetectEdges.java
+ 1060  java DetectEdges
+ 1061  vim Menu.java
+ 1062  java DetectEdges
+ 1063  vim Menu.java
+ 1064  java DetectEdges
+ 1065  ls
+ 1066  java DetectEdges
+ 1067  vim Menu.java
+ 1068  cp Image_A.csv Image_A1.csv
+ 1069  vim Image_A1.csv
+ 1070  vim Menu.java
+ 1071  java DetectEdges
+ 1072  vim Menu.java
+ 1073  vim DetectEdges.java
+ 1074  javac *.java
+ 1075  cd
+ 1076  vim .vimrc
+ 1077  vim Image.java
+ 1078  cd PDIAssignment
+ 1079  vim Image.java
+ 1080  javac *.java
+ 1081  vim Image.java
+ 1082  javac *.java
+ 1083  vim Image.java
+ 1084  javac *.java
+ 1085  vim Image.java
+ 1086  javac *.java
+ 1087  vim DetectEdges.java
+ 1088  cd PDIAssignment
+ 1089  ls
+ 1090  vim PDIAssignment.txt
+ 1091  vim Menu.txt
+ 1092  cd PDIAssignment
+ 1093  ls
+ 1094  vim Menu.java
+ 1095  cd PDIAssignment
+ 1096  ls
+ 1097  vim Menu.java
+ 1098  vim DetectEdges.java
+ 1099  java DetectEdges
+ 1100  vim DetectEdges.java
+ 1101  vim Menu.java
+ 1102  vim DetectEdges.java
+ 1103  vim Menu.java
+ 1104  vim DetectEdges.java
+ 1105  java DetectEdges
+ 1106  vim DetectEdges.java
+ 1107  vim Menu.java
+ 1108  vim Date.java
+ 1109  cd
+ 1110  cd Documents/PDI
+ 1111  ls
+ 1112  cd P03
+ 1113  ls
+ 1114  vim SplitMyDate.java
+ 1115  cd PDIAssignment
+ 1116  vim Menu.txt
+ 1117  javac *.java
+ 1118  vim Date.java
+ 1119  javac *.java
+ 1120  vim UserInterface.java
+ 1121  javac *.java
+ 1122  ls
+ 1123  vim DetectEdges.java
+ 1124  javac *.java
+ 1125  vim Menu.java
+ 1126  javac *.java
+ 1127  vim Menu.java
+ 1128  javac *.java
+ 1129  ls
+ 1130  vim 2020-5-29_Processed_Image_A1.csv
+ 1131  rm 2020-5-29_Processed_Image_A1.csv
+ 1132  vim Image.java
+ 1133  vim Date.java
+ 1134  vim DetectEdges.java
+ 1135  javac *.java
+ 1136  vim DetectEdges.java
+ 1137  vim Menu.java
+ 1138  javac *.java
+ 1139  vim Menu.java
+ 1140  javac *.java
+ 1141  vim Menu.java
+ 1142  javac *.java
+ 1143  vim DetectEdges.java
+ 1144  javac *.java
+ 1145  vim DetectEdges.java
+ 1146  javac *.java
+ 1147  vim DetectEdges.java
+ 1148  cd PDIAssignment
+ 1149  ls
+ 1150  vim Menu.java
+ 1151  java DetectEdges
+ 1152  ls
+ 1153  vim 2020-05-29_Processed_Image_A1.csv
+ 1154  rm 2020-05-29_Processed_Image_A1.csv
+ 1155  vim Menu.java
+ 1156  java DetectEdges
+ 1157  vim Menu.java
+ 1158  java DetectEdges
+ 1159  ls
+ 1160  rm 0001-01-01_Processed_Image_A1.csv
+ 1161  vim Menu.java
+ 1162  cd PDIAssignment
+ 1163  ls
+ 1164  vim Menu.txt
+ 1165  vim Menu.java
+ 1166  javac *.java
+ 1167  vim Menu.java
+ 1168  java *.java
+ 1169  javac *.java
+ 1170  java DetectEdges
+ 1171  vim Menu.java
+ 1172  javac *.java
+ 1173  vim Menu.java
+ 1174  vim DetectEdges.java
+ 1175  vim Menu.java
+ 1176  vim UserInterface.java
+ 1177  vim Menu.java
+ 1178  vim Image.java
+ 1179  vim Menu.java
+ 1180  ls
+ 1181  javac *.java
+ 1182  vim Image.java
+ 1183  javac *.java
+ 1184  vim Menu.java
+ 1185  javac *.java
+ 1186  vim Menu.java
+ 1187  -el
+ 1188  ls -el
+ 1189  ls -l
+ 1190  vim Image.java
+ 1191  java DetectEdges.java
+ 1192  java DetectEdges
+ 1193  vim DetectEdges.java
+ 1194  vim Menu.java
+ 1195  java DetectEdges
+ 1196  vim 2020-05-31_Processed_00.csv
+ 1197  rm 2020-05-31_Processed_00.csv
+ 1198  vim Image.java
+ 1199  vim DetectEdges.java
+ 1200  javac *.java
+ 1201  java DetectEdges
+ 1202  javac *.java
+ 1203  java DetectEdges
+ 1204  javac *.java
+ 1205  java DetectEdges
+ 1206  vim DetectEdges.java
+ 1207  javac *.java
+ 1208  java DetectEdges
+ 1209  vim 2020-05-31_Processed_abc.csv
+ 1210  rm 2020-05-31_Processed_abc.csv
+ 1211  vim Menu.java
+ 1212  vim DetectEdges.java
+ 1213  javac *.java
+ 1214  java DetectEdges
+ 1215  vim FileIO.java
+ 1216  javac *.java
+ 1217  java DetectEdges
+ 1218  vim FileIO.java
+ 1219  javac *.java
+ 1220  vim Menu.java
+ 1221  java DetectEdges
+ 1222  javac *.java
+ 1223  java DetectEdges
+ 1224  ls
+ 1225  cd PDIAssignment
+ 1226  ls
+ 1227  vim Menu.txt
+ 1228  vim DetectEdges.java
+ 1229  vim FileIO.java
+ 1230  vim DetectEdges.java
+ 1231  vim UserInterface.java
+ 1232  javac *.java
+ 1233  vim DetectEdges.txt
+ 1234  vim Menu.txt
+ 1235  javac *.java
+ 1236  vim Image.txt
+ 1237  javac *.java
+ 1238  vim Image_A.csv
+ 1239  vim Image_A1.csv
+ 1240  vim DetectEdges.java
+ 1241  vim Menu.java
+ 1242  vim UserInterface.java
+ 1243  vim Menu.java
+ 1244  vim Image_A1.csv
+ 1245  rm Image_A1.csv Image_B.csv
+ 1246  ls
+ 1247  mv Image_A.csv ImageA.csv
+ 1248  ls
+ 1249  cp ImageA.csv ImageB.csv
+ 1250  ls
+ 1251  vim ImageB.csv
+ 1252  ls
+ 1253  cp Snapchat1.png Snapchat1CORRUPTED.png
+ 1254  ls
+ 1255  vim Snapchat1CORRUPTED.png
+ 1256  ls
+ 1257  vim Menu.java
+ 1258  vim DetectEdges.java
+ 1259  cd PDIAssignment
+ 1260  ls
+ 1261  vim DetectEdges.java
+ 1262  vim Menu.java
+ 1263  vim FileIO.java
+ 1264  vim UserInterface.java
+ 1265  vim PDIMath.java
+ 1266  vim FileIO.java
+ 1267  vim README.txt
+ 1268  ls
+ 1269  vim Menu.java
+ 1270  cd PDIAssignment
+ 1271  ls
+ 1272  vim DetectEdges.txt
+ 1273  vim Menu.txt
+ 1274  vim DetectEdges.java
+ 1275  ls -l
+ 1276  vim UserInterface.java
+ 1277  vim Menu.java
+ 1278  vim UserInterface.java
+ 1279  vim Menu.java
+ 1280  vim UserInterface.java
+ 1281  cd PDIAssignment
+ 1282  ls
+ 1283  vim Menu.java
+ 1284  vim FileIO.java
+ 1285  vim ImageA.csv
+ 1286  vim Image.java
+ 1287  vim ImageA.csv
+ 1288  javac *.java
+ 1289  vim ImageA.csv
+ 1290  javac *.java
+ 1291  cd
+ 1292  cd PDI
+ 1293  cd Documents
+ 1294  cd PDI
+ 1295  cd P07
+ 1296  ls
+ 1297  cd AssignmentTask
+ 1298  ls
+ 1299  cd ..
+ 1300  cd ../P08
+ 1301  ls
+ 1302  cd AssignmentTask
+ 1303  ls
+ 1304  cp FileIO.java FileIORestored.java ~/PDIAssignment
+ 1305  cp FileIO.java ~/PDIAssignment/FileIORestored.java
+ 1306  cd
+ 1307  cd PDIAssignment
+ 1308  ls
+ 1309  vim FileIORestored.java
+ 1310  mv FileIORestored.java FileIO.java
+ 1311  javac *.java
+ 1312  vim ImageA.csv
+ 1313  javac *.java
+ 1314  vim ImageB.csv
+ 1315  vim HorizontalKernel.csv
+ 1316  javac *.java
+ 1317  vim DetectEdges.txt
+ 1318  vim Menu.txt
+ 1319  vim FileIO.txt
+ 1320  vim UserInterface.txt
+ 1321  vim PDIMath.txt
+ 1322  javac *.java
+ 1323  ls
+ 1324  vim ImageA.csv
+ 1325  mv ImageA.csv ImageValid.csv
+ 1326  vim ImageValid.csv
+ 1327  cp ImageValid.csv ImageInvalid1.csv
+ 1328  vim ImageInvalid1.csv
+ 1329  cp ImageValid.csv ImageInvalid2.csv
+ 1330  vim ImageInvalid2.csv
+ 1331  cp ImageValid.csv ImageInvalid3.csv
+ 1332  vim ImageInvalid3.csv
+ 1333  vim ImageValid.csv
+ 1334  vim ImageInvalid1.csv
+ 1335  vim ImageInvalid2.csv
+ 1336  vim ImageInvalid3.csv
+ 1337  vim FileIO.txt
+ 1338  ls
+ 1339  rm 0001-01-01_Processed_FacebookS.png
+ 1340  rm 2020-05-31_Processed_InstagramS.png
+ 1341  ls
+ 1342  vim Menu.java
+ 1343  rm Date.class Image.class PDIMath.class
+ 1344  ls
+ 1345  rm DetectEdges.class UserInterface.class
+ 1346  ls
+ 1347  rm FileIO.class
+ 1348  ls
+ 1349  cd PDIAssignment
+ 1350  history > BashHistoryPDIAssignment.txt
+ 1351  ls
+ 1352  rm Menu.class
+ 1353  ls
+ 1354  cd
+ 1355  tar -cvzf 20169321_PDIAssignment.tar.gz PDIAssignment
+ 1356  ls
+ 1357  cd PDIAssignment
+ 1358  ls
+ 1359  cd
+ 1360  ls
+ 1361  ;s
+ 1362  ls
+ 1363  cd PDIAssignment
+ 1364  ls
+ 1365  cd PDIAssignment
+ 1366  ls
+ 1367  vim FileIO.java
+ 1368  vim Image.java
+ 1369  javac *.java
+ 1370  java DetectEdges
+ 1371  javac *.java
+ 1372  java DetectEdges
+ 1373  javac *.java
+ 1374  java DetectEdges
+ 1375  javac *.java
+ 1376  java DetectEdges
+ 1377  vim FileIO.java
+ 1378  vim Image.java
+ 1379  java DetectEdges
+ 1380  vim Menu.java
+ 1381  java DetectEdges
+ 1382  vim README.txt
+ 1383  vim FileIO.java
+ 1384  rm FileIO.java
+ 1385  java DetectEdges
+ 1386  vim Menu.java
+ 1387  java DetectEdges
+ 1388  vim README.txt
+ 1389  java DetectEdges
+ 1390  ls
+ 1391  java DetectEdges
+ 1392  vim DetectEdges.java
+ 1393  vim Menu.java
+ 1394  vim DetectEdges.java
+ 1395  vim Menu.java
+ 1396  vim FileIO.java
+ 1397  vim UserInterface.java
+ 1398  vim PDIMath.txt
+ 1399  vim PDIMath.java
+ 1400  javac *.java
+ 1401  java DetectEdges
+ 1402  vim FileIO.java
+ 1403  java DetectEdges
+ 1404  javac *.java
+ 1405  vim FileIO.java
+ 1406  javac *.java
+ 1407  java DetectEdges
+ 1408  vim 2020-05-31_Processed_...csv
+ 1409  rm 2020-05-31_Processed_...csv
+ 1410  ls
+ 1411  rm Facebook1.png Snapchat1.png Instagram1.png
+ 1412  ls
+ 1413  rm ImageB.csv
+ 1414  ls
+ 1415  rm Snapchat1CORRUPTED.png
+ 1416  ls
+ 1417  rm 2020-05-31_Processed_aa.png
+ 1418  rm 2020-05-31_Processed_snap.png
+ 1419  ls
+ 1420  java DetectEdges
+ 1421  ls
+ 1422  rm 2020-05-31_Processed_FacebookHK.png
+ 1423  rm 2020-05-31_Processed_FacebookVK.png
+ 1424  rm 2020-05-31_Processed_SnapchatHK.png
+ 1425  rm 2020-05-31_Processed_SnapchatVK.png
+ 1426  ls
+ 1427  cp HorizontalKernel.csv KernelInvalid1.csv
+ 1428  vim KernelInvalid1.csv
+ 1429  cp HorizontalKernel.csv KernelInvalid2.csv
+ 1430  vim KernelInvalid2.csv
+ 1431  javac *.java
+ 1432  java DetectEdges
+ 1433  ls
+ 1434  cd Documents
+ 1435  ls
+ 1436  cd PDI
+ 1437  ls
+ 1438  cd
+ 1439  ls
+ 1440  mv PDIAssignment Documents/PDI/Tests
+ 1441  ls
+ 1442  cd Documents
+ 1443  ls
+ 1444  cd PDI
+ 1445  ls
+ 1446  mv Tests Assessments
+ 1447  ls
+ 1448  cd Assessments
+ 1449  ls
+ 1450  mkdir Mocks
+ 1451  mkdir MockTestA MockTestB Mocks
+ 1452  mv MockTestA MockTestB Mocks
+ 1453  ls
+ 1454  mv 20169321_MockTestA_Answers.tar.gz Mocks
+ 1455  mv 20169321_TestAnswers.tar.gz Test
+ 1456  ls
+ 1457  mkdir Actuals
+ 1458  mv PDIAssignment Test Actuals
+ 1459  ls
+ 1460  cd Actuals
+ 1461  ls
+ 1462  mv PDIAssignment Assignment
+ 1463  ls
+ 1464  mkdir Exam
+ 1465  ls
+ 1466  cd Exam
+ 1467  ls
+ 1468  ls
+ 1469  cd Documents/PDI/Assessments/Actuals/Exam
+ 1470  :wq
+ 1471  ls
+ 1472  vim Levenshtein.java
+ 1473  vim PDIMath.java
+ 1474  cd Documents/PDI/Assessments/Actuals/Exam
+ 1475  ls
+ 1476  vim QuestionOne.txt
+ 1477  ls
+ 1478  vim QuestionTwo.txt
+ 1479  ls
+ 1480  cd ../../..
+ 1481  ls
+ 1482  cd Assessments
+ 1483  ls
+ 1484  cd Actuals
+ 1485  ls
+ 1486  cd Assignment
+ 1487  ls
+ 1488  cp UserInterface.txt UserInterface.java PDIMath.java PDIMath.txt ../Exam
+ 1489  cd ../Exam
+ 1490  vim PDIMath.java
+ 1491  vim QuestionOne.txt
+ 1492  vim QuestionOneExecutor.txt
+ 1493  ls
+ 1494  vim NumberConverterExecutor.txt
+ 1495  cd /Documents/PDI/Assessments/Actuals/Exam
+ 1496  cd Documents/PDI/Assessments/Actuals/Exam
+ 1497  ls
+ 1498  history > BashHistoryExam.txt
+ 1499  vim UserInterface.java
+ 1500  cd ..
+ 1501  ls
+ 1502  tar -cvzf 20169321_COMP1007_FinalAssessment.tar.gz Exam
+ 1503  ls
+ 1504  cd Documents/PDI/Assessments/Actuals/Exam
+ 1505  ls
+ 1506  vim QuestionOneMenu.txt
+ 1507  ls
+ 1508  javac Levenshtein.java
+ 1509  vim PDIMath.txt
+ 1510  javac Levenshtein.java
+ 1511  java Levenshtein
+ 1512  javac Levenshtein.java
+ 1513  java Levenshtein
+ 1514  javac Levenshtein.java
+ 1515  java Levenshtein
+ 1516  javac Levenshtein.java
+ 1517  java Levenshtein
+ 1518  cd Documents
+ 1519  ls
+ 1520  cd PDI
+ 1521  ls
+ 1522  cd P09
+ 1523  ls
+ 1524  cd SearchAndSort
+ 1525  ls
+ 1526  vim SearchAndSort.txt
+ 1527  cd Documents/PDI/Assessments/Actuals/Exam
+ 1528  cd /Documents/PDI/Assessments/Actuals/Exam
+ 1529  cd
+ 1530  cd Documents/PDI/Assessments/Actuals/Exam
+ 1531  ls
+ 1532  mv QuestionOneMenu.txt NumberConverterMenu.txt
+ 1533  ls
+ 1534  vim NumberConverterExecutor.txt
+ 1535  vim Question3.txt
+ 1536  ls
+ 1537  mv 20169321_PDIAssignment.tar.gz Documents
+ 1538  ls
+ 1539  cd Documents
+ 1540  ls
+ 1541  mv 20169321_PDIAssignment.tar.gz PDI
+ 1542  ls
+ 1543  cd PDI
+ 1544  ls
+ 1545  vim FileName_Test.txt
+ 1546  rm FileName_Test.txt
+ 1547  ls
+ 1548  cd ..
+ 1549  ls
+ 1550  mv PDI pdi
+ 1551  ls
+ 1552  mkdir ucp
+ 1553  ls
+ 1554  cd ucp
+ 1555  mkdir p1 p2 p3 p4 p5 p6 p7 p8 p9
+ 1556  ls
+ 1557  open .
+ 1558  cd p1
+ 1559  ls
+ 1560  vim question2.c
+ 1561  vim question3.c
+ 1562  cd ../..
+ 1563  ls
+ 1564  cd Documents
+ 1565  ls
+ 1566  cd ucp
+ 1567  ls
+ 1568  cd p1
+ 1569  ls
+ 1570  vim question2.c
+ 1571  gcc -Wall -ansi -pedantic -Werror <source code>.c -o <executable program>
+ 1572  gcc -Wall -ansi -pedantic -Werror question2.c -o question2
+ 1573  ls
+ 1574  ./question2.c
+ 1575  ./question2
+ 1576  vim question2.c
+ 1577  vim question3.c
+ 1578  pqd
+ 1579  pwd
+ 1580  vim question3.c
+ 1581  clear
+ 1582  ./question2
+ 1583  cd ucp
+ 1584  ls
+ 1585  cd Documents/ucp
+ 1586  ls
+ 1587  cd p1
+ 1588  ls
+ 1589  history bash_history_p1.txt
+ 1590  history > bash_history_p1.txt
+ 1591  ls
+ 1592  cd ..
+ 1593  ls
+ 1594  tar -cvzf 20169321_P01.tar.gz p1
+ 1595  ls
+ 1596  mv 20169321_P01.tar.gz 20169321_p1.tar.gz
+ 1597  ls
+ 1598  mv 20169321_p1.tar.gz p1
+ 1599  ls
+ 1600  cd p1
+ 1601  ls
+ 1602  LS
+ 1603  ls
+ 1604  rm 20169321_p1.tar.gz
+ 1605  ls
+ 1606  gcc -Wall -ansi -pedantic -Werror question3.c -o question3
+ 1607  vim question3.c
+ 1608  gcc -Wall -ansi -pedantic -Werror question3.c -o question3
+ 1609  ls
+ 1610  gcc -Wall -ansi -pedantic -Werror question2.c -o question2
+ 1611  vim question2.c
+ 1612  ls
+ 1613  gcc -Wall -ansi -pedantic -Werror question2.c -o question2
+ 1614  cd Documents
+ 1615  ls
+ 1616  mkdir dsa
+ 1617  cd ../ucp
+ 1618  ls
+ 1619  cd ucp
+ 1620  ls
+ 1621  cd ..
+ 1622  ls
+ 1623  cd dsa
+ 1624  mkdir l1 l2 l3 l4 l5 l6
+ 1625  mkdir l7 l8 l9 l10 l11
+ 1626  ls
+ 1627  cd l1
+ 1628  ls
+ 1629  cd ..
+ 1630  ls
+ 1631  rm -rf -l1
+ 1632  rm -rf l1
+ 1633  ls
+ 1634  mv Code l1
+ 1635  ls
+ 1636  cd l1
+ 1637  la
+ 1638  ls
+ 1639  la
+ 1640  ls
+ 1641  clear
+ 1642  ls
+ 1643  FileIO.class
+ 1644  vim FileIO.clas
+ 1645  vim FileIO.class
+ 1646  vim RunTimes.txt
+ 1647  vim Students.csv
+ 1648  vim FileIO.java
+ 1649  vim ReadSortAndWrite.java
+ 1650  vim FileIO.java
+ 1651  vim Sorts.java
+ 1652  vim SortsStudent.java
+ 1653  vim Student.java
+ 1654  vim UserInterface.java
+ 1655  ls
+ 1656  vim ReadSortAndWrite.java
+ 1657  vim UserInterface.java
+ 1658  ls
+ 1659  javac *.java
+ 1660  vim UserInterface.java
+ 1661  javac *.java
+ 1662  java ReadSortAndWrite.java
+ 1663  java ReadSortAndWrite
+ 1664  ls
+ 1665  vim UserInterface.java
+ 1666  ls
+ 1667  vim ReadSortAndWrite.java
+ 1668  javac *.java
+ 1669  vim ReadSortAndWrite.java
+ 1670  javac *.java
+ 1671  vim UserInterface.java
+ 1672  javac *.java
+ 1673  java ReadSortAndWrite
+ 1674  vim Students_sS.csv
+ 1675  vim Students_iS.csv
+ 1676  vim Students_bS.csv
+ 1677  ls
+ 1678  vim ReadSortAndWrite.java
+ 1679  cd /home/20169321/Documents/ucp/p1
+ 1680  ls
+ 1681  vim question2.c
+ 1682  ls
+ 1683  cd
+ 1684  ls
+ 1685  cd Documents
+ 1686  ls
+ 1687  cd dsa
+ 1688  ls
+ 1689  cd l1
+ 1690  ls
+ 1691  clear
+ 1692  ls
+ 1693  javac *.java
+ 1694  ls
+ 1695  rm *.class
+ 1696  ls
+ 1697  cd Documents
+ 1698  cd ucp/p1
+ 1699  ls
+ 1700  rm bash_history_p1.txt
+ 1701  history > bash_history_p1.txt
+ 1702  cd ../
+ 1703  ls
+ 1704  tar 20169321_p1.tar.gz p1
+ 1705  tar -cvzf 20169321_p1.tar.gz p1
+ 1706  ls
+ 1707  mv 20169321_p1.tar.gz p1
+ 1708  ls
+ 1709  cd p1
+ 1710  ls
+ 1711  rm 20169321_p1.tar.gz  bash_history_p1.txt
+ 1712  ls
+ 1713  rm question2
+ 1714  rm question3
+ 1715  ls
+ 1716  history > bash_history_p1.txt
+ 1717  ls
+ 1718  cd ..
+ 1719  ls
+ 1720  tar -cvzf 20169321_p1.tar.gz p1
+ 1721  ls
+ 1722  mv 20169321_p1.tar.gz p1
+ 1723  ls
+ 1724  cd p1
+ 1725  ls
+ 1726  cd Documents/dsa/l1
+ 1727  ls
+ 1728  history > BashHistoryl1.txt
+ 1729  cd ..
+ 1730  ls
+ 1731  tar -cvzf 20169321_l1.tar.gz l1
+ 1732  ls
+ 1733  cp 20169321_l1.tar.gz l1
+ 1734  ls
+ 1735  rm 20169321_l1.tar.gz
+ 1736  ls
+ 1737  cd l1
+ 1738  ls
+ 1739  clear
+ 1740  ls
+ 1741  cd Documents
+ 1742  ls
+ 1743  cd dsa
+ 1744  ls
+ 1745  cd l2
+ 1746  vim Activity1.java
+ 1747  ls
+ 1748  cp Activity1.java Factorial.java
+ 1749  vim Factorial.java
+ 1750  ls
+ 1751  cp Factorial.java
+ 1752  cp Factorial.java Fibonacci.java
+ 1753  ls
+ 1754  vim Fibonacci.java
+ 1755  vim Factorial.java
+ 1756  :wq
+ 1757  clear
+ 1758  cd ~/Documents/dsa/l2
+ 1759  cd ../l1
+ 1760  ls
+ 1761  cd Sorts.java
+ 1762  vim Sorts.java
+ 1763  javac *.java
+ 1764  java SortsTestHarness.java 1000 br sr ir
+ 1765  java SortsTestHarness 1000 br sr ir
+ 1766  vim RunTimes.txt
+ 1767  vim FileIO.java
+ 1768  java ReadSortAndWrite
+ 1769  cat Students_bS.csv
+ 1770  java ReadSortAndWrite
+ 1771  cat Students_iS.csv
+ 1772  java ReadSortAndWrite
+ 1773  cat Students_sS.csv
+ 1774  cd ../l2
+ 1775  ls
+ 1776  clear
+ 1777  ls
+ 1778  rm Activity1.java
+ 1779  clear
+ 1780  ls
+ 1781  cd Documents
+ 1782  ls
+ 1783  cd dsa
+ 1784  ls
+ 1785  cd l2
+ 1786  ls
+ 1787  vim UserInterface.java
+ 1788  vim Factorial.java
+ 1789  javac *.java
+ 1790  vim Factorial.java
+ 1791  javac *.java
+ 1792  ls
+ 1793  vim Fibonacci.java
+ 1794  javac *.java
+ 1795  javac Factorial.java
+ 1796  vim Factorial.java
+ 1797  javac Factorial.java
+ 1798  java Factorial
+ 1799  vim Factorial.java
+ 1800  javac Factorial.java
+ 1801  java Factorial
+ 1802  ls
+ 1803  vim Factorial.java
+ 1804  javac Factorial.java
+ 1805  java Factorial
+ 1806  vim Factorial.java
+ 1807  ls
+ 1808  vim FibonacciDiscussion.txt
+ 1809  vim GreatestCommonDivisor.java
+ 1810  ls
+ 1811  cp Fibonacci.java GreatestCommonDivisor.java
+ 1812  vim GreatestCommonDivisor.java
+ 1813  javac *.java
+ 1814  vim GreatestCommonDivisor.java
+ 1815  javac *.java
+ 1816  vim GreatestCommonDivisor.java
+ 1817  javac NumberConverter.java
+ 1818  java Numberconverter.java
+ 1819  java Numberconverter
+ 1820  java NumberConverter
+ 1821  ls
+ 1822  vim GreatestCommonDivisor.txt
+ 1823  java NumberConverter
+ 1824  javac NumberConverter
+ 1825  javac NumberConverter.java
+ 1826  java NumberConverter
+ 1827  vim GreatestCommonDivisor.txt
+ 1828  ls
+ 1829  vim Factorial.java
+ 1830  javac Factorial.java
+ 1831  java Factorial
+ 1832  vim GreatestCommonDenominator.java
+ 1833  vim GreatestCommonDivisor.java
+ 1834  mv GreatestCommonDivisor.java GreatestCommonDenominator.java
+ 1835  javac GreatestCommonDenominator.java
+ 1836  ls
+ 1837  rm GreatestCommonDivisor.class
+ 1838  ls
+ 1839  mv GreatestCommonDivisor.txt GreatestCommonDivisor.txt GreatestCommonDenominator.txt
+ 1840  mv GreatestCommonDivisor.txt GreatestCommonDenominator.txt
+ 1841  ls
+ 1842  vim Factorial.java
+ 1843  javac Factorial.java
+ 1844  vim Factorial.java
+ 1845  javac Factorial.java
+ 1846  java Factorial.java
+ 1847  java Factorial
+ 1848  javac GreatestCommonDenominator.java
+ 1849  java GreatestCommonDenominator
+ 1850  vim Factorial.java
+ 1851  vim Fibonacci.java
+ 1852  javac NumberConverter.java
+ 1853  java NumberConverter
+ 1854  :wq
+ 1855  clear
+ 1856  ls
+ 1857  cd Documents
+ 1858  ls
+ 1859  cd dsa
+ 1860  ls
+ 1861  cd l1
+ 1862  ls
+ 1863  cp UserInterface.java ../l2
+ 1864  vim ReadSortAndWrite.java
+ 1865  cd ../l2
+ 1866  ls
+ 1867  vim Fibonacci.java
+ 1868  javac Fibonacci.java
+ 1869  vim Fibonacci.java
+ 1870  javac Fibonacci.java
+ 1871  java Fibonacci
+ 1872  vim Fibonacci.java
+ 1873  javac Fibonacci.java
+ 1874  vim Fibonacci.java
+ 1875  java Fibonacci
+ 1876  ls
+ 1877  FactorialDiscussion.txt
+ 1878  vim FactorialDiscussion.txt
+ 1879  java Fibonacci
+ 1880  vim Fibonacci.java
+ 1881  ls
+ 1882  vim Factorial.java
+ 1883  vim GreatestCommonDivisor.java
+ 1884  java GreatestCommonDivisor
+ 1885  1
+ 1886  java GreatestCommonDivisor
+ 1887  vim GreatestCommonDivisor.java
+ 1888  java GreatestCommonDivisor
+ 1889  l
+ 1890  ls
+ 1891  cp GreatestCommonDivisor.java NumberConverter.java
+ 1892  ls
+ 1893  vim NumberConverter.java
+ 1894  mv FibonacciDiscussion.txt Fibonacci.txt
+ 1895  ls
+ 1896  mv FactorialDiscussion.txt Factorial.txt
+ 1897  ls
+ 1898  vim Factorial.txt
+ 1899  java GreatestCommonDivisor
+ 1900  vim Factorial.txt
+ 1901  ls
+ 1902  java NumberConverter
+ 1903  vim NumberConverter.java
+ 1904  java NumberConverter
+ 1905  vim NumberConverter.txt
+ 1906  vim Fibonacci.java
+ 1907  javac Fibonacci.java
+ 1908  java Fibonacci
+ 1909  ls
+ 1910  vim Factorial.java
+ 1911  vim Fibonacci.java
+ 1912  vim GreatestCommonDenominator.java
+ 1913  javac GreatestCommonDenominator.java
+ 1914  vim GreatestCommonDenominator.java
+ 1915  javac GreatestCommonDenominator.java
+ 1916  vim GreatestCommonDenominator.java
+ 1917  javac GreatestCommonDenominator.java
+ 1918  java GreatestCommonDenominator
+ 1919  vim GreatestCommonDenominator.java
+ 1920  javac GreatestCommonDenominator.java
+ 1921  java GreatestCommonDenominator
+ 1922  vim GreatestCommonDenominator.java
+ 1923  vim Fibonacci.java
+ 1924  javac Fibonacci.java
+ 1925  vim Fibonacci.java
+ 1926  javac Fibonacci.java
+ 1927  java GreatestCommonDenominator
+ 1928  javac Fibonacci.java
+ 1929  java Fibonacci
+ 1930  vim Fibonacci.java
+ 1931  vim NumberConverter.java
+ 1932  javac *.java
+ 1933  vim NumberConverter.java
+ 1934  javac *.java
+ 1935  vim NumberConverter.java
+ 1936  javac *.java
+ 1937  vim NumberConverter.java
+ 1938  javac *.java
+ 1939  vim NumberConverter.java
+ 1940  javac *.java
+ 1941  vim NumberConverter.java
+ 1942  javac *.java
+ 1943  NumberConverter.java
+ 1944  java NumberConverter
+ 1945  vim NumberConverter.java
+ 1946  cd Documents/dsa/l2
+ 1947  ls
+ 1948  cp Factorial.java TowersOfHanoi.java
+ 1949  vim Factorial.java
+ 1950  javac *.java
+ 1951  java TowersOfHanoi
+ 1952  javac *.java
+ 1953  java TowersOfHanoi
+ 1954  javac *.java
+ 1955  java TowersOfHanoi
+ 1956  javac *.java
+ 1957  java TowersOfHanoi
+ 1958  javac *.java
+ 1959  java TowersOfHanoi
+ 1960  javac *.java
+ 1961  java TowersOfHanoi
+ 1962  javac *.java
+ 1963  java TowersOfHanoi
+ 1964  javac *.java
+ 1965  java TowersOfHanoi
+ 1966  javac *.java
+ 1967  java TowersOfHanoi
+ 1968  javac *.java
+ 1969  java TowersOfHanoi
+ 1970  javac *.java
+ 1971  java TowersOfHanoi
+ 1972  javac *.java
+ 1973  java TowersOfHanoi
+ 1974  cd Documents/dsa/l2
+ 1975  ls
+ 1976  vim TowersOfHanoi.java
+ 1977  cd Documents/dsa
+ 1978  ls
+ 1979  cd l2
+ 1980  ls
+ 1981  vim Factorial.java
+ 1982  vim Fibonacci.java
+ 1983  vim GreatestCommonDenominator.java
+ 1984  java GreatestCommonDenominator
+ 1985  vim GreatestCommonDenominator.java
+ 1986  vim NumberConverter.java
+ 1987  java NumberConverter
+ 1988  vim TowersOfHanoi.java
+ 1989  ls
+ 1990  cd Documents
+ 1991  ls
+ 1992  cd dsa
+ 1993  cd l2
+ 1994  vim Factorial.txt
+ 1995  vim Fibonacci.txt
+ 1996  vim Factorial.java
+ 1997  vim GreatestCommonDenominator.txt
+ 1998  vim NumberConverter.txt
+ 1999  java TowersOfHanoi
+ 2000  cd Documents
+ 2001  ls
+ 2002  cd dsa
+ 2003  ls
+ 2004  cd l2
+ 2005  history > BashHistoryl2.txt

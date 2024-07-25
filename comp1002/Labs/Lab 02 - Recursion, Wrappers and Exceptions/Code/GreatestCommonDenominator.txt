@@ -1,0 +1,4 @@
+gcd is able to compute the GCD of two integers for "reasonable" inputs without
+any performance issues. The only reason the function may fail is due to the fact 
+that each recursive call only reduces the number with which to divide x and y by 
+only 1, which can lead to a StackOverflowError for large values of x and y.

@@ -1,0 +1,388 @@
+CLASS: Menu
+
+    CLASS CONSTANTS: OPTION_1 := 1
+                     OPTION_2 := 2
+
+                     MIN_DIM_OF_IMG := 1
+                     MAX_DIM_OF_IMG := Integer.MAX_VALUE
+                     MIN_VAL_OF_IMG_PIX := 0
+                     MAX_VAL_OF_IMG_PIX := 255
+
+                     MIN_DIM_OF_KER := 1
+                     MAX_DIM_OF_KER := Integer.MAX_VALUE
+                     MIN_VAL_OF_KER_PIX := Integer.MIN_VALUE
+                     MAX_VAL_OF_KER_PIX := Integer.MAX_VALUE
+
+                     MIN_DIM_OF_SMO_SUR := 1
+                     MIN_VAL_OF_SMO_FAC := 0.0
+                     MAX_VAL_OF_SMO_FAC := 1.0
+                     MIN_VAL_OF_X_CO := 1
+                     MIN_VAL_OF_Y_CO := 1
+
+                     MIN_DATE := 0
+                     MAX_DATE := 99 99 9999
+
+    PUBLIC SUBMODULES:
+ 
+    SUBMODULE: importImage
+    IMPORT: none 
+    EXPORT: imgArr (ARRAY OF Integers OF SIZE ? AND ?)
+    ASSERTION: Calls submodule to import an image from a file or user input  
+    ALGORITHM:
+        UserInterface.printImportImageSourceMenu <- none
+        prompt := "Selection: "
+        sel := UserInterface.userInput <- OPTION_1, OPTION_2, prompt
+        OUTPUT NL
+
+        imgArr (ARRAY OF Integers OF SIZE ? AND ? INITIALISE WITH NULL)
+        IF (sel = OPTION_1) THEN
+            imgArr := importImageFromFile <- none
+        ELSE
+            imgArr := importImageFromUserInput <- none
+        END IF
+        EXPORT imgArr (ARRAY OF Integers OF SIZE ? AND ?) 
+    END importImage
+                
+    SUBMODULE: importImageFromFile
+    IMPORT: none
+    EXPORT: imgArr (ARRAY OF Integers OF SIZE ? AND ?)
+    ASSERTION: Attempts to import an image from a file 
+    ALGORITHM: 
+        prompt := "Name of image: " 
+        nmOfImg := UserInterface.userInput <- prompt
+        OUTPUT NL
+
+        imgArr (ARRAY OF Integers OF SIZE ? AND ? INITIALISE WITH NULL)
+        TRY
+            nmOfImgSpt := nmOfImg.split <- "."
+            nmOfImgExt := nmOfImgSpt[1]
+
+            IF (nmOfImgExt.equals <- "csv") THEN
+                imgArr := FileIO.readFromCSV <- nmOfImg
+
+                IF (validateImage <- imgArr) THEN
+                    UserInterface.printMessage <- nmOfImg + " successfully " + 
+                                                  "imported" + NL
+                ELSE
+                    THROW IllegalArgumentException
+                END IF     
+            ELSE IF (nmOfImgExt.equals <- "png"
+                imgArr := FileIO.readFromPNG <- nmOfImg
+                UserInterface.printMessage <- nmOfImg + " successfully " + 
+                                              "imported" + NL
+            ELSE
+                UserInterface.printError <- "Program only supports CSV and " + 
+                                            "PNG images" + NL
+            END IF
+        CATCH <- IndexOutOfBoundsException
+            imgArr := NULL
+            UserInterface.printError <- "Image could not be imported." + NL + 
+                                        "View README.txt for usage " + 
+                                        "information" + NL
+        CATCH <- IllegalArgumentException
+            imgArr := NULL
+            UserInterface.printError <- "Image could not be imported." + NL + 
+                                        "View README.txt for usage " +
+                                        "information" + NL
+        END TRY               
+        EXPORT imgArr (ARRAY OF Integers OF SIZE ? AND ?) 
+    END importImageFromFile
+
+    SUBMODULE: importImageFromUserInput
+    IMPORT: none
+    EXPORT: imgArr (ARRAY OF Integers OF SIZE ? AND ?)
+    ASSERTION: Creates an image from user input
+        prompt := "Height of image: "
+        hgtOfImg := UserInterface.userInput <- MIN_DIM_OF_IMG, MAX_DIM_OF_IMG, 
+                                               prompt
+
+        prompt := "Width of image: "
+        wthOfImg := UserInterface.userInput <- MIN_DIM_OF_IMG, MAX_DIM_OF_IMG, 
+                                               prompt
+        OUTPUT NL
+
+        imgArr (ARRAY OF Integers OF SIZE hgtOfImg AND wthOfImg)
+
+        UserInterface.printMessage <- "Coordinates are in the " +
+                                      "format (x, y)" + NL
+
+        FOR i := 0 TO hgtOfImg (exclusive) INC BY 1
+            i1bsd := i + 1 (Integers)
+            FOR j := 0 TO wthOfImg (exclusive) INC BY 1
+                j1bsd := j + 1 (Integers)    
+                prompt := "Value for pixel (" + j1bsd + ", " + i1bsd + "): "
+                valForPix := UserInterface.userInput <- MIN_VAL_OF_IMG_PIX, 
+                                                        MAX_VAL_OF_IMG_PIX, 
+                                                        prompt
+                imgArr[i][j] := valForPix
+            END FOR
+        END FOR
+        OUTPUT NL
+        EXPORT imgArr (ARRAY OF Integers OF SIZE hgtOfImg AND wthOfImg) 
+    END importImageFromUserInput
+    
+    SUBMODULE: importKernel
+    IMPORT: none 
+    EXPORT: kerArr (ARRAY OF Integers OF SIZE ? AND ?)
+    ASSERTION: Calls submodule to import a kernel from a file or user input  
+    ALGORITHM:
+        UserInterface.printImportKernelSourceMenu <- none
+        prompt := "Selection: "
+        sel := UserInterface.userInput <- OPTION_1, OPTION_2, prompt
+        OUTPUT NL
+
+        kerArr (ARRAY OF Integers OF SIZE ? AND ? INITIALISE WITH NULL)
+        IF (sel = OPTION_1) THEN
+            kerArr := importKernelFromFile <- none
+        ELSE
+            kerArr := importKernelFromUserInput <- none
+        END IF
+        EXPORT kerArr (ARRAY OF Integers OF SIZE ? AND ?)
+    END importKernel
+
+    SUBMODULE: importKernelFromFile
+    IMPORT: none 
+    EXPORT: kerArr (ARRAY OF Integers OF SIZE ? AND ?)
+    ASSERTION: Attempts to import a kernel from a file 
+    ALGORITHM: 
+        prompt := "Name of kernel file: "
+        nmOfKer := UserInterface.userInput <- prompt
+        OUTPUT NL
+
+        kerArr (ARRAY OF Integers OF SIZE ? AND ? INITIALISE WITH NULL)
+        TRY
+            nmOfKerSpt := nmOfKer.split <- "."
+            nmOfKerExt := nmOfKerSpt[1]
+
+            IF (nmOfKerExt.equals <- "csv") THEN
+                kerArr := FileIO.readFromCSV <- nmOfKer
+
+                IF (kerArr.length = kerArr[0].length) THEN
+                    UserInterface.printMessage <- nmOfKer + " successfully " + 
+                                                  "imported" + NL
+                ELSE
+                    THROW IllegalArgumentException
+                END IF    
+            ELSE
+                UserInterface.printError <- "Program only supports CSV " +  
+                                            "kernels" + NL
+            END IF
+        CATCH <- IndexOutOfBoundsException
+            kerArr := NULL
+            UserInterface.printError <- "Kernel could not be imported." + NL +
+                                        "View README.txt for usage " + 
+                                        "information" + NL
+        CATCH <- IllegalArgumentException
+            kerArr := NULL
+            UserInterface.printError <- "Kernel could not be imported." + NL +
+                                        "View README.txt for usage " +
+                                        "information" + NL
+        END TRY          
+        EXPORT kerArr (ARRAY OF Integers OF SIZE ? AND ?)      
+    END importKernelFromFile
+
+    SUBMODULE: importKernelFromUserInput
+    IMPORT: none
+    EXPORT: kerArr (ARRAY OF Integers OF SIZE ? AND ?)
+    ASSERTION: Creates a kernel from user input
+        prompt := "Height and width of kernel: "
+        hgtOfKer := UserInterface.userInput <- MIN_DIM_OF_KER, MAX_DIM_OF_KER, 
+                                               prompt
+        OUTPUT NL
+        wthOfKer := hgtOfKer
+
+        UserInterface.printMessage <- "Coordinates are in the format " + 
+                                      "(x, y)" + NL
+
+        kerArr (ARRAY OF Integers OF SIZE hgtOfKer AND wthOfKer)
+        FOR i := 0 TO hgtOfKer (exclusive) INC BY 1
+            i1bsd := i + 1 (Integers)
+            FOR j := 0 TO wthOfKer (exclusive) INC BY 1
+                j1bsd := j + 1 (Integers)    
+                prompt := "Value for pixel (" + i1bsd + ", " + j1bsd + "): "
+                valForPix := UserInterface.userInput <- MIN_VAL_OF_KER_PIX, 
+                                                        MAX_VAL_OF_KER_PIX, 
+                                                        prompt
+                kerArr[i][j] := valForPix
+            END FOR
+        END FOR
+        OUTPUT NL 
+        EXPORT kerArr (ARRAY OF Integers OF SIZE hgtOfKer AND wthOfKer)
+    END importKernelFromUserInput
+
+    SUBMODULE: convoluteImage
+    IMPORT: imgArr (ARRAY OF Integers OF SIZE ? AND ?),
+            kerArr (ARRAY OF Integers OF SIZE ? AND ?) 
+    EXPORT: conArr (ARRAY OF Integers OF SIZE ? AND ?)
+    ASSERTION: Attempts to convolute image using an image and kernel 
+    ALGORITHM:
+        conArr (ARRAY OF Integers OF SIZE ? AND ? INITIALISE WITH NULL)
+        IF (NOT (imgArr = NULL)) AND (NOT (kerArr = NULL)) THEN
+            TRY
+                imgObj <- imgArr
+                conArr = imgObj.convolute <- kerArr
+                UserInterface.printMessage <- "Image successfully " +
+                                              "convoluted" + NL 
+            CATCH <- IllegalArgumentException
+                conArr := NULL
+                UserInterface.printError <- "Image could not be " + 
+                                            "convoluted" + NL +
+                                            "View README.txt for usage " +
+                                            "information" + NL
+            END TRY
+        ELSE
+            UserInterface.printError <- "There has been no attempt to " + 
+                                        "import an image and/or kernel" + NL
+        END IF
+        EXPORT conArr (ARRAY OF Integers OF SIZE ? AND ?)
+    END convoluteImage
+
+    SUBMODULE: smoothenImageOrConvolute
+    IMPORT: arr (ARRAY OF Integers OF SIZE ? AND ?)
+    EXPORT: smthndArr (ARRAY OF Integers OF SIZE ? AND ?)
+    ASSERTION: Attempts to smoothen image or convolute
+    ALGORITHM:
+        smthndArr (ARRAY OF Integers OF SIZE ? AND ? INITIALISE WITH NULL) 
+        IF (NOT (arr = NULL)) THEN
+            UserInterface.printMessage <- "Dimensions of image:" + NL + 
+                                          "Height: " + arr.length + NL
+                                          "Width: " + arr[0].length + NL
+
+            maxDimOfSmoSur := conArr.length
+            IF (arr[0].length < maxDimOfSmoSur) THEN
+                maxDimOfSmoSur := arr[0].length
+            END IF
+
+            IF (maxDimOfSmoSur % 2 = 0) THEN
+                maxDimOfSmoSur := maxDimOfSmoSur - 1 (Integers)
+            END IF
+ 
+            prompt := "Height and width dimensions of smoothing surface: "
+            hgtOfSmoSur := UserInterface.userInput <- MIN_DIM_OF_SMO_SUR, 
+                                                      maxDimOfSmoSur, 
+                                                      prompt
+            OUTPUT NL
+            wthOfSmoSur := hgtOfSmoSur
+
+            IF (NOT (hgtAndWthOfSmoSur % 2 = 0)) THEN
+                TRY
+                    maxValOfXco := arr[0].length
+                    prompt := "x-axis coordinate of target pixel: "
+                    x := UserInterface.userInput <- MIN_VAL_OF_X_CO, 
+                                                    maxValOfXco, prompt
+            
+                    maxValOfYxo := arr.length 
+                    prompt := "y-axis coordinate of target pixel: " 
+                    y := UserInterface.userInput <- MIN_VAL_OF_Y_CO, 
+                                                    maxValOfYco, prompt 
+
+                    prompt := "Smoothening factor: "
+                    smoFac := UserInterface.userInput <- MIN_VAL_OF_SMO_FAC, 
+                                                         MAX_VAL_OF_SMO_FAC,
+                                                         prompt
+                    OUTPUT NL
+    
+                    obj (Image)
+                    obj <- arr
+                    obj.smoothen <- x, y, hgtOfSmoSur, smoFac
+                    smthndArr := obj.getOriginalImage <- none
+
+                    UserInterface.printMessage <- "Image successfully " +  
+                                                  "smoothened" + NL
+                CATCH <- IllegalArgumentException
+                    smthndArr := arr
+                    "Image could not be smoothened." + NL +
+                    "View README.txt for usage information" + NL
+                END TRY
+            ELSE
+                UserInterface.printError <- "Dimensions of smoothing surface " + 
+                                            "must be odd" + NL  
+            END IF  
+        ELSE
+            UserInterface.userInput <- "No image has been imported/" + 
+                                       "convoluted" + NL
+        END IF
+        EXPORT smthndArr (ARRAY OF Integers OF SIZE ? AND ?)
+    END smoothenImageOrConvolute
+
+    SUBMODULE: exportImageOrConvolute
+    IMPORT: arr (ARRAY OF Integers OF SIZE ? AND ?)
+    EXPORT: none
+    ASSERTION: Attempts to export image or convolute
+    ALGORITHM:
+        IF (NOT (arr = NULL)) THEN
+            TRY
+                prompt := "Date to place in name of image (DDMMYYYY): "
+                dtForConInt := UserInterface.userInput <- MIN_DATE, MAX_DATE,
+                                                          prompt 
+                OUTPUT NL            
+
+                day := dtForConInt / 1 000 000 (Integers)
+                mth := (dtForConInt / 10 000) % 100
+                yr := dtForConInt % 10 000
+                dtForConObj (Image)
+                dtForConObj <- day, mth, yr
+
+                UserInterface.exportConvoluteFormatMenu <- none
+                prompt := "Selection: "
+                sel := UserInterface.userInput <- OPTION_1, OPTION_2, prompt
+                OUTPUT NL           
+                        
+                prompt := "Name of image: "
+                nmOfImg := UserInterface.userInput <- prompt
+                OUTPUT NL
+                nmOfImg := (dtForConObj.toString <- none) + "_Processed_" + 
+                           nmOfImg
+
+                IF (sel = OPTION_1) THEN
+                    nmOfImg := nmOfImg + ".csv"
+                    FileIO.writeCSV <- nmOfImg, arr
+                ELSE
+                    nmOfImg := nmOfImg + ".png"
+                    FileIO.writePNG <- nmOfImg, arr
+                END IF
+
+                    UserInterface.printMessage <- "Image saved as: " + nmOfImg + 
+                                                  NL
+            CATCH <- IllegalArgumentException
+                UserInterface.printError <- "Image could not be " +
+                                            "saved." + NL +
+                                            "View README.txt for usage " + 
+                                            "information" + NL
+            END TRY 
+        ELSE 
+            UserInterface.userInput <- "No image has been imported/convoluted" + 
+                                       NL 
+        END IF
+    END exportConvolute
+
+    PRIVATE SUBMODULES:
+
+    SUBMODULE: validateImage
+    IMPORT: imgArr (ARRAY OF Integers OF SIZE ? AND ?)
+    EXPORT: validImage (Boolean)
+    ASSERTION: Image will be validated as being rectangular and having elements
+               with values within 0 and 255 inclusive
+    ALGORITHM:
+        isRectangular := FALSE
+        wthn0and255 := FALSE
+        IF (imgArr.length != imgArr[0].length) THEN
+            isRectangular := TRUE
+
+            wthn0and255 := TRUE
+            i := 0
+            WHILE (i < imgArr.length) AND (wthn0and255) DO
+                j := 0
+                WHILE (j < imgArr[0].length) AND (wthn0and255) DO
+                    IF NOT ((MIN_VAL_OF_IMG_PIX <= imgArr[i][j]) AND
+                            (imgArr[i][j] <= MAX_VAL_OF_IMG_PIX)) THEN
+                        wthn0and255 := FALSE
+                    END IF
+                    j := j + 1 (Integers) 
+                END WHILE
+                i := i + 1 (Integers)
+            END WHILE
+        END IF
+        validImgArr := isRectangular AND wthn0and255
+        EXPORT validImgArr
+    END validateImage

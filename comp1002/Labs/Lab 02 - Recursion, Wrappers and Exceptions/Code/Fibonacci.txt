@@ -1,0 +1,6 @@
+fib is able to compute the nth Fibonacci number for 0 <= n < 40 virtually
+instantaneously and for n >= 40, performance begins to noticibly degrade, only
+worsening for increasingly large values of n. The nature of fib being a tree
+recursive function (without caching) results in an ever increasing repeated 
+number of computations for increasingly large values of n, resulting in quickly
+degrading runtimes.

@@ -1,0 +1,12 @@
+### <b>Websocket URL</b>: \<host>/ws/session/\<roomID>/
+
+## Websocket Event Types
+
+| event name       | description                                                           | send message body                                                                                       | receive message body                                                                                    |
+| ---------------- | --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| song_vote        | Provides information about a new vote for a song                      | <ul>'type': 'song_vote' <br></br>'song_id': \<song_id></li></ul>                                        | <ul>'type': 'song_vote' <br></br>'song_id': \<song_id></li></ul>                                        |
+| chat_message     | Contains details for new messages                                     | <ul>'type': 'chat_message' <br></br> 'name': \<name> <br></br> 'message': \<chat_message></ul>          | <ul>'type': 'chat_message' <br></br> 'name': \<name> <br></br> 'message': \<chat_message></ul>          |
+| room_closed      | Notify users that a session has ended                                 | <ul>'type': 'room_closed' </ul>                                                                         | <ul>'type': 'room_closed' </ul>                                                                         |
+| song_changed     | Notify users that the song has changed                                | <ul>'type': 'song_changed' <br></br> 'song_id': \<song_id></ul>                                         | <ul>'type': 'song_changed' <br></br> 'song_id': \<song_id></ul>                                         |
+| playback_changed | Provide update in changes to the currently playing song (play, pause) | <ul>'type': 'playback_changed' <br></br> 'percentage': \<percentage> <br></br> 'paused': \<paused></ul> | <ul>'type': 'playback_changed' <br></br> 'percentage': \<percentage> <br></br> 'paused': \<paused></ul> |
+| song_queued      | Used when a song is added to the queue                                | <ul>'type': 'song_queued' <br></br> 'song_id': \<song_id> </ul>                                         | <ul>'type': 'song_queued' <br></br> 'song_id': \<song_id> </ul>                                         |

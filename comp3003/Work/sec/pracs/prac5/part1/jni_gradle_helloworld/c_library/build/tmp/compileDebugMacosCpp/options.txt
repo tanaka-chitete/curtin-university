@@ -1,0 +1,26 @@
+-x
+c++
+-c
+-fPIC
+-g
+-I
+/opt/homebrew/opt/openjdk@11/libexec/openjdk.jdk/Contents/Home/include
+-I
+/opt/homebrew/opt/openjdk@11/libexec/openjdk.jdk/Contents/Home/include/darwin
+-I
+/opt/homebrew/opt/openjdk@11/libexec/openjdk.jdk/Contents/Home/include/linux
+-I
+/opt/homebrew/opt/openjdk@11/libexec/openjdk.jdk/Contents/Home/include/win32
+-I
+"/Users/tanakachitete/Google Drive/University/Units/Current/COMP3003/Work/sec/pracs/prac5/part1/jni_gradle_helloworld/c_library/src/main/public"
+-I
+"/Users/tanakachitete/Google Drive/University/Units/Current/COMP3003/Work/sec/pracs/prac5/part1/jni_gradle_helloworld/c_library/src/main/headers"
+-isystem
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include/c++/v1
+-isystem
+/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include
+-isystem
+/Library/Developer/CommandLineTools/SDKs/MacOSX11.3.sdk/usr/include
+-isystem
+/Library/Developer/CommandLineTools/usr/include
+-m64

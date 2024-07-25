@@ -1,0 +1,19 @@
+README
+================================================================================
+
+Each of the commands outlined are to be entered from the texteditor directory.
+In other words, the directory in which this file resides.
+
+Building
+--------------------------------------------------------------------------------
+./gradlew build
+
+Running
+--------------------------------------------------------------------------------
+./gradlew run
+./gradlew run --args="--locale_en_AU"
+./gradlew run --args="--locale_fr_FR"
+
+Cleaning
+--------------------------------------------------------------------------------
+./gradlew clean

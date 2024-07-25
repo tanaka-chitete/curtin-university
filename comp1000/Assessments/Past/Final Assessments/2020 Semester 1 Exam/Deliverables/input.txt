@@ -1,0 +1,5 @@
+2,3,1000000,72 Laneway Street BENTLEY
+7,5,4000000,12 Grove Lane BEELIAR
+2,2,500000,35 Barfield Street COCKBURN
+4,4,2000000,93 Springhill Bottom Road LANGLEY
+3,2,1000000,70 Moores Drive BENTLEY

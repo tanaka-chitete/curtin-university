@@ -1,0 +1,306 @@
+mysql> USE dswork;
+Database changed
+mysql> USE dswork;
+Database changed
+mysql> SOURCE PracTest2Tables_2
+ERROR: 
+Failed to open file 'PracTest2Tables_2', error: 2
+mysql> SOURCE PracTest2Tables_2.sql;
+Query OK, 0 rows affected (0.03 sec)
+
+mysql> SOURCE PracTest2Values_2.sql;
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+mysql> SHOW TABLES;
++------------------+
+| Tables_in_dswork |
++------------------+
+| Students         |
++------------------+
+1 row in set (0.00 sec)
+
+mysql> DESC Students;
++--------------+--------------+------+-----+---------+-------+
+| Field        | Type         | Null | Key | Default | Extra |
++--------------+--------------+------+-----+---------+-------+
+| stuNo        | char(6)      | NO   | PRI | NULL    |       |
+| firstName    | varchar(12)  | NO   |     | NULL    |       |
+| lastName     | varchar(15)  | NO   |     | NULL    |       |
+| address1     | varchar(10)  | YES  |     | NULL    |       |
+| address2     | varchar(20)  | YES  |     | NULL    |       |
+| address3     | varchar(20)  | YES  |     | NULL    |       |
+| address4     | varchar(20)  | YES  |     | NULL    |       |
+| country      | varchar(20)  | YES  |     | NULL    |       |
+| courseCode   | char(5)      | YES  |     | NULL    |       |
+| phoneNo      | char(10)     | YES  |     | NULL    |       |
+| startDate    | date         | YES  |     | NULL    |       |
+| birthDate    | date         | YES  |     | NULL    |       |
+| fieldDeposit | decimal(8,2) | YES  |     | NULL    |       |
++--------------+--------------+------+-----+---------+-------+
+13 rows in set (0.00 sec)
+
+mysql> SELECT stuNo, phoneNo, courseCode FROM Students WHERE phoneNo IS NULL;
++--------+---------+------------+
+| stuNo  | phoneNo | courseCode |
++--------+---------+------------+
+| 134567 | NULL    | AG3GU      |
++--------+---------+------------+
+1 row in set (0.00 sec)
+
+mysql> SELECT * FROM Students;
++--------+-----------+-------------+----------+-------------------+-------------------+-------------------+-----------+------------+------------+------------+------------+--------------+
+| stuNo  | firstName | lastName    | address1 | address2          | address3          | address4          | country   | courseCode | phoneNo    | startDate  | birthDate  | fieldDeposit |
++--------+-----------+-------------+----------+-------------------+-------------------+-------------------+-----------+------------+------------+------------+------------+--------------+
+| 100050 | John      | Hendrickson | 59       | Frencham Street   | Lowesdale         | New South Wales   | Australia | EG5DU      | 0261309944 | 2020-03-20 | 1998-08-14 |      1700.00 |
+| 134567 | Eva       | Pulaski     | 72       | Pelican Road      | Austins Ferry     | Tasmania          | Australia | AG3GU      | NULL       | 2017-03-10 | 1991-10-12 |       900.00 |
+| 200210 | Christine | Haas        | 30       | Albacore Crescent | Brayton           | New South Wales   | Australia | CS3SU      | 0756438413 | 2016-03-15 | 1998-08-14 |       800.00 |
+| 202146 | Michelle  | Mckinley    | 58       | Pipeclay Road     | Lower Pappinbarra | New South Wales   | Australia | CS3SU      | 0267361937 | 2020-06-16 | 1999-04-22 |      1900.00 |
+| 202350 | Irving    | Stern       | 11       | Devon Street      | West Lakes        | South Australia   | Australia | AG2PG      | 0882510341 | 2020-02-22 | 1985-04-12 |      2100.00 |
+| 204577 | Masatoshi | Yoshimura   | 20       | Sinclair Street   | Paramatta         | South Australia   | Australia | AG2PG      | 0883518827 | 2016-02-25 | 1980-08-30 |      2100.00 |
+| 212466 | Nathan    | Rao         | 13       | Gralow Court      | Bakers Creek      | Queensland        | Australia | CS2HU      | 0749994295 | 2020-02-11 | 1998-02-23 |       500.00 |
+| 213688 | James     | Walker      | 36       | Chester Street    | Koonyum Range     | New South Wales   | Australia | CS3SU      | 0246743839 | 2015-04-20 | 1999-03-22 |         NULL |
+| 214560 | Ragnar    | Bower       | 57       | Maritime Avenue   | Caljie            | Western Australia | Australia | ED4SU      | 0890462968 | 2019-02-20 | 1996-02-23 |      1400.00 |
+| 223456 | Eva       | Kurtz       | 54       | Manchester Road   | Bulliac           | New South Wales   | Australia | EG5DU      | 0882510341 | 2020-02-10 | 1997-03-15 |      1800.00 |
+| 223470 | Jacki     | Willard     | 21       | Garden Place      | Serpentine        | Western Australia | Australia | EG3SU      | 0470564452 | 2018-07-22 | 1997-05-03 |       800.00 |
+| 235670 | Leondro   | Wall        | 45       | Panorama Road     | Nemingha          | South Australia   | Australia | EG5DU      | 0267657272 | 2016-06-12 | 1990-11-25 |      1750.00 |
+| 257930 | Sally     | Reed        | 92       | Ross Street       | Helensvale        | Queensland        | Australia | CS5SU      | 0887299354 | 2016-03-15 | 2018-06-12 |       900.00 |
+| 264620 | Michael   | Thompson    | 27       | Endeavour Drive   | Kiana             | South Australia   | Australia | CS3SU      | 0887299354 | 2016-03-15 | 1999-07-05 |      1000.00 |
++--------+-----------+-------------+----------+-------------------+-------------------+-------------------+-----------+------------+------------+------------+------------+--------------+
+14 rows in set (0.01 sec)
+
+mysql> SELECT stuNo, phoneNo, courseCode FROM Students WHERE phoneNo IS NULL;
++--------+---------+------------+
+| stuNo  | phoneNo | courseCode |
++--------+---------+------------+
+| 134567 | NULL    | AG3GU      |
++--------+---------+------------+
+1 row in set (0.00 sec)
+
+mysql> DESC Students;
++--------------+--------------+------+-----+---------+-------+
+| Field        | Type         | Null | Key | Default | Extra |
++--------------+--------------+------+-----+---------+-------+
+| stuNo        | char(6)      | NO   | PRI | NULL    |       |
+| firstName    | varchar(12)  | NO   |     | NULL    |       |
+| lastName     | varchar(15)  | NO   |     | NULL    |       |
+| address1     | varchar(10)  | YES  |     | NULL    |       |
+| address2     | varchar(20)  | YES  |     | NULL    |       |
+| address3     | varchar(20)  | YES  |     | NULL    |       |
+| address4     | varchar(20)  | YES  |     | NULL    |       |
+| country      | varchar(20)  | YES  |     | NULL    |       |
+| courseCode   | char(5)      | YES  |     | NULL    |       |
+| phoneNo      | char(10)     | YES  |     | NULL    |       |
+| startDate    | date         | YES  |     | NULL    |       |
+| birthDate    | date         | YES  |     | NULL    |       |
+| fieldDeposit | decimal(8,2) | YES  |     | NULL    |       |
++--------------+--------------+------+-----+---------+-------+
+13 rows in set (0.00 sec)
+
+mysql> SELECT stuNo, CONCAT(address1, ', ', address2, ', ', address3, ', ', address4) AS StreetAddress WHERE courseCode NOT IN ('CS5SU', 'EG5DU', 'AG2PG');
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE courseCode NOT IN ('CS5SU', 'EG5DU', 'AG2PG')' at line 1
+mysql> SELECT stuNo, CONCAT(address1, ', ', address2, ', ', address3, ', ', address4) AS StreetAddress FROM Students WHERE courseCode NOT IN ('CS5SU', 'EG5DU', 'AG2PG');
++--------+-------------------------------------------------------+
+| stuNo  | StreetAddress                                         |
++--------+-------------------------------------------------------+
+| 134567 | 72, Pelican Road, Austins Ferry, Tasmania             |
+| 200210 | 30, Albacore Crescent, Brayton, New South Wales       |
+| 202146 | 58, Pipeclay Road, Lower Pappinbarra, New South Wales |
+| 212466 | 13, Gralow Court, Bakers Creek, Queensland            |
+| 213688 | 36, Chester Street, Koonyum Range, New South Wales    |
+| 214560 | 57, Maritime Avenue, Caljie, Western Australia        |
+| 223470 | 21, Garden Place, Serpentine, Western Australia       |
+| 264620 | 27, Endeavour Drive, Kiana, South Australia           |
++--------+-------------------------------------------------------+
+8 rows in set (0.01 sec)
+
+mysql> SELECT stuNo, firstName, lastname, courseCode FROM Students WHERE courseCode LIKE 'EG%';
++--------+-----------+-------------+------------+
+| stuNo  | firstName | lastname    | courseCode |
++--------+-----------+-------------+------------+
+| 100050 | John      | Hendrickson | EG5DU      |
+| 223456 | Eva       | Kurtz       | EG5DU      |
+| 223470 | Jacki     | Willard     | EG3SU      |
+| 235670 | Leondro   | Wall        | EG5DU      |
++--------+-----------+-------------+------------+
+4 rows in set (0.00 sec)
+
+mysql> SELECT firstName, lastName, courseCode, DATE_FORMAT(birthDate, '%W %e %M %Y') AS Birthday FROM Students WHERE courseCode LIKE 'EG%';
++-----------+-------------+------------+-------------------------+
+| firstName | lastName    | courseCode | Birthday                |
++-----------+-------------+------------+-------------------------+
+| John      | Hendrickson | EG5DU      | Friday 14 August 1998   |
+| Eva       | Kurtz       | EG5DU      | Saturday 15 March 1997  |
+| Jacki     | Willard     | EG3SU      | Saturday 3 May 1997     |
+| Leondro   | Wall        | EG5DU      | Sunday 25 November 1990 |
++-----------+-------------+------------+-------------------------+
+4 rows in set (0.00 sec)
+
+mysql> SELECT stuNo, firstName, startDate FROM Students WHERE DATEDIFF(NOW(), startDate) / 365.25 < 4;
++--------+-----------+------------+
+| stuNo  | firstName | startDate  |
++--------+-----------+------------+
+| 100050 | John      | 2020-03-20 |
+| 202146 | Michelle  | 2020-06-16 |
+| 202350 | Irving    | 2020-02-22 |
+| 212466 | Nathan    | 2020-02-11 |
+| 214560 | Ragnar    | 2019-02-20 |
+| 223456 | Eva       | 2020-02-10 |
+| 223470 | Jacki     | 2018-07-22 |
++--------+-----------+------------+
+7 rows in set (0.00 sec)
+
+mysql> DESC Students;
++--------------+--------------+------+-----+---------+-------+
+| Field        | Type         | Null | Key | Default | Extra |
++--------------+--------------+------+-----+---------+-------+
+| stuNo        | char(6)      | NO   | PRI | NULL    |       |
+| firstName    | varchar(12)  | NO   |     | NULL    |       |
+| lastName     | varchar(15)  | NO   |     | NULL    |       |
+| address1     | varchar(10)  | YES  |     | NULL    |       |
+| address2     | varchar(20)  | YES  |     | NULL    |       |
+| address3     | varchar(20)  | YES  |     | NULL    |       |
+| address4     | varchar(20)  | YES  |     | NULL    |       |
+| country      | varchar(20)  | YES  |     | NULL    |       |
+| courseCode   | char(5)      | YES  |     | NULL    |       |
+| phoneNo      | char(10)     | YES  |     | NULL    |       |
+| startDate    | date         | YES  |     | NULL    |       |
+| birthDate    | date         | YES  |     | NULL    |       |
+| fieldDeposit | decimal(8,2) | YES  |     | NULL    |       |
++--------------+--------------+------+-----+---------+-------+
+13 rows in set (0.00 sec)
+
+mysql> SELECT stuNo, firstName, lastName, ROUND(fieldDeposit) AS OldDeposit, ROUND(fieldDeposit * 1.12) AS NewDeposit FROM Students;
++--------+-----------+-------------+------------+------------+
+| stuNo  | firstName | lastName    | OldDeposit | NewDeposit |
++--------+-----------+-------------+------------+------------+
+| 100050 | John      | Hendrickson |       1700 |       1904 |
+| 134567 | Eva       | Pulaski     |        900 |       1008 |
+| 200210 | Christine | Haas        |        800 |        896 |
+| 202146 | Michelle  | Mckinley    |       1900 |       2128 |
+| 202350 | Irving    | Stern       |       2100 |       2352 |
+| 204577 | Masatoshi | Yoshimura   |       2100 |       2352 |
+| 212466 | Nathan    | Rao         |        500 |        560 |
+| 213688 | James     | Walker      |       NULL |       NULL |
+| 214560 | Ragnar    | Bower       |       1400 |       1568 |
+| 223456 | Eva       | Kurtz       |       1800 |       2016 |
+| 223470 | Jacki     | Willard     |        800 |        896 |
+| 235670 | Leondro   | Wall        |       1750 |       1960 |
+| 257930 | Sally     | Reed        |        900 |       1008 |
+| 264620 | Michael   | Thompson    |       1000 |       1120 |
++--------+-----------+-------------+------------+------------+
+14 rows in set (0.00 sec)
+
+mysql> SELECT firstName, lastname, ROUND(fieldDeposit) AS OldDeposit, ROUND(fieldDeposit * 1.12) AS NewDeposit WHERE NewDeposit > 2000;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE NewDeposit > 2000' at line 1
+mysql> -- Part B
+mysql> SELECT firstName, lastname, ROUND(fieldDeposit) AS OldDeposit, ROUND(fieldDeposit * 1.12) AS NewDeposit FROM Students WHERE NewDeposit > 2000;
+ERROR 1054 (42S22): Unknown column 'NewDeposit' in 'where clause'
+mysql> SELECT firstName, lastname, ROUND(fieldDeposit) AS OldDeposit, ROUND(fieldDeposit * 1.12) AS NewDeposit FROM Students WHERE NewDeposit > 2000;
+ERROR 1054 (42S22): Unknown column 'NewDeposit' in 'where clause'
+mysql> SELECT firstName, lastname, ROUND(fieldDeposit) AS OldDeposit, ROUND(fieldDeposit * 1.12) AS NewDeposit FROM Students WHERE ROUND(fieldDeposit * 1.12) > 2000;
++-----------+-----------+------------+------------+
+| firstName | lastname  | OldDeposit | NewDeposit |
++-----------+-----------+------------+------------+
+| Michelle  | Mckinley  |       1900 |       2128 |
+| Irving    | Stern     |       2100 |       2352 |
+| Masatoshi | Yoshimura |       2100 |       2352 |
+| Eva       | Kurtz     |       1800 |       2016 |
++-----------+-----------+------------+------------+
+4 rows in set (0.00 sec)
+
+mysql> DESC Students;
++--------------+--------------+------+-----+---------+-------+
+| Field        | Type         | Null | Key | Default | Extra |
++--------------+--------------+------+-----+---------+-------+
+| stuNo        | char(6)      | NO   | PRI | NULL    |       |
+| firstName    | varchar(12)  | NO   |     | NULL    |       |
+| lastName     | varchar(15)  | NO   |     | NULL    |       |
+| address1     | varchar(10)  | YES  |     | NULL    |       |
+| address2     | varchar(20)  | YES  |     | NULL    |       |
+| address3     | varchar(20)  | YES  |     | NULL    |       |
+| address4     | varchar(20)  | YES  |     | NULL    |       |
+| country      | varchar(20)  | YES  |     | NULL    |       |
+| courseCode   | char(5)      | YES  |     | NULL    |       |
+| phoneNo      | char(10)     | YES  |     | NULL    |       |
+| startDate    | date         | YES  |     | NULL    |       |
+| birthDate    | date         | YES  |     | NULL    |       |
+| fieldDeposit | decimal(8,2) | YES  |     | NULL    |       |
++--------------+--------------+------+-----+---------+-------+
+13 rows in set (0.01 sec)
+
+mysql> SOURCE PracTestTask2_20169321.sql
+Query OK, 0 rows affected (0.03 sec)
+
+Query OK, 0 rows affected (0.03 sec)
+
+mysql> DESC TABLES;
+ERROR 1146 (42S02): Table 'dswork.TABLES' doesn't exist
+mysql> SHOW TABLES;
++------------------+
+| Tables_in_dswork |
++------------------+
+| Branch           |
+| Employee         |
+| Students         |
++------------------+
+3 rows in set (0.00 sec)
+
+mysql> INSERT INTO Employee VALUES
+    -> (99120, 9, 'Tanaka', 'Chitete', 1000000.00, '9A99B');
+ERROR 1264 (22003): Out of range value for column 'salary' at row 1
+mysql> INSERT INTO Employee VALUES
+    -> (99120, 9, 'Tanaka', 'Chitete', 999999.00, '9A99B');
+ERROR 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`dswork`.`Employee`, CONSTRAINT `fk_brNo` FOREIGN KEY (`brNo`) REFERENCES `Branch` (`brNo`))
+mysql> INSERT INTO Branch VALUES
+    -> ('9A99B', 'Perth', '0403891782');
+Query OK, 1 row affected (0.01 sec)
+
+mysql> SELECT * FROM Branch
+    -> ;
++-------+-------+------------+
+| brNo  | city  | phoneNo    |
++-------+-------+------------+
+| 9A99B | Perth | 0403891782 |
++-------+-------+------------+
+1 row in set (0.00 sec)
+
+mysql> INSERT INTO Employee VALUES
+    -> (99120, 9, 'Tanaka', 'Chitete', 999999.00, '9A99B');
+Query OK, 1 row affected (0.00 sec)
+
+mysql> SHOW Employee;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Employee' at line 1
+mysql> SELECT * FROM  Employee;
++-------+------------+-----------+----------+-----------+-------+
+| empNo | checkDigit | firstName | lastName | salary    | brNo  |
++-------+------------+-----------+----------+-----------+-------+
+| 99120 | 9          | Tanaka    | Chitete  | 999999.00 | 9A99B |
++-------+------------+-----------+----------+-----------+-------+
+1 row in set (0.00 sec)
+

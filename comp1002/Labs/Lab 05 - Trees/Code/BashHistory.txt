@@ -1,0 +1,500 @@
+    3  make clean
+    4  make
+    5  ./patternmatch "this tea is good. Like, really good." good fine red red
+    6  make
+    7  make
+    8  ./patternmatch "this tea is good. Like, really good." good fine red red
+    9  ./patternmatch "this tea is good. Like, really good." good fine red red
+   10  ./patternmatch "this tea is good. Like, really good." good fine red red
+   11  ./patternmatch "this tea is good. Like, really good." good fine red red
+   12  ./patternmatch "this tea is good. Like, really good." good fine red red
+   13  ./patternmatch "this tea is good. Like, really good." good fine red red
+   14  ./patternmatch "this tea is good. Like, really good." good fine red red
+   15  ./patternmatch "foo bar baz foo bar baz" foo bar red green
+   16  ./patternmatch "foo bar baz foo bar baz" foo bar red blue
+   17  ./patternmatch "foo bar baz foo bar baz" foo bar red yellow
+   18  ./patternmatch "foo bar baz foo bar baz" foo bar red magenta
+   19  ./patternmatch "foo bar baz foo bar baz" foo bar red cyan
+   20  make
+   21  ./patternmatch "foo bar baz foo bar baz" foo bar red cyan
+   22  ./patternmatch "this tea is good." tea biscuit red cyan./patternmatch "this tea is good." tea biscuit red cyan
+   23  make
+   24  ./patternmatch "this tea is good." tea biscuit red cyan
+   25  make
+   26  ./patternmatch "this tea is good." tea biscuit red cyan
+   27  make
+   28  ./patternmatch "this tea is good." tea biscuit red cyan
+   29  ./patternmatch "this tea is good." tea biscuit red cyan
+   30  make
+   31  ./patternmatch "this tea is good." tea biscuit red cyan
+   32  make debug
+   33  make
+   34  make clean
+   35  make
+   36  make debug
+   37  make clean
+   38  make debug
+   39  make make clean
+   40  make clean
+   41  make
+   42  make clean
+   43  make debug
+   44  make index
+   45  make clean
+   46  make index
+   47  ./patternmatch "this tea is good." tea biscuit red cyan
+   48  make clean
+   49  make index
+   50  ./patternmatch "this tea is good." tea biscuit red cyan
+   51  make clean
+   52  make index
+   53  ./patternmatch "this tea is good." tea biscuit red cyan
+   54  make clean
+   55  make index
+   56  ./patternmatch "this tea is good." tea biscuit red cyan
+   57  make clean
+   58  make index
+   59  make clean
+   60  make index
+   61  make index
+   62  make clean
+   63  make clean
+   64  make
+   65  make
+   66  ./patternmatch "this tea is good." tea biscuit red cyan
+   67  make clean
+   68  make
+   69  make clean
+   70  make
+   71  make clean
+   72  make
+   73  make clean
+   74  make
+   75  make clean
+   76  make
+   77  make clean
+   78  make index
+   79  make clean
+   80  make index
+   81  make clean
+   82  make index
+   83  make clean
+   84  make index
+   85  make index
+   86  make clean
+   87  make index
+   88  ./patternmatch "this tea is good." tea biscuit red cyan
+   89  make clean
+   90  make index
+   91  ./patternmatch "this tea is good." tea biscuit red cyan
+   92  make clean
+   93  make index
+   94  ./patternmatch "this tea is good." tea biscuit red cyan
+   95  make clean
+   96  make index
+   97  ./patternmatch "this tea is good." tea biscuit red cyan
+   98  ./patternmatch "this tea is tea." tea biscuit red cyan
+   99  make celan
+  100  make clean
+  101  make index
+  102  make clean
+  103  make index
+  104  make clean
+  105  make 
+  106  make index
+  107  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  108  make index
+  109  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  110  make clean
+  111  make index
+  112  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  113  make clean
+  114  make index
+  115  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  116  make clean
+  117  make index
+  118  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  119  make clean
+  120  make index
+  121  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  122  make clean
+  123  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  124  make index
+  125  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  126  make clean
+  127  make
+  128  make clean
+  129  make
+  130  make clean
+  131  make
+  132  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  133  make clean
+  134  make index
+  135  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  136  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  137  make clean
+  138  make index
+  139  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  140  make clean
+  141  make index
+  142  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  143  make clean
+  144  make
+  145  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  146  make index
+  147  make clean
+  148  make index
+  149  make clean
+  150  make index
+  151  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  152  make index
+  153  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  154  make index
+  155  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  156  make clean
+  157  make index
+  158  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  159  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  160  make inde
+  161  make index
+  162  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  163  make clean
+  164  make index
+  165  make clean
+  166  make index
+  167  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  168  make index
+  169  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  170  make clean
+  171  make index
+  172  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  173  make index
+  174  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  175  make clean
+  176  make index
+  177  make index
+  178  make clean
+  179  make index
+  180  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  181  make index
+  182  make int
+  183  make index
+  184  make index
+  185  make index
+  186  make index
+  187  make index
+  188  make index
+  189  make index
+  190  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  191  make index
+  192  make index
+  193  make index
+  194  make index
+  195  make index
+  196  make index
+  197  make index
+  198  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  199  make clean
+  200  make index
+  201  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  202  make index
+  203  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  204  make index
+  205  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  206  make index
+  207  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  208  make
+  209  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  210  make clean
+  211  make
+  212  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  213  make index
+  214  make clean
+  215  make index
+  216  make clean
+  217  make index
+  218  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  219  ./patternmatch "this biscuit is sweet" tea biscuit red cyan
+  220  ./patternmatch "this biscuit is sweet" tea cookie red cyan
+  221  make index
+  222  ./patternmatch "this biscuit is sweet" tea cookie red cyan
+  223  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  224  make index
+  225  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  226  make clean
+  227  make index
+  228  make clean
+  229  make index
+  230  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  231  make clean
+  232  make index
+  233  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  234  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  235  make clean
+  236  make index
+  237  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  238  make clean
+  239  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  240  make index
+  241  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  242  make clean
+  243  make index
+  244  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  245  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  246  make index
+  247  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  248  make index
+  249  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  250  make index
+  251  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  252  make index
+  253  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  254  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  255  make index
+  256  make clean
+  257  make index
+  258  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  259  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  260  make index
+  261  make index
+  262  make clean
+  263  make index
+  264  make clean
+  265  make index
+  266  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  267  make index
+  268  make index
+  269  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  270  make index
+  271  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  272  make index
+  273  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  274  make index
+  275  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  276  make index
+  277  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  278  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  279  make index
+  280  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  281  make index
+  282  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  283  make clean
+  284  make index
+  285  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  286  make index
+  287  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  288  make index
+  289  make index
+  290  make index
+  291  make index
+  292  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  293  make index
+  294  make index
+  295  make index
+  296  make index
+  297  make index
+  298  make index
+  299  make index
+  300  make index
+  301  make index
+  302  make index
+  303  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  304  make index
+  305  make index
+  306  make index
+  307  make index
+  308  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  309  make index
+  310  make index
+  311  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  312  make index
+  313  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  314  make index
+  315  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  316  make index
+  317  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  318  make index
+  319  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  320  make index
+  321  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  322  make index
+  323  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  324  make index
+  325  make index
+  326  make index
+  327  make index
+  328  make index
+  329  make index
+  330  make index
+  331  make clean
+  332  cd '/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1000/Assessments/Current/Assignment/Code'
+  333  ls
+  334  cd ..
+  335  ls
+  336  cd ..
+  337  ls
+  338  cd "Assignment 1"
+  339  ls
+  340  cd ..
+  341  ls
+  342  scp "Assignment 1" 20169321@lab218-a04.cs.curtin.edu.au:~/Documents/ucp
+  343  scp -r "Assignment 1" 20169321@lab218-a04.cs.curtin.edu.au:~/Documents/ucp
+  344  pwd
+  345  ssh 20169321@lab218-a04.cs.curtin.edu.au
+  346  ssh 20169321@lab218-a04.cs.curtin.edu.au
+  347  make index
+  348  make index
+  349  make clean
+  350  make
+  351  make index
+  352  make clean
+  353  make index
+  354  ssh 20169321@lab218-a04.cs.curtin.edu.au
+  355  make clean
+  356  make index
+  357  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+  358  scp 20169321@lab218-a04.cs.curtin.edu.au:~/Documents/ucp/assignment1/20169321_Tanaka-Chitete_Assignment1.tar.gz ~/Desktop
+  359  ls
+  360  scp 'Declaration of Originality.pdf' 20169321@lab218-a04.cs.curtin.edu.au:~/Documents/ucp/assignment1
+  361   /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/3c6d7992fd6ad09b1bf6d2b6508610e1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  362   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/3c6d7992fd6ad09b1bf6d2b6508610e1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  363   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/3c6d7992fd6ad09b1bf6d2b6508610e1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  364   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/3c6d7992fd6ad09b1bf6d2b6508610e1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  365  ls
+  366  javac *.java
+  367  ls
+  368  rm *.class
+  369  ls
+  370   /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeProgram 
+  371   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeProgram 
+  372   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeProgram 
+  373   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeProgram 
+  374   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeProgram 
+  375  1
+  376  1
+  377   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeProgram 
+  378   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeProgram 
+  379   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeProgram 
+  380   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeProgram 
+  381   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  382   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  383  java rm *.class
+  384  rm *.class
+  385   /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  386   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  387   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  388   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  389   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  390   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  391   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  392   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  393   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  394   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  395   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  396   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  397   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  398   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  399   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  400   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  401   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  402   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  403   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  404   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  405   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  406   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  407   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  408   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  409   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  410   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  411   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  412   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  413   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  414   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  415   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  416   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  417   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  418   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  419   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  420   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  421   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  422   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  423   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  424   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  425   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  426   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  427   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  428   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  429   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  430   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  431   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  432   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  433   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  434   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  435   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  436   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  437   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  438   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  439   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  440   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  441   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  442   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  443   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  444   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  445   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  446   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  447   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  448   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  449   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  450   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  451   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  452   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  453   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  454   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  455   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  456   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  457   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  458   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  459   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  460   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  461   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  462   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  463   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  464   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  465   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  466   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  467   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  468   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  469   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  470   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  471   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  472   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  473   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  474   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  475   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  476   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  477   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  478   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  479   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  480   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  481   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  482   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  483   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  484   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  485   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  486   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  487   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  488   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  489   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  490   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  491   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  492   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  493   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  494   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeTestHarness 
+  495   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeProgram 
+  496   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeProgram 
+  497   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeProgram 
+  498   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeProgram 
+  499   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeProgram 
+  500   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 05 - Trees/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/602e38c735320bb023a56afd8ca0eca1/redhat.java/jdt_ws/Code_a0c8d870/bin" DSABinarySearchTreeProgram 
+  501  history BashHistory.txt
+  502  history > BashHistory.txt

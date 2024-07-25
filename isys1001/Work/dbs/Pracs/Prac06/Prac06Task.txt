@@ -1,0 +1,12 @@
+TASK 1
+Question 1
+An Inner join, the query is given by:
+SELECT Actors.actorname, Performs.moviename FROM Actors INNER JOIN Performs ON Actors.actorname=Performs.star;
+
+Question 2
+A Left Outer join, the query is given by:
+SELECT Properties.address, Properties.type, Offers.date FROM Properties LEFT OUTER JOIN Offers ON Offers.date;
+
+Question 3
+An Inner join, the query is given by:
+SELECT Cruises.shipname, Cruises.origin, Cruises.destination, Cruises.cost, Ships.rating FROM Cruises INNER JOIN Ships ON Cruises.shipname=Ships.shipname;

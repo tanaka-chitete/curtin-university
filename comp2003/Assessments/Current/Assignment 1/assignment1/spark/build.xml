@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+    Adapted from Dave Cooper 
+    AddressBookApp
+    Implemented for 4. Packages and (Sort-Of) MVC of Worksheet 3: Separation of Concerns
+    Accessed 19/04/2021
+-->
+
+<project name="Main" basedir="." default="clean-build">
+    <property name="src.dir"       value="src"/>
+    <property name="resources.dir" value="resources"/>
+    <property name="build.dir"     value="build"/>
+    <property name="dist.dir"      value="dist"/>
+    <property name="main-class"    value="main.Main"/>
+    
+    <target name="clean">
+        <delete dir="${build.dir}"/>
+        <delete dir="${dist.dir}"/>
+    </target>
+    
+    <target name="compile">
+        <mkdir dir="${build.dir}"/>
+        <javac srcdir="${src.dir}" destdir="${build.dir}" includeantruntime="false" />
+    </target>
+
+    <target name="jar" depends="compile">
+        <mkdir dir="${dist.dir}"/>
+        <jar destfile="${dist.dir}/${ant.project.name}.jar" basedir="${build.dir}">
+            <manifest>
+                <attribute name="Main-Class" value="${main-class}"/>
+            </manifest>
+        </jar>
+        <copy todir="${dist.dir}">
+            <fileset dir="${resources.dir}"/>
+        </copy>
+    </target>
+    
+    <target name="generateanddisplay" depends="jar">
+        <java jar="${dist.dir}/${ant.project.name}.jar" fork="true">
+            <arg value="${arg0}"/>
+            <arg value="${arg1}"/>
+        </java>
+    </target>
+
+    <target name="generateandwrite" depends="jar">
+        <java jar="${dist.dir}/${ant.project.name}.jar" fork="true">
+            <arg value="${arg0}"/>
+            <arg value="${arg1}"/>
+            <arg value="${arg2}"/>
+        </java>
+    </target>
+
+    <target name="readanddisplay" depends="jar">
+        <java jar="${dist.dir}/${ant.project.name}.jar" fork="true">
+            <arg value="${arg0}"/>
+            <arg value="${arg1}"/>
+            <arg value="${arg2}"/>
+        </java>
+    </target> 
+
+    <target name="readandwrite" depends="jar">
+        <java jar="${dist.dir}/${ant.project.name}.jar" fork="true">
+            <arg value="${arg0}"/>
+            <arg value="${arg1}"/>
+            <arg value="${arg2}"/>
+            <arg value="${arg3}"/>
+        </java>
+    </target> 
+
+    <target name="clean-build" depends="clean,jar"/>
+</project>

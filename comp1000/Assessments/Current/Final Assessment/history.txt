@@ -1,0 +1,85 @@
+    1  ls
+    2  cd ..
+    3  ls
+    4  cd ..
+    5  ls
+    6  cd assignment2
+    7  ls
+    8  cp linkedlist.h linkedlist.c linkedlistnode.h linkedlistnode.c stack.h stack.c ../finalassessment/assessed
+    9  vim newsleep.c
+   10  ls
+   11  mv newsleep.c ../finalassessment/assessed
+   12  ls
+   13  cp newsleep.h ../finalassessment/assessed
+   14  ls
+   15  pwd
+   16  clear
+   17  cd ..
+   18  ls
+   19  cd finalassessment
+   20  ls
+   21  cd s1_2020
+   22  ls
+   23  cp fileio.h fileio.c ../assessed
+   24  ls
+   25  vim house.c
+   26  vim house.h
+   27  vim houses.c
+   28  vim main.c
+   29  cp main.c ../assessed
+   30  vim makefile
+   31  vim Makefile
+   32  ls
+   33  cp Makefile ../assessed
+   34  vim Makefile
+   35  vim 
+   36  vim Makefile
+   37  vim house.c
+   38  vim house.h
+   39  cd ../assessed
+   40  vim main.c
+   41  vim rpgvisualiser
+   42  vim rpgvisualiser.c
+   43  vim hero.h
+   44  vim fileio.h
+   45  vim hero.h
+   46  vim linkedlist.h
+   47  vim rpgvisualiser.h
+   48  vim stack.h
+   49  cd ../s1_2020
+   50  ls
+   51  vim house.c
+   52  vim stack.h
+   53  ls
+   54  cd ../assessed
+   55  vim enemy.h
+   56  vim Makefile
+   57  cd
+   58  cd assessed
+   59  make
+   60  vim rpgvisualiser.c
+   61  make
+   62  vim rpgvisualiser.c
+   63  vim Makefile
+   64  vim rpgvisualiser.c
+   65  ls
+   66  vim rpgvisualiser.c
+   67  vim rpgvisualiser.h
+   68  cd ../s1_2020
+   69  ls
+   70  vim hero.h
+   71  make
+   72  vim rpgvisualiser.c
+   73  make
+   74  vim rpgvisualiser.c
+   75  make
+   76  vim rpgvisualiser.c
+   77  make
+   78  vim rpgvisualiser.c
+   79  vim auto.sh
+   80  make clean
+   81  ./auto.sh
+   82  ls
+   83  cd ..
+   84  cd assessed
+   85  history > history.txt

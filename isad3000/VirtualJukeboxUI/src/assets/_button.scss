@@ -1,0 +1,18 @@
+@mixin form-long{
+  width: 80%;
+  border-radius: 4px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  resize: none;
+  margin: 4px;
+  text-align: center;
+}
+
+@mixin form-button{
+  width: 20%;
+  border-radius: 4px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  margin-top: 8px;
+  resize: none;
+}

@@ -1,0 +1,558 @@
+mysql> SOURCE PracTest3Tables_1.sql;
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+mysql> SOURCE PracTest3Values_1.sql;
+ERROR: 
+Failed to open file 'PracTest3Values_1.sql', error: 2
+mysql> USE dswork;
+Database changed
+mysql> SOURCE PracTest3Tables_1.sql;
+Query OK, 0 rows affected, 1 warning (0.00 sec)
+
+Query OK, 0 rows affected (0.03 sec)
+
+Query OK, 0 rows affected, 1 warning (0.00 sec)
+
+Query OK, 0 rows affected (0.03 sec)
+
+Query OK, 0 rows affected, 1 warning (0.00 sec)
+
+Query OK, 0 rows affected (0.03 sec)
+
+Query OK, 0 rows affected, 1 warning (0.00 sec)
+
+Query OK, 0 rows affected (0.02 sec)
+
+mysql> SOURCE PracTest3Values_1.sql;
+ERROR: 
+Failed to open file 'PracTest3Values_1.sql', error: 2
+mysql> SHOW TABLES;
++------------------+
+| Tables_in_dswork |
++------------------+
+| Activity         |
+| CommWork         |
+| Faculty          |
+| Student          |
++------------------+
+4 rows in set (0.00 sec)
+
+mysql> SOURCE PracTest3Values_1.sql;
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+mysql> SHOW TABLES;
++------------------+
+| Tables_in_dswork |
++------------------+
+| Activity         |
+| CommWork         |
+| Faculty          |
+| Student          |
++------------------+
+4 rows in set (0.00 sec)
+
+mysql> DESC Activity;
++--------------+--------------+------+-----+---------+-------+
+| Field        | Type         | Null | Key | Default | Extra |
++--------------+--------------+------+-----+---------+-------+
+| activityNo   | char(6)      | NO   | PRI | NULL    |       |
+| activityName | varchar(24)  | NO   |     | NULL    |       |
+| facultyCode  | char(3)      | NO   | MUL | NULL    |       |
+| leader       | char(6)      | NO   | MUL | NULL    |       |
+| estCost      | decimal(8,2) | YES  |     | NULL    |       |
+| travelCost   | decimal(8,2) | YES  |     | NULL    |       |
+| duration     | smallint(6)  | YES  |     | NULL    |       |
++--------------+--------------+------+-----+---------+-------+
+7 rows in set (0.00 sec)
+
+mysql> SHOW TABLES;
++------------------+
+| Tables_in_dswork |
++------------------+
+| Activity         |
+| CommWork         |
+| Faculty          |
+| Student          |
++------------------+
+4 rows in set (0.00 sec)
+
+mysql> DESC Activity;
++--------------+--------------+------+-----+---------+-------+
+| Field        | Type         | Null | Key | Default | Extra |
++--------------+--------------+------+-----+---------+-------+
+| activityNo   | char(6)      | NO   | PRI | NULL    |       |
+| activityName | varchar(24)  | NO   |     | NULL    |       |
+| facultyCode  | char(3)      | NO   | MUL | NULL    |       |
+| leader       | char(6)      | NO   | MUL | NULL    |       |
+| estCost      | decimal(8,2) | YES  |     | NULL    |       |
+| travelCost   | decimal(8,2) | YES  |     | NULL    |       |
+| duration     | smallint(6)  | YES  |     | NULL    |       |
++--------------+--------------+------+-----+---------+-------+
+7 rows in set (0.00 sec)
+
+mysql> DESC CommWork;
++------------+-------------+------+-----+---------+-------+
+| Field      | Type        | Null | Key | Default | Extra |
++------------+-------------+------+-----+---------+-------+
+| stuNo      | char(6)     | NO   | PRI | NULL    |       |
+| activityNo | char(6)     | NO   | PRI | NULL    |       |
+| hours      | smallint(6) | YES  |     | NULL    |       |
++------------+-------------+------+-----+---------+-------+
+3 rows in set (0.00 sec)
+
+mysql> DESC Faculty;
++-------------+-------------+------+-----+---------+-------+
+| Field       | Type        | Null | Key | Default | Extra |
++-------------+-------------+------+-----+---------+-------+
+| facultyCode | char(3)     | NO   | PRI | NULL    |       |
+| facultyName | varchar(36) | NO   |     | NULL    |       |
++-------------+-------------+------+-----+---------+-------+
+2 rows in set (0.00 sec)
+
+mysql> DESC Student;
++-------------+-------------+------+-----+---------+-------+
+| Field       | Type        | Null | Key | Default | Extra |
++-------------+-------------+------+-----+---------+-------+
+| stuNo       | char(6)     | NO   | PRI | NULL    |       |
+| firstName   | varchar(12) | YES  |     | NULL    |       |
+| lastName    | varchar(15) | YES  |     | NULL    |       |
+| facultyCode | char(3)     | YES  | MUL | NULL    |       |
+| regDate     | date        | YES  |     | NULL    |       |
+| commRate    | char(4)     | YES  |     | NULL    |       |
++-------------+-------------+------+-----+---------+-------+
+6 rows in set (0.00 sec)
+
+mysql> SELECT * FROM Faculty;
++-------------+------------------------------------+
+| facultyCode | facultyName                        |
++-------------+------------------------------------+
+| A01         | Faculty of Science and Engineering |
+| A02         | Faculty of Humanities              |
+| A03         | Faculty of Health Sceiences        |
+| A04         | Faculty of Management              |
+| A05         | Faculty of Law                     |
++-------------+------------------------------------+
+5 rows in set (0.00 sec)
+
+mysql> SELECT Student.firstName, Student.lastName, Activity.activityNo, Activity.acivit
+    -> yName FROM Student JOIN Acivity ON Student.stuNo=Activity.leader;
+ERROR 1146 (42S02): Table 'dswork.Acivity' doesn't exist
+mysql> SELECT Student.firstName, Student.lastName, Activity.activityNo, Activity.acivit
+    -> yName FROM Student JOIN Activity ON Student.stuNo=Activity.leader;
+ERROR 1054 (42S22): Unknown column 'Activity.acivit' in 'field list'
+mysql> SELECT Student.firstName, Student.lastName, Activity.activityNo, Activity.activityName FROM Student JOIN Activity ON Student.stuNo=Activity.leader;
++-----------+----------+------------+----------------------+
+| firstName | lastName | activityNo | activityName         |
++-----------+----------+------------+----------------------+
+| Eva       | Pulaski  | CO3100     | Science for kids     |
+| Sally     | Kwan     | CO3101     | Daffodil day 2020    |
+| Heather   | Nicholls | CO3102     | Sci Fic with Schools |
+| Bruce     | Adamson  | CO3103     | Games Night -Sem1    |
+| Aati      | Awang    | CO3104     | Daffodil day 2021    |
+| Diya      | Chauhan  | CO3105     | Tax Clinic           |
+| Adrian    | Silva    | CO3106     | Eating Healthy       |
++-----------+----------+------------+----------------------+
+7 rows in set (0.00 sec)
+
+mysql> SELECT Faculty.facultyCode, Faculty.facultyName, Activity.activityNo, Activity.a
+    -> ctivityName FROM Faculty JOIN Activity ON Faculty.facultyCode=Activity.facultyCo
+    -> de;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'de' at line 3
+mysql> SELECT Faculty.facultyCode, Faculty.facultyName, Activity.activityNo, Activity.activityName FROM Faculty JOIN Activity ON Faculty.facultyCode=Activity.facultyCode;
++-------------+------------------------------------+------------+----------------------+
+| facultyCode | facultyName                        | activityNo | activityName         |
++-------------+------------------------------------+------------+----------------------+
+| A01         | Faculty of Science and Engineering | CO3100     | Science for kids     |
+| A01         | Faculty of Science and Engineering | CO3102     | Sci Fic with Schools |
+| A01         | Faculty of Science and Engineering | CO3103     | Games Night -Sem1    |
+| A02         | Faculty of Humanities              | CO3101     | Daffodil day 2020    |
+| A02         | Faculty of Humanities              | CO3104     | Daffodil day 2021    |
+| A03         | Faculty of Health Sceiences        | CO3106     | Eating Healthy       |
+| A05         | Faculty of Law                     | CO3105     | Tax Clinic           |
++-------------+------------------------------------+------------+----------------------+
+7 rows in set (0.00 sec)
+
+mysql> DESC Student;
++-------------+-------------+------+-----+---------+-------+
+| Field       | Type        | Null | Key | Default | Extra |
++-------------+-------------+------+-----+---------+-------+
+| stuNo       | char(6)     | NO   | PRI | NULL    |       |
+| firstName   | varchar(12) | YES  |     | NULL    |       |
+| lastName    | varchar(15) | YES  |     | NULL    |       |
+| facultyCode | char(3)     | YES  | MUL | NULL    |       |
+| regDate     | date        | YES  |     | NULL    |       |
+| commRate    | char(4)     | YES  |     | NULL    |       |
++-------------+-------------+------+-----+---------+-------+
+6 rows in set (0.00 sec)
+
+mysql> SELECT Student.stuNo, Student.firstName, Student.lastName, Student.commRate FROM Student JOIN Stud
+    -> ent ON (Student.rating > SELECT Student.rating FROM Student WHERE Student.name='Heather Nicholls');
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT Student.rating FROM Student WHERE Student.name='Heather Nicholls')' at line 2
+mysql> SELECT Student.stuNo, Student.firstName, Student.lastName, Student.commRate FROM Student JOIN Stud
+    -> ent ON Student.rating > (SELECT Student.rating FROM Student WHERE Student.name='Heather Nicholls');
+ERROR 1146 (42S02): Table 'dswork.Stud' doesn't exist
+mysql> SELECT Student.stuNo, Student.firstName, Student.lastName, Student.commRate FROM Student JOIN Student ON Student.rating > (SELECT Student.rating FROM Student WHERE Student.name='Heather Nicholls');
+ERROR 1066 (42000): Not unique table/alias: 'Student'
+mysql> SELECT stuNo, firstName, lastName, commRate FROM Student WHERE rating > (SELECT rating FROM Student WHERE Student.name='Heather Nicholls');
+ERROR 1054 (42S22): Unknown column 'rating' in 'where clause'
+mysql> SELECT stuNo, firstName, lastName, commRate FROM Student WHERE commRate > (SELECT commRate FROM Student WHERE Student.firstName='Heather' AND Student.lastName='Nicholls');
++--------+-----------+-----------+----------+
+| stuNo  | firstName | lastName  | commRate |
++--------+-----------+-----------+----------+
+| 000010 | Christine | Haas      | 6        |
+| 000012 | Eva       | Pulaski   | 6        |
+| 000013 | Vincenzo  | Lucchesi  | 9        |
+| 000019 | Diya      | Chauhan   | 7        |
+| 000021 | Sally     | Kwan      | 7        |
+| 000022 | Masatoshi | Yoshimura | 5        |
+| 000024 | Salvatore | Marino    | 5        |
+| 000025 | Ethel     | Schneider | 8        |
+| 000026 | Daniel    | Smith     | 8        |
+| 000027 | John      | Parker    | 8        |
+| 000028 | Wing      | Lee       | 8        |
+| 000029 | Irving    | Stern     | 8        |
++--------+-----------+-----------+----------+
+12 rows in set (0.01 sec)
+
+mysql> SELECT commRate FROM Student WHERE firstName='Heather' AND lastName='Nicholls';
++----------+
+| commRate |
++----------+
+| 4        |
++----------+
+1 row in set (0.00 sec)
+
+mysql> SELECT * FROM Activity;
++------------+----------------------+-------------+--------+----------+------------+----------+
+| activityNo | activityName         | facultyCode | leader | estCost  | travelCost | duration |
++------------+----------------------+-------------+--------+----------+------------+----------+
+| CO3100     | Science for kids     | A01         | 000012 | 10000.00 |       NULL |     NULL |
+| CO3101     | Daffodil day 2020    | A02         | 000021 |   500.00 |     100.00 |        1 |
+| CO3102     | Sci Fic with Schools | A01         | 000014 |  5000.00 |    1000.00 |        6 |
+| CO3103     | Games Night -Sem1    | A01         | 000015 |   500.00 |       NULL |        3 |
+| CO3104     | Daffodil day 2021    | A02         | 000016 |   600.00 |       NULL |        1 |
+| CO3105     | Tax Clinic           | A05         | 000019 |  1200.00 |       NULL |        3 |
+| CO3106     | Eating Healthy       | A03         | 000018 |  8000.00 |     200.00 |        3 |
++------------+----------------------+-------------+--------+----------+------------+----------+
+7 rows in set (0.00 sec)
+
+mysql> SELECT estCost, FROM Activity GROUP BY facultyCode; 
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM Activity GROUP BY facultyCode' at line 1
+mysql> SELECT estCost FROM Activity GROUP BY facultyCode;
+ERROR 1055 (42000): Expression #1 of SELECT list is not in GROUP BY clause and contains nonaggregated column 'dswork.Activity.estCost' which is not functionally dependent on columns in GROUP BY clause; this is incompatible with sql_mode=only_full_group_by
+mysql> SELECT SUM(estCost) FROM Activity GROUP BY facultyCode;   
++--------------+
+| SUM(estCost) |
++--------------+
+|     15500.00 |
+|      1100.00 |
+|      8000.00 |
+|      1200.00 |
++--------------+
+4 rows in set (0.01 sec)
+
+mysql> SELECT SUM(estCost), AVG(estCost), COUNT(*) FROM Activity GROUP BY facultyCode ORDER BY SUM(estCost) DESC;
++--------------+--------------+----------+
+| SUM(estCost) | AVG(estCost) | COUNT(*) |
++--------------+--------------+----------+
+|     15500.00 |  5166.666667 |        3 |
+|      8000.00 |  8000.000000 |        1 |
+|      1200.00 |  1200.000000 |        1 |
+|      1100.00 |   550.000000 |        2 |
++--------------+--------------+----------+
+4 rows in set (0.00 sec)
+
+mysql> SELECT * FROM Activity;
++------------+----------------------+-------------+--------+----------+------------+----------+
+| activityNo | activityName         | facultyCode | leader | estCost  | travelCost | duration |
++------------+----------------------+-------------+--------+----------+------------+----------+
+| CO3100     | Science for kids     | A01         | 000012 | 10000.00 |       NULL |     NULL |
+| CO3101     | Daffodil day 2020    | A02         | 000021 |   500.00 |     100.00 |        1 |
+| CO3102     | Sci Fic with Schools | A01         | 000014 |  5000.00 |    1000.00 |        6 |
+| CO3103     | Games Night -Sem1    | A01         | 000015 |   500.00 |       NULL |        3 |
+| CO3104     | Daffodil day 2021    | A02         | 000016 |   600.00 |       NULL |        1 |
+| CO3105     | Tax Clinic           | A05         | 000019 |  1200.00 |       NULL |        3 |
+| CO3106     | Eating Healthy       | A03         | 000018 |  8000.00 |     200.00 |        3 |
++------------+----------------------+-------------+--------+----------+------------+----------+
+7 rows in set (0.00 sec)
+
+mysql> SELECT facultyCode, SUM(estCost), AVG(estCost), COUNT(*) FROM Activity GROUP BY facultyCode ORDER BY SUM(estCost) DESC;
++-------------+--------------+--------------+----------+
+| facultyCode | SUM(estCost) | AVG(estCost) | COUNT(*) |
++-------------+--------------+--------------+----------+
+| A01         |     15500.00 |  5166.666667 |        3 |
+| A03         |      8000.00 |  8000.000000 |        1 |
+| A05         |      1200.00 |  1200.000000 |        1 |
+| A02         |      1100.00 |   550.000000 |        2 |
++-------------+--------------+--------------+----------+
+4 rows in set (0.00 sec)
+
+mysql> SELECT facultyCode, SUM(estCost), AVG(estCost), COUNT(*) FROM Activity GROUP BY facultyCode ORDER BY SUM(estCost) DESC;
++-------------+--------------+--------------+----------+
+| facultyCode | SUM(estCost) | AVG(estCost) | COUNT(*) |
++-------------+--------------+--------------+----------+
+| A01         |     15500.00 |  5166.666667 |        3 |
+| A03         |      8000.00 |  8000.000000 |        1 |
+| A05         |      1200.00 |  1200.000000 |        1 |
+| A02         |      1100.00 |   550.000000 |        2 |
++-------------+--------------+--------------+----------+
+4 rows in set (0.00 sec)
+
+mysql> DESC CommWork;
++------------+-------------+------+-----+---------+-------+
+| Field      | Type        | Null | Key | Default | Extra |
++------------+-------------+------+-----+---------+-------+
+| stuNo      | char(6)     | NO   | PRI | NULL    |       |
+| activityNo | char(6)     | NO   | PRI | NULL    |       |
+| hours      | smallint(6) | YES  |     | NULL    |       |
++------------+-------------+------+-----+---------+-------+
+3 rows in set (0.00 sec)
+
+mysql> SELECT Student.stuNo, Student.firstName, Student.lastName, SUM(CommWork.hours), COUNT(Student.hours) FROM Student JOIN CommWork GROUP BY Student.stuNo;
+ERROR 1054 (42S22): Unknown column 'Student.hours' in 'field list'
+mysql> DESC Student;
++-------------+-------------+------+-----+---------+-------+
+| Field       | Type        | Null | Key | Default | Extra |
++-------------+-------------+------+-----+---------+-------+
+| stuNo       | char(6)     | NO   | PRI | NULL    |       |
+| firstName   | varchar(12) | YES  |     | NULL    |       |
+| lastName    | varchar(15) | YES  |     | NULL    |       |
+| facultyCode | char(3)     | YES  | MUL | NULL    |       |
+| regDate     | date        | YES  |     | NULL    |       |
+| commRate    | char(4)     | YES  |     | NULL    |       |
++-------------+-------------+------+-----+---------+-------+
+6 rows in set (0.00 sec)
+
+mysql> SELECT Student.stuNo, Student.firstName, Student.lastName, SUM(CommWork.hours), COUNT(CommWork.hours) FROM Student JOIN CommWork GROUP BY Student.stuNo;
++--------+-----------+-----------+---------------------+-----------------------+
+| stuNo  | firstName | lastName  | SUM(CommWork.hours) | COUNT(CommWork.hours) |
++--------+-----------+-----------+---------------------+-----------------------+
+| 000010 | Christine | Haas      |                  28 |                    16 |
+| 000011 | John      | Geyer     |                  28 |                    16 |
+| 000012 | Eva       | Pulaski   |                  28 |                    16 |
+| 000013 | Vincenzo  | Lucchesi  |                  28 |                    16 |
+| 000014 | Heather   | Nicholls  |                  28 |                    16 |
+| 000015 | Bruce     | Adamson   |                  28 |                    16 |
+| 000016 | Aati      | Awang     |                  28 |                    16 |
+| 000017 | Ruchira   | Patel     |                  28 |                    16 |
+| 000018 | Adrian    | Silva     |                  28 |                    16 |
+| 000019 | Diya      | Chauhan   |                  28 |                    16 |
+| 000020 | Apurva    | Banerjee  |                  28 |                    16 |
+| 000021 | Sally     | Kwan      |                  28 |                    16 |
+| 000022 | Masatoshi | Yoshimura |                  28 |                    16 |
+| 000023 | David     | Brown     |                  28 |                    16 |
+| 000024 | Salvatore | Marino    |                  28 |                    16 |
+| 000025 | Ethel     | Schneider |                  28 |                    16 |
+| 000026 | Daniel    | Smith     |                  28 |                    16 |
+| 000027 | John      | Parker    |                  28 |                    16 |
+| 000028 | Wing      | Lee       |                  28 |                    16 |
+| 000029 | Irving    | Stern     |                  28 |                    16 |
++--------+-----------+-----------+---------------------+-----------------------+
+20 rows in set (0.01 sec)
+
+mysql> SELECT Student.stuNo, Student.firstName, Student.lastName, SUM(CommWork.hours), COUNT(CommWork.hours) FROM Student INNER JOIN CommWork WHERE Student.stuNo=CommWork.stuNo GROUP BY Student.stuNo;
++--------+-----------+-----------+---------------------+-----------------------+
+| stuNo  | firstName | lastName  | SUM(CommWork.hours) | COUNT(CommWork.hours) |
++--------+-----------+-----------+---------------------+-----------------------+
+| 000012 | Eva       | Pulaski   |                   6 |                     3 |
+| 000014 | Heather   | Nicholls  |                   1 |                     1 |
+| 000015 | Bruce     | Adamson   |                   3 |                     3 |
+| 000016 | Aati      | Awang     |                   2 |                     1 |
+| 000018 | Adrian    | Silva     |                   3 |                     1 |
+| 000019 | Diya      | Chauhan   |                   1 |                     1 |
+| 000021 | Sally     | Kwan      |                   3 |                     1 |
+| 000023 | David     | Brown     |                   3 |                     1 |
+| 000025 | Ethel     | Schneider |                   1 |                     1 |
+| 000026 | Daniel    | Smith     |                   2 |                     1 |
+| 000027 | John      | Parker    |                   1 |                     1 |
+| 000028 | Wing      | Lee       |                   2 |                     1 |
++--------+-----------+-----------+---------------------+-----------------------+
+12 rows in set (0.00 sec)
+
+mysql> SELECT Student.stuNo, Student.firstName, Student.lastName, SUM(CommWork.hours), COUNT(CommWork.hours) FROM Student RIGHT OUTER JOIN CommWork WHERE Student.stuNo=CommWork.stuNo GROUP BY Student.stuNo;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE Student.stuNo=CommWork.stuNo GROUP BY Student.stuNo' at line 1
+mysql> SELECT Student.stuNo, Student.firstName, Student.lastName, SUM(CommWork.hours), COUNT(CommWork.hours) FROM Student RIGHT OUTER JOIN CommWork ON Student.stuNo=CommWork.stuNo GROUP BY Student.stuNo;
++--------+-----------+-----------+---------------------+-----------------------+
+| stuNo  | firstName | lastName  | SUM(CommWork.hours) | COUNT(CommWork.hours) |
++--------+-----------+-----------+---------------------+-----------------------+
+| 000012 | Eva       | Pulaski   |                   6 |                     3 |
+| 000014 | Heather   | Nicholls  |                   1 |                     1 |
+| 000015 | Bruce     | Adamson   |                   3 |                     3 |
+| 000016 | Aati      | Awang     |                   2 |                     1 |
+| 000018 | Adrian    | Silva     |                   3 |                     1 |
+| 000019 | Diya      | Chauhan   |                   1 |                     1 |
+| 000021 | Sally     | Kwan      |                   3 |                     1 |
+| 000023 | David     | Brown     |                   3 |                     1 |
+| 000025 | Ethel     | Schneider |                   1 |                     1 |
+| 000026 | Daniel    | Smith     |                   2 |                     1 |
+| 000027 | John      | Parker    |                   1 |                     1 |
+| 000028 | Wing      | Lee       |                   2 |                     1 |
++--------+-----------+-----------+---------------------+-----------------------+
+12 rows in set (0.00 sec)
+
+mysql> SELECT Student.stuNo, Student.firstName, Student.lastName, SUM(CommWork.hours), COUNT(CommWork.hours) FROM Student LEFT OUTER JOIN CommWork ON Student.stuNo=CommWork.stuNo GROUP BY Student.stuNo;
++--------+-----------+-----------+---------------------+-----------------------+
+| stuNo  | firstName | lastName  | SUM(CommWork.hours) | COUNT(CommWork.hours) |
++--------+-----------+-----------+---------------------+-----------------------+
+| 000010 | Christine | Haas      |                NULL |                     0 |
+| 000011 | John      | Geyer     |                NULL |                     0 |
+| 000012 | Eva       | Pulaski   |                   6 |                     3 |
+| 000013 | Vincenzo  | Lucchesi  |                NULL |                     0 |
+| 000014 | Heather   | Nicholls  |                   1 |                     1 |
+| 000015 | Bruce     | Adamson   |                   3 |                     3 |
+| 000016 | Aati      | Awang     |                   2 |                     1 |
+| 000017 | Ruchira   | Patel     |                NULL |                     0 |
+| 000018 | Adrian    | Silva     |                   3 |                     1 |
+| 000019 | Diya      | Chauhan   |                   1 |                     1 |
+| 000020 | Apurva    | Banerjee  |                NULL |                     0 |
+| 000021 | Sally     | Kwan      |                   3 |                     1 |
+| 000022 | Masatoshi | Yoshimura |                NULL |                     0 |
+| 000023 | David     | Brown     |                   3 |                     1 |
+| 000024 | Salvatore | Marino    |                NULL |                     0 |
+| 000025 | Ethel     | Schneider |                   1 |                     1 |
+| 000026 | Daniel    | Smith     |                   2 |                     1 |
+| 000027 | John      | Parker    |                   1 |                     1 |
+| 000028 | Wing      | Lee       |                   2 |                     1 |
+| 000029 | Irving    | Stern     |                NULL |                     0 |
++--------+-----------+-----------+---------------------+-----------------------+
+20 rows in set (0.00 sec)
+
+mysql> SELECT Student.stuNo, Student.firstName, Student.lastName, SUM(CommWork.hours) AS totalHours, COUNT(CommWork.hours) AS numActivities FROM Student LEFT OUTER JOIN CommWork ON Student.stuNo=CommWork.stuNo GROUP BY Student.stuNo;
++--------+-----------+-----------+------------+---------------+
+| stuNo  | firstName | lastName  | totalHours | numActivities |
++--------+-----------+-----------+------------+---------------+
+| 000010 | Christine | Haas      |       NULL |             0 |
+| 000011 | John      | Geyer     |       NULL |             0 |
+| 000012 | Eva       | Pulaski   |          6 |             3 |
+| 000013 | Vincenzo  | Lucchesi  |       NULL |             0 |
+| 000014 | Heather   | Nicholls  |          1 |             1 |
+| 000015 | Bruce     | Adamson   |          3 |             3 |
+| 000016 | Aati      | Awang     |          2 |             1 |
+| 000017 | Ruchira   | Patel     |       NULL |             0 |
+| 000018 | Adrian    | Silva     |          3 |             1 |
+| 000019 | Diya      | Chauhan   |          1 |             1 |
+| 000020 | Apurva    | Banerjee  |       NULL |             0 |
+| 000021 | Sally     | Kwan      |          3 |             1 |
+| 000022 | Masatoshi | Yoshimura |       NULL |             0 |
+| 000023 | David     | Brown     |          3 |             1 |
+| 000024 | Salvatore | Marino    |       NULL |             0 |
+| 000025 | Ethel     | Schneider |          1 |             1 |
+| 000026 | Daniel    | Smith     |          2 |             1 |
+| 000027 | John      | Parker    |          1 |             1 |
+| 000028 | Wing      | Lee       |          2 |             1 |
+| 000029 | Irving    | Stern     |       NULL |             0 |
++--------+-----------+-----------+------------+---------------+
+20 rows in set (0.00 sec)
+
+mysql> SELECT facultyCode, SUM(estCost) as totalCost, AVG(estCost) avgCost, COUNT(*) numActivities FROM Activity GROUP BY facultyCode ORDER BY SUM(estCost) DESC;
++-------------+-----------+-------------+---------------+
+| facultyCode | totalCost | avgCost     | numActivities |
++-------------+-----------+-------------+---------------+
+| A01         |  15500.00 | 5166.666667 |             3 |
+| A03         |   8000.00 | 8000.000000 |             1 |
+| A05         |   1200.00 | 1200.000000 |             1 |
+| A02         |   1100.00 |  550.000000 |             2 |
++-------------+-----------+-------------+---------------+
+4 rows in set (0.00 sec)
+
+mysql> exit

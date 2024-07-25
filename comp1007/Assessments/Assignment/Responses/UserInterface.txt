@@ -1,0 +1,189 @@
+CLASS: UserInterface
+
+    CLASS CONSTANTS: TOL := 0.000001
+                     STR_MIN_LEN := 2
+
+    PUBLIC SUBMODULES:
+
+    SUBMODULE: userInput
+    IMPORT: min (Integer), max (Integer), prompt (String)
+    EXPORT: input (Integer)
+    ASSERTION: Integer input will be validated as within min and max inclusive
+    ALGORITHM:
+        trigger := max - min (Integers)
+        error := "Input must be between " + min + " and " + max + " inclusive"
+        IF (trigger = 1) THEN
+            error := "Input must be either " + min + " or " + max
+        END IF
+
+        input := min - 1 (Integers)
+        out := prompt
+        DO
+            TRY
+                OUTPUT out
+                INPUT input (Integer)
+                IF (input < min) OR (input > max) THEN
+                    printError <- error
+                END IF
+            CATCH <- InputMismatchException
+                printError <- error
+            END TRY
+        WHILE (input < min) OR (input > max)
+        EXPORT input (Integer)
+    END userInput
+
+    SUBMODULE: userInput
+    IMPORT: min (Real), max (Real), prompt (String)
+    EXPORT: input (Real)
+    ASSERTION: Real input will be validated as within min and max inclusive
+    ALGORITHM:
+        trigger := max - min (Reals)
+        error := "Input must be between " + min + " and " + max + " inclusive"
+        IF (PDIMath.abs(trigger - 1.0) < TOL) THEN
+            error := "Input must be either " + min + " or " + max
+        END IF
+
+        input := min - 1.0 (Reals)
+        out := prompt
+        DO
+            TRY
+                OUTPUT out
+                INPUT input (Integer)
+                IF (input < min) OR (input > max) THEN
+                    printError <- error
+                END IF
+            CATCH <- InputMismatchException
+                printError <- error
+            END TRY
+        WHILE (input < min) OR (input > max)
+        EXPORT input (Real)
+    END userInput
+    
+    SUBMODULE: userInput
+    IMPORT: min (Character), max (Character), prompt (String)
+    EXPORT: input (Character)
+    ASSERTION: Character input will be validated as being within min and max 
+               inclusive
+    ALGORITHM:
+        trigger := (Convert to Integer) max - (Convert to Integer) min 
+        error := "Input must be between " + min + " and " + max + " inclusive"
+        IF (trigger = (Convert to Character)1) THEN
+            error := "Input must be either " + min + " or " + max
+        END IF
+
+        input := (Convert to Character) 
+                 (min - (Convert to Character) 1)
+        out := prompt
+        DO
+            TRY
+                OUTPUT out
+                INPUT input (Integer)
+                IF (input < min) OR (input > max) THEN
+                    printError <- error
+                END IF
+            CATCH <- InputMismatchException
+                printError <- error
+            END TRY
+        WHILE (input < min) OR (input > max)
+        EXPORT input (Character)
+    END userInput
+
+    SUBMODULE: userInput
+    IMPORT: prompt (String)
+    EXPORT: input (String)
+    ASSERTION: String input will be received
+    ALGORITHM:
+        error := "Input must be at least two characters in length" 
+        out := prompt
+        DO
+            OUTPUT out
+            INPUT input (String)
+
+            validString := validateString <- input
+            IF NOT (validString) THEN       
+                printError <- error
+            END IF
+        WHILE NOT (validString)
+        EXPORT input (String)
+    END userInput
+
+    SUBMODULE: printMainMenu
+    IMPORT: none
+    EXPORT: none
+    ASSERTION: Prints 'Main Menu' options to the screen
+    ALGORITHM: 
+        OUTPUT "Main Menu" + NL + NL +
+
+               "1. Import Image" + NL +
+               "2. Import Kernel" + NL +
+               "3. Convolute Image" + NL +
+               "4. Smoothen Image" + NL + 
+               "5. Smoothen Convoluted Image" + NL
+               "6. Export Image" + NL +
+               "7. Export Convoluted Image" + NL 
+               "0. End Program" + NL
+    END printMainMenu
+
+    SUBMODULE: printImportImageSourceMenu
+    IMPORT: none
+    EXPORT: none
+    ASSERTION: Prints 'Import Image: Source' options to the screen
+    ALGORITHM:
+        OUTPUT "Import Image: Source" + NL + NL +
+
+               "1. File" + NL + 
+               "2. User Input" + NL
+    END printImportImageSourceMenu
+ 
+    SUBMODULE: printImportKernelSourceMenu
+    IMPORT: none
+    EXPORT: none
+    ASSERTION: Prints 'Import Kernel: Source' options to the screen
+    ALGORITHM:
+        OUTPUT "Import Kernel: Source" + NL + NL +
+
+               "1. File" + NL +
+               "2. User Input" + NL
+    END printImportKernelSourceMenu
+
+    SUBMODULE: printExportImageOrConvoluteFormatMenu
+    IMPORT: none
+    EXPORT: none
+    ASSERTION: Prints 'Export Image: Format' options to the screen
+    ALGORITHM:
+        OUTPUT "Export Image: Format" + NL + NL +
+
+               "1. CSV" + NL +
+               "2. PNG" + NL
+    END printExportImageOrConvoluteFormatMenu
+
+    SUBMODULE: printMessage
+    IMPORT: message (String)
+    EXPORT none
+    ASSERTION: Message will be printed
+    ALGORITHM:
+        OUTPUT message
+    END printMessage
+    
+    SUBMODULE: printError
+    IMPORT: error (String)
+    EXPORT: none
+    ASSERTION: Error will be printed
+    ALGORITHM: 
+        OUTPUT error
+    END printError
+
+    PRIVATE SUBMODULES:
+
+    SUBMODULE: validateString
+    IMPORT: input (String)
+    EXPORT: validString (Boolean)
+    ASSERTION: Input will be validated as having two or more characters 
+    ALGORITHM:
+        validString := FALSE
+        IF ((input.length <- none) >= STR_MIN_LEN) THEN
+            validString := TRUE
+        END IF
+        EXPORT validString (Boolean)
+    END validateString 
+END userInterface 

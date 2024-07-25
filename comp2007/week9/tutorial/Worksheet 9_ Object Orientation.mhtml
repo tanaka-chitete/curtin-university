@@ -1,0 +1,268 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://lms.curtin.edu.au/bbcswebdav/pid-10485276-dt-content-rid-65593568_1/courses/2022_2_COMP2007_V1_L1_A1_INT_752994/Worksheets/Worksheet9_OO.html
+Subject: Worksheet 9: Object Orientation
+Date: Thu, 25 Jul 2024 20:17:29 +1000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--1CXfuZkpLOjnycyoaKlDCoduOosEThAa6hjMJwNoJn----"
+
+
+------MultipartBoundary--1CXfuZkpLOjnycyoaKlDCoduOosEThAa6hjMJwNoJn----
+Content-Type: text/html
+Content-ID: <frame-71A4A965A3B03C6832127241A8D25CBA@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://lms.curtin.edu.au/bbcswebdav/pid-10485276-dt-content-rid-65593568_1/courses/2022_2_COMP2007_V1_L1_A1_INT_752994/Worksheets/Worksheet9_OO.html
+
+<!DOCTYPE html><!-- saved from url=3D(0149)https://lms.curtin.edu.au/bbcswe=
+bdav/pid-10485276-dt-content-rid-65593568_1/courses/2022_2_COMP2007_V1_L1_A=
+1_INT_752994/Worksheets/Worksheet9_OO.html --><html lang=3D"en"><head><meta=
+ http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8"><link r=
+el=3D"stylesheet" type=3D"text/css" href=3D"cid:css-7d1c1bcc-7e2b-4c06-8624=
+-a6c42518ff4b@mhtml.blink" />
+
+<title>Worksheet 9: Object Orientation</title>
+<link rel=3D"stylesheet" href=3D"https://lms.curtin.edu.au/bbcswebdav/pid-1=
+0485276-dt-content-rid-65593568_1/courses/2022_2_COMP2007_V1_L1_A1_INT_7529=
+94/Worksheets/Worksheet%209_%20Object%20Orientation_files/css2">
+
+</head>
+<body>
+<div id=3D"la-doc-parent"><div class=3D"toc" id=3D"toc"><span class=3D"toct=
+itle">Contents</span><ul><li><a href=3D"https://lms.curtin.edu.au/bbcswebda=
+v/pid-10485276-dt-content-rid-65593568_1/courses/2022_2_COMP2007_V1_L1_A1_I=
+NT_752994/Worksheets/Worksheet9_OO.html#object-orientation-discussion">Obje=
+ct Orientation Discussion</a></li>
+<li><a href=3D"https://lms.curtin.edu.au/bbcswebdav/pid-10485276-dt-content=
+-rid-65593568_1/courses/2022_2_COMP2007_V1_L1_A1_INT_752994/Worksheets/Work=
+sheet9_OO.html#object-oriented-research">Object Oriented Research</a></li>
+<li><a href=3D"https://lms.curtin.edu.au/bbcswebdav/pid-10485276-dt-content=
+-rid-65593568_1/courses/2022_2_COMP2007_V1_L1_A1_INT_752994/Worksheets/Work=
+sheet9_OO.html#object-oriented-programming">Object Oriented Programming</a>=
+</li>
+</ul></div>
+<div id=3D"la-doc-area"><div id=3D"la-doc" tabindex=3D"0"><h1 id=3D"workshe=
+et-9-object-orientation">Worksheet 9: Object Orientation</h1>
+<div class=3D"admonition preamble">
+<p>COMP2007 Programming Languages</p>
+<p>Created by Arlen Brower<br>
+Copyright =C2=A9 2022 Curtin University</p>
+</div>
+<h2 id=3D"object-orientation-discussion">Object Orientation Discussion</h2>
+<p class=3D"alpha">Discuss the following questions:<br></p>
+<ol><li>
+<p>What is dynamic or late binding?</p>
+</li>
+<li>
+<p>What is polymorphism? How is it achieved?</p>
+</li>
+<li>
+<p>What is inheritance? What does inheritance allow you to do?</p>
+</li>
+<li>
+<p>What is a class? What is an object?</p>
+</li>
+<li>
+<p>What is Encapsulation and why is it useful?</p>
+</li>
+<li>
+<p>Why is Encapsulation not useful?</p>
+</li>
+<li>
+<p>What are the issues with multiple inheritance?</p>
+</li>
+<li>
+<p>How does Java mitigate the issues with multiple inheritance?</p>
+</li>
+<li>
+<p>Objects are typically allocated on the heap. What is the danger of havin=
+g a stack-dynamic allocation scheme instead?</p>
+</li>
+<li>
+<p>Consider other paradigms you have encountered so far. How does object or=
+ientation compare to functional or procedural languages?</p>
+</li>
+</ol><h2 id=3D"object-oriented-research">Object Oriented Research</h2>
+<p>Ruby and C++ use two interesting constructs: mixins and templates, respe=
+ctively. Your task is to 1) determine what these two terms mean, (2) how to=
+ use them, (3) compare and contrast their similarities and differences.</p>
+<p>Additionally, consider what the uses for these constructs might be.</p>
+<h2 id=3D"object-oriented-programming">Object Oriented Programming</h2>
+<p>Given the following C++ object definition:</p>
+<p></p><div class=3D"highlight"><pre><span></span><code><span class=3D"k">c=
+lass</span><span class=3D"w"> </span><span class=3D"nc">Book</span><span cl=
+ass=3D"w"></span>
+<span class=3D"p">{</span><span class=3D"w"></span>
+<span class=3D"k">private</span><span class=3D"o">:</span><span class=3D"w"=
+></span>
+<span class=3D"w">    </span><span class=3D"kt">int</span><span class=3D"w"=
+> </span><span class=3D"n">bookID</span><span class=3D"p">;</span><span cla=
+ss=3D"w"></span>
+<span class=3D"w">    </span><span class=3D"n">std</span><span class=3D"o">=
+::</span><span class=3D"n">string</span><span class=3D"w"> </span><span cla=
+ss=3D"n">bookName</span><span class=3D"p">;</span><span class=3D"w"></span>
+<span class=3D"w">    </span><span class=3D"n">std</span><span class=3D"o">=
+::</span><span class=3D"n">string</span><span class=3D"w"> </span><span cla=
+ss=3D"n">ISBN</span><span class=3D"p">;</span><span class=3D"w"></span>
+<span class=3D"k">public</span><span class=3D"o">:</span><span class=3D"w">=
+</span>
+<span class=3D"w">    </span><span class=3D"kt">int</span><span class=3D"w"=
+> </span><span class=3D"n">GetBookID</span><span class=3D"p">();</span><spa=
+n class=3D"w"></span>
+<span class=3D"w">    </span><span class=3D"n">std</span><span class=3D"o">=
+::</span><span class=3D"n">string</span><span class=3D"w"> </span><span cla=
+ss=3D"nf">GetBookName</span><span class=3D"p">();</span><span class=3D"w"><=
+/span>
+<span class=3D"w">    </span><span class=3D"n">std</span><span class=3D"o">=
+::</span><span class=3D"n">string</span><span class=3D"w"> </span><span cla=
+ss=3D"nf">GetISBN</span><span class=3D"p">();</span><span class=3D"w"></spa=
+n>
+
+<span class=3D"w">    </span><span class=3D"kt">void</span><span class=3D"w=
+"> </span><span class=3D"nf">SetBookID</span><span class=3D"p">(</span><spa=
+n class=3D"kt">int</span><span class=3D"p">);</span><span class=3D"w"></spa=
+n>
+<span class=3D"w">    </span><span class=3D"kt">void</span><span class=3D"w=
+"> </span><span class=3D"nf">SetBookName</span><span class=3D"p">(</span><s=
+pan class=3D"n">std</span><span class=3D"o">::</span><span class=3D"n">stri=
+ng</span><span class=3D"p">);</span><span class=3D"w"></span>
+<span class=3D"w">    </span><span class=3D"kt">void</span><span class=3D"w=
+"> </span><span class=3D"nf">SetBookISBN</span><span class=3D"p">(</span><s=
+pan class=3D"n">std</span><span class=3D"o">::</span><span class=3D"n">stri=
+ng</span><span class=3D"p">);</span><span class=3D"w"></span>
+
+<span class=3D"w">    </span><span class=3D"n">Book</span><span class=3D"p"=
+>();</span><span class=3D"w"></span>
+<span class=3D"w">    </span><span class=3D"o">~</span><span class=3D"n">Bo=
+ok</span><span class=3D"p">();</span><span class=3D"w"></span>
+<span class=3D"p">};</span><span class=3D"w"></span>
+</code></pre></div><br>
+Build a program that sorts a list of these objects using quicksort. You wil=
+l need to<br>
+implement this object in order to test it!<div class=3D"pageN" title=3D"Pse=
+udo page number" style=3D"top: calc(1200px - 1em);">1</div><div class=3D"pa=
+geN" title=3D"Pseudo page number" style=3D"top: calc(-1em + 1200px);">1</di=
+v></div></div></div>
+
+
+</body></html>
+------MultipartBoundary--1CXfuZkpLOjnycyoaKlDCoduOosEThAa6hjMJwNoJn----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-7d1c1bcc-7e2b-4c06-8624-a6c42518ff4b@mhtml.blink
+
+@charset "utf-8";
+
+:root { --la-admonition-border-color: #606060; --la-bullet1-color: #0080ff;=
+ --la-bullet1-shape: "\25A0"; --la-code-keyword-color: blue; --la-code-keyw=
+ord-font: bold; --la-code-name-color: black; --la-code-name-font: inherit; =
+--la-code-operator-color: red; --la-code-operator-font: inherit; --la-code-=
+space-color: #bbbbbb; --la-code-space-font: inherit; --la-header-font: var(=
+--la-serif-font); --la-main-background: white; --la-main-color: black; --la=
+-main-font: var(--la-sans-font); --la-monospace-font: "Inconsolata", monosp=
+ace; --la-number-color: #ff6000; --la-sans-font: "Open Sans", sans-serif; -=
+-la-serif-font: "Merriweather", serif; --la-side-background: #404040; --la-=
+side-shadow-color: var(--la-main-color); }
+
+@media screen {
+  html, body { background: var(--la-side-background); margin: 0px; }
+  #la-doc-parent { display: flex; flex-direction: row; height: 100vh; }
+  #la-doc-area { flex-grow: 3; overflow: auto; }
+  #la-doc { box-shadow: 5px 5px 10px var(--la-side-shadow-color); max-width=
+: 50em; padding: 4em; margin-left: auto; margin-right: auto; resize: horizo=
+ntal; }
+  pre { overflow: auto; }
+}
+
+@media print {
+  pre { white-space: pre-wrap; word-break: break-all; }
+}
+
+html, body { font-family: var(--la-main-font); line-height: 1.8em; }
+
+#la-doc { color: var(--la-main-color); background: var(--la-main-background=
+); }
+
+h1, h2 { font-family: var(--la-header-font); }
+
+h2 { margin-top: 1.5em; }
+
+pre { line-height: 1.7em; }
+
+code { font-family: var(--la-monospace-font); }
+
+.admonition { border-radius: 5px; border: 1px solid var(--la-admonition-bor=
+der-color); padding: 0px 1em; margin: 1ex 0px; }
+
+ul > li::marker { color: var(--la-bullet1-color); content: var(--la-bullet1=
+-shape) '\00A0'; }
+
+ol { width: 100%; counter-reset: listitem 0; padding: 0px; }
+
+ol > li { display: table; counter-increment: listitem 1; }
+
+ol > li::before { content: counters(listitem, ".") ". "; display: table-cel=
+l; width: 2ex; padding-right: 0.5em; color: var(--la-number-color); font-we=
+ight: bold; }
+
+ol > li > p:first-child { margin-top: 0px; }
+
+ol > li > :last-child { margin-bottom: 0px; }
+
+.alpha + ol > li::before { content: "(" counter(listitem, lower-alpha) ") "=
+; }
+
+li { margin: 0.5em 0px 0.5em -1ex; padding-left: 0.5em; padding-top: 0em; w=
+idth: calc(100% - 1ex); }
+
+@media screen {
+  #toc { overflow: auto; width: 20em; resize: horizontal; background: var(-=
+-la-main-background, white); box-shadow: 5px 5px 10px var(--la-side-shadow-=
+color, black); }
+}
+
+#toc { padding: 1em; }
+
+#toc .toctitle { font-weight: bold; margin: 0px; }
+
+#toc ul { padding-left: 1.5em; }
+
+#toc a { text-decoration: none; }
+
+#toc a:hover { text-decoration: underline; }
+
+code .o, code .p { color: var(--la-code-operator-color); font: var(--la-cod=
+e-operator-font); }
+
+code .k, code .kt { color: var(--la-code-keyword-color); font: var(--la-cod=
+e-keyword-font); }
+
+code .nc, code .nf { color: var(--la-code-name-color); font: var(--la-code-=
+name-font); }
+
+code .w { color: var(--la-code-space-color); font: var(--la-code-space-font=
+); }
+
+@media screen {
+  #la-doc { position: relative; }
+  .pageN { position: absolute; right: 0%; top: 0%; background: var(--la-mai=
+n-background, white); color: var(--la-main-color, black); padding: 0px 1em;=
+ margin-top: -1px; border-bottom: 1px solid var(--la-main-color, black); }
+}
+
+@media print {
+  .pageN { display: none; }
+}
+
+.boxed { border: 1px solid rgb(128, 128, 128); border-radius: 5px; padding-=
+left: 1em; padding-right: 1em; }
+
+.smalluml { padding-bottom: 1em; vertical-align: top; }
+------MultipartBoundary--1CXfuZkpLOjnycyoaKlDCoduOosEThAa6hjMJwNoJn----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://lms.curtin.edu.au/bbcswebdav/pid-10485276-dt-content-rid-65593568_1/courses/2022_2_COMP2007_V1_L1_A1_INT_752994/Worksheets/Worksheet%209_%20Object%20Orientation_files/css2
+
+@charset "utf-8";
+=0A
+------MultipartBoundary--1CXfuZkpLOjnycyoaKlDCoduOosEThAa6hjMJwNoJn------

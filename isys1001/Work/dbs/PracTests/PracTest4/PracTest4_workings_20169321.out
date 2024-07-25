@@ -1,0 +1,335 @@
+mysql> SOURCE PracTest4Tables.sql;
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+ERROR 1046 (3D000): No database selected
+mysql> USE dswork;
+Database changed
+mysql> SOURCE PracTest4Tables.sql;
+Query OK, 0 rows affected, 1 warning (0.01 sec)
+
+Query OK, 0 rows affected (0.03 sec)
+
+Query OK, 0 rows affected, 1 warning (0.00 sec)
+
+Query OK, 0 rows affected (0.03 sec)
+
+Query OK, 0 rows affected, 1 warning (0.00 sec)
+
+Query OK, 0 rows affected (0.03 sec)
+
+Query OK, 0 rows affected, 1 warning (0.00 sec)
+
+Query OK, 0 rows affected (0.03 sec)
+
+mysql> SOURCE PracTest4Values.sql;
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+Query OK, 1 row affected (0.01 sec)
+
+Query OK, 1 row affected (0.00 sec)
+
+mysql> SHOW tables;
++------------------+
+| Tables_in_dswork |
++------------------+
+| Activity         |
+| CommWork         |
+| Faculty          |
+| Student          |
++------------------+
+4 rows in set (0.00 sec)
+
+mysql> SHOW TABLES;
++------------------+
+| Tables_in_dswork |
++------------------+
+| Activity         |
+| CommWork         |
+| Faculty          |
+| Student          |
++------------------+
+4 rows in set (0.00 sec)
+
+mysql> DESC Activity;
++--------------+--------------+------+-----+---------+-------+
+| Field        | Type         | Null | Key | Default | Extra |
++--------------+--------------+------+-----+---------+-------+
+| activityNo   | char(6)      | NO   | PRI | NULL    |       |
+| activityName | varchar(24)  | NO   |     | NULL    |       |
+| facultyCode  | char(3)      | NO   | MUL | NULL    |       |
+| leader       | char(6)      | NO   | MUL | NULL    |       |
+| estCost      | decimal(8,2) | YES  |     | NULL    |       |
+| travelCost   | decimal(8,2) | YES  |     | NULL    |       |
+| duration     | smallint(6)  | YES  |     | NULL    |       |
++--------------+--------------+------+-----+---------+-------+
+7 rows in set (0.00 sec)
+
+mysql> DESC CommWork;
++------------+-------------+------+-----+---------+-------+
+| Field      | Type        | Null | Key | Default | Extra |
++------------+-------------+------+-----+---------+-------+
+| stuNo      | char(6)     | NO   | PRI | NULL    |       |
+| activityNo | char(6)     | NO   | PRI | NULL    |       |
+| hours      | smallint(6) | YES  |     | NULL    |       |
++------------+-------------+------+-----+---------+-------+
+3 rows in set (0.00 sec)
+
+mysql> DESC Faculty;
++-------------+-------------+------+-----+---------+-------+
+| Field       | Type        | Null | Key | Default | Extra |
++-------------+-------------+------+-----+---------+-------+
+| facultyCode | char(3)     | NO   | PRI | NULL    |       |
+| facultyName | varchar(36) | NO   |     | NULL    |       |
++-------------+-------------+------+-----+---------+-------+
+2 rows in set (0.00 sec)
+
+mysql> DESC Student;
++-------------+-------------+------+-----+---------+-------+
+| Field       | Type        | Null | Key | Default | Extra |
++-------------+-------------+------+-----+---------+-------+
+| stuNo       | char(6)     | NO   | PRI | NULL    |       |
+| firstName   | varchar(12) | YES  |     | NULL    |       |
+| lastName    | varchar(15) | YES  |     | NULL    |       |
+| facultyCode | char(3)     | YES  | MUL | NULL    |       |
+| regDate     | date        | YES  |     | NULL    |       |
+| commRate    | char(4)     | YES  |     | NULL    |       |
++-------------+-------------+------+-----+---------+-------+
+6 rows in set (0.00 sec)
+
+mysql> SELECT leader FROM Activity WHERE estCost < (SELECT AVG(estCost) FROM Activity);
++--------+
+| leader |
++--------+
+| 000021 |
+| 000015 |
+| 000016 |
+| 000019 |
++--------+
+4 rows in set (0.01 sec)
+
+mysql> SELECT Student.stuNo, Student.firstName, Student.lastName FROM Student INNER JOIN Activity ON Student.stuNo = Activity.leader WHERE Activity.estCost < (SELECT AVG(estCost) FROM Activity);
++--------+-----------+----------+
+| stuNo  | firstName | lastName |
++--------+-----------+----------+
+| 000021 | Sally     | Kwan     |
+| 000015 | Bruce     | Adamson  |
+| 000016 | Aati      | Awang    |
+| 000019 | Diya      | Chauhan  |
++--------+-----------+----------+
+4 rows in set (0.00 sec)
+
+mysql> CREATE VIEW StudentHours AS SELECT Student.stuNo, CONCAT(Student.firstName, " ", Student.lastName) AS name, SUM(CommWork.hours) AS hours, COUNT(CommWork.hours) AS numActivities FROM Student LEFT OUTER JOIN CommWork ON Student.stuNo=CommWork.stuNo GROUP BY Student.stuNo;
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> SELECT * FROM StudentHours;
++--------+---------------------+-------+---------------+
+| stuNo  | name                | hours | numActivities |
++--------+---------------------+-------+---------------+
+| 000010 | Christine Haas      |  NULL |             0 |
+| 000011 | John Geyer          |  NULL |             0 |
+| 000012 | Eva Pulaski         |     6 |             3 |
+| 000013 | Vincenzo Lucchesi   |  NULL |             0 |
+| 000014 | Heather Nicholls    |     1 |             1 |
+| 000015 | Bruce Adamson       |     3 |             3 |
+| 000016 | Aati Awang          |     2 |             1 |
+| 000017 | Ruchira Patel       |  NULL |             0 |
+| 000018 | Adrian Silva        |     3 |             1 |
+| 000019 | Diya Chauhan        |     1 |             1 |
+| 000020 | Apurva Banerjee     |  NULL |             0 |
+| 000021 | Sally Kwan          |     3 |             1 |
+| 000022 | Masatoshi Yoshimura |  NULL |             0 |
+| 000023 | David Brown         |     3 |             1 |
+| 000024 | Salvatore Marino    |  NULL |             0 |
+| 000025 | Ethel Schneider     |     1 |             1 |
+| 000026 | Daniel Smith        |     2 |             1 |
+| 000027 | John Parker         |     1 |             1 |
+| 000028 | Wing Lee            |     2 |             1 |
+| 000029 | Irving Stern        |  NULL |             0 |
++--------+---------------------+-------+---------------+
+20 rows in set (0.00 sec)
+
+mysql> DESC Activity;
++--------------+--------------+------+-----+---------+-------+
+| Field        | Type         | Null | Key | Default | Extra |
++--------------+--------------+------+-----+---------+-------+
+| activityNo   | char(6)      | NO   | PRI | NULL    |       |
+| activityName | varchar(24)  | NO   |     | NULL    |       |
+| facultyCode  | char(3)      | NO   | MUL | NULL    |       |
+| leader       | char(6)      | NO   | MUL | NULL    |       |
+| estCost      | decimal(8,2) | YES  |     | NULL    |       |
+| travelCost   | decimal(8,2) | YES  |     | NULL    |       |
+| duration     | smallint(6)  | YES  |     | NULL    |       |
++--------------+--------------+------+-----+---------+-------+
+7 rows in set (0.00 sec)
+
+mysql> CREATE PROCEDURE insactivity (
+    ->         insactivityNo CHAR(6),
+    ->         insactivityName VARCHAR(24),
+    ->         insfacultyCode CHAR(3),
+    ->         insleader CHAR(6),
+    ->         insduration SMALLINT(6)
+    -> )
+    -> COMMENT 'Insert new activity into table Activity'
+    -> BEGIN
+    ->         IF insduration < 0 THEN
+    ->                 SET insduration = 0
+    ->         END IF;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'END IF' at line 12
+mysql> END
+    -> INSERT INTO Activity VALUES(insactivityNo, insactivityName, insfacultyCode, insleader, 0.00, NULL, insduration);
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'END
+INSERT INTO Activity VALUES(insactivityNo, insactivityName, insfacultyCode, ' at line 1
+mysql> CREATE PROCEDURE insactivity (
+    ->         insactivityNo CHAR(6),
+    ->         insactivityName VARCHAR(24),
+    ->         insfacultyCode CHAR(3),
+    ->         insleader CHAR(6),
+    ->         insduration SMALLINT(6)
+    ->         )
+    ->         COMMENT 'Insert new activity into table Activity'
+    ->         BEGIN
+    ->                 IF insduration < 0 THEN
+    ->                         SET insduration = 0
+    ->                 END IF;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'END IF' at line 12
+mysql>                 INSERT INTO Activity VALUES(insactivityNo, insactivityName, insfacultyCode, insleader, 0.00, insleader, NULL, insduration);
+ERROR 1136 (21S01): Column count doesn't match value count at row 1
+mysql>         END;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'END' at line 1
+mysql> CREATE PROCEDURE insactivity (
+    ->         insactivityNo CHAR(6),
+    ->         insactivityName VARCHAR(24),
+    ->         insfacultyCode CHAR(3),
+    ->         insleader CHAR(6),
+    ->         insduration SMALLINT(6)
+    ->         )
+    ->         COMMENT 'Insert new activity into table Activity'
+    ->         BEGIN
+    ->                 IF insduration < 0 THEN
+    ->                         SET insduration = 0
+    ->                 END IF;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'END IF' at line 12
+mysql>                 INSERT INTO Activity VALUES(insactivityNo, insactivityName, insfacultyCode, insleader, 0.00, insleader, NULL, insduration);
+ERROR 1136 (21S01): Column count doesn't match value count at row 1
+mysql>         END
+    -> DELIMITER;
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'END
+DELIMITER' at line 1
+mysql> DELIMITER //
+mysql> CREATE PROCEDURE insactivity (
+    ->         insactivityNo CHAR(6),
+    ->         insactivityName VARCHAR(24),
+    ->         insfacultyCode CHAR(3),
+    ->         insleader CHAR(6),
+    ->         insduration SMALLINT(6)
+    ->         )
+    ->         COMMENT 'Insert new activity into table Activity'
+    ->         BEGIN
+    ->                 IF insduration < 0 THEN
+    ->                         SET insduration = 0
+    ->                 END IF;
+    ->                 INSERT INTO Activity VALUES(insactivityNo, insactivityName, insfacultyCode, insleader, 0.00, insleader, NULL, insduration);
+    ->         END
+    -> DELIMITER;
+    -> 
+    -> 
+    -> ^C
+mysql> ;;
+    -> 
+    -> ^C
+mysql> 

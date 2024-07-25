@@ -1,0 +1,500 @@
+    4  java -cp json-20200518.jar:. CryptoGraph -i
+    5  javac -cp json-20200518.jar *.java
+    6  java -cp json-20200518.jar:. CryptoGraph -i
+    7  javac -cp json-20200518.jar *.java
+    8  java -cp json-20200518.jar:. CryptoGraph -i
+    9  javac -cp json-20200518.jar *.java
+   10  java -cp json-20200518.jar:. CryptoGraph -i
+   11  javac -cp json-20200518.jar *.java
+   12  java -cp json-20200518.jar:. CryptoGraph -i
+   13  javac -cp json-20200518.jar *.java
+   14  java -cp json-20200518.jar:. CryptoGraph -i
+   15  javac -cp json-20200518.jar *.java
+   16  java -cp json-20200518.jar:. CryptoGraph -i
+   17  ls
+   18  cd CryptoGraph
+   19  ls
+   20  java -cp json-20200518.jar:. CryptoGraph -i
+   21  java -cp json-20200518.jar:. CryptoGraph -i
+   22  cd CryptoGraph
+   23  ls
+   24  java -cp json-20200518.jar:. CryptoGraph -i
+   25  javac -cp json-20200518.jar *.java
+   26  javac -cp json-20200518.jar *.java
+   27  java -cp json-20200518.jar:. CryptoGraph -i
+   28  java -cp json-20200518.jar:. CryptoGraph -i
+   29  0
+   30  java -cp json-20200518.jar:. CryptoGraph -i
+   31  javac -cp json-20200518.jar *.java
+   32  java -cp json-20200518.jar:. CryptoGraph -i
+   33  javac -cp json-20200518.jar *.java
+   34  java -cp json-20200518.jar:. CryptoGraph -i
+   35  javac -cp json-20200518.jar *.java
+   36  java -cp json-20200518.jar:. CryptoGraph -i
+   37  javac -cp json-20200518.jar *.java
+   38  java -cp json-20200518.jar:. CryptoGraph -i
+   39  javac -cp json-20200518.jar *.java
+   40  java -cp json-20200518.jar:. CryptoGraph -i
+   41  javac -cp json-20200518.jar *.java
+   42  javac -cp json-20200518.jar *.java
+   43  java -cp json-20200518.jar:. CryptoGraph -i
+   44  javac -cp json-20200518.jar *.java
+   45  javac -cp json-20200518.jar *.java
+   46  java -cp json-20200518.jar:. CryptoGraph -i
+   47  javac -cp json-20200518.jar *.java
+   48  javac -cp json-20200518.jar *.java
+   49  java -cp json-20200518.jar:. CryptoGraph -i
+   50  javac -cp json-20200518.jar *.java
+   51  java -cp json-20200518.jar:. CryptoGraph -i
+   52  0
+   53  javac -cp json-20200518.jar *.java
+   54  java -cp json-20200518.jar:. CryptoGraph -i
+   55  javac -cp json-20200518.jar *.java
+   56  javac -cp json-20200518.jar *.java
+   57  java -cp json-20200518.jar:. CryptoGraph -i
+   58  javac -cp json-20200518.jar *.java
+   59  java -cp json-20200518.jar:. CryptoGraph -i
+   60  java -cp json-20200518.jar:. CryptoGraph -i
+   61  java -cp json-20200518.jar:. CryptoGraph -i
+   62  java -cp json-20200518.jar:. CryptoGraph -i
+   63  javac -cp json-20200518.jar *.java
+   64  java -cp json-20200518.jar:. CryptoGraph -i
+   65  java -cp json-20200518.jar:. CryptoGraph -i
+   66  javac -cp json-20200518.jar *.java
+   67  javac -cp json-20200518.jar *.java
+   68  java -cp json-20200518.jar:. CryptoGraph -r pairs.json ETHBTC.json
+   69  java -cp json-20200518.jar:. CryptoGraph -r pairs.json ETHBTCr.json
+   70  javac -cp json-20200518.jar *.java
+   71  javac -cp json-20200518.jar *.java
+   72  javac -cp json-20200518.jar *.java
+   73  javac -cp json-20200518.jar *.java
+   74  javac -cp json-20200518.jar *.java
+   75  javac -cp json-20200518.jar *.java
+   76  javac -cp json-20200518.jar *.java
+   77  javac -cp json-20200518.jar *.java
+   78  javac -cp json-20200518.jar *.java
+   79  rm *.class
+   80  javac -cp json-20200518.jar *.java
+   81  javac -cp json-20200518.jar *.java
+   82  javac -cp json-20200518.jar *.java
+   83  javac -cp json-20200518.jar *.java
+   84  javac -cp json-20200518.jar *.java
+   85  javac -cp json-20200518.jar *.java
+   86  java -cp json-20200518.jar:. CryptoGraph -i
+   87  javac *.java
+   88  cd Deliverables
+   89  javac *.java
+   90  ls
+   91  ls
+   92  ls
+   93  javac *.java
+   94  javac *.java
+   95  java SortsTestHarness
+   96  java SortsTestHarness 100 q r
+   97  java SortsTestHarness 100 qr
+   98  javac *.java
+   99  java SortsTestHarness 100 qr
+  100  java SortsTestHarness 10 qr
+  101  javac *.java
+  102  java SortsTestHarness 10 qr
+  103  javac *.java
+  104  java SortsTestHarness 10 qr
+  105  javac *.java
+  106  java SortsTestHarness 10 qr
+  107  javac *.java
+  108  javac *.java
+  109  java SortsTestHarness 10 qr
+  110  java SortsTestHarness 10 qr
+  111  java SortsTestHarness 10 qr
+  112  java SortsTestHarness 10 qr
+  113  java SortsTestHarness 10 qr
+  114  java SortsTestHarness 10 qr
+  115  javac *.java
+  116  java SortsTestHarness 10 qr
+  117  javac *.java
+  118  java SortsTestHarness 10 qr
+  119  javac *.java
+  120  java SortsTestHarness 10 qr
+  121  java SortsTestHarness 100 qr
+  122  java SortsTestHarness 1000 qr
+  123  java SortsTestHarness 10000 qr
+  124  java SortsTestHarness 10000 ir
+  125  java SortsTestHarness 100 mr
+  126  javac *.java
+  127  java SortsTestHarness 100 mr
+  128  javac *.java
+  129  java SortsTestHarness 100 mr
+  130  javac *.java
+  131  java SortsTestHarness 100 mr
+  132  javac *.java
+  133  java SortsTestHarness 100 mr
+  134  javac *.java
+  135  java SortsTestHarness 100 mr
+  136  javac *.java
+  137  java SortsTestHarness 100 mr
+  138  java SortsTestHarness 10 mr
+  139  javac *.java
+  140  java SortsTestHarness 10 mr
+  141  javac *.java
+  142  java SortsTestHarness 10 mr
+  143  javac *.java
+  144  java SortsTestHarness 10 mr
+  145  javac *.java
+  146  java SortsTestHarness 10 mr
+  147  javac *.java
+  148  java SortsTestHarness 10 mr
+  149  javac *.java
+  150  java SortsTestHarness 10 mr
+  151  javac *.java
+  152  java SortsTestHarness 10 mr
+  153  javac *.java
+  154  java SortsTestHarness 10 mr
+  155  javac *.java
+  156  java SortsTestHarness 10 mr
+  157  ls
+  158  java -cp json-20200518.jar:. CryptoGraph -i
+  159  ls
+  160  cd CryptoGraph
+  161  java -cp json-20200518.jar:. CryptoGraph -i
+  162  ls
+  163  cd CryptoGraph
+  164  ls
+  165  java -cp json-20200518.jar:. CryptoGraph -i
+  166  java -cp json-20200518.jar:. CryptoGraph -i
+  167  java -cp json-20200518.jar:. CryptoGraph -i
+  168  javac -cp json-20200518.jar *.java
+  169  java -cp json-20200518.jar:. CryptoGraph -i
+  170  java -cp json-20200518.jar:. CryptoGraph -i
+  171  java -cp json-20200518.jar:. CryptoGraph -i
+  172  java -cp json-20200518.jar:. CryptoGraph -i
+  173  java -cp json-20200518.jar:. CryptoGraph -i
+  174  make
+  175  make clean
+  176  ls
+  177  vim bracketmatchlogic.c
+  178  vim bracketmatchvisualiser.c
+  179  vim colourlogic.c
+  180  vim filereader.c
+  181  vim linkedlist.c
+  182  vim linkedlistnode.c
+  183  vim stack.c
+  184  ls
+  185  scp 20169321@lab218-a04.cs.curtin.edu.au:~/Documents/ucp/20169321_Tanaka-Chitete_Assignment2.tar ~/Desktop
+  186  scp 20169321@lab218-a04.cs.curtin.edu.au:~/Documents/ucp/20169321_Tanaka-Chitete_Assignment2.tar.gz ~/Desktop
+  187  javac *.java
+  188  rm *.class
+  189  javac *.java
+  190  ls
+  191  java SortsTestHarness 100 ir
+  192  java SortsTestHarness 100 qr
+  193  java SortsTestHarness 100 wr
+  194  java SortsTestHarness 100 tr
+  195  java SortsTestHarness 100 tn
+  196  java SortsTestHarness 100 qn
+  197  java SortsTestHarness 100 wn
+  198  ls
+  199  javac *.java
+  200  java SortsTestHarness
+  201  java SortsTestHarness 100 ta
+  202  java SortsTestHarness 100 qa
+  203  java SortsTestHarness 100 qr
+  204  java SortsTestHarness 100 qr
+  205  java SortsTestHarness 100 tr
+  206  java SortsTestHarness 100o tr
+  207  java SortsTestHarness 1000 tr
+  208  java SortsTestHarness 1000 qr
+  209  javac *.java
+  210  java SortsTestHarness 1000 wr
+  211  javac *.java
+  212  java SortsTestHarness 1000 wr
+  213  javac *.java
+  214  java SortsTestHarness 1000 wr
+  215  java SortsTestHarness 1000 qr
+  216  java SortsTestHarness 1000 tr
+  217  java SortsTestHarness 10000 tr
+  218  java SortsTestHarness 10000 qr
+  219  java SortsTestHarness 10000 wr
+  220  clear
+  221  ls
+  222  java SortsTestHarness
+  223  clear
+  224  java SortsTestHarness
+  225  java SortsTestHarness 100 ma qa ta wa
+  226  java SortsTestHarness 1000 ma qa ta wa
+  227  java SortsTestHarness 10000 ma qa ta wa
+  228  java SortsTestHarness 1000 ma qa ta wa
+  229  java SortsTestHarness 10000 ma qa ta wa
+  230  clear
+  231  java SortsTestHarness 100 md qd td wd
+  232  java SortsTestHarness 1000 md qd td wd
+  233  java SortsTestHarness 10000 md qd td wd
+  234  java SortsTestHarness 100 mr qr tr wr
+  235  java SortsTestHarness 1000 mr qr tr wr
+  236  java SortsTestHarness 10000 mr qr tr wr
+  237  java SortsTestHarness 10000 mn qn tn wn
+  238  java SortsTestHarness 100 mn qn tn wn
+  239  java SortsTestHarness 1000 mn qn tn wn
+  240  java SortsTestHarness 1000 mn qn tn wn
+  241  ls
+  242  history > BashHistory.txt
+  243  ls
+  244  rm *.class
+  245  ls
+  246  cd ..
+  247  ls
+  248  tar -cvzf 20169321_Lab_09.tar.gz Deliverables
+  249  ls
+  250  open .
+  251  vim SortsTestHarness.java
+  252  ls
+  253  cd Deliverables
+  254  vim SortsTestHarness.java
+  255  java SortsTestHarness 100 qr mr tr ws
+  256  javac *.java
+  257  java SortsTestHarness 100 qr mr tr ws
+  258  java SortsTestHarness 100 qr mr tr wr
+  259  javac -cp json-20200518.jar *.java
+  260  ls
+  261  cd CryptoGraph
+  262  java -cp json-20200518.jar:. CryptoGraph -i
+  263  java -cp json-20200518.jar:. CryptoGraph -i
+  264  javac -cp json-20200518.jar *.java
+  265  java -cp json-20200518.jar:. CryptoGraph -i
+  266  java -cp json-20200518.jar:. CryptoGraph -i
+  267  java -cp json-20200518.jar:. CryptoGraph
+  268  javac -cp json-20200518.jar *.java
+  269  ls
+  270  cd CryptoGraph
+  271  javac -cp json-20200518.jar *.java
+  272  java -cp json-20200518.jar:. CryptoGraph
+  273  java -cp json-20200518.jar:. CryptoGraph -i
+  274  java -cp json-20200518.jar:. CryptoGraph -i
+  275  ls
+  276  cd CryptoGraph
+  277  rm *.class
+  278  ls
+  279  ls
+  280  ls
+  281  cd DSALinkedList
+  282  ls
+  283  javac *.java
+  284  javac *.java
+  285  javac *.java
+  286  ls
+  287  java UnitTestDSALinkedList
+  288  ls
+  289  cd ..
+  290  ls
+  291  cd DSAStack
+  292  ls
+  293  javac *.java
+  294  java UnitTestDSAStack
+  295  rm *.class
+  296  javac *.java
+  297  java UnitTestDSAStack
+  298  cd ..
+  299  ls
+  300  cd DSAHashSet
+  301  ls
+  302  javac *.java
+  303  javac *.java
+  304  javac *.java
+  305  ls
+  306  java UnitTestDSAHashSet
+  307  javac *.java
+  308  javac *.java
+  309  java UnitTestDSAHashSet
+  310  java UnitTestDSAHashSet
+  311  javac *.java
+  312  java UnitTestDSAHashSet
+  313  java UnitTestDSAHashSet
+  314  javac *.java
+  315  java UnitTestDSAHashSet
+  316  javac *.java
+  317  java UnitTestDSAHashSet
+  318  javac *.java
+  319  java UnitTestDSAHashSet
+  320  javac *.java
+  321  java UnitTestDSAHashSet
+  322  java UnitTestDSAHashSet
+  323  java UnitTestDSAHashSet
+  324  javac *.java
+  325  java UnitTestDSAHashSet
+  326  javac *.java
+  327  java UnitTestDSAHashSet
+  328  javac *.java
+  329  java UnitTestDSAHashSet
+  330  javac *.java
+  331  java UnitTestDSAHashSet
+  332  javac *.java
+  333  java UnitTestDSAHashSet
+  334  javac *.java
+  335  java UnitTestDSAHashSet
+  336  javac *.java
+  337  java UnitTestDSAHashSet
+  338  javac *.java
+  339  java UnitTestDSAHashSet
+  340  javac *.java
+  341  java UnitTestDSAHashSet
+  342  javac *.java
+  343  java UnitTestDSAHashSet
+  344  javac *.java
+  345  java UnitTestDSAHashSet
+  346  javac *.java
+  347  java UnitTestDSAHashSet
+  348  javac *.java
+  349  java UnitTestDSAHashSet
+  350  javac *.java
+  351  java UnitTestDSAHashSet
+  352  javac *.java
+  353  java UnitTestDSAHashSet
+  354  javac *.java
+  355  java UnitTestDSAHashSet
+  356  javac *.java
+  357  java UnitTestDSAHashSet
+  358  javac *.java
+  359  java UnitTestDSAHashSet
+  360  javac *.java
+  361  cd ..
+  362  ls
+  363  cd CryptoGraph
+  364  javac -cp json-20200518.jar *.java
+  365  java -cp json-20200518.jar:. CryptoGraph -i
+  366  rm *.class
+  367  javac -cp json-20200518.jar *.java
+  368  java -cp json-20200518.jar:. CryptoGraph -r exchangeInfo.json ETHBTCTradeDetails.json
+  369  cd CryptoGraph
+  370  ls
+  371  javac -cp json-20200518.jar *.java
+  372  java -cp json-20200518.jar:. CryptoGraph -r exchangeInfo.json ETHBTCTradeDetails.json
+  373  javac -cp json-20200518.jar *.java
+  374  java -cp json-20200518.jar:. CryptoGraph -r exchangeInfo.json ETHBTCTradeDetails.json
+  375  javac -cp json-20200518.jar *.java
+  376  ls
+  377  cd CryptoGraph
+  378  javac -cp json-20200518.jar *.java
+  379  java -cp json-20200518.jar:. CryptoGraph -r exchangeInfo.json ETHBTCTradeDetails.json
+  380  java -cp json-20200518.jar:. CryptoGraph -r exchangeInfo.json ETHBTCTradeDetails.json
+  381  java -cp json-20200518.jar:. CryptoGraph -r exchangeInfo.json ETHBTCTradeDetails.json
+  382  rm *.class
+  383  javac -cp json-20200518.jar *.java
+  384  java -cp json-20200518.jar:. CryptoGraph -i
+  385  javac -cp json-20200518.jar *.java
+  386  java -cp json-20200518.jar:. CryptoGraph -i
+  387  javac -cp json-20200518.jar *.java
+  388  javac -cp json-20200518.jar *.java
+  389  java -cp json-20200518.jar:. CryptoGraph -t
+  390  java -cp json-20200518.jar:. CryptoGraph -r exchangeInfo.json ETHBTCTradeDetails.json
+  391  javac -cp json-20200518.jar *.java
+  392  java -cp json-20200518.jar:. CryptoGraph -i
+  393  javac -cp json-20200518.jar *.java
+  394  java -cp json-20200518.jar:. CryptoGraph -i
+  395  javac -cp json-20200518.jar *.java
+  396  java -cp json-20200518.jar:. CryptoGraph -i
+  397  rm *.class
+  398  javac -cp json-20200518.jar *.java
+  399  javac -cp json-20200518.jar *.java
+  400  rm *.class
+  401  cd CryptoGraph
+  402  ls
+  403  javac -cp json-20200518.jar *.java
+  404  java -cp json-20200518.jar:. CryptoGraph -r exchangeInfo.json ETHBTCTradeDetails.json
+  405  rm *.class
+  406  rm *.class
+  407  cd ..
+  408  ls
+  409  cd DSAHashSet
+  410  rm *.class
+  411  cd ../DSAStack
+  412  rm *.class
+  413  cd CryptoGraph
+  414  ls
+  415  javac -cp json-20200518.jar *.java
+  416  java -cp json-20200518.jar:. CryptoGraph -i
+  417  LS
+  418  cd ..
+  419  history > BashHistory.txt
+  420  cd ..
+  421  ls
+  422  open .
+  423  tar -cvzf DSA_Assignment_20169321.tar.gz Deliverables
+  424  ls
+  425  cd Deliverables
+  426  ls
+  427  cd DSALinkedList
+  428  rm *.class
+  429  cd ..
+  430  cd ..
+  431  ls
+  432  tar -cvzf DSA_Assignment_20169321.tar.gz Deliverables
+  433  open .
+  434  ls
+  435  tar -cvzf DSA_Assignment_20169321.tar.gz Deliverables
+  436  ls
+  437  ls
+  438  cd DSAGraph
+  439  javac *.java
+  440  cd ..
+  441  cd DSALinkedList
+  442  javac *.java
+  443  cd ..
+  444  cd DSAStack
+  445  javac *.java
+  446  cd ..
+  447  cd DSAHashSet
+  448  javac *.java
+  449  cd ..
+  450  cd DSAQueue
+  451  javac *.java
+  452  cd ..
+  453  cd CryptoGraph
+  454  javac -cp json-20200518.jar *.java
+  455  java -cp json-20200518.jar:. CryptoGraph -i
+  456  ks
+  457  ls
+  458  cd DSAQueue
+  459  rm *.class
+  460  cd ..
+  461  cd CryptoGraph
+  462  rm *.class
+  463  cd ..
+  464  cd DSAStack
+  465  rm *.class
+  466  cd DSAGraph
+  467  cd ..
+  468  cd DSAGraph
+  469  ls
+  470  rm *.class
+  471  cd ..
+  472  cd DSAHashSet
+  473  rm *.class
+  474  cd ../DSALinkedLIst
+  475  cd ../DSALinkedList
+  476  ls
+  477  rm *.class
+  478  ls
+  479  cd ..
+  480  open .
+  481  history > BashHistory.txt
+  482  cd ..
+  483  tar -cvzf DSA_Assignment_20169321.tar.gz Deliverables
+  484  ls
+  485  open .
+  486   /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/516fec848017383dbdadbe0b8743b8c2/redhat.java/jdt_ws/Deliverables_b86ccf7/bin" UnitTestDSAQueue 
+  487   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 11 - Data Structures & Algorithms in Practice/Deliverables" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/516fec848017383dbdadbe0b8743b8c2/redhat.java/jdt_ws/Deliverables_b86ccf7/bin" UnitTestDSALinkedList 
+  488   /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/516fec848017383dbdadbe0b8743b8c2/redhat.java/jdt_ws/Deliverables_b86ccf7/bin" UnitTestDSAHashTable 
+  489   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 11 - Data Structures & Algorithms in Practice/Deliverables" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/516fec848017383dbdadbe0b8743b8c2/redhat.java/jdt_ws/Deliverables_b86ccf7/bin" UnitTestDSAHashTable 
+  490  clear
+  491   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 11 - Data Structures & Algorithms in Practice/Deliverables" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/516fec848017383dbdadbe0b8743b8c2/redhat.java/jdt_ws/Deliverables_b86ccf7/bin" UnitTestDSAHashTable 
+  492   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 11 - Data Structures & Algorithms in Practice/Deliverables" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/516fec848017383dbdadbe0b8743b8c2/redhat.java/jdt_ws/Deliverables_b86ccf7/bin" UnitTestDSAHashTable 
+  493   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 11 - Data Structures & Algorithms in Practice/Deliverables" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/516fec848017383dbdadbe0b8743b8c2/redhat.java/jdt_ws/Deliverables_b86ccf7/bin" UnitTestDSAHashTable 
+  494   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 11 - Data Structures & Algorithms in Practice/Deliverables" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/516fec848017383dbdadbe0b8743b8c2/redhat.java/jdt_ws/Deliverables_b86ccf7/bin" UnitTestDSAHashTable 
+  495   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 11 - Data Structures & Algorithms in Practice/Deliverables" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/516fec848017383dbdadbe0b8743b8c2/redhat.java/jdt_ws/Deliverables_b86ccf7/bin" UnitTestDSAHashTable 
+  496   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 11 - Data Structures & Algorithms in Practice/Deliverables" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/516fec848017383dbdadbe0b8743b8c2/redhat.java/jdt_ws/Deliverables_b86ccf7/bin" UnitTestDSAHashTable 
+  497   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 11 - Data Structures & Algorithms in Practice/Deliverables" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/516fec848017383dbdadbe0b8743b8c2/redhat.java/jdt_ws/Deliverables_b86ccf7/bin" UnitTestDSAHashTable 
+  498   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 11 - Data Structures & Algorithms in Practice/Deliverables" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/516fec848017383dbdadbe0b8743b8c2/redhat.java/jdt_ws/Deliverables_b86ccf7/bin" UnitTestDSAHashTable 
+  499   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 11 - Data Structures & Algorithms in Practice/Deliverables" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/516fec848017383dbdadbe0b8743b8c2/redhat.java/jdt_ws/Deliverables_b86ccf7/bin" UnitTestDSAHashTable  cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 11 - Data Structures & Algorithms in Practice/Deliverables" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/516fec848017383dbdadbe0b8743b8c2/redhat.java/jdt_ws/Deliverables_b86ccf7/bin" UnitTestDSAHashTable 
+  500  ls
+  501  rm *.class
+  502  ls
+  503  history > BashHistory.txt

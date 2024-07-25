@@ -1,0 +1,35 @@
+PARSER_BEGIN(Timetable)
+
+/** Bus timetable parser. */
+public class Timetable {
+
+  /** Main entry point. */
+  public static void main(String args[]) throws ParseException {
+    Timetable parser = new Timetable(System.in);
+    parser.Input();
+  }
+
+  /** Parse from file. */
+  /**
+  public static void parse(String filename) throws IOException, ParseException {
+    Timetable parser = new Timetable(new FileInputStream(filename));
+    parser.dsl();
+  }
+  */
+}
+
+PARSER_END(Timetable)
+
+/** Root production. */
+void Input() :
+{}
+{
+  ...
+}
+
+/** Timetable parsing production. */
+void ValidTimetable() :
+{}
+{
+  ...
+}

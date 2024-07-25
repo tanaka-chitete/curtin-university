@@ -1,0 +1,1290 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://lms.curtin.edu.au/bbcswebdav/pid-10439316-dt-content-rid-64749957_1/courses/2022_2_COMP2007_V1_L1_A1_INT_752994/Lecture%20Notes/Lecture4_Functional_Intro_Handout.html
+Subject: Lecture 4: Functional Programming Introduction
+Date: Thu, 25 Jul 2024 20:09:39 +1000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--JJVjBSSBefkjY1S8t0DXB8Pn1xG9lrwZ4PT6csiWbs----"
+
+
+------MultipartBoundary--JJVjBSSBefkjY1S8t0DXB8Pn1xG9lrwZ4PT6csiWbs----
+Content-Type: text/html
+Content-ID: <frame-E7982A14C4B89C694055097B1A7428B0@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://lms.curtin.edu.au/bbcswebdav/pid-10439316-dt-content-rid-64749957_1/courses/2022_2_COMP2007_V1_L1_A1_INT_752994/Lecture%20Notes/Lecture4_Functional_Intro_Handout.html
+
+<!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/=
+css" href=3D"cid:css-1a1e3b5f-9aa6-4da9-bd42-7967b5aef6e4@mhtml.blink" />
+
+<title>Lecture 4: Functional Programming Introduction</title>
+</head>
+<body>
+<section><p>Programming Languages</p>
+<h1 id=3D"lecture-4-functional-programming-introduction">Lecture 4: Functio=
+nal Programming Introduction</h1>
+<p>Created by Arlen Brower. Updated <span>2022-08-18</span>.</p>
+<div class=3D"toc"><span class=3D"toctitle">Contents</span><ul><li><a href=
+=3D"https://lms.curtin.edu.au/bbcswebdav/pid-10439316-dt-content-rid-647499=
+57_1/courses/2022_2_COMP2007_V1_L1_A1_INT_752994/Lecture%20Notes/Lecture4_F=
+unctional_Intro_Handout.html#a-shift-in-thinking">A shift in thinking</a></=
+li>
+<li><a href=3D"https://lms.curtin.edu.au/bbcswebdav/pid-10439316-dt-content=
+-rid-64749957_1/courses/2022_2_COMP2007_V1_L1_A1_INT_752994/Lecture%20Notes=
+/Lecture4_Functional_Intro_Handout.html#but-first-history">But first, histo=
+ry</a></li>
+<li><a href=3D"https://lms.curtin.edu.au/bbcswebdav/pid-10439316-dt-content=
+-rid-64749957_1/courses/2022_2_COMP2007_V1_L1_A1_INT_752994/Lecture%20Notes=
+/Lecture4_Functional_Intro_Handout.html#underlying-architecture">Underlying=
+ Architecture</a></li>
+<li><a href=3D"https://lms.curtin.edu.au/bbcswebdav/pid-10439316-dt-content=
+-rid-64749957_1/courses/2022_2_COMP2007_V1_L1_A1_INT_752994/Lecture%20Notes=
+/Lecture4_Functional_Intro_Handout.html#artificial-intelligence">Artificial=
+ Intelligence</a></li>
+<li><a href=3D"https://lms.curtin.edu.au/bbcswebdav/pid-10439316-dt-content=
+-rid-64749957_1/courses/2022_2_COMP2007_V1_L1_A1_INT_752994/Lecture%20Notes=
+/Lecture4_Functional_Intro_Handout.html#a-need-for-lists">A Need for Lists<=
+/a></li>
+<li><a href=3D"https://lms.curtin.edu.au/bbcswebdav/pid-10439316-dt-content=
+-rid-64749957_1/courses/2022_2_COMP2007_V1_L1_A1_INT_752994/Lecture%20Notes=
+/Lecture4_Functional_Intro_Handout.html#lisp">Lisp</a></li>
+<li><a href=3D"https://lms.curtin.edu.au/bbcswebdav/pid-10439316-dt-content=
+-rid-64749957_1/courses/2022_2_COMP2007_V1_L1_A1_INT_752994/Lecture%20Notes=
+/Lecture4_Functional_Intro_Handout.html#lisp_1">Lisp</a></li>
+<li><a href=3D"https://lms.curtin.edu.au/bbcswebdav/pid-10439316-dt-content=
+-rid-64749957_1/courses/2022_2_COMP2007_V1_L1_A1_INT_752994/Lecture%20Notes=
+/Lecture4_Functional_Intro_Handout.html#but-lets-step-back-from-lisp">But l=
+et=E2=80=99s step back from Lisp</a></li>
+<li><a href=3D"https://lms.curtin.edu.au/bbcswebdav/pid-10439316-dt-content=
+-rid-64749957_1/courses/2022_2_COMP2007_V1_L1_A1_INT_752994/Lecture%20Notes=
+/Lecture4_Functional_Intro_Handout.html#functions">Functions</a></li>
+<li><a href=3D"https://lms.curtin.edu.au/bbcswebdav/pid-10439316-dt-content=
+-rid-64749957_1/courses/2022_2_COMP2007_V1_L1_A1_INT_752994/Lecture%20Notes=
+/Lecture4_Functional_Intro_Handout.html#functional-programming">Functional =
+Programming</a></li>
+<li><a href=3D"https://lms.curtin.edu.au/bbcswebdav/pid-10439316-dt-content=
+-rid-64749957_1/courses/2022_2_COMP2007_V1_L1_A1_INT_752994/Lecture%20Notes=
+/Lecture4_Functional_Intro_Handout.html#side-effects">Side-effects</a></li>
+<li><a href=3D"https://lms.curtin.edu.au/bbcswebdav/pid-10439316-dt-content=
+-rid-64749957_1/courses/2022_2_COMP2007_V1_L1_A1_INT_752994/Lecture%20Notes=
+/Lecture4_Functional_Intro_Handout.html#side-effects_1">Side-effects</a></l=
+i>
+<li><a href=3D"https://lms.curtin.edu.au/bbcswebdav/pid-10439316-dt-content=
+-rid-64749957_1/courses/2022_2_COMP2007_V1_L1_A1_INT_752994/Lecture%20Notes=
+/Lecture4_Functional_Intro_Handout.html#side-effects_2">Side-effects</a></l=
+i>
+<li><a href=3D"https://lms.curtin.edu.au/bbcswebdav/pid-10439316-dt-content=
+-rid-64749957_1/courses/2022_2_COMP2007_V1_L1_A1_INT_752994/Lecture%20Notes=
+/Lecture4_Functional_Intro_Handout.html#referential-transparency">Referenti=
+al Transparency</a></li>
+<li><a href=3D"https://lms.curtin.edu.au/bbcswebdav/pid-10439316-dt-content=
+-rid-64749957_1/courses/2022_2_COMP2007_V1_L1_A1_INT_752994/Lecture%20Notes=
+/Lecture4_Functional_Intro_Handout.html#functional-languages">Functional La=
+nguages</a></li>
+<li><a href=3D"https://lms.curtin.edu.au/bbcswebdav/pid-10439316-dt-content=
+-rid-64749957_1/courses/2022_2_COMP2007_V1_L1_A1_INT_752994/Lecture%20Notes=
+/Lecture4_Functional_Intro_Handout.html#elixir">Elixir</a></li>
+<li><a href=3D"https://lms.curtin.edu.au/bbcswebdav/pid-10439316-dt-content=
+-rid-64749957_1/courses/2022_2_COMP2007_V1_L1_A1_INT_752994/Lecture%20Notes=
+/Lecture4_Functional_Intro_Handout.html#erlang">Erlang</a></li>
+<li><a href=3D"https://lms.curtin.edu.au/bbcswebdav/pid-10439316-dt-content=
+-rid-64749957_1/courses/2022_2_COMP2007_V1_L1_A1_INT_752994/Lecture%20Notes=
+/Lecture4_Functional_Intro_Handout.html#erlang_1">Erlang</a></li>
+<li><a href=3D"https://lms.curtin.edu.au/bbcswebdav/pid-10439316-dt-content=
+-rid-64749957_1/courses/2022_2_COMP2007_V1_L1_A1_INT_752994/Lecture%20Notes=
+/Lecture4_Functional_Intro_Handout.html#elixir_1">Elixir</a></li>
+<li><a href=3D"https://lms.curtin.edu.au/bbcswebdav/pid-10439316-dt-content=
+-rid-64749957_1/courses/2022_2_COMP2007_V1_L1_A1_INT_752994/Lecture%20Notes=
+/Lecture4_Functional_Intro_Handout.html#elixir_2">Elixir</a></li>
+<li><a href=3D"https://lms.curtin.edu.au/bbcswebdav/pid-10439316-dt-content=
+-rid-64749957_1/courses/2022_2_COMP2007_V1_L1_A1_INT_752994/Lecture%20Notes=
+/Lecture4_Functional_Intro_Handout.html#erlang-vs-elixir">Erlang vs Elixir<=
+/a></li>
+<li><a href=3D"https://lms.curtin.edu.au/bbcswebdav/pid-10439316-dt-content=
+-rid-64749957_1/courses/2022_2_COMP2007_V1_L1_A1_INT_752994/Lecture%20Notes=
+/Lecture4_Functional_Intro_Handout.html#erlang-vs-elixir_1">Erlang vs Elixi=
+r</a></li>
+<li><a href=3D"https://lms.curtin.edu.au/bbcswebdav/pid-10439316-dt-content=
+-rid-64749957_1/courses/2022_2_COMP2007_V1_L1_A1_INT_752994/Lecture%20Notes=
+/Lecture4_Functional_Intro_Handout.html#erlang-vs-elixir_2">Erlang vs Elixi=
+r</a></li>
+<li><a href=3D"https://lms.curtin.edu.au/bbcswebdav/pid-10439316-dt-content=
+-rid-64749957_1/courses/2022_2_COMP2007_V1_L1_A1_INT_752994/Lecture%20Notes=
+/Lecture4_Functional_Intro_Handout.html#elixir-basics">Elixir Basics</a></l=
+i>
+<li><a href=3D"https://lms.curtin.edu.au/bbcswebdav/pid-10439316-dt-content=
+-rid-64749957_1/courses/2022_2_COMP2007_V1_L1_A1_INT_752994/Lecture%20Notes=
+/Lecture4_Functional_Intro_Handout.html#elixir-basics_1">Elixir Basics</a><=
+/li>
+<li><a href=3D"https://lms.curtin.edu.au/bbcswebdav/pid-10439316-dt-content=
+-rid-64749957_1/courses/2022_2_COMP2007_V1_L1_A1_INT_752994/Lecture%20Notes=
+/Lecture4_Functional_Intro_Handout.html#recursive-lists">Recursive Lists</a=
+></li>
+<li><a href=3D"https://lms.curtin.edu.au/bbcswebdav/pid-10439316-dt-content=
+-rid-64749957_1/courses/2022_2_COMP2007_V1_L1_A1_INT_752994/Lecture%20Notes=
+/Lecture4_Functional_Intro_Handout.html#immutability">Immutability</a></li>
+<li><a href=3D"https://lms.curtin.edu.au/bbcswebdav/pid-10439316-dt-content=
+-rid-64749957_1/courses/2022_2_COMP2007_V1_L1_A1_INT_752994/Lecture%20Notes=
+/Lecture4_Functional_Intro_Handout.html#pattern-matching">Pattern Matching<=
+/a></li>
+<li><a href=3D"https://lms.curtin.edu.au/bbcswebdav/pid-10439316-dt-content=
+-rid-64749957_1/courses/2022_2_COMP2007_V1_L1_A1_INT_752994/Lecture%20Notes=
+/Lecture4_Functional_Intro_Handout.html#recursion">Recursion</a></li>
+<li><a href=3D"https://lms.curtin.edu.au/bbcswebdav/pid-10439316-dt-content=
+-rid-64749957_1/courses/2022_2_COMP2007_V1_L1_A1_INT_752994/Lecture%20Notes=
+/Lecture4_Functional_Intro_Handout.html#recursion_1">Recursion</a></li>
+<li><a href=3D"https://lms.curtin.edu.au/bbcswebdav/pid-10439316-dt-content=
+-rid-64749957_1/courses/2022_2_COMP2007_V1_L1_A1_INT_752994/Lecture%20Notes=
+/Lecture4_Functional_Intro_Handout.html#enums-streams">Enums &amp; Streams<=
+/a></li>
+<li><a href=3D"https://lms.curtin.edu.au/bbcswebdav/pid-10439316-dt-content=
+-rid-64749957_1/courses/2022_2_COMP2007_V1_L1_A1_INT_752994/Lecture%20Notes=
+/Lecture4_Functional_Intro_Handout.html#the-pipe-operator">The Pipe Operato=
+r</a></li>
+<li><a href=3D"https://lms.curtin.edu.au/bbcswebdav/pid-10439316-dt-content=
+-rid-64749957_1/courses/2022_2_COMP2007_V1_L1_A1_INT_752994/Lecture%20Notes=
+/Lecture4_Functional_Intro_Handout.html#eager-vs-lazy">Eager vs Lazy</a></l=
+i>
+<li><a href=3D"https://lms.curtin.edu.au/bbcswebdav/pid-10439316-dt-content=
+-rid-64749957_1/courses/2022_2_COMP2007_V1_L1_A1_INT_752994/Lecture%20Notes=
+/Lecture4_Functional_Intro_Handout.html#lazy-operations">Lazy Operations</a=
+></li>
+<li><a href=3D"https://lms.curtin.edu.au/bbcswebdav/pid-10439316-dt-content=
+-rid-64749957_1/courses/2022_2_COMP2007_V1_L1_A1_INT_752994/Lecture%20Notes=
+/Lecture4_Functional_Intro_Handout.html#summary">Summary</a></li>
+</ul></div>
+</section><section><h3 id=3D"a-shift-in-thinking">A shift in thinking</h3>
+<ul><li>Functional programming has traditionally been the least-engaged asp=
+ect of the unit</li>
+<li>~30% of answer scripts in exams left them blank</li>
+<li>So, we=E2=80=99re going to take a little bit of a different approach th=
+is wee</li>
+<li>Focus on practical, hands-on, then we will delve into more theory next =
+week</li>
+</ul></section><section><h3 id=3D"but-first-history">But first, history</h3=
+>
+<ul><li>We have discussed (briefly) FORTRAN, ALGOL, Pascal</li>
+<li>All of these have a high degree of similarity</li>
+<li>Successors can be seen as attempts to improve the base model</li>
+<li>Heavily in use; for good reason!</li>
+</ul></section><section><h3 id=3D"underlying-architecture">Underlying Archi=
+tecture</h3>
+<ul><li>Imperative languages are modeled on von Neumann architecture</li>
+<li>Programs and data are both stored in memory</li>
+<li>Iteration is very efficient</li>
+<li>Imperative languages likewise very, very efficient due to how close the=
+y are</li>
+<li>=E2=80=A6 but it might not be the most natural for humans</li>
+</ul></section><section><h3 id=3D"artificial-intelligence">Artificial Intel=
+ligence</h3>
+<ul><li>After =E2=80=98branch=E2=80=99 in language evolution occurred aroun=
+d the same time as Fortran</li>
+<li>Began with an interest in Artificial Intelligence</li>
+<li>A mix of linguistics, psychology, maethematics</li>
+<li>One prevailing conclusion: we need computers to process <em>symbolic</e=
+m> data in linked lists</li>
+<li>=E2=80=A6 but most computation was done on numeric data in arrays</li>
+</ul></section><section><h3 id=3D"a-need-for-lists">A Need for Lists</h3>
+<ul><li>I am skipping a lot of detail (such as Information Processing Langu=
+age, Fortran List Processing Language)</li>
+<li>John McCarthy concluded  symbolic calculations would require:<ul><li>Re=
+cursion</li>
+<li>Conditional expresses</li>
+<li>Dynamic allocation and (implicit) deallocation of linked lists</li>
+</ul></li>
+<li>Fortran I, however, was lacking</li>
+</ul></section><section><h3 id=3D"lisp">Lisp</h3>
+<p>And so there was Lisp</p>
+<div class=3D"highlight"><pre><span></span><code><span class=3D"p">(</span>=
+<span class=3D"nv">with-temp-buffer</span>
+  <span class=3D"p">(</span><span class=3D"nv">insert-file-contents-literal=
+ly</span> <span class=3D"s">"./input1"</span><span class=3D"p">)</span>
+  <span class=3D"p">(</span><span class=3D"k">let*</span> <span class=3D"p"=
+>((</span><span class=3D"nb">list</span> <span class=3D"p">(</span><span cl=
+ass=3D"nb">map</span> <span class=3D"ss">'list</span> <span class=3D"nf">#'=
+</span><span class=3D"nv">string-to-number</span> <span class=3D"p">(</span=
+><span class=3D"nv">split-string</span> <span class=3D"p">(</span><span cla=
+ss=3D"nv">buffer-string</span><span class=3D"p">))))</span>
+         <span class=3D"p">(</span><span class=3D"nv">parts</span> <span cl=
+ass=3D"p">(</span><span class=3D"nv">cl-maplist</span> <span class=3D"nf">#=
+'</span><span class=3D"p">(</span><span class=3D"k">lambda</span> <span cla=
+ss=3D"p">(</span><span class=3D"nv">p</span><span class=3D"p">)</span>
+                                <span class=3D"p">(</span><span class=3D"nb=
+">and</span> <span class=3D"nv">p</span> <span class=3D"p">(</span><span cl=
+ass=3D"nb">cdr</span> <span class=3D"nv">p</span><span class=3D"p">)</span>=
+ <span class=3D"p">(</span><span class=3D"nb">cddr</span> <span class=3D"nv=
+">p</span><span class=3D"p">)</span>
+                                     <span class=3D"p">(</span><span class=
+=3D"nb">list</span> <span class=3D"p">(</span><span class=3D"nb">car</span>=
+ <span class=3D"nv">p</span><span class=3D"p">)</span> <span class=3D"p">(<=
+/span><span class=3D"nb">cadr</span> <span class=3D"nv">p</span><span class=
+=3D"p">)</span> <span class=3D"p">(</span><span class=3D"nb">caddr</span> <=
+span class=3D"nv">p</span><span class=3D"p">))))</span> <span class=3D"nb">=
+list</span><span class=3D"p">))</span>
+         <span class=3D"p">(</span><span class=3D"nv">sums</span> <span cla=
+ss=3D"p">(</span><span class=3D"nv">cl-mapcar</span> <span class=3D"nf">#'<=
+/span><span class=3D"p">(</span><span class=3D"k">lambda</span> <span class=
+=3D"p">(</span><span class=3D"nv">p</span><span class=3D"p">)</span> <span =
+class=3D"p">(</span><span class=3D"nb">apply</span> <span class=3D"nf">#'</=
+span><span class=3D"nb">+</span> <span class=3D"nv">p</span><span class=3D"=
+p">))</span> <span class=3D"nv">parts</span><span class=3D"p">)))</span>
+    <span class=3D"p">(</span><span class=3D"nv">message</span> <span class=
+=3D"s">"P1: %s"</span> <span class=3D"p">(</span><span class=3D"nv">cl-coun=
+t</span> <span class=3D"ss">'t</span> <span class=3D"p">(</span><span class=
+=3D"nv">cl-mapcar</span> <span class=3D"ss">'&lt;</span> <span class=3D"nb"=
+>list</span> <span class=3D"p">(</span><span class=3D"nb">cdr</span> <span =
+class=3D"nb">list</span><span class=3D"p">))))</span>
+    <span class=3D"p">(</span><span class=3D"nv">message</span> <span class=
+=3D"s">"P2: %s"</span> <span class=3D"p">(</span><span class=3D"nv">cl-coun=
+t</span> <span class=3D"ss">'t</span> <span class=3D"p">(</span><span class=
+=3D"nv">cl-mapcar</span> <span class=3D"nf">#'</span><span class=3D"nb">&lt=
+;</span> <span class=3D"nv">sums</span> <span class=3D"p">(</span><span cla=
+ss=3D"nb">cdr</span> <span class=3D"nv">sums</span><span class=3D"p">))))))=
+</span>
+<span class=3D"p">))</span>
+</code></pre></div>
+</section><section><h3 id=3D"lisp_1">Lisp</h3>
+<ul><li>Lisp is very different from imperative languages</li>
+<li>Not only is it a functional language, but it is the very model of simpl=
+icity</li>
+<li>=E2=80=A6 but I will concede, it=E2=80=99s perhaps not the nicest thing=
+ to just jump in and learn</li>
+</ul></section><section><h3 id=3D"but-lets-step-back-from-lisp">But let=E2=
+=80=99s step back from Lisp</h3>
+<ul><li>What exactly is a =E2=80=98Functional Language=E2=80=99?</li>
+</ul></section><section><h3 id=3D"functions">Functions</h3>
+<ul><li>Based on the concepts of mathematical functions</li>
+<li>Mathematics do not have variables that model memory locations</li>
+<li>Mathematical functions do not have <em>state</em></li>
+<li>Parameters are mapped to values, rather than specifying a sequence of o=
+perations on values in memory</li>
+</ul></section><section><h3 id=3D"functional-programming">Functional Progra=
+mming</h3>
+<ul><li>May seem drastically different as a result</li>
+<li>But the basics should seem familiar!<ul><li><code>cube(x) =3D x * x * x=
+</code></li>
+<li>=E2=80=A6 where =E2=80=98x=E2=80=99 is a real number.</li>
+</ul></li>
+<li>No <em>unbound</em> parameters<ul><li><code>cube(2.0) =3D 2.0 * 2.0 * 2=
+.0 =3D 8.0</code></li>
+</ul></li>
+</ul></section><section><h3 id=3D"side-effects">Side-effects</h3>
+<ul><li>But what is a =E2=80=98side-effect=E2=80=99?</li>
+<li>At its core, it is the idea of modifying <em>state</em></li>
+<li><em>State</em> can be modified in many ways, but the idea is that the p=
+rogram execution may do other actions than a simple calculation</li>
+</ul></section><section><h3 id=3D"side-effects_1">Side-effects</h3>
+<div class=3D"highlight"><pre><span></span><code><span class=3D"kt">void</s=
+pan><span class=3D"w"> </span><span class=3D"nf">powers</span><span class=
+=3D"p">()</span><span class=3D"w"></span>
+<span class=3D"p">{</span><span class=3D"w"></span>
+<span class=3D"w">    </span><span class=3D"k">static</span><span class=3D"=
+w"> </span><span class=3D"kt">int</span><span class=3D"w"> </span><span cla=
+ss=3D"n">x</span><span class=3D"w"> </span><span class=3D"o">=3D</span><spa=
+n class=3D"w"> </span><span class=3D"mi">1</span><span class=3D"p">;</span>=
+<span class=3D"w"></span>
+<span class=3D"w">    </span><span class=3D"n">x</span><span class=3D"w"> <=
+/span><span class=3D"o">=3D</span><span class=3D"w"> </span><span class=3D"=
+n">x</span><span class=3D"w"> </span><span class=3D"o">*</span><span class=
+=3D"w"> </span><span class=3D"mi">2</span><span class=3D"p">;</span><span c=
+lass=3D"w"></span>
+<span class=3D"w">    </span><span class=3D"k">return</span><span class=3D"=
+w"> </span><span class=3D"n">x</span><span class=3D"p">;</span><span class=
+=3D"w"></span>
+<span class=3D"p">}</span><span class=3D"w"></span>
+</code></pre></div>
+<p>What does this code do?</p>
+</section><section><h3 id=3D"side-effects_2">Side-effects</h3>
+<p></p><div class=3D"highlight"><pre><span></span><code><span class=3D"kt">=
+int</span><span class=3D"w"> </span><span class=3D"n">x</span><span class=
+=3D"w"> </span><span class=3D"o">=3D</span><span class=3D"w"> </span><span =
+class=3D"mi">0</span><span class=3D"p">;</span><span class=3D"w"></span>
+
+<span class=3D"kt">void</span><span class=3D"w"> </span><span class=3D"nf">=
+myFunc</span><span class=3D"p">()</span><span class=3D"w"></span>
+<span class=3D"p">{</span><span class=3D"w"></span>
+<span class=3D"w">    </span><span class=3D"k">if</span><span class=3D"p">(=
+</span><span class=3D"n">x</span><span class=3D"w"> </span><span class=3D"o=
+">=3D=3D</span><span class=3D"w"> </span><span class=3D"mi">0</span><span c=
+lass=3D"p">)</span><span class=3D"w"></span>
+<span class=3D"w">    </span><span class=3D"p">{</span><span class=3D"w"></=
+span>
+<span class=3D"w">        </span><span class=3D"n">printf</span><span class=
+=3D"p">(</span><span class=3D"s">"The value of 'x' is zero'</span><span cla=
+ss=3D"se">\n</span><span class=3D"s">"</span><span class=3D"p">);</span><sp=
+an class=3D"w"></span>
+<span class=3D"w">    </span><span class=3D"p">}</span><span class=3D"w"></=
+span>
+<span class=3D"p">}</span><span class=3D"w"></span>
+</code></pre></div>
+What will happen when we call <code>myFunc()</code>?
+</section><section><h3 id=3D"referential-transparency">Referential Transpar=
+ency</h3>
+<p>If there are no side effects, the results will be equal.</p>
+<div class=3D"highlight"><pre><span></span><code>result1 =3D (fun(a) + b) /=
+ (fun(a) - c);
+temp =3D fun(a);
+result2 =3D (temp + b) / (temp - c);
+</code></pre></div>
+</section><section><h3 id=3D"functional-languages">Functional Languages</h3=
+>
+<ul><li>Functional languages have some interesting advantages<ul><li>Modula=
+rity</li>
+<li>Concurrency</li>
+<li>Simplicity</li>
+</ul></li>
+<li>A reputation for inefficiency that=E2=80=99s largely been eliminated</l=
+i>
+</ul></section><section><h3 id=3D"elixir">Elixir</h3>
+<ul><li>This week, we will be looking at the <a href=3D"https://elixir-lang=
+.org/">Elixir programming language</a></li>
+<li>Some functional programming languages can be difficult to jump into</li=
+>
+<li>The intent is that Elixir will be an easier introduction</li>
+</ul></section><section><h3 id=3D"erlang">Erlang</h3>
+<ul><li>It=E2=80=99s worth discussing Elixir=E2=80=99s origins</li>
+<li>Based on Erlang, a development platform created by Ericcson specificall=
+y for building scalable, reliable systems</li>
+<li>Ericcson=E2=80=99s telecom systems had a strong need for scalability, p=
+aving the way for Erlang<ul><li>As you might expect, simultaneous calls cou=
+ld make for a troublesome scenario if not designed for</li>
+</ul></li>
+</ul></section><section><h3 id=3D"erlang_1">Erlang</h3>
+<ul><li>Erlang is not specialised for telecoms; it is a general-purpose dev=
+elopment platform</li>
+<li>Unlike many other platforms, scalability was a main motivator</li>
+<li>Powers many large systems today; WhatsApp, Riak, Heroku cloud, Chef dep=
+loyment automation, RabbitMQ, multiplayer backends, etc.</li>
+</ul></section><section><h3 id=3D"elixir_1">Elixir</h3>
+<ul><li>Elixir targets the Erlang runtime</li>
+<li>Semantically close to Erlang</li>
+<li>Compiles down to BEAM-compliant bytecote files</li>
+<li>Highly interoperable with Erlang</li>
+</ul></section><section><h3 id=3D"elixir_2">Elixir</h3>
+<p>=E2=80=A6 but Elixir is a little nicer.</p>
+</section><section><h3 id=3D"erlang-vs-elixir">Erlang vs Elixir</h3>
+<p>The follow is an Erlang-based server process that adds two numbers
+</p><div class=3D"highlight"><pre><span></span><code><span class=3D"p">-</s=
+pan><span class=3D"ni">module</span><span class=3D"p">(</span><span class=
+=3D"n">sum_server</span><span class=3D"p">).</span><span class=3D"w"></span=
+>
+<span class=3D"p">-</span><span class=3D"ni">behaviour</span><span class=3D=
+"p">(</span><span class=3D"n">gen_server</span><span class=3D"p">).</span><=
+span class=3D"w"></span>
+<span class=3D"p">-</span><span class=3D"ni">export</span><span class=3D"p"=
+>([</span><span class=3D"w"></span>
+<span class=3D"w">    </span><span class=3D"n">start</span><span class=3D"o=
+">/</span><span class=3D"mi">0</span><span class=3D"p">,</span><span class=
+=3D"w"> </span><span class=3D"n">sum</span><span class=3D"o">/</span><span =
+class=3D"mi">3</span><span class=3D"p">,</span><span class=3D"w"></span>
+<span class=3D"w">    </span><span class=3D"n">init</span><span class=3D"o"=
+>/</span><span class=3D"mi">1</span><span class=3D"p">,</span><span class=
+=3D"w"> </span><span class=3D"n">handle_call</span><span class=3D"o">/</spa=
+n><span class=3D"mi">3</span><span class=3D"p">,</span><span class=3D"w"> <=
+/span><span class=3D"n">handle_cast</span><span class=3D"o">/</span><span c=
+lass=3D"mi">2</span><span class=3D"p">,</span><span class=3D"w"> </span><sp=
+an class=3D"n">handle_info</span><span class=3D"o">/</span><span class=3D"m=
+i">2</span><span class=3D"p">,</span><span class=3D"w"> </span><span class=
+=3D"n">terminate</span><span class=3D"o">/</span><span class=3D"mi">2</span=
+><span class=3D"p">,</span><span class=3D"w"></span>
+<span class=3D"w">    </span><span class=3D"n">code_change</span><span clas=
+s=3D"o">/</span><span class=3D"mi">3</span><span class=3D"w"></span>
+<span class=3D"p">]).</span><span class=3D"w"></span>
+
+<span class=3D"nf">start</span><span class=3D"p">()</span><span class=3D"w"=
+> </span><span class=3D"o">-&gt;</span><span class=3D"w"> </span><span clas=
+s=3D"nn">gen_server</span><span class=3D"p">:</span><span class=3D"nf">star=
+t</span><span class=3D"p">(</span><span class=3D"o">?</span><span class=3D"=
+nv">MODULE</span><span class=3D"p">,</span><span class=3D"w"> </span><span =
+class=3D"p">[],</span><span class=3D"w"> </span><span class=3D"p">[]).</spa=
+n><span class=3D"w"></span>
+<span class=3D"nf">sum</span><span class=3D"p">(</span><span class=3D"nv">S=
+erver</span><span class=3D"p">,</span><span class=3D"w"> </span><span class=
+=3D"nv">A</span><span class=3D"p">,</span><span class=3D"w"> </span><span c=
+lass=3D"nv">B</span><span class=3D"p">)</span><span class=3D"w"> </span><sp=
+an class=3D"o">-&gt;</span><span class=3D"w"> </span><span class=3D"nn">gen=
+_server</span><span class=3D"p">:</span><span class=3D"nf">call</span><span=
+ class=3D"p">(</span><span class=3D"nv">Server</span><span class=3D"p">,</s=
+pan><span class=3D"w"> </span><span class=3D"p">{</span><span class=3D"n">s=
+um</span><span class=3D"p">,</span><span class=3D"w"> </span><span class=3D=
+"nv">A</span><span class=3D"p">,</span><span class=3D"w"> </span><span clas=
+s=3D"nv">B</span><span class=3D"p">}).</span><span class=3D"w"></span>
+
+<span class=3D"nf">init</span><span class=3D"p">(_)</span><span class=3D"w"=
+> </span><span class=3D"o">-&gt;</span><span class=3D"w"> </span><span clas=
+s=3D"p">{</span><span class=3D"n">ok</span><span class=3D"p">,</span><span =
+class=3D"w"> </span><span class=3D"n">undefined</span><span class=3D"p">}.<=
+/span><span class=3D"w"></span>
+<span class=3D"nf">handle_call</span><span class=3D"p">({</span><span class=
+=3D"n">sum</span><span class=3D"p">,</span><span class=3D"w"> </span><span =
+class=3D"nv">A</span><span class=3D"p">,</span><span class=3D"w"> </span><s=
+pan class=3D"nv">B</span><span class=3D"p">},</span><span class=3D"w"> </sp=
+an><span class=3D"p">_</span><span class=3D"nv">From</span><span class=3D"p=
+">,</span><span class=3D"w"> </span><span class=3D"nv">State</span><span cl=
+ass=3D"p">)</span><span class=3D"w"> </span><span class=3D"o">-&gt;</span><=
+span class=3D"w"> </span><span class=3D"p">{</span><span class=3D"n">reply<=
+/span><span class=3D"p">,</span><span class=3D"w"> </span><span class=3D"nv=
+">A</span><span class=3D"w"> </span><span class=3D"o">+</span><span class=
+=3D"w"> </span><span class=3D"nv">B</span><span class=3D"p">,</span><span c=
+lass=3D"w"> </span><span class=3D"nv">State</span><span class=3D"p">}.</spa=
+n><span class=3D"w"></span>
+<span class=3D"nf">handle_cast</span><span class=3D"p">(_</span><span class=
+=3D"nv">Msg</span><span class=3D"p">,</span><span class=3D"w"> </span><span=
+ class=3D"nv">State</span><span class=3D"p">)</span><span class=3D"w"> </sp=
+an><span class=3D"o">-&gt;</span><span class=3D"w"> </span><span class=3D"p=
+">{</span><span class=3D"n">noreply</span><span class=3D"p">,</span><span c=
+lass=3D"w"> </span><span class=3D"nv">State</span><span class=3D"p">}.</spa=
+n><span class=3D"w"></span>
+<span class=3D"nf">handle_info</span><span class=3D"p">(_</span><span class=
+=3D"nv">Info</span><span class=3D"p">,</span><span class=3D"w"> </span><spa=
+n class=3D"nv">State</span><span class=3D"p">)</span><span class=3D"w"> </s=
+pan><span class=3D"o">-&gt;</span><span class=3D"w"> </span><span class=3D"=
+p">{</span><span class=3D"n">noreply</span><span class=3D"p">,</span><span =
+class=3D"w"> </span><span class=3D"nv">State</span><span class=3D"p">}.</sp=
+an><span class=3D"w"></span>
+<span class=3D"nf">terminate</span><span class=3D"p">(_</span><span class=
+=3D"nv">Reason</span><span class=3D"p">,</span><span class=3D"w"> </span><s=
+pan class=3D"p">_</span><span class=3D"nv">State</span><span class=3D"p">)<=
+/span><span class=3D"w"> </span><span class=3D"o">-&gt;</span><span class=
+=3D"w"> </span><span class=3D"n">ok</span><span class=3D"p">.</span><span c=
+lass=3D"w"></span>
+<span class=3D"nf">code_change</span><span class=3D"p">(_</span><span class=
+=3D"nv">OldVsn</span><span class=3D"p">,</span><span class=3D"w"> </span><s=
+pan class=3D"nv">State</span><span class=3D"p">,</span><span class=3D"w"> <=
+/span><span class=3D"p">_</span><span class=3D"nv">Extra</span><span class=
+=3D"p">)</span><span class=3D"w"> </span><span class=3D"o">-&gt;</span><spa=
+n class=3D"w"> </span><span class=3D"p">{</span><span class=3D"n">ok</span>=
+<span class=3D"p">,</span><span class=3D"w"> </span><span class=3D"nv">Stat=
+e</span><span class=3D"p">}.</span><span class=3D"w"></span>
+</code></pre></div>
+</section><section><h3 id=3D"erlang-vs-elixir_1">Erlang vs Elixir</h3>
+<p>=E2=80=A6 Now in Elixir
+</p><div class=3D"highlight"><pre><span></span><code><span class=3D"kd">def=
+module</span><span class=3D"w"> </span><span class=3D"nc">SumServer</span><=
+span class=3D"w"> </span><span class=3D"k">do</span><span class=3D"w"></spa=
+n>
+<span class=3D"w">    </span><span class=3D"kn">use</span><span class=3D"w"=
+> </span><span class=3D"nc">GenServer</span><span class=3D"w"></span>
+
+<span class=3D"w">    </span><span class=3D"kd">def</span><span class=3D"w"=
+> </span><span class=3D"n">start</span><span class=3D"w"> </span><span clas=
+s=3D"k">do</span><span class=3D"w"></span>
+<span class=3D"w">        </span><span class=3D"nc">GenServer</span><span c=
+lass=3D"o">.</span><span class=3D"n">start</span><span class=3D"p">(</span>=
+<span class=3D"bp">__MODULE__</span><span class=3D"p">,</span><span class=
+=3D"w"> </span><span class=3D"no">nil</span><span class=3D"p">)</span><span=
+ class=3D"w"></span>
+<span class=3D"w">    </span><span class=3D"k">end</span><span class=3D"w">=
+</span>
+
+<span class=3D"w">    </span><span class=3D"kd">def</span><span class=3D"w"=
+> </span><span class=3D"n">sum</span><span class=3D"p">(</span><span class=
+=3D"n">server</span><span class=3D"p">,</span><span class=3D"w"> </span><sp=
+an class=3D"n">a</span><span class=3D"p">,</span><span class=3D"w"> </span>=
+<span class=3D"n">b</span><span class=3D"p">)</span><span class=3D"w"> </sp=
+an><span class=3D"k">do</span><span class=3D"w"></span>
+<span class=3D"w">        </span><span class=3D"nc">GenServer</span><span c=
+lass=3D"o">.</span><span class=3D"n">call</span><span class=3D"p">(</span><=
+span class=3D"n">server</span><span class=3D"p">,</span><span class=3D"w"> =
+</span><span class=3D"p">{</span><span class=3D"ss">:sum</span><span class=
+=3D"p">,</span><span class=3D"w"> </span><span class=3D"n">a</span><span cl=
+ass=3D"p">,</span><span class=3D"w"> </span><span class=3D"n">b</span><span=
+ class=3D"p">})</span><span class=3D"w"></span>
+<span class=3D"w">    </span><span class=3D"k">end</span><span class=3D"w">=
+</span>
+
+<span class=3D"w">    </span><span class=3D"kd">def</span><span class=3D"w"=
+> </span><span class=3D"n">handle_call</span><span class=3D"p">({</span><sp=
+an class=3D"ss">:sum</span><span class=3D"p">,</span><span class=3D"w"> </s=
+pan><span class=3D"n">a</span><span class=3D"p">,</span><span class=3D"w"> =
+</span><span class=3D"n">b</span><span class=3D"p">},</span><span class=3D"=
+w"> </span><span class=3D"n">_from</span><span class=3D"p">,</span><span cl=
+ass=3D"w"> </span><span class=3D"n">state</span><span class=3D"p">)</span><=
+span class=3D"w"> </span><span class=3D"k">do</span><span class=3D"w"></spa=
+n>
+<span class=3D"w">        </span><span class=3D"p">{</span><span class=3D"s=
+s">:reply</span><span class=3D"p">,</span><span class=3D"w"> </span><span c=
+lass=3D"n">a</span><span class=3D"w"> </span><span class=3D"o">+</span><spa=
+n class=3D"w"> </span><span class=3D"n">b</span><span class=3D"p">,</span><=
+span class=3D"w"> </span><span class=3D"n">state</span><span class=3D"p">}<=
+/span><span class=3D"w"></span>
+<span class=3D"w">    </span><span class=3D"k">end</span><span class=3D"w">=
+</span>
+<span class=3D"k">end</span><span class=3D"w"></span>
+</code></pre></div>
+</section><section><h3 id=3D"erlang-vs-elixir_2">Erlang vs Elixir</h3>
+<p>Juri=C4=87 (2019) offers the following as an equivalent solution using a=
+ custom library they wrote:</p>
+<div class=3D"highlight"><pre><span></span><code><span class=3D"kd">defmodu=
+le</span><span class=3D"w"> </span><span class=3D"nc">SumServer</span><span=
+ class=3D"w"> </span><span class=3D"k">do</span><span class=3D"w"></span>
+<span class=3D"w">    </span><span class=3D"kn">use</span><span class=3D"w"=
+> </span><span class=3D"nc">ExActor.GenServer</span><span class=3D"w"></spa=
+n>
+
+<span class=3D"w">    </span><span class=3D"n">defstart</span><span class=
+=3D"w"> </span><span class=3D"n">start</span><span class=3D"w"></span>
+
+<span class=3D"w">    </span><span class=3D"n">defcall</span><span class=3D=
+"w"> </span><span class=3D"n">sum</span><span class=3D"p">(</span><span cla=
+ss=3D"n">a</span><span class=3D"p">,</span><span class=3D"w"> </span><span =
+class=3D"n">b</span><span class=3D"p">)</span><span class=3D"w"> </span><sp=
+an class=3D"k">do</span><span class=3D"w"></span>
+<span class=3D"w">        </span><span class=3D"n">reply</span><span class=
+=3D"p">(</span><span class=3D"n">a</span><span class=3D"w"> </span><span cl=
+ass=3D"o">+</span><span class=3D"w"> </span><span class=3D"n">b</span><span=
+ class=3D"p">)</span><span class=3D"w"></span>
+<span class=3D"w">    </span><span class=3D"k">end</span><span class=3D"w">=
+</span>
+<span class=3D"k">end</span><span class=3D"w"></span>
+</code></pre></div>
+</section><section><h3 id=3D"elixir-basics">Elixir Basics</h3>
+<ul><li>Elixir can be run with an interactive interpreter <code>iex</code><=
+/li>
+<li>We=E2=80=99ll use that for most of our examples here</li>
+</ul></section><section><h3 id=3D"elixir-basics_1">Elixir Basics</h3>
+<p>We=E2=80=99ll do a live demonstration for:</p>
+<ul><li>Variables</li>
+<li>Modules</li>
+<li>Atoms</li>
+<li>Tuples</li>
+<li>Lists</li>
+</ul></section><section><h3 id=3D"recursive-lists">Recursive Lists</h3>
+<ul><li>Of note, when we discuss lists, they can be thought of as recursive=
+ structures</li>
+</ul><div class=3D"highlight"><pre><span></span><code><span class=3D"n">my_=
+list</span><span class=3D"w"> </span><span class=3D"o">=3D</span><span clas=
+s=3D"w"> </span><span class=3D"p">[</span><span class=3D"n">head</span><spa=
+n class=3D"w"> </span><span class=3D"o">|</span><span class=3D"w"> </span><=
+span class=3D"n">tail</span><span class=3D"p">]</span><span class=3D"w"></s=
+pan>
+</code></pre></div>
+<ul><li>An empty tail, [], indicates the end of a list</li>
+<li>This is very useful for processing data by elements</li>
+</ul></section><section><h3 id=3D"immutability">Immutability</h3>
+<ul><li>As noted before, we are trying to avoid side-effects</li>
+<li>Part of this entails immutable data</li>
+<li>
+<p>Consider what happens here:</p>
+<div class=3D"highlight"><pre><span></span><code><span class=3D"n">a_tuple<=
+/span><span class=3D"w"> </span><span class=3D"o">=3D</span><span class=3D"=
+w"> </span><span class=3D"p">{</span><span class=3D"n">a</span><span class=
+=3D"p">,</span><span class=3D"n">b</span><span class=3D"p">,</span><span cl=
+ass=3D"n">c</span><span class=3D"p">}</span><span class=3D"w"></span>
+<span class=3D"n">new_tuple</span><span class=3D"w"> </span><span class=3D"=
+o">=3D</span><span class=3D"w"> </span><span class=3D"n">put_elem</span><sp=
+an class=3D"p">(</span><span class=3D"n">a_tuple</span><span class=3D"p">,<=
+/span><span class=3D"w"> </span><span class=3D"mi">1</span><span class=3D"p=
+">,</span><span class=3D"w"> </span><span class=3D"n">b2</span><span class=
+=3D"p">)</span><span class=3D"w"></span>
+</code></pre></div>
+</li>
+<li>
+<p>What is the result? What about under the hood?</p>
+</li>
+</ul></section><section><h3 id=3D"pattern-matching">Pattern Matching</h3>
+<ul><li>A very powerful feature</li>
+<li>Works on lists too
+<div class=3D"highlight"><pre><span></span><code>{a, b, c} =3D {1, 2, 3}
+</code></pre></div></li>
+</ul></section><section><h3 id=3D"recursion">Recursion</h3>
+<ul><li>How do we iterate through a list? In C:
+<div class=3D"highlight"><pre><span></span><code><span class=3D"k">for</spa=
+n><span class=3D"p">(</span><span class=3D"n">i</span><span class=3D"w"> </=
+span><span class=3D"o">=3D</span><span class=3D"w"> </span><span class=3D"m=
+i">0</span><span class=3D"p">;</span><span class=3D"w"> </span><span class=
+=3D"n">i</span><span class=3D"w"> </span><span class=3D"o">&lt;</span><span=
+ class=3D"w"> </span><span class=3D"mi">10</span><span class=3D"p">;</span>=
+<span class=3D"w"> </span><span class=3D"n">i</span><span class=3D"o">++</s=
+pan><span class=3D"p">)</span><span class=3D"w"></span>
+<span class=3D"p">{</span><span class=3D"w"></span>
+<span class=3D"w">    </span><span class=3D"n">myArray</span><span class=3D=
+"p">[</span><span class=3D"n">i</span><span class=3D"p">]</span><span class=
+=3D"w"> </span><span class=3D"o">=3D</span><span class=3D"w"> </span><span =
+class=3D"mi">0</span><span class=3D"p">;</span><span class=3D"w"></span>
+<span class=3D"p">}</span><span class=3D"w"></span>
+</code></pre></div></li>
+<li>What are the issues?</li>
+</ul></section><section><h3 id=3D"recursion_1">Recursion</h3>
+<ul><li>Elixir, we must use recursion</li>
+<li>How?</li>
+</ul></section><section><h3 id=3D"enums-streams">Enums &amp; Streams</h3>
+<ul><li>Lists are enumerables</li>
+<li>We can work with them using the <a href=3D"https://hexdocs.pm/elixir/En=
+um.html">Enum module</a></li>
+</ul><div class=3D"highlight"><pre><span></span><code><span class=3D"nc">En=
+um</span><span class=3D"o">.</span><span class=3D"n">sum</span><span class=
+=3D"p">([</span><span class=3D"mi">1</span><span class=3D"p">,</span><span =
+class=3D"mi">2</span><span class=3D"p">,</span><span class=3D"mi">3</span><=
+span class=3D"p">])</span><span class=3D"w"></span>
+</code></pre></div>
+<ul><li>Of note, Enums are eager; Streams are lazy</li>
+</ul></section><section><h3 id=3D"the-pipe-operator">The Pipe Operator</h3>
+<ul><li>We can chain Enum operations together</li>
+</ul><div class=3D"highlight"><pre><span></span><code><span class=3D"nc">En=
+um</span><span class=3D"o">.</span><span class=3D"n">map</span><span class=
+=3D"p">([</span><span class=3D"mi">1</span><span class=3D"p">,</span><span =
+class=3D"w"> </span><span class=3D"mi">2</span><span class=3D"p">,</span><s=
+pan class=3D"w"> </span><span class=3D"mi">3</span><span class=3D"p">],</sp=
+an><span class=3D"w"> </span><span class=3D"k">fn</span><span class=3D"w"> =
+</span><span class=3D"n">x</span><span class=3D"w"> </span><span class=3D"o=
+">-&gt;</span><span class=3D"w"> </span><span class=3D"n">x</span><span cla=
+ss=3D"w"> </span><span class=3D"o">*</span><span class=3D"w"> </span><span =
+class=3D"mi">2</span><span class=3D"w"> </span><span class=3D"k">end</span>=
+<span class=3D"p">)</span><span class=3D"w"> </span><span class=3D"o">|&gt;=
+</span><span class=3D"w"> </span><span class=3D"nc">Enum</span><span class=
+=3D"o">.</span><span class=3D"n">sum</span><span class=3D"p">()</span><span=
+ class=3D"w"></span>
+</code></pre></div>
+<ul><li>This would be like calling:</li>
+</ul><div class=3D"highlight"><pre><span></span><code><span class=3D"nc">En=
+um</span><span class=3D"o">.</span><span class=3D"n">sum</span><span class=
+=3D"p">(</span><span class=3D"nc">Enum</span><span class=3D"o">.</span><spa=
+n class=3D"n">map</span><span class=3D"p">([</span><span class=3D"mi">1</sp=
+an><span class=3D"p">,</span><span class=3D"w"> </span><span class=3D"mi">2=
+</span><span class=3D"p">,</span><span class=3D"w"> </span><span class=3D"m=
+i">3</span><span class=3D"p">],</span><span class=3D"w"> </span><span class=
+=3D"k">fn</span><span class=3D"w"> </span><span class=3D"n">x</span><span c=
+lass=3D"w"> </span><span class=3D"o">-&gt;</span><span class=3D"w"> </span>=
+<span class=3D"n">x</span><span class=3D"w"> </span><span class=3D"o">*</sp=
+an><span class=3D"w"> </span><span class=3D"mi">2</span><span class=3D"w"> =
+</span><span class=3D"k">end</span><span class=3D"p">))</span><span class=
+=3D"w"></span>
+</code></pre></div>
+</section><section><h3 id=3D"eager-vs-lazy">Eager vs Lazy</h3>
+<ul><li>An =E2=80=98eager=E2=80=99 function will immediately perform the fu=
+nction and return a list back</li>
+<li>But what if we wanted to use the piped operation from before?</li>
+</ul><div class=3D"highlight"><pre><span></span><code><span class=3D"nc">En=
+um</span><span class=3D"o">.</span><span class=3D"n">map</span><span class=
+=3D"p">([</span><span class=3D"mi">1</span><span class=3D"p">,</span><span =
+class=3D"w"> </span><span class=3D"mi">2</span><span class=3D"p">,</span><s=
+pan class=3D"w"> </span><span class=3D"mi">3</span><span class=3D"p">],</sp=
+an><span class=3D"w"> </span><span class=3D"k">fn</span><span class=3D"w"> =
+</span><span class=3D"n">x</span><span class=3D"w"> </span><span class=3D"o=
+">-&gt;</span><span class=3D"w"> </span><span class=3D"n">x</span><span cla=
+ss=3D"w"> </span><span class=3D"o">*</span><span class=3D"w"> </span><span =
+class=3D"mi">2</span><span class=3D"w"> </span><span class=3D"k">end</span>=
+<span class=3D"p">)</span><span class=3D"w"> </span><span class=3D"o">|&gt;=
+</span><span class=3D"w"> </span><span class=3D"nc">Enum</span><span class=
+=3D"o">.</span><span class=3D"n">sum</span><span class=3D"p">()</span><span=
+ class=3D"w"></span>
+</code></pre></div>
+<ul><li>The result is immediately calculated, intermediate lists are create=
+d</li>
+<li>Potentially wasteful</li>
+</ul></section><section><h3 id=3D"lazy-operations">Lazy Operations</h3>
+<ul><li>A lazy operation works by instead building a series of computations=
+ required</li>
+<li>Handily, most Enum functions have a similar Stream function
+<div class=3D"highlight"><pre><span></span><code><span class=3D"nc">Stream<=
+/span><span class=3D"o">.</span><span class=3D"n">map</span><span class=3D"=
+p">([</span><span class=3D"mi">1</span><span class=3D"p">,</span><span clas=
+s=3D"w"> </span><span class=3D"mi">2</span><span class=3D"p">,</span><span =
+class=3D"w"> </span><span class=3D"mi">3</span><span class=3D"p">],</span><=
+span class=3D"w"> </span><span class=3D"k">fn</span><span class=3D"w"> </sp=
+an><span class=3D"n">x</span><span class=3D"w"> </span><span class=3D"o">-&=
+gt;</span><span class=3D"w"> </span><span class=3D"n">x</span><span class=
+=3D"w"> </span><span class=3D"o">*</span><span class=3D"w"> </span><span cl=
+ass=3D"mi">2</span><span class=3D"w"> </span><span class=3D"k">end</span><s=
+pan class=3D"p">)</span><span class=3D"w"> </span><span class=3D"o">|&gt;</=
+span><span class=3D"w"> </span><span class=3D"nc">Enum</span><span class=3D=
+"o">.</span><span class=3D"n">sum</span><span class=3D"p">()</span><span cl=
+ass=3D"w"></span>
+</code></pre></div></li>
+<li>Only the end result is created</li>
+</ul></section><section><h3 id=3D"summary">Summary</h3>
+<ul><li>We=E2=80=99ll be going more into Elixir in the practicals, then mov=
+ing on to concurrent examples</li>
+<li>Functional programming languages are highly scalable</li>
+<li>There are some disadvantages, however</li>
+</ul></section>
+
+</body></html>
+------MultipartBoundary--JJVjBSSBefkjY1S8t0DXB8Pn1xG9lrwZ4PT6csiWbs----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-1a1e3b5f-9aa6-4da9-bd42-7967b5aef6e4@mhtml.blink
+
+@charset "utf-8";
+
+@import url("https://fonts.googleapis.com/css2?family=3DMerriweather&family=
+=3DMerriweather+Sans&display=3Dswap");
+
+@import url("https://fonts.googleapis.com/css2?family=3DInconsolata:wght@50=
+0&family=3DMerriweather&family=3DMerriweather+Sans&display=3Dswap");
+
+@import url("https://fonts.googleapis.com/css2?family=3DOpen+Sans:ital,wght=
+@0,400;0,700;1,400;1,700&display=3Dswap");
+
+@media screen {
+  html { background: rgb(64, 64, 64); }
+  body { box-shadow: black 5px 5px 10px; max-width: 50em; padding: 4em; mar=
+gin-left: auto; margin-right: auto; }
+}
+
+html { font-family: "Open Sans", sans-serif; line-height: 1.8em; }
+
+body { background: white; }
+
+h1, h3 { font-family: Merriweather, serif; }
+
+h3 { margin-top: 1.5em; }
+
+pre { line-height: 1.7em; }
+
+code { font-family: Inconsolata, monospace; }
+
+ul > li::marker { color: rgb(0, 128, 255); content: "=E2=96=A0=C2=A0"; }
+
+ul ul > li::marker { color: rgb(128, 192, 255); content: "=E2=96=B8=C2=A0";=
+ }
+
+li { margin: 0.5em 0px; padding-left: 0.5em; padding-top: 0em; width: calc(=
+100% - 1ex); }
+
+code .o, code .p { color: red; }
+
+code .k, code .kd, code .kn, code .kt { color: blue; font-weight: bold; }
+
+code .mi { color: rgb(0, 128, 128); }
+
+code .s, code .se, code .ss { color: green; }
+
+code .bp, code .nb, code .nc, code .nf, code .ni, code .nn, code .no, code =
+.nv { color: black; }
+
+@media screen {
+  .toc { position: fixed; z-index: -1; left: 1ex; top: 1ex; overflow-y: scr=
+oll; width: 20em; max-height: 90%; border-radius: 0.5ex; background: white;=
+ box-shadow: black 5px 5px 10px; }
+  .toc:hover, .toc:focus { z-index: 1; }
+}
+
+.toc { padding: 1em; }
+
+.toc .toctitle { font-weight: bold; margin: 0px; }
+
+pre { border: 1px solid grey; padding: 1ex; }
+
+body { counter-reset: section_n 0; }
+
+section { counter-increment: section_n 1; border-bottom: 1px solid black; }
+
+section::after { content: counter(section_n); display: block; text-align: r=
+ight; }
+------MultipartBoundary--JJVjBSSBefkjY1S8t0DXB8Pn1xG9lrwZ4PT6csiWbs----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://fonts.googleapis.com/css2?family=Merriweather&family=Merriweather+Sans&display=swap
+
+@charset "utf-8";
+
+@font-face { font-family: Merriweather; font-style: normal; font-weight: 40=
+0; font-display: swap; src: url("https://fonts.gstatic.com/s/merriweather/v=
+30/u-440qyriQwlOrhSvowK_l5-cSZMdeX3rsHo.woff2") format("woff2"); unicode-ra=
+nge: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;=
+ }
+
+@font-face { font-family: Merriweather; font-style: normal; font-weight: 40=
+0; font-display: swap; src: url("https://fonts.gstatic.com/s/merriweather/v=
+30/u-440qyriQwlOrhSvowK_l5-eCZMdeX3rsHo.woff2") format("woff2"); unicode-ra=
+nge: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: Merriweather; font-style: normal; font-weight: 40=
+0; font-display: swap; src: url("https://fonts.gstatic.com/s/merriweather/v=
+30/u-440qyriQwlOrhSvowK_l5-cyZMdeX3rsHo.woff2") format("woff2"); unicode-ra=
+nge: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+30=
+0-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: Merriweather; font-style: normal; font-weight: 40=
+0; font-display: swap; src: url("https://fonts.gstatic.com/s/merriweather/v=
+30/u-440qyriQwlOrhSvowK_l5-ciZMdeX3rsHo.woff2") format("woff2"); unicode-ra=
+nge: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20=
+A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: Merriweather; font-style: normal; font-weight: 40=
+0; font-display: swap; src: url("https://fonts.gstatic.com/s/merriweather/v=
+30/u-440qyriQwlOrhSvowK_l5-fCZMdeX3rg.woff2") format("woff2"); unicode-rang=
+e: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, =
+U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,=
+ U+FEFF, U+FFFD; }
+
+@font-face { font-family: "Merriweather Sans"; font-style: normal; font-wei=
+ght: 400; font-display: swap; src: url("https://fonts.gstatic.com/s/merriwe=
+athersans/v26/2-cO9IRs1JiJN1FRAMjTN5zd9vgsFF_5asQTb6hZ2JKZou4VhOsHzRRXnKOrn=
+x4.woff2") format("woff2"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, =
+U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Merriweather Sans"; font-style: normal; font-wei=
+ght: 400; font-display: swap; src: url("https://fonts.gstatic.com/s/merriwe=
+athersans/v26/2-cO9IRs1JiJN1FRAMjTN5zd9vgsFF_5asQTb6hZ2JKZou4VhusHzRRXnKOrn=
+x4.woff2") format("woff2"); unicode-range: U+102-103, U+110-111, U+128-129,=
+ U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U=
++329, U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: "Merriweather Sans"; font-style: normal; font-wei=
+ght: 400; font-display: swap; src: url("https://fonts.gstatic.com/s/merriwe=
+athersans/v26/2-cO9IRs1JiJN1FRAMjTN5zd9vgsFF_5asQTb6hZ2JKZou4Vh-sHzRRXnKOrn=
+x4.woff2") format("woff2"); unicode-range: U+100-2AF, U+304, U+308, U+329, =
+U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-=
+2C7F, U+A720-A7FF; }
+
+@font-face { font-family: "Merriweather Sans"; font-style: normal; font-wei=
+ght: 400; font-display: swap; src: url("https://fonts.gstatic.com/s/merriwe=
+athersans/v26/2-cO9IRs1JiJN1FRAMjTN5zd9vgsFF_5asQTb6hZ2JKZou4ViesHzRRXnKOr.=
+woff2") format("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC=
+, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+=
+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+------MultipartBoundary--JJVjBSSBefkjY1S8t0DXB8Pn1xG9lrwZ4PT6csiWbs----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Merriweather&family=Merriweather+Sans&display=swap
+
+@charset "utf-8";
+
+@font-face { font-family: Inconsolata; font-style: normal; font-weight: 500=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/inconsolata/v32/QldgNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLYxYWI2qfdm7Lpp7=
+c8WRL2l3WdycuJDETf.woff2") format("woff2"); unicode-range: U+102-103, U+110=
+-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+3=
+08-309, U+323, U+329, U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: Inconsolata; font-style: normal; font-weight: 500=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/inconsolata/v32/QldgNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLYxYWI2qfdm7Lpp7=
+c8WRP2l3WdycuJDETf.woff2") format("woff2"); unicode-range: U+100-2AF, U+304=
+, U+308, U+329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0,=
+ U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: Inconsolata; font-style: normal; font-weight: 500=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/inconsolata/v32/QldgNThLqRwH-OJ1UHjlKENVzkWGVkL3GZQmAwLYxYWI2qfdm7Lpp7=
+c8WR32l3WdycuJDA.woff2") format("woff2"); unicode-range: U+0-FF, U+131, U+1=
+52-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U=
++2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: Merriweather; font-style: normal; font-weight: 40=
+0; font-display: swap; src: url("https://fonts.gstatic.com/s/merriweather/v=
+30/u-440qyriQwlOrhSvowK_l5-cSZMdeX3rsHo.woff2") format("woff2"); unicode-ra=
+nge: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;=
+ }
+
+@font-face { font-family: Merriweather; font-style: normal; font-weight: 40=
+0; font-display: swap; src: url("https://fonts.gstatic.com/s/merriweather/v=
+30/u-440qyriQwlOrhSvowK_l5-eCZMdeX3rsHo.woff2") format("woff2"); unicode-ra=
+nge: U+301, U+400-45F, U+490-491, U+4B0-4B1, U+2116; }
+
+@font-face { font-family: Merriweather; font-style: normal; font-weight: 40=
+0; font-display: swap; src: url("https://fonts.gstatic.com/s/merriweather/v=
+30/u-440qyriQwlOrhSvowK_l5-cyZMdeX3rsHo.woff2") format("woff2"); unicode-ra=
+nge: U+102-103, U+110-111, U+128-129, U+168-169, U+1A0-1A1, U+1AF-1B0, U+30=
+0-301, U+303-304, U+308-309, U+323, U+329, U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: Merriweather; font-style: normal; font-weight: 40=
+0; font-display: swap; src: url("https://fonts.gstatic.com/s/merriweather/v=
+30/u-440qyriQwlOrhSvowK_l5-ciZMdeX3rsHo.woff2") format("woff2"); unicode-ra=
+nge: U+100-2AF, U+304, U+308, U+329, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20=
+A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+
+@font-face { font-family: Merriweather; font-style: normal; font-weight: 40=
+0; font-display: swap; src: url("https://fonts.gstatic.com/s/merriweather/v=
+30/u-440qyriQwlOrhSvowK_l5-fCZMdeX3rg.woff2") format("woff2"); unicode-rang=
+e: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, =
+U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,=
+ U+FEFF, U+FFFD; }
+
+@font-face { font-family: "Merriweather Sans"; font-style: normal; font-wei=
+ght: 400; font-display: swap; src: url("https://fonts.gstatic.com/s/merriwe=
+athersans/v26/2-cO9IRs1JiJN1FRAMjTN5zd9vgsFF_5asQTb6hZ2JKZou4VhOsHzRRXnKOrn=
+x4.woff2") format("woff2"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, =
+U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Merriweather Sans"; font-style: normal; font-wei=
+ght: 400; font-display: swap; src: url("https://fonts.gstatic.com/s/merriwe=
+athersans/v26/2-cO9IRs1JiJN1FRAMjTN5zd9vgsFF_5asQTb6hZ2JKZou4VhusHzRRXnKOrn=
+x4.woff2") format("woff2"); unicode-range: U+102-103, U+110-111, U+128-129,=
+ U+168-169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U=
++329, U+1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: "Merriweather Sans"; font-style: normal; font-wei=
+ght: 400; font-display: swap; src: url("https://fonts.gstatic.com/s/merriwe=
+athersans/v26/2-cO9IRs1JiJN1FRAMjTN5zd9vgsFF_5asQTb6hZ2JKZou4Vh-sHzRRXnKOrn=
+x4.woff2") format("woff2"); unicode-range: U+100-2AF, U+304, U+308, U+329, =
+U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-=
+2C7F, U+A720-A7FF; }
+
+@font-face { font-family: "Merriweather Sans"; font-style: normal; font-wei=
+ght: 400; font-display: swap; src: url("https://fonts.gstatic.com/s/merriwe=
+athersans/v26/2-cO9IRs1JiJN1FRAMjTN5zd9vgsFF_5asQTb6hZ2JKZou4ViesHzRRXnKOr.=
+woff2") format("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC=
+, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+=
+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+------MultipartBoundary--JJVjBSSBefkjY1S8t0DXB8Pn1xG9lrwZ4PT6csiWbs----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap
+
+@charset "utf-8";
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWtE6FxZCJgvAQ.woff=
+2") format("woff2"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-=
+2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWvU6FxZCJgvAQ.woff=
+2") format("woff2"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1,=
+ U+2116; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWtU6FxZCJgvAQ.woff=
+2") format("woff2"); unicode-range: U+1F00-1FFF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuk6FxZCJgvAQ.woff=
+2") format("woff2"); unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C,=
+ U+38E-3A1, U+3A3-3FF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWu06FxZCJgvAQ.woff=
+2") format("woff2"); unicode-range: U+590-5FF, U+200C-2010, U+20AA, U+25CC,=
+ U+FB1D-FB4F; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWxU6FxZCJgvAQ.woff=
+2") format("woff2"); unicode-range: U+302-303, U+305, U+307-308, U+330, U+3=
+91-3A1, U+3A3-3A9, U+3B1-3C9, U+3D1, U+3D5-3D6, U+3F0-3F1, U+3F4-3F5, U+203=
+4-2037, U+2057, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2102, U+210A-210E, U+21=
+10-2112, U+2115, U+2119-211D, U+2124, U+2128, U+212C-212D, U+212F-2131, U+2=
+133-2138, U+213C-2140, U+2145-2149, U+2190, U+2192, U+2194-21AE, U+21B0-21E=
+5, U+21F1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310,=
+ U+2319, U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B6, U+23D0, U+2=
+3DC-23E1, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25=
+CC, U+25FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C=
+, U+2BFE, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqW106FxZCJgvAQ.woff=
+2") format("woff2"); unicode-range: U+1-C, U+E-1F, U+7F-9F, U+20DD-20E0, U+=
+20E2-20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U=
++21F3, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-2=
+4FF, U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-=
+2BFF, U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+10=
+1D0-101FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F=
+000-1F0FF, U+1F100-1F1AD, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U=
++1F31E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U=
++1F3A7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4=
+-1F3E0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U=
++1F426, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F=
+453, U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF=
+, U+1F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U=
++1F4F7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F=
+512-1F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U=
++1F68D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC=
+, U+1F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC=
+, U+1F700-1F7FF, U+1F800-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887=
+, U+1F890-1F8AD, U+1F8B0-1F8B1, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U=
++1F996, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FA88, U+1FA90-1FABD=
+, U+1FABF-1FAC5, U+1FACE-1FADB, U+1FAE0-1FAE8, U+1FAF0-1FAF8, U+1FB00-1FBFF=
+; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWtk6FxZCJgvAQ.woff=
+2") format("woff2"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-=
+169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U=
++1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWt06FxZCJgvAQ.woff=
+2") format("woff2"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-=
+1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U=
++A720-A7FF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuU6FxZCJgg.woff2"=
+) format("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C=
+6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, =
+U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 700=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWtE6FxZCJgvAQ.woff=
+2") format("woff2"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-=
+2DFF, U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 700=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWvU6FxZCJgvAQ.woff=
+2") format("woff2"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1,=
+ U+2116; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 700=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWtU6FxZCJgvAQ.woff=
+2") format("woff2"); unicode-range: U+1F00-1FFF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 700=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuk6FxZCJgvAQ.woff=
+2") format("woff2"); unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C,=
+ U+38E-3A1, U+3A3-3FF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 700=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWu06FxZCJgvAQ.woff=
+2") format("woff2"); unicode-range: U+590-5FF, U+200C-2010, U+20AA, U+25CC,=
+ U+FB1D-FB4F; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 700=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWxU6FxZCJgvAQ.woff=
+2") format("woff2"); unicode-range: U+302-303, U+305, U+307-308, U+330, U+3=
+91-3A1, U+3A3-3A9, U+3B1-3C9, U+3D1, U+3D5-3D6, U+3F0-3F1, U+3F4-3F5, U+203=
+4-2037, U+2057, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2102, U+210A-210E, U+21=
+10-2112, U+2115, U+2119-211D, U+2124, U+2128, U+212C-212D, U+212F-2131, U+2=
+133-2138, U+213C-2140, U+2145-2149, U+2190, U+2192, U+2194-21AE, U+21B0-21E=
+5, U+21F1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310,=
+ U+2319, U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B6, U+23D0, U+2=
+3DC-23E1, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25=
+CC, U+25FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C=
+, U+2BFE, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 700=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqW106FxZCJgvAQ.woff=
+2") format("woff2"); unicode-range: U+1-C, U+E-1F, U+7F-9F, U+20DD-20E0, U+=
+20E2-20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U=
++21F3, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-2=
+4FF, U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-=
+2BFF, U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+10=
+1D0-101FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F=
+000-1F0FF, U+1F100-1F1AD, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U=
++1F31E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U=
++1F3A7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4=
+-1F3E0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U=
++1F426, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F=
+453, U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF=
+, U+1F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U=
++1F4F7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F=
+512-1F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U=
++1F68D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC=
+, U+1F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC=
+, U+1F700-1F7FF, U+1F800-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887=
+, U+1F890-1F8AD, U+1F8B0-1F8B1, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U=
++1F996, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FA88, U+1FA90-1FABD=
+, U+1FABF-1FAC5, U+1FACE-1FADB, U+1FAE0-1FAE8, U+1FAF0-1FAF8, U+1FB00-1FBFF=
+; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 700=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWtk6FxZCJgvAQ.woff=
+2") format("woff2"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-=
+169, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U=
++1EA0-1EF9, U+20AB; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 700=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWt06FxZCJgvAQ.woff=
+2") format("woff2"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-=
+1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U=
++A720-A7FF; }
+
+@font-face { font-family: "Open Sans"; font-style: italic; font-weight: 700=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWuU6FxZCJgg.woff2"=
+) format("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C=
+6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, =
+U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSKmu0SC55K5gw.woff2"=
+) format("woff2"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2D=
+FF, U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSumu0SC55K5gw.woff2"=
+) format("woff2"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U=
++2116; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSOmu0SC55K5gw.woff2"=
+) format("woff2"); unicode-range: U+1F00-1FFF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSymu0SC55K5gw.woff2"=
+) format("woff2"); unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U=
++38E-3A1, U+3A3-3FF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS2mu0SC55K5gw.woff2"=
+) format("woff2"); unicode-range: U+590-5FF, U+200C-2010, U+20AA, U+25CC, U=
++FB1D-FB4F; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTVOmu0SC55K5gw.woff2"=
+) format("woff2"); unicode-range: U+302-303, U+305, U+307-308, U+330, U+391=
+-3A1, U+3A3-3A9, U+3B1-3C9, U+3D1, U+3D5-3D6, U+3F0-3F1, U+3F4-3F5, U+2034-=
+2037, U+2057, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2102, U+210A-210E, U+2110=
+-2112, U+2115, U+2119-211D, U+2124, U+2128, U+212C-212D, U+212F-2131, U+213=
+3-2138, U+213C-2140, U+2145-2149, U+2190, U+2192, U+2194-21AE, U+21B0-21E5,=
+ U+21F1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U=
++2319, U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B6, U+23D0, U+23D=
+C-23E1, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC=
+, U+25FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, =
+U+2BFE, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTUGmu0SC55K5gw.woff2"=
+) format("woff2"); unicode-range: U+1-C, U+E-1F, U+7F-9F, U+20DD-20E0, U+20=
+E2-20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+2=
+1F3, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24F=
+F, U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2B=
+FF, U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D=
+0-101FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F00=
+0-1F0FF, U+1F100-1F1AD, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1=
+F31E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1=
+F3A7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1=
+F3E0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1=
+F426, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F45=
+3, U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, =
+U+1F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1=
+F4F7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F51=
+2-1F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1=
+F68D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, =
+U+1F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, =
+U+1F700-1F7FF, U+1F800-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, =
+U+1F890-1F8AD, U+1F8B0-1F8B1, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1=
+F996, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FA88, U+1FA90-1FABD, =
+U+1FABF-1FAC5, U+1FACE-1FADB, U+1FAE0-1FAE8, U+1FAF0-1FAF8, U+1FB00-1FBFF; =
+}
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSCmu0SC55K5gw.woff2"=
+) format("woff2"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-16=
+9, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1=
+EA0-1EF9, U+20AB; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSGmu0SC55K5gw.woff2"=
+) format("woff2"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E=
+9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A=
+720-A7FF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 400=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2") f=
+ormat("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, =
+U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2=
+191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 700=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSKmu0SC55K5gw.woff2"=
+) format("woff2"); unicode-range: U+460-52F, U+1C80-1C88, U+20B4, U+2DE0-2D=
+FF, U+A640-A69F, U+FE2E-FE2F; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 700=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSumu0SC55K5gw.woff2"=
+) format("woff2"); unicode-range: U+301, U+400-45F, U+490-491, U+4B0-4B1, U=
++2116; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 700=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSOmu0SC55K5gw.woff2"=
+) format("woff2"); unicode-range: U+1F00-1FFF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 700=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSymu0SC55K5gw.woff2"=
+) format("woff2"); unicode-range: U+370-377, U+37A-37F, U+384-38A, U+38C, U=
++38E-3A1, U+3A3-3FF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 700=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS2mu0SC55K5gw.woff2"=
+) format("woff2"); unicode-range: U+590-5FF, U+200C-2010, U+20AA, U+25CC, U=
++FB1D-FB4F; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 700=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTVOmu0SC55K5gw.woff2"=
+) format("woff2"); unicode-range: U+302-303, U+305, U+307-308, U+330, U+391=
+-3A1, U+3A3-3A9, U+3B1-3C9, U+3D1, U+3D5-3D6, U+3F0-3F1, U+3F4-3F5, U+2034-=
+2037, U+2057, U+20D0-20DC, U+20E1, U+20E5-20EF, U+2102, U+210A-210E, U+2110=
+-2112, U+2115, U+2119-211D, U+2124, U+2128, U+212C-212D, U+212F-2131, U+213=
+3-2138, U+213C-2140, U+2145-2149, U+2190, U+2192, U+2194-21AE, U+21B0-21E5,=
+ U+21F1-21F2, U+21F4-2211, U+2213-2214, U+2216-22FF, U+2308-230B, U+2310, U=
++2319, U+231C-2321, U+2336-237A, U+237C, U+2395, U+239B-23B6, U+23D0, U+23D=
+C-23E1, U+2474-2475, U+25AF, U+25B3, U+25B7, U+25BD, U+25C1, U+25CA, U+25CC=
+, U+25FB, U+266D-266F, U+27C0-27FF, U+2900-2AFF, U+2B0E-2B11, U+2B30-2B4C, =
+U+2BFE, U+FF5B, U+FF5D, U+1D400-1D7FF, U+1EE00-1EEFF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 700=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTUGmu0SC55K5gw.woff2"=
+) format("woff2"); unicode-range: U+1-C, U+E-1F, U+7F-9F, U+20DD-20E0, U+20=
+E2-20E4, U+2150-218F, U+2190, U+2192, U+2194-2199, U+21AF, U+21E6-21F0, U+2=
+1F3, U+2218-2219, U+2299, U+22C4-22C6, U+2300-243F, U+2440-244A, U+2460-24F=
+F, U+25A0-27BF, U+2800-28FF, U+2921-2922, U+2981, U+29BF, U+29EB, U+2B00-2B=
+FF, U+4DC0-4DFF, U+FFF9-FFFB, U+10140-1018E, U+10190-1019C, U+101A0, U+101D=
+0-101FD, U+102E0-102FB, U+10E60-10E7E, U+1D2C0-1D2D3, U+1D2E0-1D37F, U+1F00=
+0-1F0FF, U+1F100-1F1AD, U+1F1E6-1F1FF, U+1F30D-1F30F, U+1F315, U+1F31C, U+1=
+F31E, U+1F320-1F32C, U+1F336, U+1F378, U+1F37D, U+1F382, U+1F393-1F39F, U+1=
+F3A7-1F3A8, U+1F3AC-1F3AF, U+1F3C2, U+1F3C4-1F3C6, U+1F3CA-1F3CE, U+1F3D4-1=
+F3E0, U+1F3ED, U+1F3F1-1F3F3, U+1F3F5-1F3F7, U+1F408, U+1F415, U+1F41F, U+1=
+F426, U+1F43F, U+1F441-1F442, U+1F444, U+1F446-1F449, U+1F44C-1F44E, U+1F45=
+3, U+1F46A, U+1F47D, U+1F4A3, U+1F4B0, U+1F4B3, U+1F4B9, U+1F4BB, U+1F4BF, =
+U+1F4C8-1F4CB, U+1F4D6, U+1F4DA, U+1F4DF, U+1F4E3-1F4E6, U+1F4EA-1F4ED, U+1=
+F4F7, U+1F4F9-1F4FB, U+1F4FD-1F4FE, U+1F503, U+1F507-1F50B, U+1F50D, U+1F51=
+2-1F513, U+1F53E-1F54A, U+1F54F-1F5FA, U+1F610, U+1F650-1F67F, U+1F687, U+1=
+F68D, U+1F691, U+1F694, U+1F698, U+1F6AD, U+1F6B2, U+1F6B9-1F6BA, U+1F6BC, =
+U+1F6C6-1F6CF, U+1F6D3-1F6D7, U+1F6E0-1F6EA, U+1F6F0-1F6F3, U+1F6F7-1F6FC, =
+U+1F700-1F7FF, U+1F800-1F80B, U+1F810-1F847, U+1F850-1F859, U+1F860-1F887, =
+U+1F890-1F8AD, U+1F8B0-1F8B1, U+1F900-1F90B, U+1F93B, U+1F946, U+1F984, U+1=
+F996, U+1F9E9, U+1FA00-1FA6F, U+1FA70-1FA7C, U+1FA80-1FA88, U+1FA90-1FABD, =
+U+1FABF-1FAC5, U+1FACE-1FADB, U+1FAE0-1FAE8, U+1FAF0-1FAF8, U+1FB00-1FBFF; =
+}
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 700=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSCmu0SC55K5gw.woff2"=
+) format("woff2"); unicode-range: U+102-103, U+110-111, U+128-129, U+168-16=
+9, U+1A0-1A1, U+1AF-1B0, U+300-301, U+303-304, U+308-309, U+323, U+329, U+1=
+EA0-1EF9, U+20AB; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 700=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSGmu0SC55K5gw.woff2"=
+) format("woff2"); unicode-range: U+100-2AF, U+304, U+308, U+329, U+1E00-1E=
+9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A=
+720-A7FF; }
+
+@font-face { font-family: "Open Sans"; font-style: normal; font-weight: 700=
+; font-stretch: 100%; font-display: swap; src: url("https://fonts.gstatic.c=
+om/s/opensans/v40/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-mu0SC55I.woff2") f=
+ormat("woff2"); unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, =
+U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+2074, U+20AC, U+2122, U+2=
+191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+------MultipartBoundary--JJVjBSSBefkjY1S8t0DXB8Pn1xG9lrwZ4PT6csiWbs------

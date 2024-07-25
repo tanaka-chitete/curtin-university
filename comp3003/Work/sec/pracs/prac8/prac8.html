@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Worksheet 8. Internationalisation (I18N)</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Merriweather+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&family=Merriweather&family=Merriweather+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@media screen {
+html { background: #404040; }
+}
+html {
+font-family: 'Open Sans', sans-serif;
+line-height: 1.8em;
+}
+body {
+background: white;
+max-width: 50em;
+margin-left: auto;
+margin-right: auto;
+padding: 4em;
+counter-reset: section;
+}
+h1, h2, h3, h4, h5, h6 {
+font-family: 'Merriweather', serif;
+}
+h2, h3, h4, h5, h6 {
+margin-top: 1.5em;
+}
+h2:not(.notnumbered) {
+counter-reset: subsection;
+counter-increment: section;
+}
+h2:not(.notnumbered)::before {
+content: counter(section);
+margin-right: 1em;
+}
+h3:not(.notnumbered) {
+counter-reset: subsubsection;
+counter-increment: subsection;
+}
+h3:not(.notnumbered)::before {
+content: counter(section) "." counter(subsection);
+margin-right: 1em;
+}
+h4:not(.notnumbered) {
+counter-increment: subsubsection;
+}
+h4:not(.notnumbered)::before {
+content: counter(section) "." counter(subsection) "." counter(subsubsection);
+margin-right: 1em;
+}
+pre {
+line-height: 1.7em;
+}
+code {
+font-family: 'Inconsolata', monospace;
+}
+.unixcmd::before, .wincmd::before, [prompt]::before, .unixcmd br+::before, .wincmd br+::before, [prompt] br+::before {
+font-family: 'Inconsolata', monospace;
+color: #808080;
+}
+.unixcmd::before, .unixcmd br+::before {
+content: "[user@pc]$ ";
+}
+.wincmd::before, wincmd br+::before {
+content: "C:\\> ";
+}
+[prompt]::before, [prompt] br+::before {
+content: attr(prompt) " ";
+}
+.admonition {
+border-radius: 5px;
+border: 1px solid #606060;
+padding: 0 1em;
+margin: 1ex 0;
+}
+.admonition-title {
+font-weight: bold;
+font-family: 'Merriweather Sans', sans-serif;
+}
+.admonition.note {
+border: 1px solid #0060c0;
+background: #c0d8ff;
+}
+.admonition.warning {
+border: 1px solid #c03030;
+background: #ffc0c0;
+}
+.admonition.answer {
+border: 1px solid #c000c0;
+background: #ffe0ff;
+}
+ul > li::marker {
+color: #0080ff;
+content: '\25A0\00A0';
+}
+ul ul > li::marker {
+color: #80c0ff;
+content: '\25B8\00A0';
+}
+ol {
+width: 100%;
+counter-reset: listitem;
+padding: 0;
+}
+ol > li {
+display: table;
+counter-increment: listitem;
+}
+ol > li::before {
+content: counters(listitem, ".") ". ";
+display: table-cell;
+width: 2ex;
+padding-right: 0.5em;
+color: #ff6000;
+font-weight: bold;
+}
+ol ol > li::before {
+width: 3ex;
+}
+ol ol ol > li::before {
+width: 4ex;
+}
+.alpha + ol > li::before {
+content: "(" counter(listitem, lower-alpha) ") ";
+}
+.roman + ol > li::before {
+content: "(" counter(listitem, lower-roman) ") ";
+}
+li {
+margin: 0.5em 0 0.5em 0;
+padding-left: 0.5em;
+padding-top: 0em;
+width: calc(100% - 1ex);
+}
+ol > li > p:first-child {
+margin-top: 0;
+}
+ol > li > :last-child {
+margin-bottom: 0;
+}
+table {
+border-collapse: collapse;
+border-bottom: 1px solid black;
+}
+table thead tr {
+background-color: #ffc080;
+border-top: 1px solid black;
+border-bottom: 1px solid black;
+}
+td, th {
+padding: 0.5em 1em;
+}
+tbody tr:nth-child(odd) {
+background-color: white;
+}
+tbody tr:nth-child(even) {
+background-color: #fff0e0;
+}
+[nmarks]:not([nmarks="1"])::after {
+content: "[" attr(nmarks) " marks]";
+}
+[nmarks="1"]::after {
+content: "[1 mark]";
+}
+[nmarks]::after {
+display: block;
+text-align: right;
+font-weight: bold;
+position: relative;
+}
+.inline {
+position: relative;
+}
+.inline[nmarks]::after {
+position: absolute;
+right: 0pt;
+bottom: 0pt;
+}
+code .o, code .ow, code .p { color: red; }
+code .c, .ch, code .cm, code .cpf, code .c1, code .cs, code .cp { color: #c06000; font-style: italic }
+code .k, .kc, code .kd, code .kn, code .kp, code .kr, code .kt { color: blue; font-weight: bold }
+code .m, code .mb, code .mf, code .mh, code .mi, code .mo, code .il { color: #008080; }
+code .s, code .sa , code .sb , code .sc , code .dl , code .sd , code .s2 , code .se , code .sh , code .si , code .sx , code .sr , code .s1 , code .ss { color: green; }
+code .na, code .nb, code .nc, code .no, code .nd, code .ni, code .ne, code .nf, code .nl, code .nn, code .nt, code .nv, code .bp, code .fm, code .vc, code .vg, code .vi, code .vm { color: black; }
+code .w { color: #bbbbbb }
+.tutor {
+border: 1px solid #c000c0;
+background: #ffe0ff;
+}
+</style>
+</head>
+<body>
+<h1>Worksheet 8. Internationalisation (I18N)</h1>
+<div class="admonition preamble">
+<p>Software Engineering Concepts (COMP3003)<br />
+Software Architecture and Extensible Design (COMP6007)</p>
+<p>Created by David Cooper<br />
+Copyright © 2021 Curtin University<br />
+Updated <span>2021-09-24</span></p>
+</div>
+<p>Obtain a copy of <code>bus_timetable_app.zip</code> from Blackboard. This is a simple but functional application that will let us explore internationalisation issues.</p>
+<h2>Translation</h2>
+<p>Run the app and briefly explore the UI. It&rsquo;s currently only displayed in English, as you can see. Your task is to internationalise it such that it can be displayed in both English and another language (whichever language you prefer).</p>
+<div class="admonition note">
+<p class="admonition-title">Do I actually have to <em>know</em> another language?</p>
+<p>If you are multilingual, feel free to make use of your knowledge!</p>
+<p>If you&rsquo;re not, don&rsquo;t worry. You can just pretend in whatever way seems best. For instance, at a very basic level, you could simply take each English UI label and add a letter on the end (&ldquo;LoadA&rdquo;, &ldquo;SaveB&rdquo;, &ldquo;AddC&rdquo;, etc.), and pretend that this is some other language. But you still have to go through the proper internationalisation process.</p>
+<p>You can also consult the <a href="https://www.microsoft.com/en-us/language">Microsoft language portal</a> if you want to attempt an actual translation but need to look up the terms required.</p>
+</div>
+<p>The relevant concepts are explained in the notes, but also be aware of the following:</p>
+<ul>
+<li>
+<p>The bus timetable app takes an optional command-line parameter of the form <code>--locale=</code>[value] (e.g., <code>--locale=en-AU</code>). See <code>BusTimetableApp.java</code>. Use this to create a <code>Locale</code> object, or use the default locale if the parameter isn&rsquo;t specified.</p>
+<p>To actually run the app via Gradle, you will need to write:</p>
+<ul>
+<li>For the default locale: <code>./gradlew run</code></li>
+<li>For a specific locale: <code>./gradlew run --args='--locale=</code>[value]<code>'</code></li>
+</ul>
+</li>
+<li>
+<p>The bus timetable app&rsquo;s user interface is divided between three classes: <code>MainUI</code>, <code>AddUI</code> and <code>LoadSaveUI</code>. All of these parts contains text that needs translation. Look for all string literals within the code that are displayed on screen.</p>
+<p>Don&rsquo;t worry about translating the names of the encodings &ldquo;UTF-8&rdquo;, &ldquo;UTF-16&rdquo; or &ldquo;UTF-32&rdquo;. (These might not even have translations, and if you do translate them, you will need to refactor the code so as to keep the original strings for use internally.)</p>
+<p>Don&rsquo;t worry about the contents of <code>FileChooser</code> dialog, which lets the user pick a filename to save/load. Except for the title, we don&rsquo;t have control over this, as it&rsquo;s really part of the operating system.</p>
+</li>
+</ul>
+<h2>Encodings</h2>
+<p>The application currently reads and writes a CSV file. Although it asks the user for an encoding, it (currently) ignores this, and just uses the default encoding, probably UTF-8.</p>
+<p>Your task here is to make it use the encoding specified by the user: UTF-8, UTF-16 or UTF-32. This all needs to be done within <code>FileIO.java</code>.</p>
+<div class="admonition note">
+<p class="admonition-title">Java API Documentation</p>
+<p>For loading files, consult the API documentation for <code>FileReader</code> and <code>InputStreamReader</code> (though you don&rsquo;t need both of them). Pay attention to the constructors. For saving files, consult the documentation for <code>PrintWriter</code>.</p>
+<p>You will notice that these classes <em>sometimes</em> accept encoding names (strings), but more often accept <code>Charset</code> objects (<code>java.nio.charset.Charset</code>). The documentation for that is quite extensive, but you may want to look up <code>Charset.forName()</code>.</p>
+<p>Note that <em>technically</em> UTF-32 is not one of the standard encodings that Java is guaranteed to support. It is, however, <em>very likely</em> to be supported in practice.</p>
+</div>
+<p>Once you&rsquo;ve implemented this, make sure it&rsquo;s working:</p>
+<ul>
+<li>
+<p>Try to read the existing <code>bus_timetable_utf16.csv</code> file. (And see below if it doesn&rsquo;t work.)</p>
+</li>
+<li>
+<p>Save a file in UTF-16 format, and load it back in using UTF-16.</p>
+</li>
+<li>
+<p>Verify that it is indeed in UTF-16 format (and you haven&rsquo;t just written in the default encoding):</p>
+<ul>
+<li>Compare the file sizes of equivalent UTF-8 and UTF-16 files. The UTF-16 file size should be around twice that of the UTF-8 file (at least when using English characters).</li>
+<li>You can run a hex viewer/editor on the file, to see the binary data.</li>
+<li>On Linux, you can run &ldquo;<code>file</code>[filename.csv]&rdquo;, and it will generally be able to tell UTF-8 and UTF-16 files apart.</li>
+</ul>
+</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">What to expect if things go wrong?</p>
+<p>If you use the wrong encoding, the results can be strange and unpredictable. </p>
+<p>Here, if you try to open <code>bus_timetable_utf16.csv</code> with the unmodified version of the app, you&rsquo;ll probably get this error: &ldquo;<code>Invalid departure time: '09:00'</code>&rdquo;. But that&rsquo;s a <em>correctly</em> formatted time! And it works fine when you load the the UTF-8 version of the file (or should do, anyway).</p>
+<p>What&rsquo;s going on is this: </p>
+<ul>
+<li>
+<p>The UTF-16 file contains two bytes per character. For our example CSV file, all the characters have code points less than 007f (the ASCII range). So, for each character, there is one zero byte and one non-zero byte.</p>
+</li>
+<li>
+<p>If you try to read this file <em>as if it was UTF-8</em>, you&rsquo;ll get twice as many characters as you should have.</p>
+<ul>
+<li>
+<p>The zero bytes will be interpreted as &ldquo;<em>null characters</em>&rdquo;. These are typically only used for terminating C strings. They can be represented in source code as <code>'\0'</code>, but they don&rsquo;t have any appearance when you try to print them.</p>
+</li>
+<li>
+<p>The <em>other</em> characters will look as they should, because UTF-8 and UTF-16 use the same byte values for English characters.</p>
+</li>
+</ul>
+</li>
+</ul>
+<p>So, the error message is not actually referring to the string <code>"09:00"</code>, but to a corrupted version of that string that happens to look the same when printed.</p>
+<p>You can tell the decoder to produce exceptions if it finds invalid characters, but that&rsquo;s only a small piece of the problem. It won&rsquo;t be able to tell you if your choice of encoding is wrong, because all the byte values can have valid (just different) meanings in two different encodings.</p>
+</div>
+<h2>String Comparison and Normalisation</h2>
+<p>In the <code>MainUI.matches()</code> method, we perform the string comparison operation that makes the search box work. However, it currently uses un-normalised strings, and so will fail (it won&rsquo;t find the right timetable entries) if the timetable contains text that is <em>equivalent</em> to the search term but not binary-identical. </p>
+<p>Use compatibility normalisation (NFKC) to fix this, and check to see if it&rsquo;s working.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The example CSV files contain the destinations &ldquo;Aﬄuent Oﬃces&rdquo; and &ldquo;Café ℬläck̰&rdquo;. See what happens when you enter their names in the search bar.</p>
+</div>
+
+
+<h2>Dates, Times and Formatting</h2>
+<p>Three other methods in <code>MainUI</code> perform date/time formatting, but they currently do so in a non-locale-specific fashion. Your task is to use <code>DateTimeFormatter</code>, in combination with your <code>Locale</code> object from before, to fix this.</p>
+<ul>
+<li>
+<p><code>MainUI.updateStatus()</code> controls the format of the date-and-time shown in the status bar, at the bottom of the window. These should be shown in &ldquo;LONG&rdquo; form, including both the date and time component.</p>
+</li>
+<li>
+<p><code>MainUI.getDepartureTimeString()</code> controls the format of bus departure times (in that column of the table). These are only <em>times</em>, with no date component to them.</p>
+</li>
+<li>
+<p><code>MainUI.getArrivalTimeString()</code> controls the format of bus arrival times at their destination, or it <em>should</em> do. When implemented, it needs to calculate an arrival time from the departure time plus the duration of the trip.</p>
+<div class="admonition note">
+<p class="admonition-title">API Time Calculations</p>
+<p>There are API mechanisms for doing time calculations. See the Java API documentation for <code>LocalTime</code> and <code>Duration</code>. </p>
+<p>(Be aware that <code>LocalTime</code> implements the <code>Temporal</code> interface, and <code>Duration</code> implements <code>TemporalAmount</code>.)</p>
+</div>
+</li>
+</ul>
+<h2>Discussion Question: Data Requirements</h2>
+<p>Say we want to improve the app to automatically populate the bus timetable. What <em>other</em> internationalisation issue would come up then?</p>
+
+</body>
+</html>

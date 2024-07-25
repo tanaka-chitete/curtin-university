@@ -1,0 +1,13 @@
+en
+conf t
+int tun3
+ip address 192.168.202.2 255.255.255.0
+tunnel source s0/0/0
+tunnel destination 209.165.100.30
+tunnel mode gre ip
+no shutdown 
+exit
+ip route 0.0.0.0 0.0.0.0 Serial0/0/0 
+ip route 192.168.10.0 255.255.255.0 192.168.202.1
+exit 
+copy run start

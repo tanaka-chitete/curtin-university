@@ -1,0 +1,25 @@
+plugins {
+    // Apply the java plugin to add support for Java
+    id 'java'
+
+    // Apply the JavaCC plugin to add support for JavaCC
+    id 'ca.coglinc2.javacc' version '3.0.0'
+}
+
+repositories {
+    mavenCentral()
+}
+
+compileJava.doLast {
+    copy {
+        from "$buildDir/classes/java/main/texteditor"
+        include '**/*.class'
+        into "$rootDir/app/build/classes/java/main/texteditor"
+    }
+
+    copy {
+        from 'src/main/resources'
+        include 'keymap'
+        into "$rootDir/app"
+    }
+}

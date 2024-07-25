@@ -1,0 +1,90 @@
+/* 
+NAME: Tanaka Chitete
+STUDENT_ID: 20169321
+LAB_CLASS: Tuesday at 12:00 PM 
+*/
+
+# TASK 1
+# Question 1
+SHOW TABLES;
+
+# Question 2
+CREATE TABLE Festivals (
+  festivid CHAR(3),
+  location VARCHAR(15),
+  name VARCHAR(20),
+  date DATE,
+  participants INT,
+  numdays INT
+);
+
+# Question 3
+SHOW COLUMNS FROM Festivals;
+
+
+# Question 4
+INSERT INTO Festivals (festivid, location) VALUES ('200', 'Perth');
+SELECT * FROM Festivals;
+
+# Question 5
+INSERT INTO Festivals (festivid, name, date, participants) VALUES ('201', 'Retro Art Fest 2021', '2021-09-12', 350);
+SELECT * FROM Festivals; 
+
+# Question 6
+INSERT INTO Festivals VALUES ('202', 'Perth', 'Retro Car Fest 2021', '2021-09-14', 400, 2);
+INSERT INTO Festivals VALUES ('203', 'Bunbury', 'Music Fest 2021', '2021-09-14', 300, 3);
+SELECT * FROM Festivals;
+
+# Question 7
+UPDATE Festivals SET participants = 400 WHERE festivid = '201';
+SELECT * FROM Festivals;
+
+# TASK 2
+# Question 1
+/*
+artistid: INT
+firstname: VARCHAR
+secondname: VARCHAR
+email: VARCHAR
+rate: DECIMAL
+*/
+
+# Question 2
+CREATE TABLE Artists (
+  artistid CHAR(8),
+  firstname VARCHAR(12),
+  secondname VARCHAR(15),
+  email VARCHAR(45),
+  rate DECIMAL(5, 2)
+); 
+SHOW COLUMNS FROM Artists; 
+  
+# Question 3
+INSERT INTO Artists VALUES ('12345678', 'Michelle', 'O''Conner', 'michelle.oconnor@gmail.com', 102.32);
+SELECT * FROM Artists;
+
+# TASK 3
+# Question 1
+CREATE TABLE Venue (
+  venueid INT,
+  name VARCHAR(15),
+  capacity INT,
+  city VARCHAR(12),
+  telephone VARCHAR(10)
+);
+INSERT INTO Venue VALUES (100, 'Best Hall Ever', 400, 'Perth', '0415574377');
+INSERT INTO Venue VALUES (101, 'Bells Functions', 90, 'Perth', '0415570034');
+INSERT INTO Venue VALUES (102, 'Swan River Edge', 300, 'Sand City', '0013419001');
+INSERT INTO Venue VALUES (103, 'Como Community', 250, 'Forestedge', '0023550082');
+INSERT INTO Venue VALUES (104, 'Moonlight', 270, 'Infinity', '0023556670');
+INSERT INTO Venue VALUES (105, 'Blue Water', 350, 'Swan Valley', '0024567770');
+INSERT INTO Venue VALUES (106, 'Far End Arena', 550, 'Sand City', '0024556781');
+INSERT INTO Venue VALUES (107, 'Red Sea Club', 450, 'Swan Valley', '0024576770');
+SELECT * FROM Venue;
+
+# Question 2
+SELECT name, city, capacity FROM Venue WHERE city = 'Swan Valley';
+
+# Question 3
+DELETE FROM Venue WHERE capacity <= 200;
+SELECT * FROM Venue;

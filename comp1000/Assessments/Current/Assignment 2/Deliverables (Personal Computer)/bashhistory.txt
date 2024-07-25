@@ -1,0 +1,500 @@
+   63  java DSAHeapTestHarness
+   64  javac *.java
+   65  java DSAHeapTestHarness
+   66  javac *.java
+   67  java DSAHeapTestHarness
+   68  java DSAHeapTestHarness
+   69  java DSAHeapTestHarness
+   70  javac *.java
+   71  java DSAHeapTestHarness
+   72  javac *.java
+   73  java DSAHeapTestHarness
+   74  javac *.java
+   75  java DSAHeapTestHarness
+   76  javac *.java
+   77  javac *.java
+   78  java DSAHeapTestHarness
+   79  javac *.java
+   80  java DSAHeapTestHarness
+   81  0
+   82  java DSAHeapTestHarness
+   83  javac *.java
+   84  java DSAHeapTestHarness
+   85  javac *.java
+   86  java DSAHeapTestHarness
+   87  javac *.java
+   88  java DSAHeapTestHarness
+   89  javac *.java
+   90  java DSAHeapTestHarness
+   91  javac *.java
+   92  java DSAHeapTestHarness
+   93  javac *.java
+   94  java DSAHeapTestHarness
+   95  javac *.java
+   96  java DSAHeapTestHarness
+   97  javac *.java
+   98  java DSAHeapTestHarness
+   99  javac *.java
+  100  java DSAHeapTestHarness
+  101  javac *.java
+  102  java DSAHeapTestHarness
+  103  javac *.java
+  104  java DSAHeapTestHarness
+  105  javac *.java
+  106  java DSAHeapTestHarness
+  107  0
+  108  java DSAHeapTestHarness
+  109  javac *.java
+  110  java DSAHeapTestHarness
+  111  javac *.java
+  112  java DSAHeapTestHarness
+  113  javac *.java
+  114  java DSAHeapTestHarness
+  115  ls
+  116  history > BashHistory.txt
+  117  ls
+  118  rm *.class
+  119  ls
+  120  cd ..
+  121  ls
+  122  tar -cvzf 20169321_Lab_08.tar.gz Deliverables
+  123  ls
+  124  mv 20169321_Lab_08.tar.gz rm 20169321_Lab_08.tar.gz
+  125  ls
+  126  rm 20169321_Lab_08.tar.gz
+  127  ls
+  128  rm *.class
+  129  ls
+  130  javac -cp json-20200518.jar *.java
+  131  ls
+  132  rm *.class
+  133  javac -cp json-20200518.jar *.java
+  134  javac -cp json-20200518.jar *.java
+  135  javac -cp json-20200518.jar *.java
+  136  clear
+  137  javac *.java
+  138  ls
+  139  java DSAHeapTestHarness
+  140  ls
+  141  rm *.class
+  142  ls
+  143  javac *.java
+  144  java DSAHeapTestHarness
+  145  ls
+  146  vim DSAHeapTestHarness.java
+  147  vim DSAHeap.java
+  148  vim DSAHeapEntry.java
+  149  javac DSAHashTable.java
+  150  javac UnitTestDSAHashTable.java
+  151  java UnitTestDSAHashTable
+  152  java UnitTestDSAHashTable
+  153  javac UnitTestDSAHashTable.java
+  154  java UnitTestDSAHashTable
+  155  javac UnitTestDSAHashTable.java
+  156  java UnitTestDSAHashTable
+  157  rm *.class
+  158  javac UnitTestDSAHashTable.java
+  159  java UnitTestDSAHashTable
+  160  rm *.class
+  161  javac UnitTestDSAHashTable.java
+  162  java UnitTestDSAHashTable
+  163  rm *.class
+  164  ls
+  165  cd DSALinkedList
+  166  javac *.java
+  167  java UnitTestLinkedList
+  168  rm *.class
+  169  LS
+  170  javac *.java
+  171  LS
+  172  javac *.java
+  173  java UnitTestLinkedList
+  174  java UnitTestDSALinkedList
+  175  rm *.class
+  176  ls
+  177  cd ..
+  178  ls
+  179  cd DSAStack
+  180  ls
+  181  javac *.java
+  182  java UnitTestDSAStack
+  183  rm *.class
+  184  cd ..
+  185  ls
+  186  cd DSAQueue
+  187  ls
+  188  javac *.java
+  189  java UnitTestDSAQueue
+  190  ls
+  191  cd DSAHashSet
+  192  ls
+  193  javac *.java
+  194  java UnitTestDSAHashSet.java
+  195  cd ..
+  196  ls
+  197  cd DSAHashTable
+  198  ls
+  199  javac *.java
+  200  ls
+  201  ls
+  202  javac *.java
+  203  javac *.java
+  204  javac *.java
+  205  ls
+  206  java UnitTestDSAHashTable
+  207  ls
+  208  cd ..
+  209  ls
+  210  cd DSAHashSet
+  211  ls
+  212  javac *.java
+  213  java UnitTestDSAHashSet
+  214  javac *.java
+  215  java UnitTestDSAHashSet
+  216  javac *.java
+  217  java UnitTestDSAHashSet
+  218  javac *.java
+  219  javac *.java
+  220  javac *.java
+  221  java UnitTestDSAHashSet
+  222  java UnitTestDSAHashSet
+  223  javac *.java
+  224  java UnitTestDSAHashSet
+  225  javac *.java
+  226  java UnitTestDSAHashSet
+  227  javac *.java
+  228  java UnitTestDSAHashSet
+  229  javac *.java
+  230  java UnitTestDSAHashSet
+  231  rm *.class
+  232  ls
+  233  ls
+  234  cd ..
+  235  ls
+  236  cd CryptoGraph
+  237  ls
+  238  cd CryptoGraph
+  239  ls
+  240  javac *.java
+  241  javac -cp json-20200518.jar *.java
+  242  javac -cp json-20200518.jar *.java
+  243  ls
+  244  cd ..
+  245  ls
+  246  cd DSAGraph
+  247  ls
+  248  javac *.java
+  249  java UnitTestDSAGraph
+  250  rm *.class
+  251  cd ../DSAQueue
+  252  ls
+  253  rm *.class
+  254  cd ..
+  255  ls
+  256  cd CryptoGraph
+  257  ls
+  258  javac -cp json-20200518.jar *.java
+  259  javac -cp json-20200518.jar *.java
+  260  javac -cp json-20200518.jar *.java
+  261  javac -cp json-20200518.jar *.java
+  262  javac -cp json-20200518.jar *.java
+  263  javac -cp json-20200518.jar *.java
+  264  javac -cp json-20200518.jar *.java
+  265  javac -cp json-20200518.jar *.java
+  266  javac -cp json-20200518.jar *.java
+  267  cd ..
+  268  ls
+  269  cd DSAHashSet
+  270  javac *.java
+  271  java UnitTestDSAHashSet
+  272  java UnitTestDSAHashSet
+  273  java UnitTestDSAHashSet
+  274  javac *.java
+  275  java UnitTestDSAHashSet
+  276  javac *.java
+  277  java UnitTestDSAHashSet
+  278  rm *.class
+  279  cd ..
+  280  cd CryptoGraph
+  281  ls
+  282  javac -cp json-20200518.jar *.java
+  283  java -cp json-20200518.jar:. CryptoGraph -i
+  284  javac -cp json-20200518.jar *.java
+  285  java -cp json-20200518.jar:. CryptoGraph -i
+  286  javac -cp json-20200518.jar *.java
+  287  java -cp json-20200518.jar:. CryptoGraph -i
+  288  javac -cp json-20200518.jar *.java
+  289  java -cp json-20200518.jar:. CryptoGraph -i
+  290  javac -cp json-20200518.jar *.java
+  291  java -cp json-20200518.jar:. CryptoGraph -i
+  292  javac -cp json-20200518.jar *.java
+  293  java -cp json-20200518.jar:. CryptoGraph -i
+  294  javac -cp json-20200518.jar *.java
+  295  java -cp json-20200518.jar:. CryptoGraph -i
+  296  javac -cp json-20200518.jar *.java
+  297  java -cp json-20200518.jar:. CryptoGraph -i
+  298  javac -cp json-20200518.jar *.java
+  299  java -cp json-20200518.jar:. CryptoGraph -i
+  300  javac -cp json-20200518.jar *.java
+  301  java -cp json-20200518.jar:. CryptoGraph -i
+  302  javac -cp json-20200518.jar *.java
+  303  java -cp json-20200518.jar:. CryptoGraph -i
+  304  javac -cp json-20200518.jar *.java
+  305  java -cp json-20200518.jar:. CryptoGraph -i
+  306  javac -cp json-20200518.jar *.java
+  307  java -cp json-20200518.jar:. CryptoGraph -i
+  308  javac -cp json-20200518.jar *.java
+  309  java -cp json-20200518.jar:. CryptoGraph -i
+  310  javac -cp json-20200518.jar *.java
+  311  java -cp json-20200518.jar:. CryptoGraph -i
+  312  javac -cp json-20200518.jar *.java
+  313  java -cp json-20200518.jar:. CryptoGraph -i
+  314  javac -cp json-20200518.jar *.java
+  315  javac -cp json-20200518.jar *.java
+  316  java -cp json-20200518.jar:. CryptoGraph -i
+  317  javac -cp json-20200518.jar *.java
+  318  java -cp json-20200518.jar:. CryptoGraph -i
+  319  javac -cp json-20200518.jar *.java
+  320  java -cp json-20200518.jar:. CryptoGraph -i
+  321  javac -cp json-20200518.jar *.java
+  322  java -cp json-20200518.jar:. CryptoGraph -i
+  323  javac -cp json-20200518.jar *.java
+  324  java -cp json-20200518.jar:. CryptoGraph -i
+  325  0
+  326  0
+  327  javac -cp json-20200518.jar *.java
+  328  javac -cp json-20200518.jar *.java
+  329  java -cp json-20200518.jar:. CryptoGraph -i
+  330  java -cp json-20200518.jar:. CryptoGraph -i
+  331  java -cp json-20200518.jar:. CryptoGraph -i
+  332  javac -cp json-20200518.jar *.java
+  333  java -cp json-20200518.jar:. CryptoGraph -i
+  334  javac -cp json-20200518.jar *.java
+  335  java -cp json-20200518.jar:. CryptoGraph -i
+  336  javac -cp json-20200518.jar *.java
+  337  java -cp json-20200518.jar:. CryptoGraph -i
+  338  javac -cp json-20200518.jar *.java
+  339  java -cp json-20200518.jar:. CryptoGraph -i
+  340  javac -cp json-20200518.jar *.java
+  341  java -cp json-20200518.jar:. CryptoGraph -i
+  342  javac -cp json-20200518.jar *.java
+  343  java -cp json-20200518.jar:. CryptoGraph -i
+  344  ls
+  345  cd CryptoGraph
+  346  ls
+  347  java -cp json-20200518.jar:. CryptoGraph -i
+  348  java -cp json-20200518.jar:. CryptoGraph -i
+  349  cd CryptoGraph
+  350  ls
+  351  java -cp json-20200518.jar:. CryptoGraph -i
+  352  javac -cp json-20200518.jar *.java
+  353  javac -cp json-20200518.jar *.java
+  354  java -cp json-20200518.jar:. CryptoGraph -i
+  355  java -cp json-20200518.jar:. CryptoGraph -i
+  356  0
+  357  java -cp json-20200518.jar:. CryptoGraph -i
+  358  javac -cp json-20200518.jar *.java
+  359  java -cp json-20200518.jar:. CryptoGraph -i
+  360  javac -cp json-20200518.jar *.java
+  361  java -cp json-20200518.jar:. CryptoGraph -i
+  362  javac -cp json-20200518.jar *.java
+  363  java -cp json-20200518.jar:. CryptoGraph -i
+  364  javac -cp json-20200518.jar *.java
+  365  java -cp json-20200518.jar:. CryptoGraph -i
+  366  javac -cp json-20200518.jar *.java
+  367  java -cp json-20200518.jar:. CryptoGraph -i
+  368  javac -cp json-20200518.jar *.java
+  369  javac -cp json-20200518.jar *.java
+  370  java -cp json-20200518.jar:. CryptoGraph -i
+  371  javac -cp json-20200518.jar *.java
+  372  javac -cp json-20200518.jar *.java
+  373  java -cp json-20200518.jar:. CryptoGraph -i
+  374  javac -cp json-20200518.jar *.java
+  375  javac -cp json-20200518.jar *.java
+  376  java -cp json-20200518.jar:. CryptoGraph -i
+  377  javac -cp json-20200518.jar *.java
+  378  java -cp json-20200518.jar:. CryptoGraph -i
+  379  0
+  380  javac -cp json-20200518.jar *.java
+  381  java -cp json-20200518.jar:. CryptoGraph -i
+  382  javac -cp json-20200518.jar *.java
+  383  javac -cp json-20200518.jar *.java
+  384  java -cp json-20200518.jar:. CryptoGraph -i
+  385  javac -cp json-20200518.jar *.java
+  386  java -cp json-20200518.jar:. CryptoGraph -i
+  387  java -cp json-20200518.jar:. CryptoGraph -i
+  388  java -cp json-20200518.jar:. CryptoGraph -i
+  389  java -cp json-20200518.jar:. CryptoGraph -i
+  390  javac -cp json-20200518.jar *.java
+  391  java -cp json-20200518.jar:. CryptoGraph -i
+  392  java -cp json-20200518.jar:. CryptoGraph -i
+  393  javac -cp json-20200518.jar *.java
+  394  javac -cp json-20200518.jar *.java
+  395  java -cp json-20200518.jar:. CryptoGraph -r pairs.json ETHBTC.json
+  396  java -cp json-20200518.jar:. CryptoGraph -r pairs.json ETHBTCr.json
+  397  javac -cp json-20200518.jar *.java
+  398  javac -cp json-20200518.jar *.java
+  399  javac -cp json-20200518.jar *.java
+  400  javac -cp json-20200518.jar *.java
+  401  javac -cp json-20200518.jar *.java
+  402  javac -cp json-20200518.jar *.java
+  403  javac -cp json-20200518.jar *.java
+  404  javac -cp json-20200518.jar *.java
+  405  javac -cp json-20200518.jar *.java
+  406  rm *.class
+  407  javac -cp json-20200518.jar *.java
+  408  javac -cp json-20200518.jar *.java
+  409  javac -cp json-20200518.jar *.java
+  410  javac -cp json-20200518.jar *.java
+  411  javac -cp json-20200518.jar *.java
+  412  javac -cp json-20200518.jar *.java
+  413  java -cp json-20200518.jar:. CryptoGraph -i
+  414  javac *.java
+  415  cd Deliverables
+  416  javac *.java
+  417  ls
+  418  ls
+  419  ls
+  420  javac *.java
+  421  javac *.java
+  422  java SortsTestHarness
+  423  java SortsTestHarness 100 q r
+  424  java SortsTestHarness 100 qr
+  425  javac *.java
+  426  java SortsTestHarness 100 qr
+  427  java SortsTestHarness 10 qr
+  428  javac *.java
+  429  java SortsTestHarness 10 qr
+  430  javac *.java
+  431  java SortsTestHarness 10 qr
+  432  javac *.java
+  433  java SortsTestHarness 10 qr
+  434  javac *.java
+  435  javac *.java
+  436  java SortsTestHarness 10 qr
+  437  java SortsTestHarness 10 qr
+  438  java SortsTestHarness 10 qr
+  439  java SortsTestHarness 10 qr
+  440  java SortsTestHarness 10 qr
+  441  java SortsTestHarness 10 qr
+  442  javac *.java
+  443  java SortsTestHarness 10 qr
+  444  javac *.java
+  445  java SortsTestHarness 10 qr
+  446  javac *.java
+  447  java SortsTestHarness 10 qr
+  448  java SortsTestHarness 100 qr
+  449  java SortsTestHarness 1000 qr
+  450  java SortsTestHarness 10000 qr
+  451  java SortsTestHarness 10000 ir
+  452  java SortsTestHarness 100 mr
+  453  javac *.java
+  454  java SortsTestHarness 100 mr
+  455  javac *.java
+  456  java SortsTestHarness 100 mr
+  457  javac *.java
+  458  java SortsTestHarness 100 mr
+  459  javac *.java
+  460  java SortsTestHarness 100 mr
+  461  javac *.java
+  462  java SortsTestHarness 100 mr
+  463  javac *.java
+  464  java SortsTestHarness 100 mr
+  465  java SortsTestHarness 10 mr
+  466  javac *.java
+  467  java SortsTestHarness 10 mr
+  468  javac *.java
+  469  java SortsTestHarness 10 mr
+  470  javac *.java
+  471  java SortsTestHarness 10 mr
+  472  javac *.java
+  473  java SortsTestHarness 10 mr
+  474  javac *.java
+  475  java SortsTestHarness 10 mr
+  476  javac *.java
+  477  java SortsTestHarness 10 mr
+  478  javac *.java
+  479  java SortsTestHarness 10 mr
+  480  javac *.java
+  481  java SortsTestHarness 10 mr
+  482  javac *.java
+  483  java SortsTestHarness 10 mr
+  484  ls
+  485  java -cp json-20200518.jar:. CryptoGraph -i
+  486  ls
+  487  cd CryptoGraph
+  488  java -cp json-20200518.jar:. CryptoGraph -i
+  489  ls
+  490  cd CryptoGraph
+  491  ls
+  492  java -cp json-20200518.jar:. CryptoGraph -i
+  493  java -cp json-20200518.jar:. CryptoGraph -i
+  494  java -cp json-20200518.jar:. CryptoGraph -i
+  495  javac -cp json-20200518.jar *.java
+  496  java -cp json-20200518.jar:. CryptoGraph -i
+  497  java -cp json-20200518.jar:. CryptoGraph -i
+  498  java -cp json-20200518.jar:. CryptoGraph -i
+  499  java -cp json-20200518.jar:. CryptoGraph -i
+  500  java -cp json-20200518.jar:. CryptoGraph -i
+  501  ls
+  502  cd '/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1000/Assessments/Current/Assignment 2/Deliverables'
+  503  ls
+  504  cd ..
+  505  ls
+  506  cd ..
+  507  ls
+  508  cd Assignment1
+  509  cd 'Assignment 1'
+  510  ls
+  511  cd Deliverables
+  512  ls
+  513  clear
+  514  ls
+  515  vim README.txt
+  516  make clean
+  517  ls
+  518  cd ../..
+  519  ls
+  520  cd 'Assignment 2'
+  521  ls
+  522  cd Deliverables
+  523  ls
+  524  clear
+  525  ls
+  526  make
+  527  make
+  528  make
+  529  ls
+  530  make clean
+  531  ls
+  532  vim bracketmatchvisualiser.c
+  533  make clean
+  534  ls
+  535  vim colourlogic.c
+  536  make clean
+  537  ls
+  538  vim filereader.c
+  539  vim linkedlist.c
+  540  vim linkedlist.c
+  541  vim stack.c
+  542  make
+  543  make clean
+  544  make STACK
+  545  make clean
+  546  ls
+  547  vim bracketmatchvisualiser.c
+  548  make
+  549  make clean
+  550  ls
+  551  vim colourlogic.c
+  552  vim filereader.c
+  553  vim linkedlist.c
+  554  ls
+  555  make clean
+  556  ls
+  557  vim linkedlistnode.h
+  558  vim linkedlistnode.c
+  559  ls
+  560  vim stack.c
+  561  ls
+  562  history > bashhistory.txt

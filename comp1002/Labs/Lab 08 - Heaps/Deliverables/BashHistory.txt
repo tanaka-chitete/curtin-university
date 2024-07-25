@@ -1,0 +1,500 @@
+  131  make
+  132  make clean
+  133  make STACK
+  134  ./bracketmatch badexample1.c
+  135  make STACK
+  136  ./bracketmatch badexample1.c
+  137  make 
+  138  make clean
+  139  make STACK
+  140  make STACK
+  141  make STACK
+  142  ./bracketmatch badexample1.c
+  143  make STACK
+  144  make STACK
+  145  make STACK
+  146  ./bracketmatch badexample1.c
+  147  make STACK
+  148  make STACK
+  149  make STACK
+  150  make STACK
+  151  ./bracketmatch badexample1.c
+  152  make STACK
+  153  ./bracketmatch badexample1.c
+  154  make STACK
+  155  make clean
+  156  make STACK
+  157  ./bracketmatch badexample1.c
+  158  make STACK
+  159  make clean
+  160  make
+  161  ./bracketmatch badexample1.c
+  162  make clean
+  163  make
+  164  make
+  165  make
+  166  make
+  167  make
+  168  make
+  169  make
+  170  make
+  171  make
+  172  make
+  173  make
+  174  make
+  175  make
+  176  make
+  177  make
+  178  make
+  179  ./bracketmatch badexample1.c
+  180  make
+  181  ./bracketmatch badexample1.c
+  182  make
+  183  ./bracketmatch badexample1.c
+  184  make debug
+  185  make clean
+  186  make debug
+  187  ./bracketmatch badexample1.c
+  188  make
+  189  ./bracketmatch badexample1.c
+  190  make
+  191  ./bracketmatch badexample1.c
+  192  make
+  193  make clean
+  194  make stack
+  195  make
+  196  make
+  197  make
+  198  make clean
+  199  make STACK
+  200  ./bracketmatch badexample1.c
+  201  ./bracketmatch badexample1.c
+  202  make STACK
+  203  ./bracketmatch badexample1.c
+  204  ./bracketmatch badexample1.c
+  205  make STACK
+  206  make STACK
+  207  make STACK
+  208  make
+  209  make clean
+  210  make STACK
+  211  ./bracketmatch badexample1.c
+  212  make STACK
+  213  ./bracketmatch badexample1.c
+  214  make STACK
+  215  ./bracketmatch badexample1.c
+  216  ./bracketmatch badexample1.c
+  217  make STACK
+  218  ./bracketmatch badexample1.c
+  219  make STACK
+  220  ./bracketmatch badexample1.c
+  221  make STACK
+  222  make STACK
+  223  ./bracketmatch badexample1.c
+  224  make STACK
+  225  ./bracketmatch badexample1.c
+  226  ./bracketmatch badexample1.c
+  227  make STACK
+  228  ./bracketmatch badexample1.c
+  229  make STACK
+  230  ./bracketmatch badexample1.c
+  231  make STACK
+  232  ./bracketmatch badexample1.c
+  233  make STACK
+  234  ./bracketmatch badexample1.c
+  235  make STACK
+  236  ./bracketmatch badexample1.c
+  237  make STACK
+  238  ./bracketmatch badexample1.c
+  239  make STACK
+  240  ./bracketmatch badexample1.c
+  241  make STACK
+  242  ./bracketmatch badexample1.c
+  243  ./bracketmatch badexample1.c
+  244  make STACK
+  245  ./bracketmatch badexample1.c
+  246  ./bracketmatch badexample1.c
+  247  make STACK
+  248  ./bracketmatch badexample1.c
+  249  ./bracketmatch badexample1.c
+  250  ./bracketmatch badexample1.c
+  251  ./bracketmatch badexample1.c
+  252  ./bracketmatch badexample1.c
+  253  make STACK
+  254  ./bracketmatch badexample1.c
+  255  ./bracketmatch badexample1.c
+  256  make STACK
+  257  ./bracketmatch badexample1.c
+  258  make STACK
+  259  ./bracketmatch badexample1.c
+  260  make STACK
+  261  ./bracketmatch badexample1.c
+  262  make STACK
+  263  ./bracketmatch badexample1.c
+  264  make STACK
+  265  ./bracketmatch badexample1.c
+  266  make STACK
+  267  ./bracketmatch badexample1.c
+  268  make STACK
+  269  ./bracketmatch badexample1.c
+  270  make STACK
+  271  ./bracketmatch badexample1.c
+  272  ./bracketmatch badexample2.c
+  273  make STACK
+  274  ./bracketmatch badexample2.c
+  275  ./bracketmatch badexample3.c
+  276  make STACK
+  277  ./bracketmatch badexample3.c
+  278  ./bracketmatch badexample2.c
+  279  make clean
+  280  make
+  281  make
+  282  make
+  283  make
+  284  make
+  285  make
+  286  make
+  287  make
+  288  make
+  289  make
+  290  make
+  291  make
+  292  make
+  293  make
+  294  make
+  295  make clean
+  296  make STACK
+  297  ./bracketmatch badexample3.c
+  298  make STACK
+  299  ./bracketmatch badexample3.c
+  300  ./bracketmatch badexample2.c
+  301  ./bracketmatch badexample3.c
+  302  ./bracketmatch badexample3.c
+  303  ./bracketmatch badexample2.c
+  304  make STACK
+  305  ./bracketmatch badexample2.c
+  306  ./bracketmatch badexample3.c
+  307  make STACK
+  308  ./bracketmatch badexample3.c
+  309  make STACK
+  310  ./bracketmatch badexample3.c
+  311  make STACK
+  312  ./bracketmatch goodexample.c
+  313  make STACK
+  314  make clean
+  315  make STACK
+  316  ./bracketmatch badexample3.c
+  317  ./bracketmatch goodexample.c
+  318  ./bracketmatch goodexample.c
+  319  make STACK
+  320  ./bracketmatch goodexample.c
+  321  make STACK
+  322  ./bracketmatch goodexample.c
+  323  make STACK
+  324  ./bracketmatch goodexample.c
+  325  make STACK
+  326  ./bracketmatch goodexample.c
+  327  make STACK
+  328  ./bracketmatch goodexample.c
+  329  ./bracketmatch badexample1.c
+  330  ./bracketmatch badexample2.c
+  331  ./bracketmatch badexample3.c
+  332  make STACK
+  333  ./bracketmatch badexample3.c
+  334  make
+  335  make clean
+  336  make
+  337  ./bracketmatch badexample3.c
+  338  make
+  339  ./bracketmatch badexample3.c
+  340  make
+  341  ./bracketmatch badexample3.c
+  342  make clean
+  343  make STACK
+  344  ./bracketmatch badexample3.c
+  345  make
+  346  make
+  347  make
+  348  make
+  349  ./bracketmatch badexample3.c
+  350  ./bracketmatch badexample2.c
+  351  ./bracketmatch badexample1.c
+  352  ./bracketmatch badexample2.c
+  353  ./bracketmatch badexample1.c
+  354  ./bracketmatch goodexample.c
+  355  make clean
+  356  make STACK
+  357  ./bracketmatch goodexampl.c
+  358  ./bracketmatch badexample1.c
+  359  ./bracketmatch badexample2.c
+  360  ./bracketmatch badexample2.c
+  361  ./bracketmatch badexample3.c
+  362  ./bracketmatch goodexample.txt
+  363  ./bracketmatch badexample1.txt
+  364  ./bracketmatch badexample1.txt
+  365  ./bracketmatch badexample2.txt
+  366  ./bracketmatch badexample3.txt
+  367  make clean
+  368  ls
+  369  scp -r Deliverables 20169321@lab218-d05.cs.curtin.edu.au:~/Documents/ucp
+  370  make STACK
+  371      ssh 20169321@lab218-d06.cs.curtin.edu.au
+  372  scp 20169321@lab218-d06.cs.curtin.edu.au:~/Documents/ucp/20169321_Tanaka-Chitete_Assignment2.tar.gz ~/Desktop
+  373  pdflatex cv_4.tex
+  374  sudo tlmgr install latexmk
+  375  brew cask install mactex-no-gui
+  376  brew cask install mactex-no-gui
+  377  sudo tlmgr update --self && sudo tlmgr update --all
+  378  brew cask install mactex-no-gui
+  379   brew reinstall mactex-no-gui
+  380   brew install mactex-no-gui
+  381  latexmk cv_4.tex
+  382   brew cask install basictex
+  383   brew uninstall mactex-no-gui
+  384  javac
+  385  javac -cp json-20200518.jar *.java
+  386  javac -cp json-20200518.jar *.java
+  387  javac -cp json-20200518.jar *.java
+  388  javac -cp json-20200518.jar *.java
+  389  javac -cp json-20200518.jar *.java
+  390  javac -cp json-20200518.jar *.java
+  391  javac -cp json-20200518.jar *.java
+  392  javac -cp json-20200518.jar *.java
+  393  rm *.class
+  394  javac -cp json-20200518.jar *.java
+  395  javac -cp json-20200518.jar *.java
+  396  javac -cp json-20200518.jar *.java
+  397  javac -cp json-20200518.jar *.java
+  398  javac -cp json-20200518.jar *.java
+  399  javac -cp json-20200518.jar *.java
+  400  javac -cp json-20200518.jar *.java
+  401  javac -cp json-20200518.jar *.java
+  402  java -cp json-20200518.jar:. CryptoGraph -i
+  403  javac -cp json-20200518.jar *.java
+  404  java -cp json-20200518.jar:. CryptoGraph -i
+  405  0
+  406  java -cp json-20200518.jar:. CryptoGraph -i
+  407  javac -cp json-20200518.jar *.java
+  408  java -cp json-20200518.jar:. CryptoGraph -i
+  409  javac -cp json-20200518.jar *.java
+  410  java -cp json-20200518.jar:. CryptoGraph -i
+  411  javac -cp json-20200518.jar *.java
+  412  java -cp json-20200518.jar:. CryptoGraph -i
+  413  javac -cp json-20200518.jar *.java
+  414  java -cp json-20200518.jar:. CryptoGraph -i
+  415  javac -cp json-20200518.jar *.java
+  416  java -cp json-20200518.jar:. CryptoGraph -i
+  417  javac -cp json-20200518.jar *.java
+  418  java -cp json-20200518.jar:. CryptoGraph -i
+  419  javac -cp json-20200518.jar *.java
+  420  java -cp json-20200518.jar:. CryptoGraph -i
+  421  javac -cp json-20200518.jar *.java
+  422  java -cp json-20200518.jar:. CryptoGraph -i
+  423  javac -cp json-20200518.jar *.java
+  424  java -cp json-20200518.jar:. CryptoGraph -i
+  425  javac -cp json-20200518.jar *.java
+  426  java -cp json-20200518.jar:. CryptoGraph -i
+  427  javac -cp json-20200518.jar *.java
+  428  java -cp json-20200518.jar:. CryptoGraph -i
+  429  javac -cp json-20200518.jar *.java
+  430  javac -cp json-20200518.jar *.java
+  431  java -cp json-20200518.jar:. CryptoGraph -i
+  432  javac -cp json-20200518.jar *.java
+  433  java -cp json-20200518.jar:. CryptoGraph -i
+  434  javac -cp json-20200518.jar *.java
+  435  java -cp json-20200518.jar:. CryptoGraph -i
+  436  javac -cp json-20200518.jar *.java
+  437  java -cp json-20200518.jar:. CryptoGraph -i
+  438  javac -cp json-20200518.jar *.java
+  439  java -cp json-20200518.jar:. CryptoGraph -i
+  440  javac -cp json-20200518.jar *.java
+  441  java -cp json-20200518.jar:. CryptoGraph -i
+  442  javac -cp json-20200518.jar *.java
+  443  java -cp json-20200518.jar:. CryptoGraph -i
+  444  javac -cp json-20200518.jar *.java
+  445  javac -cp json-20200518.jar *.java
+  446  java -cp json-20200518.jar:. CryptoGraph -i
+  447  javac -cp json-20200518.jar *.java
+  448  java -cp json-20200518.jar:. CryptoGraph -i
+  449  javac -cp json-20200518.jar *.java
+  450  javac -cp json-20200518.jar *.java
+  451  javac -cp json-20200518.jar *.java
+  452  java -cp json-20200518.jar:. CryptoGraph -i
+  453  java -cp json-20200518.jar:. CryptoGraph -i
+  454  javac -cp json-20200518.jar *.java
+  455  java -cp json-20200518.jar:. CryptoGraph -i
+  456  javac -cp json-20200518.jar *.java
+  457  java -cp json-20200518.jar:. CryptoGraph -i
+  458  javac -cp json-20200518.jar *.java
+  459  java -cp json-20200518.jar:. CryptoGraph -i
+  460  javac -cp json-20200518.jar *.java
+  461  java -cp json-20200518.jar:. CryptoGraph -i
+  462  javac -cp json-20200518.jar *.java
+  463  java -cp json-20200518.jar:. CryptoGraph -i
+  464  javac -cp json-20200518.jar *.java
+  465  java -cp json-20200518.jar:. CryptoGraph -i
+  466  rm *.class
+  467  javac -cp json-20200518.jar *.java
+  468  javac -cp json-20200518.jar *.java
+  469  javac -cp json-20200518.jar *.java
+  470  javac -cp json-20200518.jar *.java
+  471  javac -cp json-20200518.jar *.java
+  472  javac -cp json-20200518.jar *.java
+  473  javac -cp json-20200518.jar *.java
+  474  javac -cp json-20200518.jar *.java
+  475  javac -cp json-20200518.jar *.java
+  476  javac -cp json-20200518.jar *.java
+  477  javac -cp json-20200518.jar *.java
+  478  javac -cp json-20200518.jar *.java
+  479  java -cp json-20200518.jar:. CryptoGraph -i
+  480  javac -cp json-20200518.jar *.java
+  481  java -cp json-20200518.jar:. CryptoGraph -i
+  482  javac -cp json-20200518.jar *.java
+  483  java -cp json-20200518.jar:. CryptoGraph -i
+  484  javac -cp json-20200518.jar *.java
+  485  java -cp json-20200518.jar:. CryptoGraph -i
+  486  rm *.class
+  487  javac -cp json-20200518.jar *.java
+  488  javac -cp json-20200518.jar *.java
+  489  javac -cp json-20200518.jar *.java
+  490  ls
+  491  cd Deliverables
+  492  ls
+  493  javac *.java
+  494  javac *.java
+  495  ls
+  496  cd Deliverables
+  497  ls
+  498  javac *.java
+  499  javac *.java
+  500  javac *.java
+  501  javac *.java
+  502  ls
+  503  javac *.java
+  504  java DSAHeapTestHarness
+  505  javac *.java
+  506  java DSAHeapTestHarness
+  507  javac *.java
+  508  java DSAHeapTestHarness
+  509  javac *.java
+  510  java DSAHeapTestHarness
+  511  javac *.java
+  512  java DSAHeapTestHarness
+  513  javac *.java
+  514  java DSAHeapTestHarness
+  515  javac *.java
+  516  java DSAHeapTestHarness
+  517  javac *.java
+  518  java DSAHeapTestHarness
+  519  javac *.java
+  520  java DSAHeapTestHarness
+  521  javac *.java
+  522  java DSAHeapTestHarness
+  523  javac *.java
+  524  java DSAHeapTestHarness
+  525  javac *.java
+  526  java DSAHeapTestHarness
+  527  javac *.java
+  528  java DSAHeapTestHarness
+  529  javac *.java
+  530  java DSAHeapTestHarness
+  531  javac *.java
+  532  java DSAHeapTestHarness
+  533  javac *.java
+  534  java DSAHeapTestHarness
+  535  javac *.java
+  536  java DSAHeapTestHarness
+  537  javac *.java
+  538  java DSAHeapTestHarness
+  539  javac *.java
+  540  java DSAHeapTestHarness
+  541  javac *.java
+  542  java DSAHeapTestHarness
+  543  java DSAHeapTestHarness
+  544  javac *.java
+  545  java DSAHeapTestHarness
+  546  0
+  547  java DSAHeapTestHarness
+  548  java DSAHeapTestHarness
+  549  java DSAHeapTestHarness
+  550  0
+  551  javac *.java
+  552  java DSAHeapTestHarness
+  553  javac *.java
+  554  java DSAHeapTestHarness
+  555  javac *.java
+  556  java DSAHeapTestHarness
+  557  javac *.java
+  558  java DSAHeapTestHarness
+  559  javac *.java
+  560  java DSAHeapTestHarness
+  561  javac *.java
+  562  java DSAHeapTestHarness
+  563  javac *.java
+  564  java DSAHeapTestHarness
+  565  0
+  566  javac *.java
+  567  java DSAHeapTestHarness
+  568  javac *.java
+  569  java DSAHeapTestHarness
+  570  javac *.java
+  571  java DSAHeapTestHarness
+  572  javac *.java
+  573  java DSAHeapTestHarness
+  574  javac *.java
+  575  java DSAHeapTestHarness
+  576  javac *.java
+  577  java DSAHeapTestHarness
+  578  javac *.java
+  579  java DSAHeapTestHarness
+  580  javac *.java
+  581  java DSAHeapTestHarness
+  582  java DSAHeapTestHarness
+  583  java DSAHeapTestHarness
+  584  javac *.java
+  585  java DSAHeapTestHarness
+  586  javac *.java
+  587  java DSAHeapTestHarness
+  588  javac *.java
+  589  java DSAHeapTestHarness
+  590  javac *.java
+  591  javac *.java
+  592  java DSAHeapTestHarness
+  593  javac *.java
+  594  java DSAHeapTestHarness
+  595  0
+  596  java DSAHeapTestHarness
+  597  javac *.java
+  598  java DSAHeapTestHarness
+  599  javac *.java
+  600  java DSAHeapTestHarness
+  601  javac *.java
+  602  java DSAHeapTestHarness
+  603  javac *.java
+  604  java DSAHeapTestHarness
+  605  javac *.java
+  606  java DSAHeapTestHarness
+  607  javac *.java
+  608  java DSAHeapTestHarness
+  609  javac *.java
+  610  java DSAHeapTestHarness
+  611  javac *.java
+  612  java DSAHeapTestHarness
+  613  javac *.java
+  614  java DSAHeapTestHarness
+  615  javac *.java
+  616  java DSAHeapTestHarness
+  617  javac *.java
+  618  java DSAHeapTestHarness
+  619  javac *.java
+  620  java DSAHeapTestHarness
+  621  0
+  622  java DSAHeapTestHarness
+  623  javac *.java
+  624  java DSAHeapTestHarness
+  625  javac *.java
+  626  java DSAHeapTestHarness
+  627  javac *.java
+  628  java DSAHeapTestHarness
+  629  ls
+  630  history > BashHistory.txt

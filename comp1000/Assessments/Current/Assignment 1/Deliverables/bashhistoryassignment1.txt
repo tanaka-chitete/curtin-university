@@ -1,0 +1,1000 @@
+ 1004  vim Makefile
+ 1005  make
+ 1006  vim user_input.h
+ 1007  vim user_input.c
+ 1008  make
+ 1009  vim user_input.c
+ 1010  make
+ 1011  ./numbers
+ 1012  make
+ 1013  ./numbers
+ 1014  vim user_input.c
+ 1015  make
+ 1016  ./numbers
+ 1017  make clean
+ 1018  ls
+ 1019  make
+ 1020  ./numbers
+ 1021  cd ~/Documents/ucp/p3/orders2
+ 1022  ls
+ 1023  cd ..
+ 1024  history > BashHistory_p3.txt
+ 1025  ls
+ 1026  make clean
+ 1027  ls
+ 1028  cd errors
+ 1029  ls
+ 1030  cd ..
+ 1031  ls
+ 1032  cd orders
+ 1033  ls
+ 1034  make clean
+ 1035  ls
+ 1036  cd ..
+ 1037  cd orders2
+ 1038  ls
+ 1039  make clean
+ 1040  ls
+ 1041  cd ..
+ 1042  tar -cvzf 20169321_p2.tar.gz p2
+ 1043  ls
+ 1044  rm 20169321_p2.tar.gz
+ 1045  tar -cvzf 20169321_p3.tar.gz p3
+ 1046  ls
+ 1047  mv 20169321_p3.tar.gz p3
+ 1048  ls
+ 1049  cd p2
+ 1050  ls
+ 1051  cd ..
+ 1052  cd p3
+ 1053  ls
+ 1054  rm BashHistory_p3.txt
+ 1055  ls
+ 1056  cd ..p1
+ 1057  ls
+ 1058  cd ../p1
+ 1059  ls
+ 1060  rm bash_history_p1.txt
+ 1061  ls
+ 1062  cd ..
+ 1063  ls
+ 1064  cd p2
+ 1065  ls
+ 1066  rm BashHistoryp2.txt 
+ 1067  ls
+ 1068  cd ..
+ 1069  cd p3
+ 1070  ls
+ 1071  cd Documents
+ 1072  ls
+ 1073  cd ucp
+ 1074  ls
+ 1075  mkdir assignment1
+ 1076  ls
+ 1077  rm  assignment1
+ 1078  rm -rf assignment1
+ 1079  ls
+ 1080  mv 'Assignment 1' assignment1
+ 1081  ls
+ 1082  cd assignment1
+ 1083  ls
+ 1084  make clean
+ 1085  make index
+ 1086  ls
+ 1087  make index
+ 1088  ls
+ 1089  make index
+ 1090  make clean
+ 1091  make index
+ 1092  ./patternmatch "this tea is good!" tea biscuit red green
+ 1093  make index
+ 1094  make clean
+ 1095  make inde
+ 1096  make index
+ 1097  ./patternmatch "this tea is good!" tea biscuit red green
+ 1098  valgrind ./patternmatch "this tea is good!" tea biscuit red green
+ 1099  valgrind --leak-check=full --track-origins=yes ./patternmatch "this tea is good!" tea biscuit red green
+ 1100  make debug
+ 1101  make clean
+ 1102  make debug
+ 1103  valgrind ./patternmatch "this tea is good!" tea biscuit red green
+ 1104  ./patternmatch "this tea is good!" tea biscuit red green
+ 1105  valgrind ./patternmatch "this tea is good!" tea biscuit red green
+ 1106  make clean
+ 1107  make index
+ 1108  valgrind ./patternmatch "this tea is good!" tea biscuit red green
+ 1109  make debug
+ 1110  make clean
+ 1111  make debug index
+ 1112  make debug
+ 1113  valgrind ./patternmatch "this tea is good!" tea biscuit red green
+ 1114  make debug
+ 1115  valgrind ./patternmatch "this tea is good!" tea biscuit red green
+ 1116  make clean
+ 1117  make debug
+ 1118  valgrind ./patternmatch "this tea is good!" tea biscuit red green
+ 1119  ./patternmatch "this tea is good!" tea biscuit red green
+ 1120  make debug
+ 1121  ./patternmatch "this tea is good!" tea biscuit red green
+ 1122  valgrind ./patternmatch "this tea is good!" tea biscuit red green
+ 1123  make debug
+ 1124  make clean
+ 1125  make debug
+ 1126  valgrind ./patternmatch "this tea is good!" tea biscuit red green
+ 1127  make clean
+ 1128  make debug
+ 1129  valgrind ./patternmatch "this tea is good!" tea biscuit red green
+ 1130  make debug
+ 1131  valgrind ./patternmatch "this tea is good!" tea biscuit red green
+ 1132  make debug
+ 1133  valgrind ./patternmatch "this tea is good!" tea biscuit red green
+ 1134  make debug
+ 1135  valgrind ./patternmatch "this tea is good!" tea biscuit red green
+ 1136  make clean
+ 1137  make index
+ 1138  valgrind ./patternmatch "this tea is good!" tea biscuit red green
+ 1139  ./patternmatch "this tea is good!" tea biscuit red green
+ 1140  make clean
+ 1141  make index
+ 1142  ./patternmatch "this tea is good!" tea biscuit red green
+ 1143  valgrind ./patternmatch "this tea is good!" tea biscuit red green
+ 1144  ./patternmatch "this tea is good!" tea biscuit red green
+ 1145  make debug
+ 1146  make clean
+ 1147  make debug
+ 1148  ./patternmatch "this tea is good!" tea biscuit red green
+ 1149  valgrind ./patternmatch "this tea is good!" tea biscuit red green
+ 1150  make clean
+ 1151  make debug
+ 1152  valgrind ./patternmatch "this tea is good!" tea biscuit red green
+ 1153  make clean
+ 1154  make debug
+ 1155  valgrind ./patternmatch "this tea is good!" tea biscuit red green
+ 1156  make clean
+ 1157  make debug
+ 1158  valgrind ./patternmatch "this tea is good!" tea biscuit red green
+ 1159  cd Documents/ucp/assignment1
+ 1160  ls
+ 1161  vim main.c
+ 1162  vim patternmatchlogic.c
+ 1163  vim pattermatchvisualiser.c
+ 1164  vim pattenrmatchvisualiser.c
+ 1165  vim patternmatchvisualiser.c
+ 1166  vim Makefile
+ 1167  vim patternmatchlogic.c
+ 1168  vim patternmatchvisualiser.c
+ 1169  vim patternmatchlogic.c
+ 1170  vim main.c
+ 1171  vim patternmatchlogic.c
+ 1172  vim patternmatchvisualiser.c
+ 1173  vim patternmatchlogic.c
+ 1174  cd /home/20169321/Documents/ucp/assignment1
+ 1175  make clean
+ 1176  make debug
+ 1177  valgrind ./patternmatch "this tea is good!" tea biscuit red green
+ 1178  make debug
+ 1179  valgrind ./patternmatch "this tea is good!" tea biscuit red green
+ 1180  make clean
+ 1181  make debug
+ 1182  valgrind ./patternmatch "this tea is good!" tea biscuit red green
+ 1183  make clean
+ 1184  make debug
+ 1185  valgrind ./patternmatch "this tea is good!" tea biscuit red green
+ 1186  make debug
+ 1187  valgrind ./patternmatch "this tea is good!" tea biscuit red green
+ 1188  ./patternmatch "this tea is good!" tea biscuit red green
+ 1189  valgrind ./patternmatch "this tea is good!" tea biscuit red green
+ 1190  make debug
+ 1191  valgrind ./patternmatch "this tea is good!" tea biscuit red green
+ 1192  make debug
+ 1193  valgrind ./patternmatch "this tea is good!" tea biscuit red green
+ 1194  valgrind --track-origins=yes ./patternmatch "this tea is good!" tea biscuit red green
+ 1195  make debug
+ 1196  valgrind --track-origins=yes ./patternmatch "this tea is good!" tea biscuit red green
+ 1197  valgrind --track-origins=yes --leak-check=full ./patternmatch "this tea is good!" tea biscuit red green
+ 1198  ls
+ 1199  cd ..
+ 1200  cd
+ 1201  cd Documents/ucp
+ 1202  ls
+ 1203  cd assignment1
+ 1204  ls
+ 1205  make debug
+ 1206  vim Makefile
+ 1207  make debug
+ 1208  cd ..
+ 1209  ls
+ 1210  cp assignment1 assignment1copy
+ 1211  cp -r assignment1 assignment1copy
+ 1212  ls
+ 1213  cd assignment1
+ 1214  ls
+ 1215  make debug
+ 1216  valgrind --track-origins=yes ./patternmatch "this tea is good!" tea biscuit red green
+ 1217  make debug
+ 1218  valgrind --track-origins=yes ./patternmatch "this tea is good!" tea biscuit red green
+ 1219  make debug
+ 1220  valgrind --track-origins=yes ./patternmatch "this tea is good!" tea biscuit red green
+ 1221  make debug
+ 1222  valgrind --track-origins=yes ./patternmatch "this tea is good!" tea biscuit red green
+ 1223  valgrind --track-origins=yes --leak-check=full ./patternmatch "this tea is good!" tea biscuit red green
+ 1224  valgrind ./patternmatch "this tea is good!" tea biscuit red green
+ 1225  ./patternmatch "this tea is good!" tea biscuit red green
+ 1226  ls
+ 1227  cd Documents
+ 1228  ls
+ 1229  cd ucp
+ 1230  ls
+ 1231  cd assignment1
+ 1232  pwd
+ 1233  ls
+ 1234  make clean
+ 1235  le
+ 1236  ls
+ 1237  vim colourlogic.c
+ 1238  vim int.c
+ 1239  vim patternmatchvisualiser.c
+ 1240  cd ..
+ 1241  cp -r assignment1 assignment1copy
+ 1242  ls
+ 1243  vim assignment1
+ 1244  cd assignment1
+ 1245  ls
+ 1246  vim patternmatchvisualiser.c
+ 1247  vim string.h
+ 1248  vim string.c
+ 1249  vim patternmatchlogic.c
+ 1250  vim patternmatchvisualiser.c
+ 1251  vim patternmatchlogic.c
+ 1252  vim patternmatchvisualiser.c
+ 1253  cd ..
+ 1254  ls
+ 1255  rm -rf assignment1  assignment1copy
+ 1256  ls
+ 1257  vim patternmatchlogic.c
+ 1258  cd assignment1
+ 1259  cd /home/20169321/Documents/ucp/assignment1
+ 1260  ls
+ 1261  cd 
+ 1262  cd Documents/ucp
+ 1263  ls
+ 1264  cd assignments
+ 1265  ls
+ 1266  cd ..
+ 1267  mv assignments assignment1
+ 1268  ls
+ 1269  cd assignment1
+ 1270  ls
+ 1271  make clean
+ 1272  vim main.c
+ 1273  vim patternmatchlogic.c
+ 1274  vim patternmatchvisualiser.c
+ 1275  vim patternmatchlogic.c
+ 1276  ls
+ 1277  cd Documents
+ 1278  ls 
+ 1279  cd ucp
+ 1280  ls
+ 1281  cd assignment1
+ 1282  ls
+ 1283  rm 'Assignment 1.pdf'
+ 1284  make clean
+ 1285  make debug
+ 1286  make clean
+ 1287  make
+ 1288  ./patternmatch "this tea is good!" tea biscuit red green
+ 1289  ./patternmatch "this tea is good! Tea is best, tea is great" tea biscuit red green
+ 1290  ./patternmatch "this tea is good! Tea is best, tea is great." tea biscuit red green
+ 1291  ./patternmatch "this tea is good!" tea biscuit red green
+ 1292  ./patternmatch "this tea is tea tea tea" tea biscuit red green
+ 1293  ./patternmatch "this tea is tea tea" tea biscuit red green
+ 1294  ./patternmatch "tea is tea tea" tea biscuit red green
+ 1295  ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1296  valgrind ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1297  valgrind  --leak-check=full --track-origins=yes ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1298  make clean
+ 1299  make debug
+ 1300  valgrind  --leak-check=full --track-origins=yes ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1301  make debug
+ 1302  valgrind  --leak-check=full --track-origins=yes ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1303  make debug
+ 1304  valgrind  --leak-check=full --track-origins=yes ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1305  make debug
+ 1306  valgrind  --leak-check=full --track-origins=yes ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1307  make debug
+ 1308  valgrind  --leak-check=full --track-origins=yes ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1309  make debug
+ 1310  valgrind  --leak-check=full --track-origins=yes ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1311  make debug
+ 1312  valgrind  --leak-check=full --track-origins=yes ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1313  valgrind  --leak-check=full --track-origins=yes ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan  -v
+ 1314  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1315  make debug
+ 1316  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1317  make debug
+ 1318  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1319  ./patternmatch "this tea is good." tea biscuit red blue
+ 1320  valgrind  --leak-check=full --track-origins=yes ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan  -v
+ 1321  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1322  make debug
+ 1323  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1324  make debug
+ 1325  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1326  make debug
+ 1327  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1328  make debug
+ 1329  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1330  make debug
+ 1331  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1332  make debug
+ 1333  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1334  make debug
+ 1335  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1336  make debug
+ 1337  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1338  make debug
+ 1339  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1340  cd ../assignment1copy
+ 1341  ls
+ 1342  vim patternmatchlogic.c
+ 1343  cd ../assignment1
+ 1344  ls
+ 1345  vim patternmatchvisualiser.c
+ 1346  vim patternmatchvisualiser.h
+ 1347  vim patternmatchvisualiser.c
+ 1348  make clean
+ 1349  ls
+ 1350  vim bool.h
+ 1351  vim colourlogic.h
+ 1352  vim int.h
+ 1353  vim patternmatchlogic.c
+ 1354  rm int.h
+ 1355  vim patternmatchlogic.c
+ 1356  ls
+ 1357  make clean
+ 1358  cd ..
+ 1359  ls
+ 1360  rm -r assignment1copy
+ 1361  cp -r assignment1 assignment1copy
+ 1362  ls
+ 1363  cd assignment1
+ 1364  ls
+ 1365  vim patternmatchvisualiser.c
+ 1366  vim main.c
+ 1367  vim patternmatchvisualiser.c
+ 1368  :w
+ 1369  vim pattermatchvisualiser.c
+ 1370  vim patternmatchvisualiser.c
+ 1371  cd Documents/ucp/assignment1
+ 1372  vim patternmatchvisualiser.c
+ 1373  vim patternmatchlogic.c
+ 1374  vim main.c
+ 1375  vim patternmatchlogic.c
+ 1376  vim patternmatchvisualiser.c
+ 1377  vim patternmatchlogic.c
+ 1378  vim patternmatchvisualiser.c
+ 1379  vim patternmatchlogic.c
+ 1380  vim patternmatchvisualiser.c
+ 1381  vim patternmatchlogic.c
+ 1382  vim patternmatchvisualiser.c
+ 1383  vim patternmatchlogic.c
+ 1384  vim patternmatchvisualiser.c
+ 1385  vim patternmatchlogic.c
+ 1386  vim main.c
+ 1387  vim patternmatchvisualiser.c
+ 1388  vim patternmatchlogic.c
+ 1389  vim patternmatchvisualiser.c
+ 1390  vim patternmatchlogic.c
+ 1391  vim patternmatchvisualiser.c
+ 1392  vim patternmatchlogic.c
+ 1393  cd ..
+ 1394  ls
+ 1395  cd assignment1copy
+ 1396  ls
+ 1397  vim patternmatchvisualiser.c
+ 1398  cd ../assignment1
+ 1399  ls
+ 1400  vim patternmatchvisualiser.c
+ 1401  vim patternmatchvisualiser.h
+ 1402  vim patternmatchlogic.c
+ 1403  vim patternmatchvisualiser.c
+ 1404  vim patternmatchlogic.c
+ 1405  ls
+ 1406  cd Documents
+ 1407  ls
+ 1408  cd ucp
+ 1409  ls
+ 1410  cd assignment1
+ 1411  ls
+ 1412  make debug
+ 1413  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1414  ./patternmatch "this tea is good!" tea biscuit red green
+ 1415  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1416  make debug
+ 1417  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1418  make debug
+ 1419  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1420  make debug
+ 1421  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1422  make debug
+ 1423  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1424  make debug
+ 1425  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1426  make clean
+ 1427  make debug
+ 1428  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1429  make debug
+ 1430  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1431  make debug
+ 1432  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1433  make clean
+ 1434  make debug
+ 1435  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1436  make clean
+ 1437  make debug
+ 1438  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1439  make debug
+ 1440  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1441  make clean
+ 1442  make debug
+ 1443  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1444  make debug
+ 1445  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1446  make debug
+ 1447  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1448  make debug
+ 1449  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1450  make debug
+ 1451  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1452  make debug
+ 1453  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1454  make debug
+ 1455  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1456  pwd
+ 1457  cd
+ 1458  vim .vimrc
+ 1459  cd '/home/20169321/Documents/ucp/assignment1'
+ 1460  make debug
+ 1461  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1462  make clean
+ 1463  make debug
+ 1464  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1465  make debug
+ 1466  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1467  make clean
+ 1468  make debug
+ 1469  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1470  make debug
+ 1471  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1472  make debug
+ 1473  make clean
+ 1474  make debug
+ 1475  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1476  make debug
+ 1477  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1478  make inde
+ 1479  make index
+ 1480  ./patternmatch "This tea is good." tea biscuit red green
+ 1481  make debug
+ 1482  ./patternmatch "This tea is good." tea biscuit red green
+ 1483  make debug
+ 1484  ./patternmatch "This tea is good." tea biscuit red green
+ 1485  make debug
+ 1486  make clean
+ 1487  make debug
+ 1488  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1489  make clean
+ 1490  make debug
+ 1491  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1492  ./patternmatch "This tea is good." tea biscuit red green
+ 1493  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1494  make clean
+ 1495  make debug
+ 1496  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1497  make clean
+ 1498  make debug
+ 1499  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1500  make debug
+ 1501  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1502  ./patternmatch "This tea is good." tea biscuit red green
+ 1503  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1504  make debug
+ 1505  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1506  make debug
+ 1507  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1508  make debug
+ 1509  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1510  make debug
+ 1511  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1512  make debug
+ 1513  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1514  ./patternmatch "This tea is good." tea biscuit red green
+ 1515  make index
+ 1516  make celan
+ 1517  make clean
+ 1518  make index
+ 1519  ./patternmatch "This tea is good." tea biscuit red green
+ 1520  make clean
+ 1521  make debug
+ 1522  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1523  make debug
+ 1524  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1525  make clean
+ 1526  make debug
+ 1527  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1528  make clean
+ 1529  make debug
+ 1530  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1531  make debug
+ 1532  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1533  make debug
+ 1534  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1535  make debug
+ 1536  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1537  make debug
+ 1538  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1539  make debug
+ 1540  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1541  make debug
+ 1542  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1543  ./patternmatch "This tea is good." tea biscuit red green
+ 1544  make debug
+ 1545  ./patternmatch "This tea is good." tea biscuit red green
+ 1546  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1547  make debug
+ 1548  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1549  make debug
+ 1550  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1551  make debug
+ 1552  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1553  make debug
+ 1554  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1555  make debug
+ 1556  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1557  ./patternmatch "This tea is good." tea biscuit red green
+ 1558  ./patternmatch "This tea is good. good good good" tea biscuit red green
+ 1559  ./patternmatch "This tea is good. good good." tea biscuit red green
+ 1560  ./patternmatch "This tea is good. good." tea biscuit red green
+ 1561  ./patternmatch "Good. good. good." tea biscuit red green
+ 1562  ./patternmatch "Good. good. good." good great red green
+ 1563  ./patternmatch "This tea is good. good good good" tea biscuit red green
+ 1564  make debug
+ 1565  make clean
+ 1566  make debug
+ 1567  ./patternmatch "This tea is good. good good good" tea biscuit red green
+ 1568  make debug
+ 1569  ./patternmatch "This tea is good. good good good" tea biscuit red green
+ 1570  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1571  make debug
+ 1572  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1573  make debug
+ 1574  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1575  make debug
+ 1576  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1577  make debug
+ 1578  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1579  make debug
+ 1580  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1581  make debug
+ 1582  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1583  make debug
+ 1584  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1585  make debug
+ 1586  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1587  make debug
+ 1588  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1589  make debug
+ 1590  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1591  make debug
+ 1592  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1593  make debug
+ 1594  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1595  make debug
+ 1596  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1597  ./patternmatch "This tea is good" tea biscuit red green
+ 1598  make debug
+ 1599  ./patternmatch "This tea is good" tea biscuit red green
+ 1600  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1601  make debug
+ 1602  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1603  make debug
+ 1604  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1605  make debug
+ 1606  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1607  make debug
+ 1608  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1609  make debug
+ 1610  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1611  make debug
+ 1612  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1613  make debug
+ 1614  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1615  make debug
+ 1616  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1617  make debug
+ 1618  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1619  make debug
+ 1620  make clean
+ 1621  make debug
+ 1622  make clean
+ 1623  make debug
+ 1624  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1625  make debug
+ 1626  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1627  make debug
+ 1628  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1629  make debug
+ 1630  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1631  make debug
+ 1632  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1633  make debug
+ 1634  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1635  make debug
+ 1636  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1637  make debug
+ 1638  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1639  make debug
+ 1640  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1641  make debug
+ 1642  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1643  make debug
+ 1644  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1645  make debug
+ 1646  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1647  make debug
+ 1648  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1649  make debug
+ 1650  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1651  make debug
+ 1652  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1653  make debug
+ 1654  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1655  make debug
+ 1656  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1657  make debug
+ 1658  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1659  ./patternmatch "This tea is good" tea biscuit red green
+ 1660  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1661  make debug
+ 1662  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1663  make debug
+ 1664  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1665  make debug
+ 1666  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1667  make debug
+ 1668  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1669  ./patternmatch "This tea is good" tea biscuit red green
+ 1670  make debug
+ 1671  ./patternmatch "This tea is good" tea biscuit red green
+ 1672  make debug
+ 1673  ./patternmatch "This tea is good" tea biscuit red green
+ 1674  make debug
+ 1675  ./patternmatch "This tea is good" tea biscuit red green
+ 1676  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1677  make debug
+ 1678  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1679  make debug
+ 1680  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1681  make debug
+ 1682  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1683  make debug
+ 1684  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1685  make debug
+ 1686  ./patternmatch "This tea is good" tea biscuit red green
+ 1687  make debug
+ 1688  ./patternmatch "This tea is good" tea biscuit red green
+ 1689  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1690  make debug
+ 1691  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1692  ./patternmatch "This tea is good" tea biscuit red green
+ 1693  make debug
+ 1694  make clean
+ 1695  make debug
+ 1696  ./patternmatch "This tea is good" tea biscuit red green
+ 1697  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1698  make debug
+ 1699  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1700  ./patternmatch "This tea is good" tea biscuit red green
+ 1701  make debug
+ 1702  ./patternmatch "This tea is good" tea biscuit red green
+ 1703  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1704  make debug
+ 1705  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1706  make clean
+ 1707  make debug
+ 1708  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1709  make debug
+ 1710  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1711  make debug
+ 1712  ./patternmatch "This tea is good" tea biscuit red green
+ 1713  make debug
+ 1714  ./patternmatch "This tea is good" tea biscuit red green
+ 1715  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1716  make debug
+ 1717  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1718  make debug
+ 1719  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1720  make debug
+ 1721  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1722  make debug
+ 1723  ./patternmatch "This tea is good" tea biscuit red green
+ 1724  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1725  make debug
+ 1726  make clean
+ 1727  make debug
+ 1728  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1729  make debug
+ 1730  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1731  make debug
+ 1732  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1733  make debug
+ 1734  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1735  make clean
+ 1736  make debug
+ 1737  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1738  make debug
+ 1739  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1740  make debug
+ 1741  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1742  make debug
+ 1743  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1744  make debug
+ 1745  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1746  make debug
+ 1747  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1748  make debug
+ 1749  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1750  make debug
+ 1751  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1752  make debug
+ 1753  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1754  make debug
+ 1755  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1756  make debug
+ 1757  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1758  make debug
+ 1759  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1760  make debug
+ 1761  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyanmake 
+ 1762  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1763  make debug
+ 1764  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1765  make debug
+ 1766  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1767  make debug
+ 1768  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1769  make debug
+ 1770  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1771  make debug
+ 1772  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1773  make debug
+ 1774  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1775  make debug
+ 1776  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1777  make debug
+ 1778  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1779  make debug
+ 1780  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1781  make debug
+ 1782  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1783  make debug
+ 1784  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1785  make debug
+ 1786  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1787  make debug
+ 1788  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1789  make debug
+ 1790  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1791  make debug
+ 1792  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1793  make debug
+ 1794  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1795  make debug
+ 1796  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1797  make debug
+ 1798  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1799  make debug
+ 1800  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1801  make debug
+ 1802  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1803  make debug
+ 1804  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1805  make debug
+ 1806  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1807  make debug
+ 1808  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1809  ./patternmatch "This tea is good" tea biscuit red green
+ 1810  make debug
+ 1811  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1812  ./patternmatch "This tea is good tea" tea biscuit red green
+ 1813  make debug
+ 1814  ./patternmatch "This tea is good tea" tea biscuit red green
+ 1815  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1816  make debug
+ 1817  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1818  make debug
+ 1819  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1820  make debug
+ 1821  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1822  make debug
+ 1823  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1824  make clean
+ 1825  make debug
+ 1826  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1827  make debug
+ 1828  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1829  make debug
+ 1830  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1831  make debug
+ 1832  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1833  make debug
+ 1834  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1835  make debug
+ 1836  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1837  make debug
+ 1838  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1839  make debug
+ 1840  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1841  make debug
+ 1842  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1843  make debug
+ 1844  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1845  vim Makefile
+ 1846  make debug
+ 1847  vim Makefile
+ 1848  make debug
+ 1849  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1850  make debug
+ 1851  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1852  make debug
+ 1853  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1854  make debug
+ 1855  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1856  make debug
+ 1857  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1858  make debug
+ 1859  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1860  make debug
+ 1861  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1862  make debug
+ 1863  make clean
+ 1864  make debug
+ 1865  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1866  make debug
+ 1867  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1868  make debug
+ 1869  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1870  make debug
+ 1871  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1872  make debug
+ 1873  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1874  make debug
+ 1875  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1876  make clean
+ 1877  make debug
+ 1878  make clean
+ 1879  make debug
+ 1880  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1881  make clean
+ 1882  make debug
+ 1883  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1884  make debug
+ 1885  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1886  make clean
+ 1887  make debug
+ 1888  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1889  make clean
+ 1890  make debug
+ 1891  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1892  make debug
+ 1893  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1894  make clean
+ 1895  make index
+ 1896  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1897  make debug
+ 1898  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1899  make dbug
+ 1900  make clean
+ 1901  make debug
+ 1902  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1903  make clean
+ 1904  make index
+ 1905  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1906  make clean
+ 1907  make debug
+ 1908  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1909  make clean
+ 1910  make index
+ 1911  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1912  make clean
+ 1913  make index
+ 1914  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1915  make clean
+ 1916  make debug
+ 1917  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1918  make clean
+ 1919  make index
+ 1920  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1921  make clean
+ 1922  make index
+ 1923  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1924  make index
+ 1925  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1926  make clean
+ 1927  make index
+ 1928  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1929  make clean
+ 1930  make index
+ 1931  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1932  make clean
+ 1933  make index
+ 1934  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1935  make index
+ 1936  make clean
+ 1937  make index
+ 1938  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1939  make index
+ 1940  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1941  make clean
+ 1942  make index
+ 1943  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1944  make clean
+ 1945  make index
+ 1946  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1947  make clean
+ 1948  make index
+ 1949  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1950  make clean
+ 1951  make index
+ 1952  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1953  make clean
+ 1954  make index
+ 1955  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1956  make clean
+ 1957  make debug
+ 1958  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1959  make clean
+ 1960  make debug
+ 1961  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1962  make clean
+ 1963  make debug
+ 1964  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1965  make clean
+ 1966  make debug
+ 1967  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1968  make index
+ 1969  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1970  make clean
+ 1971  make index
+ 1972  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1973  make debug
+ 1974  make clean
+ 1975  make debug
+ 1976  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1977  make debug
+ 1978  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1979  make clean
+ 1980  make dbeug
+ 1981  make debug
+ 1982  valgrind  --leak-check=full --track-origins=yes -v ./patternmatch "this tea is tea, tea, tea." tea biscuit red cyan
+ 1983  make clean
+ 1984  make 
+ 1985  ./patternmatch "This tea is good tea" tea biscuit red green
+ 1986  ./patternmatch "This tea is good tea tea tea tea tea tea tea" tea biscuit red green
+ 1987  make clean
+ 1988  ls
+ 1989  vim README.txt
+ 1990  ./patternmatch "This tEa is good Tea teA tea tea tea tea tea" tea biscuit red green
+ 1991  make 
+ 1992  ./patternmatch "This tEa is good Tea teA tea tea tea tea tea" tea biscuit red green
+ 1993  make clean
+ 1994  ls
+ 1995  vim bool.h
+ 1996  vim colourlogic.c
+ 1997  vim patternmatchlogic.c
+ 1998  vim patternmatchvisualiser.c
+ 1999  make clean
+ 2000  cd Documents/ucp/assigment1
+ 2001  cd Documents/ucp/assignment1
+ 2002  ls
+ 2003  history > bashhistoryassignment1.txt

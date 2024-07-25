@@ -1,0 +1,150 @@
+Program Fibonacci
+    OPTION_ONE := 1
+    OPTION_TWO := 2    
+    OPTION_EXIT := 0
+
+    TERMS_MIN := 5
+    TERMS_MAX := 50
+
+    NUM_MIN := -100
+    NUM_MAX := 100
+
+    MAIN:
+        DO:
+            OUTPUT "Worksheet 5: Modularity" + NL
+
+            OUTPUT "Program: Fibonacci" + NL
+
+            OUTPUT "1. Addition"
+            OUTPUT "2. Subtraction"
+            OUTPUT "0. End Fibonacci" + NL
+
+            prompt := "Selection: "
+            min := OPTION_EXIT
+            max := OPTION_TWO
+            sel := input_int_min_max <- prompt, min, max
+
+            OUTPUT NL
+
+            IF (sel = OPTION_ONE) OR (sel = OPTION_TWO) THEN
+                min := TERMS_MIN
+                max := TERMS_MAX
+                prompt := "Number of terms to generate between " + min " and " +
+                           max + " inclusive: "
+                numOfTerms := input_int_min_max <- min, max, prompt
+
+                terms (ARRAY OF Integer OF SIZE numOfTerms)
+
+                min := NUM_MIN
+                max := NUM_MAX
+                prompt := "First term of the sequence between " + min +
+                          " and " + max + " inclusive: "
+                terms[0] := input_int_min_max <- min, max, prompt
+
+                prompt := "Second digit of the sequence between " + min +
+                          " and " + max + " inclusive: "
+                terms[1] := input_int_min_max <- min, max, prompt
+           
+                OUTPUT NL
+ 
+                IF (sel = OPTION_ONE) THEN
+                    add <- terms, numOfTerms
+                ELSE
+                    sub <- terms, numOfTerms
+                END IF
+                       
+                min := 0
+                max := 2             
+                prompt := "Sub-Program: Output" + NL + NL
+                
+                          "1. Specific Term" + NL +
+                          "2. Entire Sequence" + NL +
+                          "0. Close Output" + NL + NL
+
+                          "Selection: "
+                sel := input_int_min_max <- min, max, prompt
+
+                OUTPUT NL
+
+                IF (sel = OPTION_ONE) OR (sel = OPTION_TWO) THEN
+                    output <- sel, terms, numOfTerms
+                ELSE
+                    OUTPUT "Output Closed" + NL
+                    sel := 1
+                END IF 
+            ELSE
+                OUTPUT "Fibonacci Ended"
+            END IF
+        WHILE (sel != OPTION_EXIT)
+    END MAIN
+
+    SUBMODULE: add
+    IMPORT: terms (ARRAY OF Integer OF SIZE numOfTerms), numOfTerms (Integer)
+    EXPORT: none
+    ASSERTION: Calculates next term given previous and current terms 
+               using addition mode of generation
+    ALGORITHM:
+        FOR ii := 2 TO numOfTerms (exclusive) INC BY 1
+            terms[ii] := terms[ii - 2] + terms[ii - 1]
+        END FOR
+    END add
+        
+    SUBMODULE: sub
+    IMPORT: terms (ARRAY OF Integer OF SIZE numOfTerms), numOfTerms (Integer)
+    EXPORT: none
+    ASSERTION: Calculates next term given previous and current terms 
+               using subtraction mode of generation
+    ALGORITHM:
+        FOR ii := 2 TO numOfTerms (exclusive) INC BY 1
+            terms[ii] := terms[ii - 2] - terms[ii - 1]
+        END FOR
+    END sub
+
+    SUBMODULE := output
+    IMPORT: sel (Integer), terms (ARRAY OF Integer OF SIZE numOfTerms),
+            numOfTerms (Integer)
+    EXPORT: none
+    ASSERTION: Prints either a specific term in the sequence or the entire
+               sequence depending on user input
+    ALGORITHM:
+        IF (sel = OPTION_ONE) THEN
+            DO
+                min := 0
+                max := numOfTerms
+                prompt := "Term (or enter 0 to return): "
+                sel := input_int_min_max <- min, max, prompt
+
+                IF (sel != OPTION_EXIT) THEN
+                    index := sel - 1
+                    OUTPUT "Term " + sel + ": " + terms[index]
+                END IF
+            WHILE (sel != OPTION_EXIT)
+            OUTPUT NL
+        ELSE
+            FOR ii := 1 TO numOfTerms (inclusive) INC BY 1
+                index := ii - 1
+                OUTPUT "Term " + ii + ": " + terms[index]
+            END FOR
+            OUTPUT NL
+        END IF
+    END output
+
+    SUBMODULE: input_int_min_max
+    IMPORT: prompt (String), min (Integer), max (Integer)
+    EXPORT: input_int
+    ASSERTION: Receives and validates integer input given min and max bounds
+    ALGORITHM:
+        input_int := min - 1
+
+        error := "Selection must be between " + min + " and " + max + 
+                 " inclusive"
+        out := prompt
+        DO
+            OUTPUT out
+            INPUT input_int (Integer)
+            out := error + NL + prompt
+        WHILE (input_int < min) OR (input_int > max)
+        
+        EXPORT input_int
+    END input_int_min_max
+END

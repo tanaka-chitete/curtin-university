@@ -1,0 +1,49 @@
+Question 2a
+OUTPUT "Enter mark: "
+INPUT mark (Integer)
+
+IF (0 <= mark <= 100) THEN 
+    newMark := mark DIV 10 (Integers)
+    CASE newMark
+        8: 9: 10:
+            grade := 'A'
+        7:
+            grade := 'B'
+        6:
+            grade := 'C'
+        5:
+            grade := 'D'
+        4: 3: 2: 1: 0:
+            grade := 'F'
+    END CASE
+ELSE
+    grade := 'X'
+END IF
+
+Question 2b
+sum := 0
+DO
+    OUTPUT "Enter mark: "
+    INPUT mark (Integer)
+    sum = sum + mark (Integers)
+WHILE (sum < 100)
+
+Question 2c
+OUTPUT "Enter top: "
+INPUT top (Integer)
+
+sum := 0
+WHILE (top >= 0) DO
+    sum := sum + top (Integers)
+    top := top - 2 (Integers)
+END WHILE
+
+OUTPUT sum
+
+Question 2d
+sum := 0
+FOR count := 0 TO 10 (exclusive) CHANGE BY +1
+    OUTPUT "Enter number: "
+    INPUT num (Integer)
+    sum := sum + num (Integers)
+END FOR

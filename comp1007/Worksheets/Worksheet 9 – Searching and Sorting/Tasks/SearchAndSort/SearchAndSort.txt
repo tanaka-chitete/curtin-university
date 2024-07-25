@@ -1,0 +1,277 @@
+Program:
+    GLOBAL CONSTANT OPTION_0 := 0
+    GLOBAL CONSTANT OPTION_1 := 1
+    GLOBAL CONSTANT OPTION_2 := 2
+    GLOBAL CONSTANT OPTION_3 := 3
+
+    GLOBAL CONSTANT ASCII_OF_UC_A := 65
+    GLOBAL CONSTANT ASCII_OF_UC_Z := 90
+
+    GLOBAL CONSTANT UC_OR_LC_KEY := 32
+
+    NAME_OF_FILE := "RandomNames7000.csv"
+    
+    MAIN:
+        temp (ARRAY OF Strings OF SIZE 3 AND 7000)
+        temp := FileIO.readCSV <- NAME_OF_FILE
+        
+        students (ARRAY OF Students OF SIZE 7000)
+        students := tempToStudents <- temp
+
+        sorted := FALSE 
+        DO
+            OUTPUT "Main Menu" + NL + NL +
+        
+                   "1. Sort" + NL +
+                   "2. Search" + NL + 
+                   "0. End Program" + NL
+
+            prompt := "Selection: "
+            menuSel := UserInteface.userInput <- OPTION_0, OPTION_1, prompt
+            OUTPUT NL
+
+            CASE menuSel
+                1:
+                    sorted := sort <- students, sorted
+                    BREAK
+                2:
+                    search <- students, sorted
+                    BREAK
+                DEFAULT:
+                    OUTPUT "Program Ended"
+                    BREAK
+            END CASE
+        WHILE NOT (menuSel = OPTION_0)
+    END MAIN
+
+    SUBMODULE: tempToStudents
+    IMPORT: temp (ARRAY OF Strings OF SIZE 3 AND 7000)
+    EXPORT: students (ARRAY OF Students OF SIZE 7000)
+    ASSERTION: Creates Student objects from name, Id and mark strings from temp
+    ALGORITHM:
+        student (OBJECT OF Student WITH name (String), 
+                                        Id (Integer) and
+                                        mark (Real) FIELDS)
+        FOR i := 0 TO temp.length - 1 (exclusive) INC BY 1
+            name := temp[i][0]
+            Id := temp[i][1]
+            mark := temp[i][2]
+
+            student.setName <- name
+            student.setId <- Integer.parseInt <- Id
+            student.setMark <- Double.parseDouble <- mark
+            students[i] := student
+        END FOR
+        EXPORT students (ARRAY OF Students OF SIZE 7000)
+    END tempToStudents
+
+    SUBMODULE: sort
+    IMPORT: students (ARRAY OF Students OF SIZE 7000), sorted (Boolean)
+    EXPORT: sorted (Boolean)
+    ASSERTION: Executes 'Sort' menu option and its related processes
+    ALGORITHM:
+        IF NOT (sorted) THEN
+            OUTPUT "Sorting Algorithm Selection" + NL + NL +
+
+                   "1. Bubble Sort" + NL +
+                   "2. Insertion Sort" + NL + 
+                   "3. Selection Sort" + NL
+            
+            prompt := "Selection: "     
+            sortingAlgorithm := UserInterface.userInput <- OPTION_1, 
+                                                           OPTION_3, 
+                                                           prompt 
+            OUTPUT NL
+
+            start := System.nanoTime <- none
+            CASE sortingAlgorithm
+                1: 
+                    bubbleSort <- students
+                    BREAK
+                2:
+                    insertionSort <- students
+                    BREAK
+                3:
+                    selectionSort <- students
+                    BREAK
+            END CASE
+            end := System.nanoTime <- none
+
+            duration := (Integer)((Real)(end - start) / 1,000,000)
+            OUTPUT "Sorting time: " + duration + " seconds" + NL
+            sorted := TRUE
+        ELSE
+            UserInterface.printError <- "Students have already been sorted"
+        END IF
+        EXPORT sorted (Boolean)
+    END sort
+    
+    SUBMODULE: bubbleSort
+    IMPORT: students (ARRAY OF Students OF SIZE 7000)
+    EXPORT: none
+    ASSERTION: Sorts students by Id using optimised Bubble Sort
+    ALGORITHM:
+        pass := 0
+        DO
+            sorted := TRUE
+            FOR i := 0 TO (students.length - 1) - pass - 1 (exclusive) INC BY 1
+                IF ((students[i].getId <- none) > 
+                    (students[i + 1].getId <- none)) THEN
+                    temp := students[i]
+                    students[i] := students[i + 1]
+                    students[i + 1] := temp
+                    sorted := FALSE
+                END IF
+            END FOR
+        WHILE NOT (sorted)
+    END bubbleSort
+
+    SUBMODULE: insertionSort
+    IMPORT: students (ARRAY OF Students OF SIZE 7000)
+    EXPORT: none
+    ASSERTION: Sorts students by Id using Insertion Sort
+    ALGORITHM: 
+        FOR n := 1 TO students.length - 1 (exclusive) INC BY 1
+            i := n
+            WHILE (i > 0) AND ((students[i - 1].getId <- none) > 
+                               (students[i].getId <- none)) DO
+                temp := students[i]
+                students[i] := students[i - 1]
+                students[i - 1] := temp
+                i := i - 1 (Reals)
+            END WHILE
+        END FOR
+    END insertionSort
+
+    SUBMODULE: selectionSort
+    IMPORT: students (ARRAY OF Students OF SIZE 7000)
+    EXPORT: none
+    ASSERTION: Sorts students by Id using Selection Sort
+        FOR n := 0 TO students.length - 1 (exclusive) INC BY 1
+            idxOfMinId := n
+            FOR j := n + 1 TO students.length - 1 (exclusive) INC BY 1
+                IF ((students[j].getId <- none) < 
+                    (students[idxOfMinId].getId <- none)) THEN
+                    idxOfMinId := j
+                END IF
+            END FOR
+            temp := students[idxOfMinId]
+            students[idxOfMinId] := students[n]
+            students[n] := temp
+        END FOR
+    END selectionSort
+
+    SUBMODULE: search
+    IMPORT: students (ARRAY OF Students OF SIZE 7000), sorted (Boolean)
+    EXPORT: none
+    ASSERTION: Executes 'Search' menu option and its related processes
+    ALGORITHM:
+        OUTPUT "Searching Algorithm Selection" + NL + NL +
+
+               "1. Linear Search" + NL + 
+               "2. Binary Search" + NL
+
+        prompt := "Selection: "
+        searchingAlgorithm := UserInterface.userInput <- prompt, 
+                              OPTION_1, OPTION_2
+        OUTPUT NL
+
+        prompt := "Name of student to search for: "
+        nameOfStudent := UserInterface.userInput <- prompt
+        OUTPUT NL
+
+        
+        idOfStudent := students[
+
+        searched := FALSE
+        IF (searchingAlgorithm = OPTION_1) THEN
+            start := System.nanoTime <- none
+            idxOfMatchStudent :=  linearSearch <- students, nameOfStudent
+            end := System.nanoTime <- none
+            searched := TRUE
+        ELSE
+            IF NOT (sorted) THEN
+                UserInterface.printError <- "Students must be sorted first"
+            ELSE
+                idxOfMatchStudent := linearSearch <- students, nameOfStudent
+                IdOfStudent := students[idxOfMatchStudent].getId <- none
+            
+                start := System.nanoTime <- none
+                idxOfMatchStudent := binarySearch <- students, IdOfStudent
+                end := System.nanoTime <- none
+                searched := TRUE
+            END IF
+        END IF
+
+        IF (searched) THEN
+            duration := (Integer)((Real)(end - start) / 1,000,000)
+            OUTPUT "Searching time: " + duration + " seconds" + NL
+
+            OUTPUT "Position found at: " + (idxOfMatchStudent + 1) + NL
+ 
+            OUTPUT students[idxOfMatchStudent].toString <- none + NL
+        END IF
+    END search
+
+    SUBMODULE: linearSearch
+    IMPORT: students (ARRAY OF Students OF SIZE 7000), nameOfStudent (String)
+    EXPORT: idxOfMatchStudent (Integer)
+    ASSERTION: Searches students for nameOfStudent by name using Linear Search
+    ALGORITHM:
+        i := 0
+        idxOfMatchStudent := -1
+        WHILE (i < students.length) AND (idxOfMatchStudent = -1) DO
+            IF (toLowerString <- students[i].getName EQUALS 
+                toLowerString <- nameOfStudent) THEN
+                idxOfMatchStudent := i
+            END IF
+        END WHILE
+        EXPORT idxOfMatchStudent (Integer)
+    END linearSearch    
+
+    SUBMODULE: binarySearch
+    IMPORT: studentsSorted (ARRAY OF Students OF SIZE 7000), 
+            IdOfStudent (String)
+    EXPORT: idxOfMatchStudent (Integer)
+    ASSERTION: Searches students for nameOfStudent by Id using Binary Search
+    ALGORITHM:
+        lB := 0
+        uB := studentsSorted.length
+        idxOfMatchStudent := -1
+        found := FALSE
+
+        WHILE NOT (found) AND (lB <= uB) DO
+            idxToCheck := (lB + uB) / 2
+            IF ((studentsSorted[idxToCheck].getId <- none) <
+                IdOfStudent) THEN
+                lB := idxToCheck + 1
+            ELSE IF ((studentsSorted[idxToCheck].getId <- none) >
+                     IdOfStudent) THEN
+                uB := idxToCheck - 1
+            ELSE
+                idxOfMatchStudent := idxToCheck
+                found := TRUE
+            END IF
+        END WHILE
+        EXPORT idxOfMatchStudent
+    END binarySearch
+
+    SUBMODULE: toLowerString
+    IMPORT: string (String)
+    EXPORT: stringLC (String)
+    ASSERTION: Converts a string into its lowercase equivalent
+    ALGORITHM:
+        stringLC := ""
+        FOR i := 0 TO string.length <- none (exclusive) INC BY 1
+            character := string.charAt <- i
+            IF (ASCII_OF_UC_A <= character) AND 
+               (character <= ASCII_OF_UC_Z) THEN
+                characterLC := (Character)(Integer)character - UC_OR_LC_KEY
+                                   (Integers) 
+            ELSE
+                characterLC := character
+            END IF
+            stringLC := stringLC + characterLC
+        END FOR
+        EXPORT stringLC (String)
+    END toLowerString 

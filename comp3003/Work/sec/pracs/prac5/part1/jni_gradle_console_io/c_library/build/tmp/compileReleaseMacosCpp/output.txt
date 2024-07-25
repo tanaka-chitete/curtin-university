@@ -1,0 +1,4 @@
+See file:///Users/tanakachitete/Google%20Drive/University/Units/Current/COMP3003/Work/sec/pracs/prac5/part1/jni_gradle_console_io/c_library/build/tmp/compileReleaseMacosCpp/output.txt for all output for compileReleaseMacosCpp.
+compiling console_io_c_library.cpp successful.
+
+Finished compileReleaseMacosCpp, see full log file:///Users/tanakachitete/Google%20Drive/University/Units/Current/COMP3003/Work/sec/pracs/prac5/part1/jni_gradle_console_io/c_library/build/tmp/compileReleaseMacosCpp/output.txt.

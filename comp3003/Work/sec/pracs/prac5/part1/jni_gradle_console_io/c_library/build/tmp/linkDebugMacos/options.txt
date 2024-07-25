@@ -1,0 +1,5 @@
+-shared
+-o
+"/Users/tanakachitete/Google Drive/University/Units/Current/COMP3003/Work/sec/pracs/prac5/part1/jni_gradle_console_io/c_library/build/lib/main/debug/macos/libconsole_io_c_library.dylib"
+"/Users/tanakachitete/Google Drive/University/Units/Current/COMP3003/Work/sec/pracs/prac5/part1/jni_gradle_console_io/c_library/build/obj/main/debug/macos/5sqk9x2fwop3h1f3yvpdrz41j/console_io_c_library.o"
+-m64

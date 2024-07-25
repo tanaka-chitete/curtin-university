@@ -1,0 +1,12 @@
+training on cuda:0
+epoch 1, loss 2.119, train acc 0.340, test acc 0.347
+epoch 2, loss 2.108, train acc 0.351, test acc 0.353
+epoch 3, loss 2.100, train acc 0.359, test acc 0.341
+epoch 4, loss 2.098, train acc 0.362, test acc 0.360
+epoch 5, loss 2.092, train acc 0.368, test acc 0.365
+epoch 6, loss 2.086, train acc 0.374, test acc 0.366
+epoch 7, loss 2.084, train acc 0.376, test acc 0.372
+epoch 8, loss 2.083, train acc 0.377, test acc 0.364
+epoch 9, loss 2.076, train acc 0.384, test acc 0.335
+epoch 10, loss 2.084, train acc 0.376, test acc 0.364
+9790.2 examples/sec on cuda:0

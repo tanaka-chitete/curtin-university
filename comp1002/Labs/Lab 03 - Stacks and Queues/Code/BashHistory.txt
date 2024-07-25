@@ -1,0 +1,500 @@
+   14  python3 ok -q insert_items
+   15  python3 ok -q insert_items
+   16  python3 ok --submit
+   17  cd ../solutions
+   18  ls
+   19  vim lab06.py
+   20  cd ../..
+   21  ls
+   22  open .
+   23  ls
+   24  cd lw07
+   25  ls
+   26  cd attempts
+   27  clear
+   28  python3 -i lab07.py
+   29  python3 -i lab07.py
+   30  python3 -i lab07.py
+   31  python3 -i lab07.py
+   32  python3 -i lab07.py
+   33  python3 -m doc.p
+   34  python3 -i lab07.py
+   35  python3 ok -q subseqs
+   36  python3 ok -q inc_subseqs
+   37  python3 ok -q inc_subseqs
+   38  python3 ok -q inc_subseqs
+   39  python3 ok -q inc_subseqs
+   40  python3 ok -q inc_subseqs
+   41  python3 ok -q inc_subseqs
+   42  python3 ok -q inc_subseqs
+   43  python3 ok -q inc_subseqs
+   44  python3 ok -q inc_subseqs
+   45  python3 ok -q inc_subseqs
+   46  python3 ok -q inc_subseqs
+   47  python3 ok -q inc_subseqs
+   48  python3 ok -q inc_subseqs
+   49  python3 ok -q inc_subseqs
+   50  python3 ok -q inc_subseqs
+   51  python3 ok -q inc_subseqs
+   52  python3 ok -q inc_subseqs
+   53  python3 ok -q inc_subseqs
+   54  python3 ok -q inc_subseqs
+   55  python3 ok -q inc_subseqs
+   56  python3 ok -q inc_subseqs
+   57  python3 ok -q inc_subseqs
+   58  python3 ok -q inc_subseqs
+   59  python3 ok -q inc_subseqs
+   60  python3 ok -q inc_subseqs
+   61  python3 ok -q inc_subseqs
+   62  python3 ok -q inc_subseqs
+   63  python3 ok -q inc_subseqs
+   64  python3 ok -q inc_subseqs
+   65  python3 ok -q inc_subseqs
+   66  python3 ok -q inc_subseqs
+   67  python3 ok -q inc_subseqs
+   68  python3 ok -q inc_subseqs
+   69  python3 ok -q inc_subseqs
+   70  python3 ok -q inc_subseqs
+   71  python3 ok -q inc_subseqs
+   72  python3 ok -q inc_subseqs
+   73  ssh 20169321@lab218-a01.cs.curtin.edu.au
+   74  ssh 20169321@lab218-a01.cs.curtin.edu.au
+   75  ssh STUDENT\\20169321@lab218-a01.cs.curtin.edu.au
+   76  ssh 20169321@lab218-d06.cs.curtin.edu.au
+   77  ssh 20169321@lab218-d06.cs.curtin.edu.au
+   78  ls
+   79  pwd
+   80  vim disc06.py
+   81  python3 -m doctest disc06.py
+   82  python3 -i disc06.py
+   83  python3
+   84  man printf
+   85  man printf
+   86  ssh 20169321@lab218-d06.cs.curtin.edu.au
+   87  ssh 20169321@lab218-d06.cs.curtin.edu.au
+   88  scp 20169321@lab218-d06.cs.curtin.edu.au:~/Documents/dsa/20169321_l2.tar.gz ~/Desktop
+   89  scp 20169321@lab218-d06.cs.curtin.edu.au:~/Documents/dsa/l2/20169321_l2.tar.gz ~/Desktop
+   90  scp 20169321@lab218-d06.cs.curtin.edu.au:~/Documents/dsa/l2/20169321_l2.tar.gz ~/Desktop
+   91  ssh 20169321@lab218-d06.cs.curtin.edu.au
+   92  ssh 20169321@lab218-d06.cs.curtin.edu.au
+   93  ssh 20169321@lab218-d06.cs.curtin.edu.au
+   94  ssh 20169321@lab218-d06.cs.curtin.edu.au
+   95  ssh 20169321@lab218-d06.cs.curtin.edu.au
+   96  python3 ok -q make_bank
+   97  python3
+   98  python3 ok -q make_withdraw
+   99  python3 ok -q make_withdraw
+  100  python3
+  101  python3 ok -q repeated
+  102  python3 ok -q repeated
+  103  python3 ok -q repeated
+  104  python3 ok -q repeated
+  105  python3 ok -q repeated
+  106  python3 ok -q merge
+  107  python3 ok -q merge
+  108  python3 ok -q merge
+  109  cd '/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/Programming/CS61A/Code/homework/hw05/attempts'
+  110  python3 ok -q merge
+  111  python3 ok -q merge
+  112  python3 -i hw05.py
+  113  python3 -i hw05.py
+  114  python3 -i hw05.py
+  115  python3 ok -q merge
+  116  python3 ok -q merge
+  117  python3 ok -q merge
+  118  python3 ok -q merge
+  119  python3 ok -q merge
+  120  lsssh 20169321@lab218-a02.cs.curtin.edu.au
+  121  ssh 20169321@lab218-a02.cs.curtin.edu.au
+  122  ssh 20169321@lab218-b01.cs.curtin.edu.au
+  123  ssh 20169321@lab218-b01.cs.curtin.edu.au
+  124  ssh 20169321@lab218-b01.cs.curtin.edu.au
+  125  ssh 20169321@lab218-b01.cs.curtin.edu.au
+  126  00~ ssh 20169321@lab218-d06.cs.curtin.edu.au01~
+  127  ssh 20169321@lab218-d06.cs.curtin.edu.au01~
+  128  ssh 20169321@lab218-d06.cs.curtin.edu.au01
+  129  ssh 20169321@lab218-b01.cs.curtin.edu.au
+  130  00~ssh 20169321@lab219-c01.cs.curtin.edu.au01~
+  131  ssh 20169321@lab219-c01.cs.curtin.edu.au
+  132  ssh 20169321@lab220-c06.cs.curtin.edu.au
+  133  /Users/tanakachitete/OneDrive\ -\ Curtin\ University\ of\ Technology\ Australia/University/Bachelor\ of\ Computing\ \(Computer\ Science\)/COMP1002/Labs/Lab\ 03\ -\ Stacks\ and\ Queues/DSAStack\ UML\ Diagram ; exit;
+  134  pwd
+  135  cd '/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code'
+  136  ls
+  137   /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/525257c01d73b89fb23036158ca9d7e5/redhat.java/jdt_ws/COMP1002_9db0998/bin" DSACircularQueueTestHarness 
+  138   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/525257c01d73b89fb23036158ca9d7e5/redhat.java/jdt_ws/COMP1002_9db0998/bin" DSAShufflingQueueTestHarness 
+  139   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/525257c01d73b89fb23036158ca9d7e5/redhat.java/jdt_ws/COMP1002_9db0998/bin" DSACircularQueueTestHarness 
+  140  ls
+  141  cd Labs
+  142  ls
+  143  cd 'Lab 03 - Stacks and Queues '
+  144  cd 'Lab 03 - Stacks and Queues'
+  145  ls
+  146  cd Code
+  147  ls
+  148  javac DSAStack.java
+  149  javac DSAStackTestHarness.java
+  150  java DSAStackTestHarness
+  151  java DSAStackTestHarness
+  152  javac DSAStackTestHarness.java
+  153  java DSAStackTestHarness
+  154  javac DSAStackTestHarness.java
+  155  java DSAStackTestHarness
+  156  java DSAStackTestHarness
+  157  javac DSAStackTestHarness.java
+  158  java DSAStackTestHarness
+  159  javac DSAStackTestHarness.java
+  160  java DSAStackTestHarness
+  161  javac DSAStackTestHarness.java
+  162  java DSAStackTestHarness
+  163  javac DSAStackTestHarness.java
+  164  javac DSAStackTestHarness.java
+  165  javac DSAStackTestHarness.java
+  166  javac DSAStackTestHarness.java
+  167  java DSAStackTestHarness
+  168  javac DSAStackTestHarness.java
+  169  javac *.java
+  170  java DSAStackTestHarness
+  171  javac *.java
+  172  java DSAStackTestHarness
+  173  javac *.java
+  174  java DSAStackTestHarness
+  175  javac *.java
+  176  javac *.java
+  177  java DSAStackTestHarness
+  178  javac *.java
+  179  java DSAStackTestHarness
+  180  javac *.java
+  181  java DSAStackTestHarness
+  182  javac *.java
+  183  java DSAStackTestHarness
+  184  javac *.java
+  185  javac *.java
+  186  java DSAStackTestHarness
+  187  javac *.java
+  188  java DSAStackTestHarness
+  189  javac *.java
+  190  javac *.java
+  191  java DSAStackTestHarness
+  192  javac *.java
+  193  java DSAStackTestHarness
+  194  javac *.java
+  195  java DSAStackTestHarness
+  196  javac *.java
+  197  java DSAStackTestHarness
+  198  javac *.java
+  199  javac *.java
+  200  java DSAStackTestHarness
+  201  javac *.java
+  202  javac *.java
+  203  javac *.java
+  204  java DSAStackTestHarness
+  205  javac *.java
+  206  java DSAStackTestHarness
+  207  javac *.java
+  208  java DSAStackTestHarness
+  209  javac *.java
+  210  java DSAStackTestHarness
+  211  javac *.java
+  212  java DSAStackTestHarness
+  213  javac *.java
+  214  java DSAStackTestHarness
+  215  javac *.java
+  216  java DSAStackTestHarness
+  217  javac *.java
+  218  java DSAStackTestHarness
+  219  java DSAStackTestHarness
+  220  javac *.java
+  221  java DSAStackTestHarness
+  222  javac *.java
+  223  java DSAStackTestHarness
+  224  javac *.java
+  225  java DSAStackTestHarness
+  226  javac *.java
+  227  java DSAStackTestHarness
+  228  javac *.java
+  229  java DSAStackTestHarness
+  230  javac *.java
+  231  java DSAStackTestHarness
+  232  javac *.java
+  233  javac *.java
+  234  pwd
+  235  javac *.java
+  236  java DSAShufflingQueueTestHarness
+  237  javac *.java
+  238  java DSAShufflingQueueTestHarness
+  239  javac *.java
+  240  java DSAShufflingQueueTestHarness
+  241  java DSAShufflingQueueTestHarness
+  242  java DSAShufflingQueueTestHarness
+  243  javac *.java
+  244  java DSAShufflingQueueTestHarness
+  245  javac *.java
+  246  java DSAShufflingQueueTestHarness
+  247  ssh 20169321@lab218-a01.cs.curtin.edu.au
+  248  ssh 20169321@lab218-a04.cs.curtin.edu.au
+  249  ssh 20169321@lab218-a04.cs.curtin.edu.au
+  250  scp 20169321@lab218-a04.cs.curtin.edu:~/Documents/ucp/programtemplate.c ~/Desktop
+  251  scp 20169321@lab218-a04.cs.curtin.edu:~/Documents/ucp/programtemplate.c ~/Desktop
+  252  scp 20169321@lab218-a04.cs.curtin.edu:~/Documents/dsa/ProgramTemplate.java ~/Desktop
+  253   /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" FibonacciWithVisualisedCallStack 
+  254  0
+  255  ls
+  256  java FibonacciWithVisualisedCallStack
+  257  ls
+  258  javac *FibonacciWithVisualisedCallStack.java
+  259  java FibonacciWithVisualisedCallStack
+  260  javac *FibonacciWithVisualisedCallStack.java
+  261   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" FactorialWithVisualisedCallStack 
+  262   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" FactorialWithVisualisedCallStack 
+  263   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" FactorialWithVisualisedCallStack 
+  264  0
+  265   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" FactorialWithVisualisedCallStack 
+  266   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" FactorialWithVisualisedCallStack 
+  267  0
+  268   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" FactorialWithVisualisedCallStack 
+  269   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" FactorialWithVisualisedCallStack 
+  270   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" FactorialWithVisualisedCallStack 
+  271   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" FactorialWithVisualisedCallStack 
+  272   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" FactorialWithVisualisedCallStack 
+  273   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" FactorialWithVisualisedCallStack 
+  274   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" FactorialWithVisualisedCallStack 
+  275   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" FactorialWithVisualisedCallStack 
+  276   /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" FibonacciWithVisualisedCallStack 
+  277   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" FibonacciWithVisualisedCallStack 
+  278   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" FibonacciWithVisualisedCallStack 
+  279  javac *.java
+  280   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" FibonacciWithVisualisedCallStack 
+  281   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" FibonacciWithVisualisedCallStack 
+  282   /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" FibonacciWithVisualisedCallStack 
+  283   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" FibonacciWithVisualisedCallStack 
+  284   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" FibonacciWithVisualisedCallStack 
+  285   /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp /private/var/folders/nw/9wfyvn7j6bs_f4fj1v9lnx8w0000gn/T/vscodesws_9b4ca/jdt_ws/jdt.ls-java-project/bin FibonacciWithVisualisedCallStack 
+  286   /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java -agentlib:jdwp=transport=dt_socket,server=n,suspend=y,address=localhost:50538 --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/4a596e7139e372d3d4110f09ea2b4e29/redhat.java/jdt_ws/Code_b34f17c7/bin" DSACircularQueueTestHarness 
+  287   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/4a596e7139e372d3d4110f09ea2b4e29/redhat.java/jdt_ws/Code_b34f17c7/bin" DSACircularQueueTestHarness 
+  288   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/4a596e7139e372d3d4110f09ea2b4e29/redhat.java/jdt_ws/Code_b34f17c7/bin" DSAStackTestHarness 
+  289   /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" EquationSolverTestHarness 
+  290   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" EquationSolverTestHarness 
+  291   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" EquationSolverTestHarness 
+  292   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" EquationSolverTestHarness 
+  293   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" EquationSolverTestHarness 
+  294   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" EquationSolverTestHarness 
+  295   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" EquationSolverTestHarness 
+  296   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" EquationSolverTestHarness 
+  297   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" EquationSolverTestHarness 
+  298   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" EquationSolverTestHarness 
+  299   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" EquationSolverTestHarness 
+  300   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" EquationSolverTestHarness 
+  301   /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" EquationSolverTestHarness 
+  302   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" EquationSolverTestHarness 
+  303   /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" EquationSolverTestHarness 
+  304   /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" EquationSolverTestHarness 
+  305   /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" EquationSolverTestHarness 
+  306   /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" EquationSolverTestHarness 
+  307   /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" EquationSolverTestHarness 
+  308   /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" EquationSolverTestHarness 
+  309   /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" EquationSolverTestHarness 
+  310   /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" EquationSolverTestHarness 
+  311   /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" EquationSolverTestHarness 
+  312   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" EquationSolverTestHarness 
+  313   /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" DSAStackTestHarness 
+  314   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" DSAStackTestHarness 
+  315   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" DSAStackTestHarness 
+  316   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" DSAStackTestHarness 
+  317   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" DSAStackTestHarness 
+  318   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" DSAStackTestHarness 
+  319   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" DSAStackTestHarness 
+  320   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" DSAStackTestHarness 
+  321   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" DSAStackTestHarness 
+  322   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" DSAStackTestHarness 
+  323   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" DSAShufflingQueueTestHarness 
+  324   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" EquationSolverTestHarness 
+  325  ls
+  326  javac *.java
+  327  cd ..
+  328  ls
+  329  java DSAStackTestHarness
+  330  ls
+  331  cd Code
+  332  java DSAStackTestHarness
+  333  java DSAShufflingQueueTestHarness
+  334  java DSACircularQueueTestHarness
+  335  java FactorialWithVisualisedCallStack
+  336  java FibonacciWithVisualisedCallStack
+  337  java EquationSolverTestHarness
+  338  history BashHistory.txt
+  339  history > BashHistory.txt
+  340  rm *.class
+  341  ls
+  342  cd ..
+  343  ls
+  344  tar -cvzf 20169321_Lab_03_Stacks_and_Queues.tar.gz 'Lab 03 - Stacks and Queues'
+  345  tar -cvzf 20169321_Lab_03_Stacks_and_Queues.tar.gz 'Lab 03 - Stacks and Queues'
+  346  tar -cvzf 20169321_Lab_03_Stacks_and_Queues.tar.gz Code
+  347  ls
+  348  mv 20169321_Lab_03_Stacks_and_Queues.tar.gz Code
+  349   /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/4a596e7139e372d3d4110f09ea2b4e29/redhat.java/jdt_ws/Code_b34f17c7/bin" FactorialWithVisualisedCallStack 
+  350   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/4a596e7139e372d3d4110f09ea2b4e29/redhat.java/jdt_ws/Code_b34f17c7/bin" FactorialWithVisualisedCallStack 
+  351   /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/4a596e7139e372d3d4110f09ea2b4e29/redhat.java/jdt_ws/Code_b34f17c7/bin" FactorialWithVisualisedCallStack 
+  352   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/4a596e7139e372d3d4110f09ea2b4e29/redhat.java/jdt_ws/Code_b34f17c7/bin" FactorialWithVisualisedCallStack 
+  353   /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" EquationSolverTestHarness 
+  354   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" EquationSolverTestHarness 
+  355   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" EquationSolverTestHarness 
+  356   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" EquationSolverTestHarness 
+  357   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" EquationSolverTestHarness 
+  358   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" EquationSolverTestHarness 
+  359   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" EquationSolverTestHarness 
+  360   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" EquationSolverTestHarness 
+  361   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" EquationSolverTestHarness 
+  362   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" EquationSolverTestHarness 
+  363   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" EquationSolverTestHarness 
+  364   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" EquationSolverTestHarness 
+  365   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" EquationSolverTestHarness 
+  366   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" EquationSolverTestHarness 
+  367   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" EquationSolverTestHarness 
+  368   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" EquationSolverTestHarness 
+  369   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" EquationSolverTestHarness 
+  370   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" EquationSolverTestHarness 
+  371   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" EquationSolverTestHarness 
+  372   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" EquationSolverTestHarness 
+  373   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" EquationSolverTestHarness 
+  374   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" EquationSolverTestHarness 
+  375   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" EquationSolverTestHarness 
+  376   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" EquationSolverTestHarness 
+  377   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" EquationSolverTestHarness 
+  378   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" EquationSolverTestHarness 
+  379   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" EquationSolverTestHarness 
+  380   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" EquationSolverTestHarness 
+  381   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 03 - Stacks and Queues/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/387d524e2ba92292c8fcd1329ec5e36a/redhat.java/jdt_ws/Code_b34f17c7/bin" EquationSolverTestHarness 
+  382  gcc errors.c errors
+  383  ls
+  384  ls
+  385  gcc errors.c errors
+  386  gcc errors.c -o errors
+  387  brew install valgrind
+  388  ls
+  389  gcc errors.c errors
+  390  gcc errors.c -o errors
+  391  ./errors 1
+  392  ./errors 2
+  393  ./errors 3
+  394  ./errors 4
+  395  ./errors 5
+  396  valgrind ./errors 1
+  397  valgrind ./errors 1
+  398  sudo apt install valgrind
+  399  valgrind ./errors 1
+  400  valgrind --leak-check=full --track-origins=yes ./memerrors 1
+  401  valgrind --leak-check=full --track-origins=yes ./memerrors 1
+  402  valgrind --leak-check=full --track-origins=yes ./memerrors 1
+  403  valgrind --leak-check=full --track-origins=yes ./errors 1
+  404  gcc -g errors.c -o errors
+  405  valgrind --leak-check=full --track-origins=yes ./errors 1
+  406  valgrind ./errors 1
+  407  valgrind ./errors 1
+  408  valgrind ./errors 1
+  409  valgrind ./errors 2
+  410  valgrind --leak-check=full --track-origins=yes ./errors errors
+  411  gcc memerrors.c -o memerrors
+  412  ./memerrors 1
+  413  ./memerrors 2
+  414  ./memerrors 3
+  415  ./memerrors 4
+  416  ./memerrors 5
+  417  valgrind --leak-check=full --track-origins=yes ./memerrors 1
+  418  valgrind --leak-check=full --track-origins=yes ./memerrors 2
+  419  valgrind --leak-check=full --track-origins=yes ./memerrors 3
+  420  valgrind --leak-check=full --track-origins=yes ./memerrors 4
+  421  gcc -g memerrors.c -o memerrors
+  422  valgrind --leak-check=full --track-origins=yes ./memerrors 1
+  423  valgrind --track-origin=yes ./memerrors
+  424  valgrind --track-origin=yes ./memerrors 1
+  425  brew uninstall valgrind
+  426  ls
+  427  cd Desktop
+  428  ls
+  429  scp memerrors.c 20169321@lab218-d05.cs.curtin.edu.au:~/
+  430  ls
+  431  clear
+  432  ls
+  433  ssh 20169321@lab218-d06.cs.curtin.edu.au
+  434  ssh 20169321@lab218-d06.cs.curtin.edu.au
+  435  ssh 20169321@lab218-d06.cs.curtin.edu.au
+  436  ssh 20169321@lab218-d06.cs.curtin.edu.au
+  437  ssh 20169321@lab218-d06.cs.curtin.edu.au
+  438  xcode-select --install
+  439  xcode-select --"Software Update"
+  440  xcode-select --softwareupdate
+  441  ssh 20169321@lab218-d06.cs.curtin.edu.au
+  442  ssh 20169321@lab218-d06.cs.curtin.edu.au
+  443  ssh 20169321@lab218-d06.cs.curtin.edu.au
+  444  scp 20169321@lab218-a01.cs.curtin.edu.au:~/Documents/ucp/p3/20169321_p3.tar.gz ~/Desktop
+  445  scp 20169321@lab218-a01.cs.curtin.edu.au:~/Documents/ucp/p3/20169321_p3.tar.gz ~/Desktop
+  446  scp 20169321@lab218-d06.cs.curtin.edu.au:~/Documents/ucp/p3/20169321_p3.tar.gz ~/Desktop
+  447  valgrind
+  448  ls
+  449  rm memerrors.dSYM
+  450  rm -r memerrors.dSYM
+  451  scp 20169321@lab218-d06.cs.curtin.edu.au:~/Documents/ucp/p3/20169321_p3.tar.gz ~/Desktop
+  452  ssh 20169321@lab218-d06.cs.curtin.edu.au
+  453   /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/94e5c86e2971d589e25812bb60c3041e/redhat.java/jdt_ws/Code_4e333b08/bin" UnitTestLinkedList 
+  454   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 04 - Linked Lists and Iterators/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/94e5c86e2971d589e25812bb60c3041e/redhat.java/jdt_ws/Code_4e333b08/bin" UnitTestLinkedList 
+  455   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 04 - Linked Lists and Iterators/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/94e5c86e2971d589e25812bb60c3041e/redhat.java/jdt_ws/Code_4e333b08/bin" UnitTestLinkedList 
+  456   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 04 - Linked Lists and Iterators/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/94e5c86e2971d589e25812bb60c3041e/redhat.java/jdt_ws/Code_4e333b08/bin" UnitTestLinkedList 
+  457   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 04 - Linked Lists and Iterators/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/94e5c86e2971d589e25812bb60c3041e/redhat.java/jdt_ws/Code_4e333b08/bin" UnitTestLinkedList 
+  458   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 04 - Linked Lists and Iterators/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/94e5c86e2971d589e25812bb60c3041e/redhat.java/jdt_ws/Code_4e333b08/bin" UnitTestLinkedList 
+  459   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 04 - Linked Lists and Iterators/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/94e5c86e2971d589e25812bb60c3041e/redhat.java/jdt_ws/Code_4e333b08/bin" UnitTestLinkedList 
+  460   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 04 - Linked Lists and Iterators/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/94e5c86e2971d589e25812bb60c3041e/redhat.java/jdt_ws/Code_4e333b08/bin" UnitTestLinkedList 
+  461   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 04 - Linked Lists and Iterators/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/94e5c86e2971d589e25812bb60c3041e/redhat.java/jdt_ws/Code_4e333b08/bin" UnitTestLinkedList 
+  462   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 04 - Linked Lists and Iterators/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/94e5c86e2971d589e25812bb60c3041e/redhat.java/jdt_ws/Code_4e333b08/bin" UnitTestLinkedList 
+  463   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 04 - Linked Lists and Iterators/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/94e5c86e2971d589e25812bb60c3041e/redhat.java/jdt_ws/Code_4e333b08/bin" UnitTestLinkedList 
+  464   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 04 - Linked Lists and Iterators/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/94e5c86e2971d589e25812bb60c3041e/redhat.java/jdt_ws/Code_4e333b08/bin" UnitTestLinkedList 
+  465   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 04 - Linked Lists and Iterators/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/94e5c86e2971d589e25812bb60c3041e/redhat.java/jdt_ws/Code_4e333b08/bin" UnitTestLinkedList 
+  466   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 04 - Linked Lists and Iterators/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/94e5c86e2971d589e25812bb60c3041e/redhat.java/jdt_ws/Code_4e333b08/bin" UnitTestLinkedList 
+  467   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 04 - Linked Lists and Iterators/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/94e5c86e2971d589e25812bb60c3041e/redhat.java/jdt_ws/Code_4e333b08/bin" UnitTestLinkedList 
+  468   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 04 - Linked Lists and Iterators/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/94e5c86e2971d589e25812bb60c3041e/redhat.java/jdt_ws/Code_4e333b08/bin" UnitTestLinkedList 
+  469   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 04 - Linked Lists and Iterators/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/94e5c86e2971d589e25812bb60c3041e/redhat.java/jdt_ws/Code_4e333b08/bin" UnitTestLinkedList 
+  470   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 04 - Linked Lists and Iterators/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/94e5c86e2971d589e25812bb60c3041e/redhat.java/jdt_ws/Code_4e333b08/bin" UnitTestLinkedList 
+  471   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 04 - Linked Lists and Iterators/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/94e5c86e2971d589e25812bb60c3041e/redhat.java/jdt_ws/Code_4e333b08/bin" UnitTestLinkedList 
+  472   /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/879992d81034fb3e76dca6d8caa2a507/redhat.java/jdt_ws/Code_4e333b08/bin" DSAQueueTestHarness 
+  473   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 04 - Linked Lists and Iterators/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/879992d81034fb3e76dca6d8caa2a507/redhat.java/jdt_ws/Code_4e333b08/bin" DSAQueueTestHarness 
+  474   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 04 - Linked Lists and Iterators/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/879992d81034fb3e76dca6d8caa2a507/redhat.java/jdt_ws/Code_4e333b08/bin" DSAQueueTestHarness 
+  475   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 04 - Linked Lists and Iterators/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/879992d81034fb3e76dca6d8caa2a507/redhat.java/jdt_ws/Code_4e333b08/bin" DSAQueueTestHarness 
+  476   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 04 - Linked Lists and Iterators/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/879992d81034fb3e76dca6d8caa2a507/redhat.java/jdt_ws/Code_4e333b08/bin" DSAQueueTestHarness 
+  477   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 04 - Linked Lists and Iterators/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/879992d81034fb3e76dca6d8caa2a507/redhat.java/jdt_ws/Code_4e333b08/bin" DSAQueueTestHarness 
+  478   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 04 - Linked Lists and Iterators/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/879992d81034fb3e76dca6d8caa2a507/redhat.java/jdt_ws/Code_4e333b08/bin" DSAQueueTestHarness 
+  479   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 04 - Linked Lists and Iterators/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/879992d81034fb3e76dca6d8caa2a507/redhat.java/jdt_ws/Code_4e333b08/bin" DSAQueueTestHarness 
+  480   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 04 - Linked Lists and Iterators/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/879992d81034fb3e76dca6d8caa2a507/redhat.java/jdt_ws/Code_4e333b08/bin" DSAQueueTestHarness 
+  481   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 04 - Linked Lists and Iterators/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/879992d81034fb3e76dca6d8caa2a507/redhat.java/jdt_ws/Code_4e333b08/bin" DSAQueueTestHarness 
+  482   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 04 - Linked Lists and Iterators/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/879992d81034fb3e76dca6d8caa2a507/redhat.java/jdt_ws/Code_4e333b08/bin" DSAQueueTestHarness 
+  483   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 04 - Linked Lists and Iterators/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/879992d81034fb3e76dca6d8caa2a507/redhat.java/jdt_ws/Code_4e333b08/bin" DSAQueueTestHarness 
+  484   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 04 - Linked Lists and Iterators/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/879992d81034fb3e76dca6d8caa2a507/redhat.java/jdt_ws/Code_4e333b08/bin" ReadAndWriteLinkedLists 
+  485   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 04 - Linked Lists and Iterators/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/879992d81034fb3e76dca6d8caa2a507/redhat.java/jdt_ws/Code_4e333b08/bin" ReadAndWriteLinkedLists 
+  486   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 04 - Linked Lists and Iterators/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/879992d81034fb3e76dca6d8caa2a507/redhat.java/jdt_ws/Code_4e333b08/bin" ReadAndWriteLinkedLists 
+  487   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 04 - Linked Lists and Iterators/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/879992d81034fb3e76dca6d8caa2a507/redhat.java/jdt_ws/Code_4e333b08/bin" ReadAndWriteLinkedLists 
+  488   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 04 - Linked Lists and Iterators/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/879992d81034fb3e76dca6d8caa2a507/redhat.java/jdt_ws/Code_4e333b08/bin" ReadAndWriteLinkedLists 
+  489  ls
+  490   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 04 - Linked Lists and Iterators/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/879992d81034fb3e76dca6d8caa2a507/redhat.java/jdt_ws/Code_4e333b08/bin" ReadAndWriteLinkedLists 
+  491   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 04 - Linked Lists and Iterators/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/879992d81034fb3e76dca6d8caa2a507/redhat.java/jdt_ws/Code_4e333b08/bin" ReadAndWriteLinkedLists 
+  492   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 04 - Linked Lists and Iterators/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/879992d81034fb3e76dca6d8caa2a507/redhat.java/jdt_ws/Code_4e333b08/bin" ReadAndWriteLinkedLists 
+  493   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 04 - Linked Lists and Iterators/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/879992d81034fb3e76dca6d8caa2a507/redhat.java/jdt_ws/Code_4e333b08/bin" ReadAndWriteLinkedLists 
+  494   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 04 - Linked Lists and Iterators/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/879992d81034fb3e76dca6d8caa2a507/redhat.java/jdt_ws/Code_4e333b08/bin" ReadAndWriteLinkedLists 
+  495   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 04 - Linked Lists and Iterators/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/879992d81034fb3e76dca6d8caa2a507/redhat.java/jdt_ws/Code_4e333b08/bin" ReadAndWriteLinkedLists 
+  496   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 04 - Linked Lists and Iterators/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/879992d81034fb3e76dca6d8caa2a507/redhat.java/jdt_ws/Code_4e333b08/bin" ReadAndWriteLinkedLists 
+  497   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 04 - Linked Lists and Iterators/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/879992d81034fb3e76dca6d8caa2a507/redhat.java/jdt_ws/Code_4e333b08/bin" ReadAndWriteLinkedLists 
+  498   cd "/Users/tanakachitete/OneDrive - Curtin University of Technology Australia/University/Bachelor of Computing (Computer Science)/COMP1002/Labs/Lab 04 - Linked Lists and Iterators/Code" ; /Library/Java/JavaVirtualMachines/jdk-14.0.2.jdk/Contents/Home/bin/java --enable-preview -XX:+ShowCodeDetailsInExceptionMessages -Dfile.encoding=UTF-8 -cp "/Users/tanakachitete/Library/Application Support/Code/User/workspaceStorage/879992d81034fb3e76dca6d8caa2a507/redhat.java/jdt_ws/Code_4e333b08/bin" ReadAndWriteLinkedLists 
+  499  ls
+  500  cp DSALinkedListTestHarness.java ReadAndWriteLinkedLists.java
+  501  bash -el
+  502  -el
+  503  ls -l
+  504  cd ..
+  505  ls
+  506  cd 'Lab 03 - Stacks and Queues'
+  507  ls
+  508  cd Code
+  509  ls
+  510  javac *.java
+  511  rm *.class
+  512  ls
+  513  history > BashHistory.txt

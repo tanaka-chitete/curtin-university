@@ -1,0 +1,3 @@
+java -cp /Users/tanakachitete/javacc-javacc-7.0.10/target/javacc.jar javacc <grammar file>.jj
+java *.java
+java <main class>

@@ -1,0 +1,75 @@
+SORTING ALGORITHMS
+Bubble Sort
+Time (ms)
+Test 1: 118
+Test 2: 121
+Test 3: 119
+Average: 119
+
+Insertion Sort
+Time (ms)
+Test 1: 36
+Test 2: 36
+Test 3: 36
+Average: 36
+
+Selection Sort
+Time (ms)
+Test 1: 51
+Test 2: 48
+Test 3: 52
+Average: 50
+
+Bubble sort compares all adjacent pairs and swaps them, which can take a lot of 
+time.
+
+Insertion sort inserts elements in their sorted position directly, as opposed to
+comparing pairs, which takes less time
+
+Selection sort swaps first item with the smallest, as opposed to swapping pairs,
+which again, takes less time.
+
+SEARCHING ALGORITHMS
+Linear Search
+UNSORTED
+Time (ms)
+Test 1.1 (student at i = 0): 0
+Test 1.2 (student at i = 0): 0
+Test 1.3 (student at i = 0): 0
+Average: 0
+
+Test 2.1 (student at i = 3499): 5
+Test 2.2 (student at i = 3499): 5 
+Test 2.3 (student at i = 3499): 5
+Average: 5
+
+Test 3.1 (student at i = 6999): 17
+Test 3.2 (student at i = 6999): 5
+Test 3.3 (student at i = 6999): 5
+Average: 9 
+
+Test 4.1 (student not in students): 5
+Test 4.2 (student not in students): 5
+Test 4.3 (student not in students): 6
+Average: 5
+
+Binary Search
+Time (ms)
+Test 1.1 (student at i = 0): 0 
+Test 1.2 (student at i = 0): 0
+Test 1.3 (student at i = 0): 0
+Average: 0
+
+Test 2.1 (student at i = 3499): 0 
+Test 2.2 (student at i = 3499): 0
+Test 2.3 (student at i = 3499): 0
+Average: 0
+
+Test 3.1 (student at i = 6999): 0
+Test 3.2 (student at i = 6999): 0
+Test 3.3 (student at i = 6999): 0
+Average: 0
+
+Linear search takes a lot of time as it steps through the entire array, whereas
+Binary search only searches through half and half of the array each time, making
+it quicker.

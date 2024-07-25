@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="MyUtilsTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-04-04T06:48:21" hostname="Tanakas-MacBook-Air.local" time="0.457">
+  <properties/>
+  <testcase name="testMax" classname="MyUtilsTest" time="0.432"/>
+  <testcase name="testPrintMax" classname="MyUtilsTest" time="0.024"/>
+  <system-out><![CDATA[0
+y: 1 is max
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

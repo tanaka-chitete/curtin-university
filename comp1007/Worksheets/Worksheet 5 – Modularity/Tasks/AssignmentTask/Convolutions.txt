@@ -1,0 +1,184 @@
+Program Convolutions
+    OPTION_EXIT := 0
+    OPTION_ONE := 1
+    OPTION_TWO := 2
+    OPTION_THREE := 3
+    OPTION_FOUR := 4 
+
+    MAIN: 
+        DO
+            OUTPUT "Worksheet 5: Modularity" + NL + NL +
+
+                   "Program: Convolutions" + NL + NL +
+
+                   "Main Menu" + NL + NL +
+
+                   "1. Convolute" + NL +
+                   "0. End Convolutions" + NL
+
+            prompt := "Selection: "
+            minInt := OPTION_EXIT
+            maxInt := OPTION_ONE
+            menuSel := intInMinMax <- prompt, minInt, maxInt
+
+            OUTPUT NL
+
+            IF (menuSel = OPTION_ONE) THEN
+                OUTPUT "Convolute Selection" + NL + NL +
+
+                       "1. Convolute A" + NL +
+                       "2. Convolute B" + NL +
+                       "3. Convolute C" + NL +
+                       "4. Convolute D" + NL
+
+                prompt := "Selection: "
+                minInt := OPTION_ONE
+                maxInt := OPTION_FOUR
+                conSel := intInMinMax <- prompt, minInt, maxInt
+
+                OUTPUT NL
+
+                OUTPUT "Kernel Selection" + NL + NL +
+
+                       "1. Vertical Kernel" + NL + 
+                       "2. Horizontal Kernel" + NL
+
+                prompt := "Selection: "
+                minInt := OPTION_ONE
+                maxInt := OPTION_TWO
+                kerSel := intInMinMax <- prompt, minInt, maxInt
+
+                OUTPUT NL
+      
+                CASE conSel
+                    OPTION_ONE:
+                        IF (kerSel = OPTION_ONE) THEN
+                            calcRes(Convolute.MATRIX_A, Kernel.VERTICAL)
+                        ELSE
+                            calcRes(Convolute.MATRIX_A, Kernel.HORIZONTAL)
+                        END IF
+                    OPTION_TWO:
+                        IF (kerSel = OPTION_ONE) THEN
+                            calcRes(Convolute.MATRIX_B, Kernel.VERTICAL)
+                        ELSE
+                            calcRes(Convolute.MATRIX_B, Kernel.HORIZONTAL)
+                        END IF
+                    OPTION_THREE:
+                        IF (kerSel = OPTION_ONE) THEN
+                            calcRes(Convolute.MATRIX_C, Kernel.VERTICAL)
+                        ELSE
+                            calcRes(Convolute.MATRIX_C, Kernel.HORIZONTAL)
+                        END IF
+                    OPTION_FOUR:
+                        IF (kerSel = OPTION_ONE) THEN
+                            calcRes(Convolute.MATRIX_D, Kernel.VERTICAL)
+                        ELSE
+                            calcRes(Convolute.MATRIX_D, Kernel.HORIZONTAL)
+                        END IF
+                END CASE
+            ELSE
+                OUTPUT "Convolutions Ended"
+            END IF
+        WHILE (menuSel != OPTION_EXIT)
+    END MAIN
+
+    SUBMODULE: calcRes
+    IMPORT: convolute (ARRAY OF Integer OF SIZE ? AND ?), 
+            kernel (ARRAY OF Integer OF SIZE ? AND ?)
+    EXPORT: none
+    ASSERTION: Result of Convolute multiplied by Kernel will be calculated
+    ALGORITHM:
+        valid = FALSE
+        valid := validate <- valid, convolute, kernel
+
+        IF (valid = TRUE) THEN
+            resRowCount := length <- convolution - length <- kernel + 1 
+                           (Integers)
+            resColCount := length <- convolution[1] - length <- kernel[1] + 1
+                           (Integers)
+
+            result (ARRAY OF Integer OF SIZE resRowCount AND resColCount)
+
+            sum := 0
+            FOR i := 0 TO length <- result (exclusive) INC BY 1
+                FOR j := 0 TO length <- result[1] (exclusive) INC BY 1
+                    FOR k := 0 TO length <- kernel (exclusive) INC BY 1
+                        FOR l := 0 TO length <- kernel[1] (exclusive) INC BY 1
+                            sum := sum + (convolute[i + k][j + l] * 
+                                          kernel[k][l])        
+                        END FOR
+                    END FOR
+                    result[i][j] := sum
+                    sum := 0
+                END FOR
+            END FOR
+
+            OUTPUT "Convolute"
+            output(convolute)
+
+            OUTPUT "Kernel"
+            output(kernel)
+
+            OUTPUT "Result"
+            output(result)
+        ELSE
+            OUTPUT "Convolute dimensions must be equal to or greater than Kernel
+                    dimensions"
+        END IF
+    END
+
+    SUBMODULE: validate
+    IMPORT: valid (Boolean), convolute (ARRAY OF Integer OF SIZE ? AND ?),
+            kernel (ARRAY OF Integer OF SIZE ? AND ?)
+    EXPORT: valid (Boolean)
+    ASSERTION: Convolute will be validated as having conRowCount and conColCount
+               equal to or greater than or equal to Kernel kerRowCount and 
+               kerColCount
+    ALGORITHM:
+        conRowCount := length <- convolute
+        conColCount := length <- convolute[1]
+        kerRowCount := length <- kernel
+        kerColCount := length <- kernel[1]
+
+        IF ((conRowCount >= kerRowCount) AND (conColCount >= kerColCount)) THEN
+            valid := TRUE
+        END IF
+
+        EXPORT valid
+    END validate
+
+    SUBMODULE: output
+    IMPORT: matrix (ARRAY OF Integer OF SIZE ? AND ?)
+    EXPORT: none
+    ASSERTION: Contents of matrix will be outputted
+    ALGORITHM:
+        FOR i := 0 TO length <- matrix (exclusive) INC BY 1
+            FOR j := 0 TO length <- matrix[1] (exclusive) INC BY 1
+                OUTPUT matrix[i][j] + S + S                  
+            END FOR
+            OUTPUT NL
+        END FOR
+    END output
+
+    SUBMODULE: intInMinMax
+    IMPORT: prompt (String), min (Integer), max (Integer)
+    EXPORT: input (Integer)
+    ASSERTION: Integer input received will be validated as being within min to 
+               max inclusive
+    ALGORITHM:
+        optCountCheck := max - min (Integers)
+        IF (optCountCheck = 1) THEN
+            error := "Must be either " + min + " or " + max
+        ELSE
+            error := "Must be " + min + " to " + max + " inclusive"
+        END IF
+
+        out := prompt
+        DO
+            OUTPUT out
+            INPUT input (Integer)
+            out := error + NL + prompt
+        WHILE (input < min) OR (input > max)
+
+        EXPORT input (Integer)
+    END intInMinMax

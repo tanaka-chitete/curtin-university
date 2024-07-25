@@ -1,0 +1,99 @@
+* Times displayed are in microseconds
+
+* MES - Merge sort
+* QSL - Quick sort (Left-most pivot)
+* QSM - Quick sort (Median-of-Three)
+* QSW - Quick sort (Three-Way)
+
+* ASC - Ascending
+* DES - Descending
+* RAN - Random
+* NSO - Nearly sorted
+
+* AVG is obtained from 4 trials
+
+   ALG   |   NUM   |   ODR   |   AVG   |
+_______________________________________
+
+   MES         100     ASC           73
+   QSL         100     ASC           80
+   QSM         100     ASC           65
+   QSW         100     ASC          125
+
+   MES        1000     ASC           80
+   QSL        1000     ASC          434
+   QSM        1000     ASC          681
+   QSW        1000     ASC          651
+
+   MES       10000     ASC          915
+   QSL       10000     ASC          411
+   QSM       10000     ASC          658
+   QSW       10000     ASC        10495
+_______________________________________
+ 
+   MES         100     DES           71  
+   QSL         100     DES           79
+   QSM         100     DES           71
+   QSW         100     DES          618
+
+   MES        1000     DES           83
+   QSL        1000     DES          634
+   QSM        1000     DES         1563
+   QSW        1000     DES        11131
+
+   MES       10000     DES          893  
+   QSL       10000     DES         1250 
+   QSM       10000     DES         2014
+   QSW       10000     DES        88752
+_______________________________________
+
+   MES         100     RAN           74  
+   QSL         100     RAN           46
+   QSM         100     RAN          141 
+   QSW         100     RAN          130
+
+   MES        1000     RAN          126                        
+   QSL        1000     RAN          146 
+   QSM        1000     RAN          247 
+   QSW        1000     RAN          144
+
+   MES       10000     RAN          598  
+   QSL       10000     RAN          764 
+   QSM       10000     RAN          950 
+   QSW       10000     RAN         1115 
+_______________________________________
+
+   MES         100     NSO           78
+   QSL         100     NSO           63
+   QSM         100     NSO           99
+   QSW         100     NSO          164
+
+   MES        1000     NSO          140
+   QSL        1000     NSO          842
+   QSM        1000     NSO          833
+   QSW        1000     NSO          392
+
+   MES       10000     NSO         1052  
+   QSL       10000     NSO          854
+   QSM       10000     NSO         1188
+   QSW       10000     NSO        11902
+_______________________________________
+
+COMMENTS
+
+Merge Sort has incredibly consistent run-times across all array sizes and 
+orderings; I am assuming that this is due to its best case and worst case
+time complexities being nlogn. 
+
+Quick Sort (Left-most Pivot) performs relatively well on arrays of Ascending
+and descending order and its performance with randomly- and nearly-sorted 
+arrays is respectable.
+
+Quick Sort (Median-of-Three) performs marginally worse than Quick Sort 
+(Left-most Pivot), however, its performance is still respectable. I am 
+assuming this is due to the extra computation for calculating the median
+
+Quick Sort (Three-way) was perhaps the easiest to implement however its
+performance on arrays in ascending and descending order is sub-optimal. its
+performance on smaller arrays in randomly- and nearly-sorted order was 
+respectable.

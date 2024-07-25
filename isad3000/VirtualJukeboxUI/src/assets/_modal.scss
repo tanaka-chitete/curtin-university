@@ -1,0 +1,70 @@
+@mixin modal{ /*The modal background */
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+@mixin modal-content{
+  background-color: #24374E;
+  margin: 15vh auto; /* 15% from the top and centered */
+  padding: 20px;
+  border-radius: 8px;
+  width: 40vw; /* Could be more or less, depending on screen size */
+  color: #FFFFFF;
+}
+
+@mixin modal-fixed{ /*The modal background */
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: none; /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+@mixin modal-fixed-content{
+  background-color: #24374E;
+  // margin: 15vh auto; /* 15% from the top and centered */
+  margin-top: 2.5vh;
+  margin-bottom: 2.5vh;
+  margin-right: 2.5vh;
+  float: right;
+  padding: 20px;
+  border-radius: 8px;
+  width: 40vw; /* Could be more or less, depending on screen size */
+  color: #FFFFFF;
+}
+
+
+@mixin modal-mobile-close { 
+  font-size: calc(5vh + 3vw) !important;
+  position: relative !important;
+  bottom: 3.5vh !important;
+  z-index: 10 !important;
+}
+
+@mixin modal-mobile-top-bar { 
+  width: 80vw !important;
+  height: 5vh;
+  
+}
+
+@mixin modal-mobile-content {
+  position: fixed;
+  top: 35%;
+  left: 53%;
+  transform: translate(-53%, -50%);
+  height: 80vh;
+  width: 90vw;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}

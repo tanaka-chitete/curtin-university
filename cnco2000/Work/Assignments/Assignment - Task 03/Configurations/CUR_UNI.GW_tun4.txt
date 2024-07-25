@@ -1,0 +1,15 @@
+en
+conf t
+ipv6 unicast-routing
+int tun4
+ipv6 address 2001:DB8:0:300::1/64
+ipv6 address FE80::1 link-local 
+tunnel source g0/0
+tunnel destination 209.165.200.30
+tunnel mode ipv6ip
+no shutdown  
+exit
+ipv6 route ::/0 g0/0
+ipv6 route 2001:DB8::0/64 2001:DB8:0:300::2
+exit
+copy run start

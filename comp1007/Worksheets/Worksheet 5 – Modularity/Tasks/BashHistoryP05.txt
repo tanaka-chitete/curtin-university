@@ -1,0 +1,1000 @@
+ 1019  vim Search_Test.txt
+ 1020  vim Search.java
+ 1021  javac Search.java
+ 1022  java Search
+ 1023  cd Documents
+ 1024  cd PDI
+ 1025  cd P04
+ 1026  ls
+ 1027  history > BashHistoryP04.txt
+ 1028  ls
+ 1029  cd ..
+ 1030  tar -cvzf 20169321.tar.gz P04
+ 1031  ls
+ 1032  mv 20169321.tar.gz 20169321_P04.tar.gz
+ 1033  ls
+ 1034  cd P04
+ 1035  ls
+ 1036  javaMatrixMultiplication
+ 1037  java MatrixMultiplication
+ 1038  cd Documents
+ 1039  cd PDI
+ 1040  ls
+ 1041  mkdir P05
+ 1042  ls
+ 1043  cd P05
+ 1044  cd ..
+ 1045  cd P04
+ 1046  ls
+ 1047  cd Menu
+ 1048  ls
+ 1049  cp Menu.java Menu.txt ../../P05
+ 1050  cd ../../P05
+ 1051  ls
+ 1052  mkdir Menu
+ 1053  ls
+ 1054  mv Menu.java Menu.txt Menu
+ 1055  ls
+ 1056  cd Menu
+ 1057  ls
+ 1058  mkdir Menu_Test
+ 1059  ls
+ 1060  vim Menu.txt
+ 1061  cd Documents
+ 1062  cd PDI
+ 1063  cd P04
+ 1064  ls
+ 1065  cd Documents
+ 1066  cd PDI
+ 1067  cd P05
+ 1068  ls
+ 1069  cd Menu
+ 1070  ls
+ 1071  vim Menu.txt
+ 1072  cd Documents
+ 1073  cd PDI
+ 1074  cd P05
+ 1075  ls
+ 1076  cd Menu
+ 1077  ls
+ 1078  vim Menu.java
+ 1079  javac Menu.java
+ 1080  vim Menu.java
+ 1081  javac Menu.java
+ 1082  cd Documents
+ 1083  cd PDI
+ 1084  cd P05
+ 1085  ls
+ 1086  cd Menu
+ 1087  ls
+ 1088  vim Menu.txt
+ 1089  cd Documents
+ 1090  cd PDI
+ 1091  cd P05
+ 1092  cd Menu
+ 1093  ls
+ 1094  vim Menu.java
+ 1095  cd Documents
+ 1096  cd P05
+ 1097  ls
+ 1098  cd PDI
+ 1099  cd P05
+ 1100  ls
+ 1101  cd Menu
+ 1102  ls
+ 1103  vim Menu.txt
+ 1104  ls
+ 1105  vim Menu.txt
+ 1106  cd Documents
+ 1107  cd PDI
+ 1108  cd P05
+ 1109  cd Menu
+ 1110  ls
+ 1111  vim Menu.java
+ 1112  javac Menu.java
+ 1113  vim Menu.java
+ 1114  javac Menu.java
+ 1115  vim Menu.java
+ 1116  javac Menu.java
+ 1117  vim Menu.java
+ 1118  javac Menu.java
+ 1119  vim Menu.java
+ 1120  javac Menu.java
+ 1121  vim Menu.java
+ 1122  javac Menu.java
+ 1123  vim Menu.java
+ 1124  javac Menu.java
+ 1125  vim Menu.java
+ 1126  javac Menu.java
+ 1127  vim Menu.java
+ 1128  javac Menu.java
+ 1129  vim Menu.java
+ 1130  javac Menu.java
+ 1131  vim Menu.java
+ 1132  javac Menu.java
+ 1133  vim Menu.java
+ 1134  javac Menu.java
+ 1135  vim Menu.java
+ 1136  javac Menu.java
+ 1137  vim Menu.java
+ 1138  javac Menu.java
+ 1139  vim Menu.java
+ 1140  javac Menu.java
+ 1141  vim Menu.java
+ 1142  javac Menu.java
+ 1143  vim Menu.java
+ 1144  javac Menu.java
+ 1145  vim Menu.java
+ 1146  javac Menu.java
+ 1147  vim Menu.java
+ 1148  javac Menu.java
+ 1149  vim Menu.java
+ 1150  javac Menu.java
+ 1151  vim Menu.java
+ 1152  javac Menu.java
+ 1153  vim Menu.java
+ 1154  javac Menu.java
+ 1155  vim Menu.java
+ 1156  javac Menu.java
+ 1157  vim Menu.java
+ 1158  javac Menu.java
+ 1159  vim Menu.java
+ 1160  javac Menu.java
+ 1161  vim Menu.java
+ 1162  javac Menu.java
+ 1163  vim Menu.java
+ 1164  javac Menu.java
+ 1165  vim Menu.java
+ 1166  javac Menu.java
+ 1167  vim Menu.java
+ 1168  javac Menu.java
+ 1169  vim Menu.java
+ 1170  javac Menu.java
+ 1171  vim Menu.java
+ 1172  javac Menu.java
+ 1173  vim Menu.java
+ 1174  javac Menu.java
+ 1175  vim Menu.java
+ 1176  javac Menu.java
+ 1177  vim Menu.java
+ 1178  javac Menu.java
+ 1179  vim Menu.java
+ 1180  javac Menu.java
+ 1181  vim Menu.java
+ 1182  javac Menu.java
+ 1183  java Menu
+ 1184  vim Menu.java
+ 1185  javac Menu.java
+ 1186  java Menu
+ 1187  vim Menu.java
+ 1188  java Menu
+ 1189  javac Menu.java
+ 1190  java Menu
+ 1191  javac Menu.java
+ 1192  vim Menu.java
+ 1193  javac Menu.java
+ 1194  java Menu
+ 1195  vim Menu.java
+ 1196  javac Menu.java
+ 1197  java Menu
+ 1198  vim Menu.java
+ 1199  javac Menu.java
+ 1200  vim Menu.java
+ 1201  javac Menu.java
+ 1202  java Menu
+ 1203  vim Menu.java
+ 1204  java Menu
+ 1205  vim Menu.java
+ 1206  javac Menu.java
+ 1207  vim Menu.java
+ 1208  javac Menu.java
+ 1209  vim Menu.java
+ 1210  javac Menu.java
+ 1211  vim Menu.java
+ 1212  javac Menu.java
+ 1213  vim Menu.java
+ 1214  javac Menu.java
+ 1215  java Menu
+ 1216  vim Menu.java
+ 1217  javac Menu.java
+ 1218  java Menu
+ 1219  vim Menu.java
+ 1220  javac Menu.java
+ 1221  java Menu
+ 1222  vim Menu.java
+ 1223  javac Menu.java
+ 1224  vim Menu.java
+ 1225  javac Menu.java
+ 1226  java Menu
+ 1227  vim Menu.java
+ 1228  java Menu
+ 1229  cd Documents
+ 1230  cd PDI
+ 1231  cd P05
+ 1232  ls
+ 1233  cd Menu
+ 1234  ls
+ 1235  vim Menu.txt
+ 1236  cd ../../P04
+ 1237  ls
+ 1238  cd Menu
+ 1239  ls
+ 1240  vim 'MenuItem6(SplitMyDate)_Test.txt'
+ 1241  cd ../../P05/Menu
+ 1242  ls
+ 1243  vim Menu.txt
+ 1244  cd Documents
+ 1245  cd PDI
+ 1246  cd P05
+ 1247  ls
+ 1248  cd Menu
+ 1249  java Menu
+ 1250  vim Menu.java
+ 1251  javac Menu.java
+ 1252  vim Menu.java
+ 1253  javac Menu.java
+ 1254  java Menu
+ 1255  vim Menu.java
+ 1256  javac Menu.java
+ 1257  vim Menu.java
+ 1258  java Menu
+ 1259  vim Menu.java
+ 1260  cd Documents
+ 1261  cd PDI
+ 1262  cd P04
+ 1263  ls
+ 1264  vim Search.txt
+ 1265  vim Multiply.txt
+ 1266  ls
+ 1267  vim MatrixMultiplication.txt
+ 1268  cd ../P05/Menu
+ 1269  ls
+ 1270  vim Menu.java
+ 1271  ls
+ 1272  javac Menu.java
+ 1273  vim Menu.java
+ 1274  javac Menu.java
+ 1275  vim Menu.java
+ 1276  javac Menu.java
+ 1277  vim Menu.java
+ 1278  javac Menu.java
+ 1279  vim Menu.java
+ 1280  javac Menu.java
+ 1281  vim Menu.java
+ 1282  javac Menu.java
+ 1283  vim Menu.java
+ 1284  javac Menu.java
+ 1285  vim Menu.java
+ 1286  javac Menu.java
+ 1287  java Menu
+ 1288  vim Menu.java
+ 1289  javac Menu.java
+ 1290  vim Menu.java
+ 1291  javac Menu.java
+ 1292  java Menu
+ 1293  vim Menu.java
+ 1294  javac Menu.java
+ 1295  java Menu
+ 1296  vim Menu.java
+ 1297  java Menu
+ 1298  vim Menu.java
+ 1299  java Menu
+ 1300  vim Menu.java
+ 1301  java Menu
+ 1302  javac Menu.java
+ 1303  vim Menu.java
+ 1304  javac Menu.java
+ 1305  java Menu
+ 1306  vim Menu.java
+ 1307  javac Menu.java
+ 1308  java Menu
+ 1309  vim Menu.java
+ 1310  ls
+ 1311  vim Matrix.java
+ 1312  javac Menu.java
+ 1313  java Menu
+ 1314  vim Matrix.java
+ 1315  javac Menu.java
+ 1316  java Menu
+ 1317  cd ..
+ 1318  ls
+ 1319  mkdir PondCalculator
+ 1320  cd PondCalculator
+ 1321  cd Documents
+ 1322  cd PDI
+ 1323  cd P05
+ 1324  ls
+ 1325  cd Menu
+ 1326  vim Menu.txt
+ 1327  ls
+ 1328  vim Search_Test.txt
+ 1329  cd Documents
+ 1330  cd PDI
+ 1331  cd P05
+ 1332  ls
+ 1333  cd Menu
+ 1334  cd ../../P04
+ 1335  ls
+ 1336  vim Search.java
+ 1337  vim Multiply.java
+ 1338  vim MatrixMultiplication.java
+ 1339  ls
+ 1340  cp Matrix.java ../P05/Menu
+ 1341  vim MatrixMultiplication.java
+ 1342  vim Search.java
+ 1343  vim MatrixMultiplication.java
+ 1344  vim Multiply.java
+ 1345  cd Documents
+ 1346  cd PDI
+ 1347  cd P05
+ 1348  cd PondCalculator
+ 1349  ls
+ 1350  vim PondCalculator.txt
+ 1351  vim PondCalculator.java
+ 1352  javac PondCalculator.java
+ 1353  vim PondCalculator.java
+ 1354  javac PondCalculator.java
+ 1355  vim PondCalculator.java
+ 1356  javac PondCalculator.java
+ 1357  vim PondCalculator.java
+ 1358  javac PondCalculator.java
+ 1359  vim PondCalculator.java
+ 1360  javac PondCalculator.java
+ 1361  vim PondCalculator.java
+ 1362  javac PondCalculator.java
+ 1363  vim PondCalculator.java
+ 1364  javac PondCalculator.java
+ 1365  vim PondCalculator.java
+ 1366  javac PondCalculator.java
+ 1367  vim PondCalculator.java
+ 1368  javac PondCalculator.java
+ 1369  vim PondCalculator.java
+ 1370  javac PondCalculator.java
+ 1371  vim PondCalculator.java
+ 1372  javac PondCalculator.java
+ 1373  vim PondCalculator.java
+ 1374  javac PondCalculator.java
+ 1375  vim PondCalculator.java
+ 1376  javac PondCalculator.java
+ 1377  vim PondCalculator.java
+ 1378  javac PondCalculator.java
+ 1379  vim PondCalculator.java
+ 1380  javac PondCalculator.java
+ 1381  vim PondCalculator.java
+ 1382  javac PondCalculator.java
+ 1383  vim PondCalculator.java
+ 1384  javac PondCalculator.java
+ 1385  vim PondCalculator.java
+ 1386  javac PondCalculator.java
+ 1387  java PondCalculator
+ 1388  vim PondCalculator.java
+ 1389  javac PondCalculator.java
+ 1390  java PondCalculator
+ 1391  vim PondCalculator.java
+ 1392  javac PondCalculator.java
+ 1393  java PondCalculator
+ 1394  vim PondCalculator.java
+ 1395  javac PondCalculator.java
+ 1396  java PondCalculator
+ 1397  vim PondCalculator.java
+ 1398  javac PondCalculator.java
+ 1399  java PondCalculator
+ 1400  javac PondCalculator.java
+ 1401  vim PondCalculator.java
+ 1402  javac PondCalculator.java
+ 1403  java PondCalculator
+ 1404  vim PondCalculator.java
+ 1405  javac PondCalculator.java
+ 1406  java PondCalculator
+ 1407  javac PondCalculator.java
+ 1408  vim PondCalculator.java
+ 1409  javac PondCalculator.java
+ 1410  java PondCalculator
+ 1411  vim PondCalculator.java
+ 1412  javac PondCalculator.java
+ 1413  vim PondCalculator.java
+ 1414  javac PondCalculator.java
+ 1415  java PondCalculator
+ 1416  vim PondCalculator.java
+ 1417  javac PondCalculator.java
+ 1418  java PondCalculator
+ 1419  javac PondCalculator.java
+ 1420  java PondCalculator
+ 1421  vim PondCalculator.java
+ 1422  javac PondCalculator.java
+ 1423  java PondCalculator
+ 1424  vim PondCalculator.java
+ 1425  javac PondCalculator.java
+ 1426  java PondCalculator
+ 1427  vim PondCalculator.java
+ 1428  cd ..
+ 1429  ls
+ 1430  mkdir Fibonacci
+ 1431  cd Fibonacci
+ 1432  cd Documens
+ 1433  cd Documents
+ 1434  cd PDI
+ 1435  cd P05
+ 1436  cd Menu
+ 1437  ls
+ 1438  vim Menu.txt
+ 1439  vim Menu.java
+ 1440  vim Menu.txt
+ 1441  vim Menu.java
+ 1442  vim Menu.txt
+ 1443  vim Menu.java
+ 1444  vim Menu.txt
+ 1445  cd ..
+ 1446  ls
+ 1447  cd
+ 1448  cd Documents
+ 1449  cd PDI
+ 1450  cd P05
+ 1451  ls
+ 1452  cd PondCalculator
+ 1453  ls
+ 1454  vim PondCalculator.txt
+ 1455  cd Documents
+ 1456  ls
+ 1457  cd PDI
+ 1458  ls
+ 1459  cd UniPASS
+ 1460  ls
+ 1461  cd S03
+ 1462  ls
+ 1463  vim GameOfThrones.txt
+ 1464  vim GameOfThrones.java
+ 1465  cd
+ 1466  cd Documents/PDI/P05/Menu
+ 1467  ls
+ 1468  vim Menu.java
+ 1469  ls
+ 1470  mv Menu.java PDIPortfolio.java
+ 1471  mv Menu.txt PDIPortfolio.txt
+ 1472  ls
+ 1473  javac PDIPortfolio.java
+ 1474  ls
+ 1475  mv Menu_Test PDIPortfolio_Test
+ 1476  ls
+ 1477  rm Menu.class
+ 1478  ls
+ 1479  cd ..
+ 1480  mv Menu PDIPortfolio
+ 1481  ls
+ 1482  cd PDIPortfolio
+ 1483  ls
+ 1484  vim PDIPortfolio.java
+ 1485  cd
+ 1486  cd Documents
+ 1487  cd PDI
+ 1488  cd UniPASS
+ 1489  ls
+ 1490  cd S03
+ 1491  ls
+ 1492  vim GameOfThrones.java
+ 1493  cd Documents
+ 1494  cd PDI
+ 1495  cd P05
+ 1496  cd PondCalculator
+ 1497  ls
+ 1498  cd 1
+ 1499  ls
+ 1500  vim PondCalculator.txt
+ 1501  cd ../Fibonacci
+ 1502  ls
+ 1503  vim Fibonacci.java
+ 1504  ls
+ 1505  vim Fibonacci.java
+ 1506  javac Fibonacci.java
+ 1507  vim Fibonacci.java
+ 1508  javac Fibonacci.java
+ 1509  vim Fibonacci.java
+ 1510  javac Fibonacci.java
+ 1511  vim Fibonacci.java
+ 1512  javac Fibonacci.java
+ 1513  vim Fibonacci.java
+ 1514  javac Fibonacci.java
+ 1515  vim Fibonacci.java
+ 1516  javac Fibonacci.java
+ 1517  vim Fibonacci.java
+ 1518  javac Fibonacci.java
+ 1519  java Fibonacci
+ 1520  vim Fibonacci.java
+ 1521  java Fibonacci
+ 1522  vim Fibonacci.java
+ 1523  javac Fibonacci.java
+ 1524  java Fibonacci
+ 1525  vim Fibonacci.java
+ 1526  javac Fibonacci.java
+ 1527  java Fibonacci
+ 1528  vim Fibonacci.java
+ 1529  javac Fibonacci.java
+ 1530  java Fibonacci
+ 1531  vim Fibonacci.java
+ 1532  javac Fibonacci.java
+ 1533  vim Fibonacci.java
+ 1534  javac Fibonacci.java
+ 1535  java Fibonacci
+ 1536  vim Fibonacci.java
+ 1537  javac Fibonacci.java
+ 1538  java Fibonacci
+ 1539  vim Fibonacci.java
+ 1540  javac Fibonacci.java
+ 1541  java Fibonacci
+ 1542  vim Fibonacci.java
+ 1543  javac Fibonacci.java
+ 1544  java Fibonacci
+ 1545  vim Fibonacci.java
+ 1546  javac Fibonacci.java
+ 1547  java Fibonacci
+ 1548  vim Fibonacci.java
+ 1549  javac Fibonacci.java
+ 1550  java Fibonacci
+ 1551  vim Fibonacci.java
+ 1552  javac Fibonacci.java
+ 1553  java Fibonacci
+ 1554  vim Fibonacci.java
+ 1555  java Fibonacci
+ 1556  vim Fibonacci.java
+ 1557  javac Fibonacci.java
+ 1558  vim Fibonacci.java
+ 1559  javac Fibonacci.java
+ 1560  vim Fibonacci.java
+ 1561  javac Fibonacci.java
+ 1562  java Fibonacci
+ 1563  vim Fibonacci.java
+ 1564  javac Fibonacci.java
+ 1565  java Fibonacci
+ 1566  vim Fibonacci.java
+ 1567  javac Fibonacci.java
+ 1568  vim Fibonacci.java
+ 1569  javac Fibonacci.java
+ 1570  vim Fibonacci.java
+ 1571  javac Fibonacci.java
+ 1572  java Fibonacci
+ 1573  vim Fibonacci.java
+ 1574  javac Fibonacci.java
+ 1575  java Fibonacci
+ 1576  javac Fibonacci.java
+ 1577  vim Fibonacci.java
+ 1578  javac Fibonacci.java
+ 1579  java Fibonacci
+ 1580  vim Fibonacci.java
+ 1581  javac Fibonacci.java
+ 1582  vim Fibonacci.java
+ 1583  javac Fibonacci.java
+ 1584  vim Fibonacci.java
+ 1585  javac Fibonacci.java
+ 1586  java Fibonacci
+ 1587  vim Fibonacci.java
+ 1588  javac Fibonacci.java
+ 1589  java Fibonacci
+ 1590  vim Fibonacci.java
+ 1591  vim Fibonacci.txt
+ 1592  vim Fibonacci.java
+ 1593  java Fibonacci
+ 1594  cd ..
+ 1595  ls
+ 1596  mkdir Euler
+ 1597  cd Euler
+ 1598  vim Euler.txt
+ 1599  cd Documents
+ 1600  cd PDI
+ 1601  cd P05
+ 1602  ls
+ 1603  mkdir Fibonacci
+ 1604  cd Fibonacci
+ 1605  ls
+ 1606  vim Fibonacci.txt
+ 1607  cd Documents
+ 1608  cd PDI
+ 1609  cd P05
+ 1610  ls
+ 1611  cd PondCalculator
+ 1612  vim PondCalculator.java
+ 1613  cd ..
+ 1614  cd Menu
+ 1615  ls
+ 1616  cd PDIPortfolio
+ 1617  ls
+ 1618  vim PDIPortfolio.txt
+ 1619  cd ../PondCalculator
+ 1620  ls
+ 1621  vim PondCalculator.java
+ 1622  cd Documents
+ 1623  cd PDI
+ 1624  cd P05
+ 1625  ls
+ 1626  cd Fibonacci
+ 1627  ls
+ 1628  vim Fibonacci.txt
+ 1629  vim Fibonacci.java
+ 1630  ls
+ 1631  cd ..
+ 1632  ls
+ 1633  cd PDIPortfolio
+ 1634  vim PDIPortfolio.java
+ 1635  cd ../Fibonacci
+ 1636  ls
+ 1637  vim Fibonacci.java
+ 1638  cd ..
+ 1639  cd Menu
+ 1640  ls
+ 1641  cd PDIPorfolio
+ 1642  cd PDIPortfolio
+ 1643  ls
+ 1644  vim PDIPortfolio.txt
+ 1645  cd ../Fibonacci
+ 1646  ls
+ 1647  vim Fibonacci.txt
+ 1648  vim Fibonacci.java
+ 1649  cd ../
+ 1650  ls
+ 1651  cd PDIPortfolio
+ 1652  ls
+ 1653  vim PDIPortfolio.java
+ 1654  cd ..
+ 1655  cd Fibonacci
+ 1656  ls
+ 1657  vim Fibonacci.java
+ 1658  vim Fibonacci.txt
+ 1659  cd ../Euler
+ 1660  ls
+ 1661  cp Euler.java
+ 1662  cp Euler.java Euler2.java
+ 1663  vim Euler2.java
+ 1664  ls
+ 1665  vim Euler2.java
+ 1666  rm Euler2.java
+ 1667  ls
+ 1668  cd ../PDIPortfolio
+ 1669  ls
+ 1670  vim PDIPortfolio.txt
+ 1671  cd ../PondCalculator
+ 1672  ls
+ 1673  vim PondCalculator.txt
+ 1674  cd ../Pi
+ 1675  ls
+ 1676  vim Pi.java
+ 1677  javac Pi.java
+ 1678  vim Pi.java
+ 1679  javac Pi.java
+ 1680  vim Pi.java
+ 1681  javac Pi.java
+ 1682  vim Pi.java
+ 1683  javac Pi.java
+ 1684  vim Pi.java
+ 1685  javac Pi.java
+ 1686  vim Pi.java
+ 1687  javac Pi.java
+ 1688  vim Pi.java
+ 1689  javac Pi.java
+ 1690  vim Pi.java
+ 1691  javac Pi.java
+ 1692  vim Pi.java
+ 1693  javac Pi.java
+ 1694  vim Pi.java
+ 1695  javac Pi.java
+ 1696  vim Pi.java
+ 1697  javac Pi.java
+ 1698  vim Pi.java
+ 1699  javac Pi.java
+ 1700  java Pi
+ 1701  javac Pi.java
+ 1702  java Pi
+ 1703  vim Pi.java
+ 1704  javac Pi.java
+ 1705  java Pi
+ 1706  javac Pi.java
+ 1707  vim Pi.java
+ 1708  java Pi
+ 1709  vim Pi.java
+ 1710  java Pi
+ 1711  cd Documents
+ 1712  cd PDI
+ 1713  cd P05
+ 1714  ls
+ 1715  cd Euler
+ 1716  ls
+ 1717  vim Euler.txt
+ 1718  cd ..
+ 1719  ls
+ 1720  mkdir Pi
+ 1721  ls
+ 1722  cd Pi
+ 1723  vim Pi.txt
+ 1724  ls
+ 1725  vim Pi.txt
+ 1726  cd Documents
+ 1727  cd PDI
+ 1728  cd P05
+ 1729  ls
+ 1730  cd Euler
+ 1731  ls
+ 1732  vim Euler.java
+ 1733  ls
+ 1734  vim Euler.java
+ 1735  javac Euler.java
+ 1736  vim Euler.java
+ 1737  javac Euler.java
+ 1738  vim Euler.java
+ 1739  javac Euler.java
+ 1740  vim Euler.java
+ 1741  javac Euler.java
+ 1742  vim Euler.java
+ 1743  javac Euler.java
+ 1744  vim Euler.java
+ 1745  javac Euler.java
+ 1746  java Euler
+ 1747  vim Euler.java
+ 1748  javac Euler.java
+ 1749  java Euler
+ 1750  vim Euler.java
+ 1751  javac Euler.java
+ 1752  java Euler
+ 1753  javac Euler.java
+ 1754  vim Euler.java
+ 1755  javac Euler.java
+ 1756  java Euler
+ 1757  vim Euler.java
+ 1758  javac Euler.java
+ 1759  java Euler
+ 1760  vim Euler.java
+ 1761  javac Euler.java
+ 1762  java Euler
+ 1763  vim Euler.java
+ 1764  java Euler
+ 1765  javac Euler.java
+ 1766  java Euler
+ 1767  vim Euler.java
+ 1768  javac Euler.java
+ 1769  vim Euler.java
+ 1770  javac Euler.java
+ 1771  vim Euler.java
+ 1772  javac Euler.java
+ 1773  vim Euler.java
+ 1774  javac Euler.java
+ 1775  java Euler
+ 1776  vim Euler.java
+ 1777  javac Euler.java
+ 1778  java Euler
+ 1779  vim Euler.java
+ 1780  javac Euler.java
+ 1781  java Euler
+ 1782  vim Euler.java
+ 1783  javac Euler.java
+ 1784  java Euler
+ 1785  vim Euler.java
+ 1786  javac Euler.java
+ 1787  java Euler
+ 1788  vim Euler.java
+ 1789  javac Euler.java
+ 1790  java Euler
+ 1791  vim Euler.java
+ 1792  javac Euler.java
+ 1793  java Euler
+ 1794  vim Euler.java
+ 1795  javac Euler.java
+ 1796  java Euler
+ 1797  vim Euler.java
+ 1798  javac Euler.java
+ 1799  java Euler
+ 1800  vim Euler.java
+ 1801  javac Euler.java
+ 1802  java Euler
+ 1803  vim Euler.java
+ 1804  javac Euler.java
+ 1805  java Euler
+ 1806  vim Euler.java
+ 1807  javac Euler.java
+ 1808  java Euler
+ 1809  vim Euler.java
+ 1810  javac Euler.java
+ 1811  vim Euler.java
+ 1812  javac Euler.java
+ 1813  java Euler
+ 1814  vim Euler.java
+ 1815  javac Euler.java
+ 1816  java Euler
+ 1817  vim Euler.java
+ 1818  javac Euler.java
+ 1819  java Euler
+ 1820  vim Euler.java
+ 1821  javac Euler.java
+ 1822  vim Euler.java
+ 1823  javac Euler.java
+ 1824  java Euler
+ 1825  vim Euler.java
+ 1826  javac Euler.java
+ 1827  java Euler
+ 1828  vim Euler.java
+ 1829  ls
+ 1830  vim Euler.java
+ 1831  javac Euler.java
+ 1832  vim Euler.java
+ 1833  javac Euler.java
+ 1834  vim Euler.java
+ 1835  javac Euler.java
+ 1836  vim Euler.java
+ 1837  javac Euler.java
+ 1838  vim Euler.java
+ 1839  javac Euler.java
+ 1840  java Euler
+ 1841  vim Euler.java
+ 1842  javac Euler.java
+ 1843  java Euler
+ 1844  vim Euler.java
+ 1845  javac Euler.java
+ 1846  java Euler
+ 1847  vim Euler.java
+ 1848  javac Euler.java
+ 1849  vim Euler.java
+ 1850  javac Euler.java
+ 1851  java Euler
+ 1852  vim Euler.java
+ 1853  javac Euler.java
+ 1854  java Euler
+ 1855  vim Euler.java
+ 1856  javac Euler.java
+ 1857  java Euler
+ 1858  vim Euler.java
+ 1859  javac Euler.java
+ 1860  java Euler
+ 1861  vim Euler.java
+ 1862  javac Euler.java
+ 1863  java Euler
+ 1864  ls
+ 1865  vim Euler.txt
+ 1866  vim Euler.java
+ 1867  cd Documents
+ 1868  cd PDI
+ 1869  cd P05
+ 1870  ls
+ 1871  cd Euler
+ 1872  vim Euler.txt
+ 1873  vim Euler.java
+ 1874  cd Documents
+ 1875  cd PDI
+ 1876  cd P05
+ 1877  ls
+ 1878  mv Permutations.txt Permutations/Permutations.txt
+ 1879  ls
+ 1880  cd Permutations
+ 1881  ls
+ 1882  vim Permutations.java
+ 1883  javac Permutations.java
+ 1884  vim Permutations.java
+ 1885  javac Permutations.java
+ 1886  vim Permutations.java
+ 1887  javac Permutations.java
+ 1888  vim Permutations.java
+ 1889  javac Permutations.java
+ 1890  vim Permutations.java
+ 1891  javac Permutations.java
+ 1892  vim Permutations.java
+ 1893  javac Permutations.java
+ 1894  java Permutations
+ 1895  vim Permutations.java
+ 1896  javac Permutations.java
+ 1897  java Permutations
+ 1898  vim Permutations.java
+ 1899  javac Permutations.java
+ 1900  java Permutations
+ 1901  vim Permutations.java
+ 1902  javac Permutations.java
+ 1903  java Permutations
+ 1904  vim Permutations.java
+ 1905  javac Permutations.java
+ 1906  java Permutations
+ 1907  vim Permutations.java
+ 1908  javac Permutations.java
+ 1909  java Permutations
+ 1910  vim Permutations.java
+ 1911  javac Permutations.java
+ 1912  java Permutations
+ 1913  vim Permutations.java
+ 1914  javac Permutations.java
+ 1915  java Permutations
+ 1916  vim Permutations.java
+ 1917  javac Permutations.java
+ 1918  java Permutations
+ 1919  vim Permutations.java
+ 1920  javac Permutations.java
+ 1921  java Permutations
+ 1922  vim Permutations.java
+ 1923  javac Permutations.java
+ 1924  java Permutations
+ 1925  vim Permutations.java
+ 1926  java Permutations
+ 1927  cd Documents
+ 1928  cd PDI
+ 1929  cd P05
+ 1930  ls
+ 1931  cd Pi
+ 1932  vim Pi.txt
+ 1933  vim Pi.java
+ 1934  cd Documents
+ 1935  cd PDI
+ 1936  cd P05
+ 1937  ls
+ 1938  mkdir Permutations
+ 1939  vim Permutations.txt
+ 1940  cd Documents
+ 1941  cd PDI
+ 1942  cd P04
+ 1943  ls
+ 1944  vim MatrixMultiplication.txt
+ 1945  cd Documents
+ 1946  cd pdi
+ 1947  cd PDI
+ 1948  cd P05
+ 1949  ls
+ 1950  mv Permutations.txt Permutations/Permutations.txt
+ 1951  ls
+ 1952  cd Pi
+ 1953  vim Pi.java
+ 1954  java Pi
+ 1955  vim Pi.java
+ 1956  javac Pi.java
+ 1957  vim Pi.java
+ 1958  javac Pi.java
+ 1959  java Pi
+ 1960  vim Pi.java
+ 1961  javac Pi.java
+ 1962  java Pi
+ 1963  vim Pi.java
+ 1964  javac Pi.java
+ 1965  java Pi
+ 1966  vim Pi.java
+ 1967  javac Pi.java
+ 1968  java Pi
+ 1969  vim Pi.java
+ 1970  javac Pi.java
+ 1971  java Pi
+ 1972  vim Pi.java
+ 1973  javac Pi.java
+ 1974  java Pi
+ 1975  vim Pi.java
+ 1976  cd ..
+ 1977  mkdir AssignmentTask
+ 1978  ls
+ 1979  cd AssignmentTask
+ 1980  ls
+ 1981  vim Convolutions.txt
+ 1982  cd ..
+ 1983  cd Pi
+ 1984  java Pi
+ 1985  cd ..
+ 1986  cd AssignmentTas
+ 1987  vim Convolutions.txt
+ 1988  cd
+ 1989  cd Documents/PDI/P05/AssignmentTask
+ 1990  ls
+ 1991  vim Convolutions.txt
+ 1992  cd Documents
+ 1993  cd PDI
+ 1994  cd P05
+ 1995  ls
+ 1996  cd Permutations
+ 1997  vim Permutations.txt
+ 1998  cd Documents
+ 1999  cd PDI
+ 2000  cd P05
+ 2001  ls
+ 2002  cd AssignmentTask
+ 2003  ls
+ 2004  vim Convolutions.txt
+ 2005  cd
+ 2006  ls
+ 2007  rm CharConverter_Test.txt
+ 2008  ls
+ 2009  mv P05_testingFiles Documents/PDI/P05
+ 2010  cd Documents
+ 2011  cd PDI
+ 2012  cd P05
+ 2013  ls
+ 2014  cd P05_testingFiles
+ 2015  ls
+ 2016  cd ..
+ 2017  ls
+ 2018  history > BashHistoryP05.txt

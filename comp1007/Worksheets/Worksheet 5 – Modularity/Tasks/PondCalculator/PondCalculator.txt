@@ -1,0 +1,192 @@
+Program PondCalculator
+    STING_RAYS := 0.5
+    AROWANA := 0.4
+
+    KOI_FISH := 0.6
+    PUFFER_FISH := 0.8
+
+    TURTLES := 1.2
+    FROGS := 4.5
+
+    OPTION_ONE := 1
+    OPTION_TWO := 2
+
+    DIM_MIN_REAL := 3.0
+    TOL := 0.01
+
+    MAIN:
+        DO
+            OUTPUT "Worksheet 5: Modularity"
+
+            OUTPUT "PondCalculator"
+
+            OUTPUT "1. Joey"
+            OUTPUT "2. Cory"
+            OUTPUT "3. Rachel"
+            OUTPUT NEWLINE
+            OUTPUT "0. End Program"
+            OUTPUT NEWLINE
+
+            prompt := "Selection: "
+            min_int := 0
+            max_int := 3
+
+            menuSel := inputInteger_minAndMax <- prompt, min_int, max_int
+
+            OUTPUT NEWLINE
+
+            CASE menuSel
+                1:
+                    joey <- none
+                2:
+                    cory <- none
+                3:
+                    rachel <- none
+                0:
+                    OUTPUT "Program Ended"
+            END CASE
+        WHILE (menuSel != 0)
+    END MAIN
+
+    SUBMODULE: joey
+    IMPORT: none
+    EXPORT: none
+    ASSERTION: Calculates the number of sting rays or arowana Joey can store in
+               his pond
+    ALGORITHM:
+        prompt := "1. Sting Rays" + NEWLINE + 
+                  "2. Arowana" + NEWLINE + 
+                  "Selection (1 or 2): "
+        min_int := OPTION_ONE
+        max_int := OPTION_TWO
+
+        animalSel := integerInput_minAndMax <- prompt, min_int, max_int
+
+        volume := calcVol <- none
+
+        IF (animalSel = OPTION_ONE) THEN
+            animal := "sting rays"
+            numOfAnimal := (Convert to Integer) (volume * STING_RAYS (Reals))
+        ELSE
+            animal := "arowana"
+            numOfAnimal := (Convert to Integer) (volume * AROWANA (Reals))
+        END IF
+
+        OUTPUT "Joey can store " + numOfAnimal + " " + animal + " in his " + 
+                volume + "m^3 pond"
+    END joey
+
+    SUBMODULE: cory
+    IMPORT: none
+    EXPORT: none
+    ASSERTION: Calculates the number of koi fish or puffer fish Cory can store 
+               in his pond
+    ALGORITHM:
+        prompt := "1. Koi Fish" + NEWLINE + 
+                  "2. Puffer Fish" + NEWLINE + 
+                  "Selection (1 or 2): "
+        min_int := OPTION_ONE
+        max_int := OPTION_TWO
+
+        animalSel := integerInput_minAndMax <- prompt, min_int, max_int
+
+        volume := calcVol <- none
+
+        IF (animalSel = OPTION_ONE) THEN
+            animal := "koi fish"
+            numOfAnimal := (Convert to Integer) (volume * KOI_FISH (Reals))
+        ELSE
+            animal := "puffer fish"
+            numOfAnimal := (Convert to Integer) (volume * PUFFER_FISH (Reals))
+        END IF
+
+        OUTPUT "Cory can store " + numOfAnimal + " " + animal + " in his " + 
+                volume + "m^3 pond"
+    END cory
+
+    SUBMODULE: rachel
+    IMPORT: none
+    EXPORT: none
+    ASSERTION: Calculates the number of turtles or frogs Rachel can store in her 
+               pond
+    ALGORITHM:
+        prompt := "1. Turtles" + NEWLINE + 
+                  "2. Frogs" + NEWLINE + 
+                  "Selection (1 or 2): "
+        min_int := OPTION_ONE
+        max_int := OPTION_TWO
+
+        animalSel := integerInput_minAndMax <- prompt, min_int, max_int
+
+        volume := calcVol <- none
+
+        IF (animalSel = OPTION_ONE) THEN
+            animal := "turtles"
+            numOfAnimal := (Convert to Integer) (volume * TURTLES (Reals))
+        ELSE
+            animal := "frogs"
+            numOfAnimal := (Convert to Integer) (volume * FROGS (Reals))
+        END IF
+
+        OUTPUT "Rachel can store " + numOfAnimal + " " + animal + " in her " + 
+                volume + "m^3 pond"
+    END rachel
+
+    SUBMODULE: calcVol
+    IMPORT: none
+    EXPORT: volume_rounded (Integer)
+    ASSERTION: Calculates volume given by length, width and depth values
+    ALGORITHM:
+        min_real = DIM_MEN_REAL
+
+        prompt := "Length (greater than or equal to " + min_real + " m): "
+        length := realInput_min <- prompt, min_real
+
+        prompt := "Width (greater than or equal to " + min_real + " m): "
+        width := realInput_min <- prompt, min_real
+
+        prompt := "Depth (greater than or equal to " + min_real + " m): "
+        depth := realInput_min <- prompt, min_real
+
+        volume_unrounded := length * width * depth (Reals)
+        volume_rounded = (Convert to Integer) volume_unrounded 
+        EXPORT volume_rounded (Integer)
+    END calcVol
+
+    SUBMODULE: inputInteger_minAndMax
+    IMPORT: prompt (String), min_int (Integer), max_int (Integer)
+    EXPORT: intIn
+    ASSERTION: Receives and validates input given by min and max values
+    ALGORITHM:
+        intIn := min_int - 1 (Integers)
+        error := "Input must be between " + min_int + " and " + max_int + 
+                 " inclusive"
+        out := prompt
+
+        DO
+            OUTPUT out
+            INPUT intIn (Integer)
+            out := error + NEWLINE + prompt
+        WHILE (intIn < min_int) OR (intIn > max_int)
+
+        EXPORT intIn (Integer)
+    END inputInteger_minAndMax
+
+    SUBMODULE: inputReal_min
+    IMPORT: prompt (String), min_real (Real)
+    EXPORT: realIn (Real)
+    ASSERTION: Receives and validates input given by min value
+    ALGORITHM:
+        realIn := min_real - 1.0 (Reals)
+        error := "Input must be equal to or greater than " + min_real
+        out := prompt
+
+        DO
+            OUTPUT out
+            INPUT realIn (Real)
+            out := error + NEWLINE + prompt
+        WHILE (realIn < min)
+
+        EXPORT realIn (Real)
+    END inputReal_min
+END

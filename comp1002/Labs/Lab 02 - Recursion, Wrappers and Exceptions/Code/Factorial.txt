@@ -1,0 +1,3 @@
+fact is able to compute n! for 0 <= n <= 20 without any performance issues. The 
+only reason the submodule cannot compute n! for n > 20 is due to long overflow -
+fault not belonging to the implementation but the long datatype itself.

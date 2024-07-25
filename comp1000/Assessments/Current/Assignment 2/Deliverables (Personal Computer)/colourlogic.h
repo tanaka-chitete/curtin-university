@@ -1,0 +1,1 @@
+char *toHighlightCode(char bracket);

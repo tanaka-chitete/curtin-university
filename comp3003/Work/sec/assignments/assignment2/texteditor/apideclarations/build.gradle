@@ -1,0 +1,12 @@
+plugins {
+    // Apply the java plugin to add support for Java
+    id 'java'
+}
+
+compileJava.doLast {
+    copy {
+        from "$buildDir/classes/java/main/texteditor"
+        include 'EmojiHandler.class'
+        into "$rootDir/app/build/classes/java/main/texteditor"
+    }
+}

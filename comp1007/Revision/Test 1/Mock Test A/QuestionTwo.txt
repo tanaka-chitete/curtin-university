@@ -1,0 +1,10 @@
+public static final double TOL = 0.01;
+String apple;
+double banana, cherry, date;
+int eggplant, fig;
+
+(a) if (apple.equals("name"))
+(b) if ((fig % 5) == 0)
+(c) if (// TODO)
+(d) if ((eggplant < 21) || ((8 < date) && (date < 12)))
+(e) if (Math.abs(banana - cherry) < TOL)    

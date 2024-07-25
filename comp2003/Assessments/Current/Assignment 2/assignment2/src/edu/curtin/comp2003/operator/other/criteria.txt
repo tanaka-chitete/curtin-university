@@ -1,0 +1,116 @@
+____________________________________________________________________________________________________
+1. Clear and distinct package/class/interface/method responsibilities
+----------------------------------------------------------------------------------------------------
+Packages
+Seeing as though I opted to use the State Pattern and the Observer pattern, I made the decision to 
+make state and observer packages to collate the classes and interfaces used in the State Pattern and 
+those used in the Observer Pattern respectively as it is a rather intuitive means to organising my
+source code. In addition, I also created utility package for the helper classes which didn't exactly
+belong to either the state or observer packages and a main package just to clearly delineate where 
+the the entry point of the rover's operator was.
+
+Classes and Methods
+The responsibilities of each class and their associated methods are demonstrated clearly in their 
+name, documentation, and overall functionality.
+
+Interfaces
+I opted to use the State Pattern and the Observer Pattern. In regards to the State Pattern, the 
+object which I considered to occupy different states was the rover itself and I therefore decided to 
+create an interface named RoverState, which is used to represent what each state of the rover should
+be able to be accomplished in each state that the rover can occupy. In regards to the Observer
+pattern, the subject being observed is commandStore (in RoverOperator) as it stores the messages 
+(one at a time) so I therefore decided to create a CommandStoreObserver interface, representing what 
+each observer (in this case, just the rover's operator) should do when a message is available. 
+
+____________________________________________________________________________________________________
+2. Appropriate error handling
+----------------------------------------------------------------------------------------------------
+The main sources of potential errors were:
+
+1. Invalid commands 
+2. Attempting to call EngineSystem.startDriving() while the rover is already driving
+3. Attempting to call EngineSystem.stopDriving() while the rover has already stopped/is stopped
+4. nulls received from EarthComm.pollCommand() and SoilAnalyser.pollAnalysis()
+
+In regards to (1), I validated all commands before adding them to the command store and if the
+command was invalid, its specifier was set to '!' which would result in a message being sent to 
+stating that the command was invalid. 
+
+In regards to (2), I placed an EngineSystem.startDriving() invocation inside a try-catch block to
+prevent the rover's operator from crashing due to the fact that while a rover may be driving it 
+could receive a high priority command ('!' or an emergency 'E' after reporting a visibility below
+4.0km or greater than 5.0km) and in this case the state of the rover would change briefly but 
+the rover would not stop driving. Therefore, when the state changes back to driving an invocation
+of EngineSystem.startDriving() will be made so having the call inside a try-catch prevents any such 
+errors from occurring.
+
+In regards to (3), I placed an EngineSystem.stopDriving() invocation inside a try-catch block for
+similar reasons to those outlined in my addressing of (2).
+
+In regards to (4), before creating and adding a command polled from Earth to commandStore, I checked
+that it wasn't null. If it wasn't I created and added the command to the commandStore. Otherwise,
+did nothing. Additionally, before attempting to send an analysis response message to earth I checked
+that the polled analysis wasn't null. If it wasn't, I prepared and sent a response message with the
+analysis back to earth. If it was, did nothing and continued polling until a non-null analysis was 
+received.
+
+____________________________________________________________________________________________________
+3. Implementation of dependency injection
+----------------------------------------------------------------------------------------------------
+In all of the code I developed, I implemented dependency injection where necessary. This can be 
+observed from the constructors of the many various objects I implemented. Moreover, I did not use 
+the Singleton Pattern in my design.
+
+____________________________________________________________________________________________________
+4. Use of polymorphism #1
+----------------------------------------------------------------------------------------------------
+I opted to use the State Pattern as the rover itself occupies different states (as I mentioned 
+before) and the State Pattern exists to model the different states an object can occupy. Therefore,
+making it the most appropriate construct to utilise in representing the rover's different states. 
+
+Firstly, seeing as though the assignment specification outlines that the controller I design should 
+be able to facilitate the rover's different actions, I have actually addressed this requirement of 
+my system and thus haven't just used the State Pattern for the sake of using it. 
+
+Secondly, the use of the State Pattern has created both loose coupling and extensibility as the 
+different actions which the rover can execute have been encapsulated into their own class and the 
+addition of new states is achieved via the creation of a new class, rather than the addition of a
+series of if statements and boolean fields in various classes.
+
+Thirdly, the first implementation of polymorphism which I opted to use (the State Pattern), is 
+substantially different from the second implementation which I opted to use (the Observer Pattern).
+
+Based on the three criteria outlined in the assignment specification in regards to polymorphism, I
+have achieved effective use of polymorphism as I have met all three criteria.
+
+____________________________________________________________________________________________________
+5. Use of polymorphism #2
+----------------------------------------------------------------------------------------------------
+I opted to use the Observer Pattern as a CommandStore object stores the messages which need to be 
+sent to earth and the rover's operator needs to send those messages to earth. Therefore, using the
+Observer pattern (with the operator as the observer and the CommandStore as the subject) was 
+an appropriate construct
+
+Firstly, seeing as though the assignment specification outlines that the controller I design should 
+be able to send messages back to earth, I have actually addressed this requirement of my system and 
+thus haven't just used the Observer Pattern for the sake of using it. 
+
+Secondly, the use of the Observer Pattern has created both loose coupling and extensibility as...
+I CommandStoreObserver acts as an abstract type between the CommandStore and its observers.
+Therefore, CommandStore doesn't need to know the type of its observers, meaning it isn't coupled to
+any concrete classes. In regards to extensibility, if I wanted to add another observer I could 
+simply create a class which implements CommandStoreObserver, rather than having to couple 
+CommandStore to another concrete class.
+
+Thirdly, the second implementation of polymorphism which I opted to use (the Observer Pattern), is 
+substantially different from the first implementation which I opted to use (the State Pattern).
+
+Based on the three criteria outlined in the assignment specification in regards to polymorphism, I
+have achieved effective use of polymorphism as I have met all three criteria.
+
+____________________________________________________________________________________________________
+6. Clear and correct UML
+----------------------------------------------------------------------------------------------------
+The UML provided accurately represents the code I implemented, was created using a tool with UML 
+capabilities (draw.io), features no crossing of lines and details all of the relevant aspects of my
+design. Therefore, I believe that my UML is both clear and correct.

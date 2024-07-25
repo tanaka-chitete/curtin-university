@@ -1,0 +1,40 @@
+@import "./base.scss";
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+// 200: Extra Light
+// 300: Light
+// 400: Regular
+// 500: Medium
+// 600: Bold
+// 700: Extra Bold
+// 800: Bold
+
+#app {
+  padding: 2rem;
+  font-family: 'Manrope', Arial, Helvetica, Tahoma, Verdana, sans-serif;
+  font-weight: normal; 
+}
+
+a,
+.green {
+  cursor: pointer;
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    place-items: center;
+  }
+
+  #app {
+    grid-template-columns: 1fr 1fr;
+    padding: 0 0;
+  }
+}

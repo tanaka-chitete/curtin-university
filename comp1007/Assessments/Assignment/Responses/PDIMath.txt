@@ -1,0 +1,221 @@
+CLASS: PDIMath
+
+    CLASS CONSTANTS: SR_OF_12 := 3.464101615137755
+                     
+                     PI_PRECISION_MIN := 5
+                     PI_PRECISION_MAX := 20
+
+                     E_PRECISION_MIN := 5
+                     E_PRECISION_MAX := 20
+
+    PUBLIC SUBMODULES:
+
+    SUBMODULE: min
+    IMPORT: a (Integer), b (Integer)
+    EXPORT: lowerVal (Integer)
+    ASSERTION: Lower value between a and b will be exported
+    ALGORITHM:
+        lowerVal := a 
+        IF (b < a) THEN
+            lowerVal := b
+        END IF
+        EXPORT lowerVal (Integer)
+    END min
+        
+    SUBMODULE: min
+    IMPORT: a (Real), b (Real)
+    EXPORT: lowerVal (Real)
+    ASSERTION: Lower value between a and b will be exported
+    ALGORITHM:
+        lowerVal := a 
+        IF (b < a) THEN
+            lowerVal := b
+        END IF
+        EXPORT lower(Real)
+    END min
+        
+    SUBMODULE: max
+    IMPORT: a (Integer), b (Integer)
+    EXPORT: higherVal (Integer)
+    ASSERTION: Higher value between a and b will be exported
+    ALGORITHM:
+        higherVal := a 
+        IF (b > a) THEN
+            higherVal := b
+        END IF
+        EXPORT higherVal (Integer)
+    END min
+        
+    SUBMODULE: max
+    IMPORT: a (Real), b (Real)
+    EXPORT: higherVal (Real)
+    ASSERTION: Higher value between a and b will be exported
+    ALGORITHM:
+        higherVal := a 
+        IF (b > a) THEN
+            higherVal := b
+        END IF
+        EXPORT higherVal (Real)
+    END min
+
+    SUBMODULE: abs
+    IMPORT: a (Integer)
+    EXPORT: absOfA (Integer)
+    ASSERTION: Absolute value of a will be exported
+    ALGORITHM:
+        absOfA = a
+        IF (a < 0) THEN
+            absOfA := a * -1 (Integers)
+        END IF
+        EXPORT absOfA (Integer)
+    END abs
+        
+    SUBMODULE: abs
+    IMPORT: a (Real)
+    EXPORT: absOfA (Real)
+    ASSERTION: Absolute value of a will be exported
+    ALGORITHM:
+        absOfA = a
+        IF (a < 0.0) THEN
+            absOfA := a * -1.0 (Reals)
+        END IF
+        EXPORT absOfA (Real)
+    END abs
+
+    SUBMODULE: floor
+    IMPORT: a (Real)
+    EXPORT: floorOfDoubleA (Real)
+    ASSERTION: Floor of a will be exported
+    ALGORITHM:
+        floorOfIntA := (Convert to Integer) a
+        floorOfDoubleA := (Convert to Real) floorOfIntA
+        IF (a < 0.0) THEN
+            floorOfDoubleA := floorOfDoubleA - 1.0 (Reals)
+        END IF
+        EXPORT floorOfADouble (Real)
+    END floor
+
+    SUBMODULE: ceil
+    IMPORT: a (Real)
+    EXPORT: ceilOfDoubleA (Real)
+    ASSERTION: Ceiling of a will be exported
+    ALGORITHM:
+        ceilOfIntA := (Convert to Integer) a + 1 (Integers)
+        ceilOfDoubleA := (Convert to Real) ceilOfIntA
+        EXPORT ceilOfDoubleA (Real)
+    END ceil
+
+    SUBMODULE: pow
+    IMPORT: base (Real), exponent (Integer)
+    EXPORT: baseToExponent (Real)
+    ASSERTION: Base to the power of the exponent will be calculated
+    ALGORITHM:
+       IF (base != 0.0) THEN 
+            IF (exponent < 0) OR (exponent > 0) THEN
+                IF (exponent < 0) THEN
+                    baseToExponent := 1.0 / base (Reals)
+                    base := 1.0 / base (Reals)
+                    exponent := exponent * -1 (Integers)
+                ELSE
+                    baseToExponent := base
+                END IF
+
+                FOR i := 1 TO exponent (exclusive) INC BY 1
+                    baseToExponent := baseToExponent * base (Reals)
+                END FOR
+            ELSE
+                baseToExponent := 1.0 
+            END IF
+        ELSE
+            THROW invalid argument exception
+        END IF
+        EXPORT baseToExponent (Real) 
+    END pow
+
+    SUBMODULE: pi
+    IMPORT: precision (Integer)
+    EXPORT: piToPrecision (Real)
+    ASSERTION: Approximation of pi will be calculated to the given precision if
+               it is greater than or equal to 5, FAIL if otherwise
+    ALGORITHM:
+        IF (PI_PRECISION_MIN <= precision) AND 
+           (precision <= PI_PRECISION_MAX) THEN
+            terms (ARRAY OF Reals OF SIZE precision)
+
+            numer := -1.0
+            FOR i := 0 TO length <- terms (exclusive) INC BY 1
+                numer := numer * -1.0 (Reals)
+                denom := calcDenomPi <- i
+                terms[i] := numer / denom (Reals)
+            END FOR
+
+            sum := 0.0 
+            FOR i := 0 TO length <- terms (exclusive) INC BY 1
+                sum := sum + terms[i] (Reals)
+            END FOR
+
+            piToPrecision := sum * SR_OF_12 (Reals)
+        ELSE
+            THROW invalid argument exception
+        END IF
+        EXPORT piToPrecision (Real)
+    END pi
+
+    SUBMODULE: e 
+    IMPORT: precision (Integer)
+    EXPORT: eToPrecision (Real)
+    ASSERTION: Approximation of e will be calculated to the given precision if 
+               it is greater than or equal to 5, FAIL if otherwise
+    ALGORITHM:
+        IF (E_PRECISION_MIN <= precision) AND 
+           (precision <= E_PRECISION_MAX) THEN
+            terms (ARRAY OF Reals OF SIZE precision)
+
+            FOR i := 0 TO length <- terms (exclusive) INC BY 1
+                factOfN := calcFactE(i)
+                factOfNRec := 1.0 / (Convert to Real) factOfN (Reals)
+                terms[i] := factOfNRec
+            END FOR
+
+            sum := 0.0
+            FOR i := 0 TO length <- terms (exclusive) INC BY 1
+                sum := sum + terms[i] (Reals)
+            END FOR
+
+            eToPrecision := sum
+        ELSE
+            THROW invalid argument exception
+        END IF
+        EXPORT eToPrecision (Real)
+    END e
+        
+PRIVATE SUBMODULES:
+    SUBMODULE: calcDenomPi
+    IMPORT: n (Integer)
+    EXPORT: denom (Real)
+    ASSERTION: Denominator of term to be used in approximation of pi will be 
+               calculated
+    ALGORITHM:
+        term1 := 2.0 * (Convert to Double) n + 1.0 (Reals)
+
+        term2 := 1.0
+        FOR i := 0 TO n (exclusive) INC BY 1
+            term2 := term2 * 3.0 (Reals)
+        END FOR
+ 
+        denom := term1 * term2 (Reals)
+        EXPORT denom (Real)
+    END calcDenomPi 
+
+    SUBMODULE: calcFactE 
+    IMPORT: n (Integer)
+    EXPORT: factOfN (Integer)
+    ASSERTION: Factorial of n will be calculated
+    ALGORITHM:
+        IF (n = 0) OR (n = 1) THEN
+            factOfN := 1
+        ELSE
+            factOfN := n * calcFactE <- n - 1 (Integers)
+        END IF
+        EXPORT factOfN (Integer)
+    END calcFactE

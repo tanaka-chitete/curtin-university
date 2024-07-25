@@ -1,0 +1,77 @@
+version: "3.9"
+name: virtual-jukebox
+services:
+
+  # Redis
+  redis:
+    # Disables redis persistence and require password
+    command: redis-server --requirepass ${REDIS_PASSWORD} --save "" --appendonly no
+    image: redis
+    container_name: redis
+    expose: 
+      - 6379 # Port mapping here <HOST:CONTAINER>
+    volumes:
+      - redis-vol:/data # Bind mount here 
+    logging:
+      driver: "json-file"
+      options:
+        max-file: "3"
+        max-size: "5m"
+    healthcheck: # Health check for django-server depends_on
+      test: "exit 0"
+      interval: 3s
+      retries: 3
+
+  # PostgreSQL Database
+  db:
+    image: postgis/postgis
+    container_name: db
+    volumes:
+      - postgres-vol:/var/lib/postgresql/data # Bind mount here 
+    ports:
+      - "5432:5432" # Port mapping here <HOST:CONTAINER>
+    environment:
+      - POSTGRES_DB=${POSTGRES_NAME} 
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_HOST=${POSTGRES_HOST}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+    logging:
+      driver: "json-file"
+      options:
+        max-file: "3"
+        max-size: "5m"
+    healthcheck: # Health check for django-server depends_on
+      test: "exit 0"
+      interval: 3s
+      retries: 3
+
+  # Django server
+  django-server:
+    build: .
+    container_name: vj-django-server
+    volumes:
+      - .:/vjserver # Bind mount here
+    ports:
+      - "8000:8000" # Port mapping here <HOST:CONTAINER>
+    environment:
+      - POSTGRES_NAME=${POSTGRES_NAME}
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_HOST=${POSTGRES_HOST}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+    logging:
+      driver: "json-file"
+      options:
+        max-file: "3"
+        max-size: "5m"
+    env_file:
+      - .env
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+  
+# Named volumes
+volumes:
+  postgres-vol:
+  redis-vol:

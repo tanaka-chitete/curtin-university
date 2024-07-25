@@ -1,0 +1,96 @@
+____________________________________________________________________________________________________
+Use of Containers
+----------------------------------------------------------------------------------------------------
+Where applicable, I opted to use non-primitive containers such as Lists, Maps and Sets as opposed to 
+arrays due to the fact that the aforementioned ADTs are specifically designed for achieving higher 
+level tasks which arrays simply cannot do (in an efficient manner). For example, validating whether
+a certain name has previously been used can be achieved in O(1) time using a Set, whereas it can 
+only be achieved in O(n) time using an array. Not to mention, we have no prior knowledge of how many
+names we will need to store and validate so an array not being dynamically sized will almost
+certainly lead to memory wastage (in regards to overallocating space) or errors resulting from 
+underallocating space and attempting to add another name to a full array. A Set does not suffer from 
+this problem as it is dynamically resizable, offering us more flexibility with how we implement our 
+code.
+
+____________________________________________________________________________________________________
+Package, Class, Interface and Method Responsibilities
+----------------------------------------------------------------------------------------------------
+Interfaces
+The only interface utilised, the Option interface, is used to provide a formal contract of what 
+methods the various Option subclasses were to implement. Doing so allows for more reliable code
+as it can be guaranteed at run time that each of these methods are implemented or if not, a 
+predefined course of action appropriate to the program/method ought to be executed instead, allowing
+the program to exit gracefully rather than just crashing.
+
+Classes and Methods
+All methods are implemented in classes which are responsible for their overall goals. For example,
+the write method used to save a network to a CSV file is implemented in the appropriately-named
+Writer class and the method used to process the electricity consumption of a network is implemented in
+the Processor class. All other methods, follow a similar pattern. This was the decision as it 
+allows for readable code due to it's intuitive grouping.
+
+Packages
+For this implementation (which has been named Spark), use of the the MVC pattern was adopted and 
+thus, source code files were organised using model, view and controller directories (as well as a 
+main directory to clearly indicate which class file served as the entry point for Spark). This was 
+decision as data representing components of the network needed to be represented (thus, models 
+needed to be created), the network and consumption data needed to be output to the user (thus, a 
+view class was necessary) and to support these operations there needed to be classes resposible for 
+operations such as creating the network and computing consumption data (i.e. controller classes).
+Sure, the source could have been organised in different manner, however, MVC is a widely used, well
+understood pattern and it accomodates the requirements of Spark appropriately and as such, it was 
+the package structure which was opted for.
+
+____________________________________________________________________________________________________
+Error-Handling
+----------------------------------------------------------------------------------------------------
+Virtually every user error is dealt with using the various methods of the Validator class–from 
+validating whether input and output files are CSVs to validating every line of an input file as 
+representing valid nodes in a network, it's all provisioned for. So essentially, in regards to 
+reading a file, the network (technically, the file which represents the network), is validated 
+before, Spark attempts to make a network using it. This prevents a case of reading in the lines of 
+the network while simultaneously validating them. These are two distinct goals and separating their
+relevant processes into Reader and Validator classes allowed me to decouple these processes to a 
+much greater extent and provide much more modular code in addition.
+
+____________________________________________________________________________________________________
+Use of the Strategy Pattern
+----------------------------------------------------------------------------------------------------
+There exists multiple methods which all seek to address similar goals–creating a network/relaying it 
+to the user. As such, each of these methods were implemented in their own intuitively-named class 
+(e.g. a Writer class used to implement a write method), which all implemented the Option interface.
+
+____________________________________________________________________________________________________
+Use of the Template Method Pattern
+----------------------------------------------------------------------------------------------------
+This pattern was not used in the implementation of Spark.
+
+____________________________________________________________________________________________________
+Use of the Composite Pattern
+----------------------------------------------------------------------------------------------------
+Conceptually, modelling a city usage would entail the creation of some form of network, wherein we 
+would have the city as the root node (e.g. Perth), which can perhaps have postcodes branching from
+it (e.g. 6102), then these postcodes may suburbs branching from it (e.g. Bentley) and finally,
+these suburbs may have individual locations branching from them (e.g. Curtin University). Of course,
+it could be even more (or less) specific than that.
+
+Essentially, the electricity network forms a complex hierarchy of objects (i.e. a tree) which is
+"complex" in the sense that it can take any size and shape (it could consist of only a city, it 
+could record every location in every subdivision of the city or occupy something in between). 
+
+With these insights in mind, the Composite Pattern would be appropriate to model such a structure,
+implementing a Composite class (which is used to represent subdivisions such as postcodes, suburbs
+and buildings) and a Leaf class (which is used ot represent the smallest units of a subdivision such
+as houses, apartments or floors of large buildings). Moreover, it can be used to represent arbitrary
+network as there is no inherit limit to the number of children a Composite can have or the depth of
+the entire network.
+
+____________________________________________________________________________________________________
+UML
+----------------------------------------------------------------------------------------------------
+Ultimately, UML is used to attempt to model interfaces, classes, methods etc made using one or more 
+different languages. As such, some aspects (such as abstract data types) will need to be more 
+language-specific in order to more accurately represent the content and behaviours of these various 
+classes (e.g. How would you denote an ADT such as List<Iterator<String>> in UML?). Attempting to do 
+so in a manner more general for UML might end up making the diagram itself more complicated. So, in 
+cases like this I opted to adopt Java language syntax as it is immediately recognisable.

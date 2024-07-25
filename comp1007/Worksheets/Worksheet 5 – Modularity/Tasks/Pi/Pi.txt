@@ -1,0 +1,142 @@
+Program Pi
+    OPTION_ONE := 1
+    OPTION_EXIT := 0
+
+    TERMS_MIN := 20
+    TERMS_MAX := 100
+
+    THETA_MIN := 1.0
+    THETA_MAX := 360.0
+
+    MAIN:
+        DO:
+            OUTPUT "Worksheet 5: Modularity"
+            
+            OUTPUT "Program: Pi"
+
+            OUTPUT "1. Approximate"
+            OUTPUT "0. End Pi"
+
+            minInt := OPTION_ONE
+            maxInt := OPTION_EXIT
+            prompt := "Selection: "
+            sel := inputInt <- minInt, maxInt, prompt
+
+            IF (sel = OPTION_ONE) THEN
+                minInt := TERMS_MIN
+                maxint := TERMS_MAX
+                prompt := "Terms (" + minInt + " to " + maxInt + " inclusive): "
+                termCount := inputInt <- minInt, maxInt, prompt
+                termCount := termCount + 1
+
+                minReal := THETA_MIN
+                maxReal := THETA_MAX
+                prompt := "Theta (" + minReal + " to " + maxReal + 
+                          " inclusive): "
+                thetaDeg := inputReal <- minReal, maxReal, prompt
+                thetaRad := Math.radians <- thetaDeg
+
+                terms (ARRAY OF Reals OF SIZE termCount)
+
+                calcTerms <- terms, termCount, thetaRad
+
+                calcPi <- terms, termCount
+
+                outputTerms <- terms, termCount    
+            ELSE
+                OUTPUT "Pi Ended"
+            END IF    
+        WHILE (sel != OPTION_EXIT)
+    END MAIN
+
+    SUBMODULE: calcTerms
+    IMPORT: terms (ARRAY OF Reals OF SIZE termCount), termCount (Integer),
+            thetaRad (Real)
+    EXPORT: none
+    ASSERTION: Terms to be used in approximating pi will be calculated
+    ALGORITHM:
+        num := termCount - 1
+
+        FOR ii := 0 TO num (exclusive) INC BY 1
+            k = ii
+            numerator := 4.0 * Math.sin <- thetaRad * ((2.0 * k) + 1.0) (Reals)
+            denominator := (2.0 * k) + 1.0 (Reals)
+            terms[index] := numerator / denominator (Reals)
+        END FOR
+    END calcTerms
+
+    SUBMODULE: calcPi
+    IMPORT: terms (ARRAY OF Reals OF SIZE termCount), termCount (Integer)
+    EXPORT: none
+    ASSERTION: Approximation of pi will be calculated
+    ALGORITHM:
+        num := termCount - 1
+        lastTermIndex := num
+        sum := 0        
+
+        FOR ii := 0 TO num (exclusive) INC BY 1
+            sum := sum + terms[ii]
+        END FOR
+
+        terms[lastTermIndex] := sum
+    END calcPi
+
+    SUBMODULE: outputTerms
+    IMPORT: terms (ARRAY OF Reals OF SIZE termCount), termCount (Integer)
+    EXPORT: none
+    ASSERTION: Terms used in approximating pi and pi itself will be printed
+    ALGORITHM:
+        num := termCount - 1
+        lastTermIndex := num
+
+        FOR ii := 0 TO num (inclusive) INC BY 1
+            i_zero := ii
+            i_one := i_zero + ii
+
+            IF (i_zero != lastTermIndex) THEN
+                OUTPUT "Term " + i_one + ": " + terms[i_zero]
+            ELSE
+                OUTPUT "π ≈ " + terms[i_zero]
+            END IF
+        END FOR
+    END outputTerms
+
+    SUBMODULE: inputInt
+    IMPORT: min (Integer), max (Integer), prompt (String)
+    EXPORT: input (Integer)
+    ASSERTION: Input returned will be validated as being within <min> and <max>
+    ALGORITHM:
+        out := prompt
+        optCountCheck := max - min
+
+        IF (optCountCheck = 1) THEN
+            error := "Must be either " + min + " or " + max
+        ELSE
+            error := "Must be " + min + " to " + max + " inclusive"
+        END IF
+    
+        DO
+            OUTPUT out
+            INPUT input (Integer)
+            out := error + NL + prompt
+        WHILE (input < min) OR (input > max)
+
+        EXPORT input (Integer)
+    END inputInt
+
+    SUBMODULE: inputReal
+    IMPORT: min (Real), max (Real), prompt (String)
+    EXPORT: input (Real)
+    ASSERTION: Input returned will be validated as being within <min> and <max>
+    ALGORITHM:
+        out := prompt
+        error := "Must be " + min + " to " + max + " inclusive"
+
+        DO
+            OUTPUT out
+            INPUT input (Real)
+            out := error + NL + prompt
+        WHILE (input < min) OR (input > max)
+
+        EXPORT input (Real)
+    END inputReal

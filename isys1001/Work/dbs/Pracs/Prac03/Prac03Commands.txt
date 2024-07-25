@@ -1,0 +1,24 @@
+tee Prac03Work.out
+USE dswork;
+\. create_tables.sql
+DESC Emp;
+DESC Dept;
+\. insemp.sql
+SELECT * FROM Emp;
+\. insdept.sql;
+SELECT * FROM Dept;
+pager less -SFX
+SELECT lastname, workdept, salary FROM Emp WHERE salary >= 100000.0;
+SELECT lastname, firstname, birthdate FROM Emp WHERE salary < 90000.0;
+SELECT * FROM Dept WHERE mgrno IS NULL;
+SELECT empno, lastname, workdept, phoneno FROM Emp WHERE workdept BETWEEN 'D01' AND 'E01';
+SELECT * FROM Dept WHERE deptname LIKE '%Service%';
+SELECT * FROM Dept WHERE deptname LIKE '%service%';
+SELECT empno, lastname, workdept FROM Emp WHERE workdept = 'D21' AND salary <= 60000.0;
+SELECT CONCAT(firstname, ' ', midinit, ' ', lastname) AS name, job FROM Emp;
+SELECT firstname, DATE_FORMAT(birthdate, '%W, %e %M %Y') FROM Emp WHERE job = 'Designer';
+SELECT lastname, workdept, ROUND(salary/12) AS monthlysalary FROM Emp WHERE workdept IN ('B01', 'C01', 'D11', 'E21');
+SELECT lastname, workdept, ROUND(salary/52.1786, 2) AS weeklysalary FROM Emp WHERE workdept IN ('B01', 'C01', 'E21');
+SELECT empno, firstname, DATE_FORMAT(birthdate, '%e %M'), workdept FROM Emp WHERE workdept IN ('B01', 'C01', 'D11', 'E21');
+SELECT empno, firstname, lastname, workdept, salary + bonus + comm AS totalincome FROM Emp WHERE workdept IN ('B01', 'C01', 'E21');
+SELECT lastname, TIMESTAMPDIFF(YEAR, birthdate, NOW()) AS age FROM Emp;

@@ -1,0 +1,99 @@
+* Times displayed are in microseconds
+
+* BS - Bubble sort
+* IS - Insertion sort
+* SS - Selection sort
+
+* ASC - Ascending
+* DES - Descending
+* RAN - Random
+* NSO - Nearly sorted
+
+ ALG |   NUM   | ODR |     TR1     |     TR2     |     TR3     |     AVG     |   
+_____________________________________________________________________________
+ 
+   BS      100   ASC             3             3             3             3  
+   IS      100   ASC             4             6             5             5
+   SS      100   ASC           137           202           123           154
+  
+   BS     1000   ASC            29            29            32            30 
+   IS     1000   ASC            39            46            39            41
+   SS     1000   ASC         1 387         1 199         2 711         1 766
+
+   BS    10000   ASC           447           298           291           345
+   IS    10000   ASC           417           430           392           413
+   SS    10000   ASC        14 607        14 821        17 477        15 635
+ 
+   BS   100000   ASC         1 036           836         1 087           986
+   IS   100000   ASC         1 527         1 488         1 736         1 584
+   SS   100000   ASC       134 793     1 506 432     1 441 104     1 027 443
+_____________________________________________________________________________
+ 
+   BS      100   DES           279           259           259           266
+   IS      100   DES           132           145   	   132           136
+   SS      100   DES           132           119           119           123
+
+   BS     1000   DES         2 499         2 726         2 864         2 696
+   IS     1000   DES         2 089         2 159         3 622         2 623
+   SS     1000   DES         1 876         1 863         2 330         2 023
+
+   BS    10000   DES        56 967        56 821        57 233        57 007
+   IS    10000   DES        27 365        26 710        26 616        26 897
+   SS    10000   DES        57 018        50 185        42 370        49 858
+
+   BS   100000   DES     5 659 441     5 797 924     5 692 007     5 716 457
+   IS   100000   DES     3 745 207     3 425 083     3 270 131     3 480 140
+   SS   100000   DES     8 384 169     8 417 985     8 078 698     8 293 617
+_____________________________________________________________________________
+
+   BS      100   RAN           293           226           220           739
+   IS      100   RAN            99            90            79            89
+   SS      100   RAN           120           129           130           126
+ 
+   BS     1000   RAN         4 320         3 584         4 062         3 989
+   IS     1000   RAN         2 544         2 894         2 774         2 737
+   SS     1000   RAN         1 409           919         1 333         1 229
+
+   BS    10000   RAN       173 798       170 479       174 281       172 853
+   IS    10000   RAN        13 548        13 446        13 734        13 576
+   SS    10000   RAN        42 334        42 334        42 801        42 490
+
+   BS   100000   RAN    20 764 253    22 177 900    21 837 020    21 593 058
+   IS   100000   RAN     1 207 649     1 552 567     2 000 266     1 586 827
+   SS   100000   RAN     4 135 415     5 607 266     4 077 996     4 606 892
+_____________________________________________________________________________
+
+   BS      100   NSO           169           135           111           138
+   IS      100   NSO            12            12            15            13
+   SS      100   NSO           114           114           162           130
+
+   BS     1000   NSO         1 596         2 103         2 295         1 998
+   IS     1000   NSO           648           645           554           616
+   SS     1000   NSO         1 648         1 593         2 090         1 777
+
+   BS    10000   NSO        95 404        94 901        97 038        95 781
+   IS    10000   NSO         3 278         3 397         3 604         3 426
+   SS    10000   NSO        38 117        38 345        38 631        38 364
+
+   BS   100000   NSO    10 219 949    10 611 269    10 165 660    10 332 293
+   IS   100000   NSO       165 627       190 522       214 344       190 164
+   SS   100000   NSO     3 755 346     3 839 044     4 172 009     3 922 133
+
+COMMENTS
+Bubble sort is very fast when processing an array that has been sorted in 
+ascending order and its performance when sorting an array in descending 
+order is unremarkable. However, the constant swaps resulting from each pass 
+results in very slow run times when sorting arrays in random and 
+nearly-sorted orders.
+
+Insertion sort is relatively fast when processing an array that has been 
+sorted in ascending order-much like Bubble sort–and its performance in 
+sorting an array in descending order is arguably the best. Moreover, it's 
+performance with sorting arrays in random and nearly-sorted orders is 
+remarkable as a result of making relatively low swaps per pass.
+
+Selection sort is very slow when sorting an array that has been sorted in 
+ascending and descending orders as it will always perform the full amount of
+passes and work in each pass regardless what the unsorted array looks like. 
+Moreover, its performance when sorting an array with elements in random and 
+nearly sorted order is unremarkable.

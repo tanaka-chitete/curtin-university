@@ -1,0 +1,132 @@
+Program Euler
+    OPTION_ONE := 1
+    OPTION_EXIT := 0
+    
+    TERMS_MIN := 6
+    TERMS_MAX := 65
+
+    MAIN:
+        DO:
+            OUTPUT "Worksheet 5: Modularity"
+
+            OUTPUT "Program: Euler"
+   
+            OUTPUT "1. Approximate"
+            OUTPUT "0. End Euler"
+ 
+            min := OPTION_EXIT
+            max := OPTION_ONE
+            prompt := "Selection: "
+            sel := input_int_min_max <- min, max, prompt
+
+            IF (sel = OPTION_ONE) THEN
+                min := TERMS_MIN
+                max := TERMS_MAX
+                prompt := "Term count (" + min + " to " + max + " inclusive): " 
+                termCount_noE := input_int_min_max <- min, max, prompt
+
+                termCount_e := termCount_noE + 1
+
+                term_last := termCount_noE
+    
+                terms (ARRAY OF Reals of SIZE termCount_e)
+
+                populate <- terms, termCount_noE
+
+                e := calc_e <- terms, termCount_noE
+
+                terms[tercCount_noE] := e
+
+                output <- terms, termCount_e
+            ELSE
+                OUTPUT "Euler Ended"
+            END IF
+        WHILE (sel != 0)
+    END MAIN
+
+    SUBMODULE: populate
+    IMPORT: terms (ARRAY OF Reals OF SIZE termCount_e), termCount_noE (Integer)
+    EXPORT: none
+    ASSERTION: Populates array with terms and
+    ALGORITHM:
+        FOR ii := 0 TO termCount_noE (exclusive) INC BY 1
+            num := ii
+            fact := factorial(num)
+            fact_inv : 1.0 / fact (Reals)
+            terms[ii] := fact_inv 
+        END FOR
+    END populate
+
+    SUBMODULE: calc_e
+    IMPORT: terms (ARRAY OF Real OF SIZE termCount_e), termCount_noE (Integer)
+    EXPORT: e (Real)
+    ASSERTION: Calculates approximation of e
+    ALGORITHM:
+        sum := 0
+        FOR ii := 0 TO termCount_noE (exclusive) INC BY 1            
+            sum := sum + terms[ii]
+        END FOR
+        
+        e := sum
+
+        EXPORT e
+    END calc_e
+
+    SUBMODULE: output
+    IMPORT: terms (ARRAY OF Real of SIZE termCount_e), termCount_e (Integer)
+    EXPORT: none
+    ASSERTION: Outputs each term used to approximate e and e itself
+    ALGORITHM:
+        last := termCount_e - 2
+
+        FOR ii := 0 TO termCount_e (exclusive) INC BY 1
+            term := terms[i_zero]
+            
+            IF (term != last) THEN
+                OUTPUT "Term " + ii + ": " + term
+            ELSE
+                OUTPUT "e ≈ " + term
+            END IF
+        END FOR
+    END output
+
+    SUBMODULE: factorial
+    IMPORT: num (Integer)
+    EXPORT: fact (Integer)
+    ASSERTION: Calculates factorial of given number recursively
+    ALGORITHM:
+        IF (num = 0) OR (num = 1) THEN
+            fact := 1
+        ELSE
+            fact := num * factorial <- num - 1
+        END IF
+
+        EXPORT fact (Integer)
+    END factorial
+
+    SUBMODULE: input_int_min_max
+    IMPORT: prompt (String), min (Integer), max (Integer)
+    EXPORT: input_int (Integer)
+    ASSERTION: Receives and validates integer input given min and max bounds
+    ALGORITHM:
+        input_int := min - 1
+
+        optVerify := max - min
+
+        IF (optVerify = 1) THEN
+            error := "Must be either " + min + " or " + max
+        ELSE
+            error := "Must be between " + min + " and " + max + " inclusive"
+        END IF
+
+        out := prompt
+
+        DO
+            OUTPUT out
+            INPUT input_int (Integer)
+            out := error + NL + prompt
+        WHILE (input_int < min) OR (input_int > max)
+
+        EXPORT input_int
+    END input_int_min_max
+END Euler

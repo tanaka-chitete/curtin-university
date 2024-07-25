@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  vue-ui:
+    build:
+      dockerfile: Dockerfile
+    ports:
+      - "8080:5173"
+    container_name: vue-ui
+    # command: 'npm run dev -- --host' 
+
+# Uncomment the above line to use Docker for development

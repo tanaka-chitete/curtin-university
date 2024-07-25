@@ -1,0 +1,4 @@
+numberConverter is able to compute the base B equivalent of N (for both positive
+and negative values of N) without any performance issues. The only reason the 
+function may fail is due to int overflow and in that case, the input is merely
+capped at the minimum or the maximum value that N exceeded.
